@@ -38,7 +38,7 @@ class BoroughIdentifier():
     def _initialize_limits(self):
         "Creates a dictionary of the borough shapes."
         path = Path.cwd().resolve().parent / "data" / "borough_limits.geojson"
-        with open(path, "r") as file:
+        with open(path, "r", encoding = "utf-8") as file:
             data = json.load(file)
 
         polygons = {}
