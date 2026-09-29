@@ -37,7 +37,7 @@ class BoroughIdentifier():
 
     def _initialize_limits(self):
         "Creates a dictionary of the borough shapes."
-        path = Path.cwd().resolve().parent / "data" / "borough_limits.geojson"
+        path = Path(__file__).resolve().parent.parent / "data" / "borough_limits.geojson"
         with open(path, "r", encoding = "utf-8") as file:
             data = json.load(file)
 
@@ -53,23 +53,23 @@ class BoroughIdentifier():
 
         return polygons
 
-    def convert_WSG84_to_NAD83(self, x, y):
+    def convert_WSG84_to_NAD83(self, longitude_x, latitude_y):
         "Converts WSG84 coordinates to the NAD83 system of the boroughs."
-        transformer = Transformer.from_crs("EPSG:4326", "EPSG:32188")
-        (new_x, new_y) = transformer.transform(x, y)
+        transformer = Transformer.from_crs("EPSG:4326", "EPSG:32188", always_xy = True) # always_xy is needed else it gets flipped (see Warning https://pyproj4.github.io/pyproj/stable/api/transformer.html#transformer)
+        (new_x, new_y) = transformer.transform(longitude_x, latitude_y)
         return new_x, new_y
         
-    def match_WSG84_to_borough(self, x, y):
+    def match_WSG84_to_borough(self, longitude_x, latitude_y):
         "Finds the borough the WSG84 location belongs to."
-        NAD83_x, NAD83_y  = self.convert_WSG84_to_NAD83(x, y)
+        NAD83_x, NAD83_y  = self.convert_WSG84_to_NAD83(longitude_x, latitude_y)
         for borough in self.boroughs:
-            if shapely.contains_xy(self.borough_polygons[borough], NAD83_x, NAD83_y):
+            if shapely.contains_xy(self.borough_polygons[borough], x = NAD83_x, y = NAD83_y):
                 return borough
         return None
 
-    def match_NAD83_to_borough(self, x, y):
+    def match_NAD83_to_borough(self, longitude_x, latitude_y):
         "Finds the borough the NAD83 location belongs to."
         for borough in self.boroughs:
-            if shapely.contains_xy(self.borough_polygons[borough], x, y):
+            if shapely.contains_xy(self.borough_polygons[borough],  x = longitude_x, y = latitude_y):
                 return borough
         return None
