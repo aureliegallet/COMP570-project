@@ -23,7 +23,7 @@ class Loader():
 
 
     def load_to_csv(self, input_request, output_path):
-        request = Request(input_request, headers={'User-Agent': 'COMP570-project'})
+        request = Request(input_request, headers={'User-Agent': 'COMP570-project'}) # https://tariyekorogha.medium.com/solution-to-403-client-error-forbidden-for-url-with-python-3-180effbdb21
         response = urlopen(request).read().decode('utf-8')
         response = json.loads(response)
 
@@ -34,4 +34,6 @@ class Loader():
             writer = csv.DictWriter(file, fieldnames=headers)
             writer.writeheader()
             writer.writerows(data)
+
+
 
