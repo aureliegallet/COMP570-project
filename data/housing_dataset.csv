@@ -1,0 +1,20 @@
+borough,census_year,median_monthly_shelter_cost_2br_cad,median_monthly_shelter_cost_3br_cad,renter_households_spending_30pct_or_more_pct,median_annual_renter_household_income_before_tax_cad,income_reference_year
+Ahuntsic-Cartierville,2021,900,1070,24.2,50000,2020
+Anjou,2021,870,990,21.5,54000,2020
+Côte-des-Neiges-Notre-Dame-de-Grâce,2021,1010,1240,30.7,48800,2020
+L'Île-Bizard-Sainte-Geneviève,2021,860,1030,28.8,50400,2020
+LaSalle,2021,900,1020,24.8,53200,2020
+Lachine,2021,840,960,23.7,49200,2020
+Le Plateau-Mont-Royal,2021,1260,1510,35.6,48400,2020
+Le Sud-Ouest,2021,930,930,23.5,52400,2020
+Mercier-Hochelaga-Maisonneuve,2021,860,990,23.0,50400,2020
+Montréal-Nord,2021,775,920,24.5,50000,2020
+Outremont,2021,1400,1700,32.5,67500,2020
+Pierrefonds-Roxboro,2021,930,1080,28.1,54400,2020
+Rivière-des-Prairies-Pointe-aux-Trembles,2021,800,910,24.6,50000,2020
+Rosemont-La Petite-Patrie,2021,960,1140,27.1,48800,2020
+Saint-Laurent,2021,1030,1140,28.4,58800,2020
+Saint-Léonard,2021,870,1040,20.4,60000,2020
+Verdun,2021,990,1100,26.4,56800,2020
+Ville-Marie,2021,1340,1320,39.7,44400,2020
+Villeray-Saint-Michel-Parc-Extension,2021,850,980,23.5,50400,2020

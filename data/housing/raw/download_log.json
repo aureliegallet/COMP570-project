@@ -1,0 +1,41 @@
+{
+  "retrieved_at": "2026-09-28T21:09:21.993Z",
+  "source": "https://donnees.montreal.ca/dataset/profils-menages-logements/resource/3cd96534-40c5-4f6b-a0b2-9b70ac155e4d",
+  "files": [
+    {
+      "file": "01_main_tables/01_renter_monthly_housing_costs.csv",
+      "original_filename": "frais_logement_loca_total.csv",
+      "occupation": "Locataires (Renters)",
+      "gender": "Total (where available)",
+      "bytes": 1464
+    },
+    {
+      "file": "01_main_tables/02_renter_housing_cost_burden.csv",
+      "original_filename": "taux_effort_loca_total.csv",
+      "occupation": "Locataires (Renters)",
+      "gender": "Total (where available)",
+      "bytes": 2565
+    },
+    {
+      "file": "01_main_tables/03_renter_household_income.csv",
+      "original_filename": "revenus_loca_total.csv",
+      "occupation": "Locataires (Renters)",
+      "gender": "Total (where available)",
+      "bytes": 2418
+    },
+    {
+      "file": "02_supporting_tables/04_renter_costs_by_bedrooms.csv",
+      "original_filename": "frais_logement_chambres_loc.csv",
+      "occupation": "Locataires (Renters)",
+      "gender": "Total (where available)",
+      "bytes": 1162
+    },
+    {
+      "file": "02_supporting_tables/05_renter_household_counts.csv",
+      "original_filename": "donnees_menages_loca_total.csv",
+      "occupation": "Locataires (Renters)",
+      "gender": "Total (where available)",
+      "bytes": 794
+    }
+  ]
+}
