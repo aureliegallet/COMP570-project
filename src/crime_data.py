@@ -17,7 +17,7 @@ def main():
 
     parser.add_argument('-i', '--input-url', default="https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?")
     parser.add_argument('-r', '--input-resource', default="c6f482bf-bf0f-4960-8b2f-9982c211addd")
-    parser.add_argument('-o', '--output', default=default_data_path)
+    parser.add_argument('-o', '--output', type=pathlib.Path, default=default_data_path)
 
     args = parser.parse_args()
 
@@ -27,6 +27,7 @@ def main():
         output_path = args.output / 'crime_dataset.csv'
     else:
         raise("output should be either a directory in which crime_dataset.csv will be saved, a csv file path.")
+    
     loader = Loader()
 
     # Pull data from donnees quebec

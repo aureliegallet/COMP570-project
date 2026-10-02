@@ -1,3 +1,4 @@
+import pathlib
 import urllib.request
 import pandas as pd
 import json
@@ -15,7 +16,7 @@ def main():
 
     parser.add_argument('-i', '--input-url', default="https://donnees.montreal.ca/api/3/action/datastore_search")
     parser.add_argument('-r', '--input-resource', default="f34c3555-c285-4ef3-a55c-f0f5c440ad2d")
-    parser.add_argument('-o', '--output', default=default_data_path)
+    parser.add_argument('-o', '--output', type=pathlib.Path, default=default_data_path)
 
     args = parser.parse_args()
 
