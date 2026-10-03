@@ -1,0 +1,255 @@
+Dataframe Head
+
+   _id  OBJECTID  Type  ...      COMPETENCE                  TYPO1             TYPO2
+0    1      3477   NaN  ...           Privé      Autre espace vert    Espace sportif
+1    2      3478   Av.  ...  Arrondissement          Espace voirie    Îlot de voirie
+2    3      3479  Parc  ...  Arrondissement  Parc d'arrondissement  Parc de quartier
+3    4      3480   NaN  ...  Arrondissement      Autre espace vert        Parc écran
+4    5      3481   NaN  ...  Arrondissement      Autre espace vert        Parc écran
+
+[5 rows x 12 columns]
+
+ ------------------ 
+
+Dataframe Columns
+
+Index(['_id', 'OBJECTID', 'Type', 'Lien', 'Nom', 'NUM_INDEX', 'SUPERFICIE',
+       'PROPRIETE', 'GESTION', 'COMPETENCE', 'TYPO1', 'TYPO2'],
+      dtype='str')
+
+ ------------------ 
+
+Dataframe Information
+
+<class 'pandas.DataFrame'>
+RangeIndex: 2245 entries, 0 to 2244
+Data columns (total 12 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   _id         2245 non-null   int64  
+ 1   OBJECTID    2245 non-null   int64  
+ 2   Type        1374 non-null   str    
+ 3   Lien        474 non-null    str    
+ 4   Nom         1923 non-null   str    
+ 5   NUM_INDEX   1790 non-null   str    
+ 6   SUPERFICIE  2245 non-null   float64
+ 7   PROPRIETE   2010 non-null   str    
+ 8   GESTION     2008 non-null   str    
+ 9   COMPETENCE  2010 non-null   str    
+ 10  TYPO1       2242 non-null   str    
+ 11  TYPO2       1972 non-null   str    
+dtypes: float64(1), int64(2), str(9)
+memory usage: 210.6 KB
+None
+
+ ------------------ 
+
+Dataframe Description
+
+               _id     OBJECTID   SUPERFICIE
+count  2245.000000  2245.000000  2245.000000
+mean   1123.000000  4599.000000     3.018653
+std     648.219999   648.219999    16.408553
+min       1.000000  3477.000000     0.000576
+25%     562.000000  4038.000000     0.069799
+50%    1123.000000  4599.000000     0.256457
+75%    1684.000000  5160.000000     1.097827
+max    2245.000000  5721.000000   295.631928
+
+ ------------------ 
+
+BOROUGH
+Ahuntsic-Cartierville                                    121
+Anjou                                                     28
+Autre                                                    114
+Commission scolaire                                       48
+Côte-des-Neiges-Notre-Dame-de-Grâce                       96
+L'Île-Bizard-Sainte-Geneviève                             52
+LaSalle                                                   79
+Lachine                                                   57
+Le Plateau-Mont-Royal                                     67
+Le Sud-Ouest                                             142
+Mercier-Hochelaga-Maisonneuve                            127
+Montréal-Nord                                             43
+Montréal-Ouest                                             1
+Outremont                                                 27
+Pierrefonds-Roxboro                                      112
+Rivière-des-Prairies-Pointe-aux-Trembles                 199
+Rosemont-La Petite-Patrie                                 65
+Saint-Laurent                                             95
+Saint-Léonard                                             47
+Service des grands parcs, du Mont-Royal et des sports    112
+Verdun                                                   104
+Ville-Marie                                              186
+Villeray-Saint-Michel-Parc-Extension                      85
+Westmount                                                  1
+dtype: object
+
+ ------------------ 
+
+Type
+Aire d'exercice          1
+Aire de repos            5
+Av.                      3
+Belvédère                1
+Boisé                    1
+Boulevard                8
+CHSLD                    1
+Carré                    1
+Chemin                   1
+Cimetière                4
+Collège                  1
+Complexe                 1
+Cégep                    1
+Des                      1
+Domaine                  2
+Espace                   4
+Esplanade                2
+Futur parc               1
+Gare                     1
+Golf                    11
+Grand parc              66
+Jardin                   2
+Mairie                   2
+Marina                   1
+Mini-parc                6
+Musée                    1
+Parc                   919
+Parc linéaire            2
+Parc écran               1
+Parc-canin               1
+Parc-nature             34
+Parc-école              21
+Parc-école primaire      1
+Passage                  5
+Place                  149
+Placette                 2
+Promenade               44
+Ruelle                   1
+Seuil                    1
+Square                  31
+Stade                    1
+Tennis                   1
+Terrasse                 4
+Toit-vert                1
+Usine                    1
+Woonerf                  3
+École                    2
+Île                      1
+Îlot                    16
+Îlot central             1
+Îlots                    2
+dtype: object
+
+ ------------------ 
+
+Lien
+d'        13
+de        51
+de l'    123
+de la     54
+des      108
+du       121
+l'         1
+le         1
+place      1
+pour       1
+dtype: object
+
+ ------------------ 
+
+Nom
+24e Av. / Cn                   1
+24e Av. Pat                    1
+25e Avenue                     1
+27e Avenue                     1
+33e Av. / Cn                   2
+                              ..
+Île des Soeurs                 1
+Île-Mercier                    1
+Île-de-la-Visitation           2
+écoterritoire de la falaise    2
+île de Montréal                2
+Length: 1477, dtype: object
+
+ ------------------ 
+
+NUM_INDEX
+0002-000     1
+0003-000     2
+0004-000     1
+0005-000     1
+0006-000     1
+            ..
+9543-000     6
+9562-060     2
+9569-000     2
+9570-000    12
+9575-000     6
+Length: 1443, dtype: object
+
+ ------------------ 
+
+PROPRIETE
+Commission scolaire      89
+Hydro-Québec              1
+Institutionnel           87
+Privé                    25
+Ville de Montréal      1808
+dtype: object
+
+ ------------------ 
+
+COMPETENCE
+Agglomération              114
+Arrondissement            1703
+Gouvernement du Canada       6
+Gouvernement du Québec      65
+Local                        3
+Municipale                  32
+Privé                       87
+dtype: object
+
+ ------------------ 
+
+TYPO1
+Autre espace vert          184
+BD - Jardin                  1
+En cours de validation     270
+Espace voirie              264
+Grand parc                 139
+Parc d'arrondissement     1384
+dtype: object
+
+ ------------------ 
+
+TYPO2
+Bande gazonnée            28
+Bande riveraine           26
+Cimetière                  3
+Communautaire              1
+Espace institutionnel     50
+Espace sportif            33
+Espace vacant              6
+Espace vert               33
+Golf                      12
+Jardin Botanique           2
+Parc de quartier         526
+Parc de voisinage        319
+Parc linéaire             28
+Parc métropolitain        10
+Parc urbain               29
+Parc école                92
+Parc écran                29
+Parc-nature              100
+Passage                   30
+Place publique           138
+Promenade urbaine         21
+Rue partagée               4
+Rue piétonne               1
+Ruelle verte               1
+Square                    19
+Toit-vert                  1
+Îlot de verdure          232
+Îlot de voirie           198
+dtype: object

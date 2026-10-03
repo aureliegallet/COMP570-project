@@ -34,14 +34,15 @@ class GenericExplorer():
                 ) 
             elif location_type == "WSG84":
                 df["BOROUGH"] = df.apply(
-                    lambda row: borough_identifier.match_NAD83_to_borough(row[location_columns[0]], row[location_columns[1]]), # Because custom function does not accept full Series
+                    lambda row: borough_identifier.match_WSG84_to_borough(row[location_columns[0]], row[location_columns[1]]), # Because custom function does not accept full Series
                     axis = 1
                 ) 
             else:
                 print("\n ------------------ \n")
                 print("\n Unsupported location type. \n")
             df = df.drop(columns=location_columns)
-            return df
+        
+        return df
         
 
     def explore_dataset(self, dataset, date_column = None, borough_column = None, location_columns = None, location_type = None):
@@ -68,6 +69,13 @@ class GenericExplorer():
             # Remove this from the value counts
             if date_column and (i == 0):
                 categorical.remove(date_column)
+
+            if borough_column:
+                categorical.remove(borough_column)
+
+            if location_columns:
+                for loc in location_columns:
+                    continuous.remove(loc)
 
             # FIRST CHUNK
             if i == 0:
@@ -96,8 +104,9 @@ class GenericExplorer():
                 if df[date_column].min() > date_max:
                     date_max = df[date_column].max()
 
-        print("\n ------------------ \n")
-        print(f"Dates range from {date_min} to {date_max}")
+        if date_column:
+            print("\n ------------------ \n")
+            print(f"Dates range from {date_min} to {date_max}")
 
         print("\n ------------------ \n")
         print(borough_counts)
