@@ -46,7 +46,7 @@ def main():
     print(f"Number of rows dropped: {dropped}")
     print(f"Percentage dropped: {(dropped / len(df)) * 100:.2f}%")
 
-    # Replace cooridnates with borough using BoroughIdentifier tool
+    # Replace coordinates with borough using BoroughIdentifier tool
     borough_identifier = BoroughIdentifier()
     filtered_df["BOROUGH"] = filtered_df.apply(
         lambda row: borough_identifier.match_NAD83_to_borough(row["X"], row["Y"]), # Because custom function does not accept full Series
