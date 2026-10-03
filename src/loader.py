@@ -20,6 +20,7 @@ class Loader():
         }
         self.page_size = 10000
         self.data_dir = Path(__file__).resolve().parent.parent / "data"
+        self.data_dir.parent.mkdir(parents = True, exist_ok = True)
     
     # Builds the desired URL based on the requested dataset and the type of request
     def build_request(self, dataset, is_sql = False, sql_command = "", customized_command = ""):

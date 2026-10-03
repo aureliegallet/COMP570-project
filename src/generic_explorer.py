@@ -1,13 +1,27 @@
 import pandas as pd
 from loader import Loader
 from borough_identifier import BoroughIdentifier
+import matplotlib.pyplot as plt
+from pathlib import Path
 
 # TO DO check NAs
 
 class GenericExplorer():
     def __init__(self):
         self.loader = Loader()
+        self.save_dir = Path(__file__).resolve().parent.parent / "data/figures"
+        self.save_dir.mkdir(parents = True, exist_ok = True)
 
+
+    def str_to_num(self, df):
+        for column in df.columns:
+            try:
+                df[column] = pd.to_numeric(df[column])
+            except ValueError: # If it fails, leave it as is
+                pass
+        return df
+
+    
     def print_main_info(self, df):
         print("Dataframe Head\n")
         print(df.head(5)) # Print only once
@@ -20,6 +34,7 @@ class GenericExplorer():
         print("\n ------------------ \n")
         print("Dataframe Description\n")
         print(df.describe())
+
 
     def clean_location(self, df, borough_column, location_columns, location_type):
         if borough_column:
@@ -43,7 +58,43 @@ class GenericExplorer():
             df = df.drop(columns=location_columns)
         
         return df
-        
+
+    # Final printing
+    def print_date_range(self, min, max):
+        print("\n ------------------ \n")
+        print(f"Dates range from {min} to {max}")
+
+    def print_boroughs(self, dataset, borough_counts):
+        print("\n ------------------ \n")
+        print(borough_counts.sort_values(ascending = False))
+
+        # https://matplotlib.org/stable/gallery/ticks/ticklabels_rotation.html
+        fig, ax = plt.subplots(layout = "constrained")
+        plt.bar(
+            borough_counts.index, 
+            borough_counts.values, 
+        )
+        ax.tick_params("x", rotation = 45, rotation_mode = "xtick")
+        ax.set_title("Value counts for: boroughs")
+        plt.savefig(self.save_dir / f"{dataset}_boroughs_values.png")
+
+    def print_other_counts(self, dataset, categorical, other_counts):
+        for column in categorical:
+            print("\n ------------------ \n")
+            print(other_counts[column].sort_values(ascending = False))
+
+            # Avoid completely unreadable plots
+            if len(other_counts[column].index) < 20:
+                # https://matplotlib.org/stable/gallery/ticks/ticklabels_rotation.html
+                fig, ax = plt.subplots(layout = "constrained")
+                ax.bar(
+                    other_counts[column].index, 
+                    other_counts[column].values, 
+                )
+                ax.tick_params("x", rotation = 45, rotation_mode = "xtick")
+                ax.set_title(f"Value counts for: {column}")
+                plt.savefig(self.save_dir / f"{dataset}_{column}_values.png")
+
 
     def explore_dataset(self, dataset, date_column = None, borough_column = None, location_columns = None, location_type = None):
         borough_counts = pd.Series() # return type of value counts
@@ -57,34 +108,23 @@ class GenericExplorer():
             df = df.drop(columns=["_full_text"])
 
             # Convert some columns from str to numbers
-            for column in df.columns:
-                try:
-                    df[column] = pd.to_numeric(df[column])
-                    if i == 0:
-                        continuous.append(column)
-                except ValueError: # If it fails, leave it as is
-                    if i == 0:
-                        categorical.append(column)
-
-            # Remove this from the value counts
-            if date_column and (i == 0):
-                categorical.remove(date_column)
-
-            if borough_column:
-                categorical.remove(borough_column)
-
-            if location_columns:
-                for loc in location_columns:
-                    if loc in continuous:
-                        continuous.remove(loc)
+            df = self.str_to_num(df)
 
             # FIRST CHUNK
             if i == 0:
                 self.print_main_info(df)
 
+                for col in df.columns:
+                    if df[col].dtype == "str" and (col != date_column) and (col != borough_column) and (location_columns is None or (col not in location_columns)):
+                        categorical.append(col)
+                    else: 
+                        continuous.append(col)
+
+                # Value counts prep
                 for column in categorical:
                     other_counts[column] = pd.Series()
 
+                # Date range prep
                 if date_column:
                     date_min = df[date_column].min()
                     date_max = df[date_column].max()
@@ -92,12 +132,14 @@ class GenericExplorer():
             # ALL CHUNKS
             df = self.clean_location(df, borough_column, location_columns, location_type)
 
+            # Value counts
             if borough_column or location_columns:
                 borough_counts = borough_counts.add(df["BOROUGH"].value_counts(), fill_value = 0) # https://stackoverflow.com/questions/28353577/merging-and-sum-up-several-value-counts-series-in-pandas
             
             for column in categorical:
                 other_counts[column] = other_counts[column].add(df[column].value_counts(), fill_value = 0)
-            
+
+            # Date range
             if date_column:
                 if df[date_column].min() < date_min:
                     date_min = df[date_column].min()
@@ -105,13 +147,11 @@ class GenericExplorer():
                 if df[date_column].min() > date_max:
                     date_max = df[date_column].max()
 
+        # Final printing
         if date_column:
-            print("\n ------------------ \n")
-            print(f"Dates range from {date_min} to {date_max}")
+            self.print_date_range(date_min, date_max)
 
-        print("\n ------------------ \n")
-        print(borough_counts.sort_values(ascending = False))
+        if borough_column or location_columns:
+            self.print_boroughs(dataset, borough_counts)
 
-        for column in categorical:
-            print("\n ------------------ \n")
-            print(other_counts[column].sort_values(ascending = False))
+        self.print_other_counts(dataset, categorical, other_counts)
