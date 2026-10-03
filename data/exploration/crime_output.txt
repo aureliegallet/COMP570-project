@@ -1,0 +1,103 @@
+Dataframe Head
+
+   _id                 CATEGORIE  ...  LONGITUDE   LATITUDE
+0    1  Vol de véhicule à moteur  ... -73.626778  45.567780
+1    2  Vol de véhicule à moteur  ... -73.626778  45.567780
+2    3  Vol de véhicule à moteur  ... -73.685928  45.519122
+3    4                    Méfait  ...        NaN        NaN
+4    5                    Méfait  ...        NaN        NaN
+
+[5 rows x 9 columns]
+
+ ------------------ 
+
+Dataframe Columns
+
+Index(['_id', 'CATEGORIE', 'DATE', 'QUART', 'PDQ', 'X', 'Y', 'LONGITUDE',
+       'LATITUDE'],
+      dtype='str')
+
+ ------------------ 
+
+Dataframe Information
+
+<class 'pandas.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 9 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   _id        10000 non-null  int64  
+ 1   CATEGORIE  10000 non-null  str    
+ 2   DATE       10000 non-null  str    
+ 3   QUART      10000 non-null  str    
+ 4   PDQ        10000 non-null  int64  
+ 5   X          9788 non-null   float64
+ 6   Y          9788 non-null   float64
+ 7   LONGITUDE  9788 non-null   float64
+ 8   LATITUDE   9788 non-null   float64
+dtypes: float64(4), int64(2), str(3)
+memory usage: 703.3 KB
+None
+
+ ------------------ 
+
+Dataframe Description
+
+                 _id           PDQ  ...    LONGITUDE     LATITUDE
+count   10000.000000  10000.000000  ...  9788.000000  9788.000000
+mean     5689.640100     24.611500  ...   -73.623822    45.518386
+std      7821.162864     14.235583  ...     0.068761     0.056245
+min         1.000000      1.000000  ...   -73.924475    45.415309
+25%      2500.750000     12.000000  ...   -73.649698    45.468128
+50%      5000.500000     23.000000  ...   -73.609184    45.518765
+75%      7500.250000     38.000000  ...   -73.576012    45.555034
+max    211016.000000     55.000000  ...   -73.480105    45.701384
+
+[8 rows x 6 columns]
+
+ ------------------ 
+
+Dates range from 2015-01-01 to 2026-09-30
+
+ ------------------ 
+
+BOROUGH
+Ahuntsic-Cartierville                       17588
+Anjou                                        7074
+Côte-des-Neiges-Notre-Dame-de-Grâce         19418
+L'Île-Bizard-Sainte-Geneviève                1244
+LaSalle                                      8067
+Lachine                                      6647
+Le Plateau-Mont-Royal                       22232
+Le Sud-Ouest                                13947
+Mercier-Hochelaga-Maisonneuve               26625
+Montréal-Nord                               13339
+Outremont                                    2290
+Pierrefonds-Roxboro                          5061
+Rivière-des-Prairies-Pointe-aux-Trembles    13006
+Rosemont-La Petite-Patrie                   21737
+Saint-Laurent                               14738
+Saint-Léonard                               11099
+Verdun                                       7679
+Ville-Marie                                 42215
+Villeray-Saint-Michel-Parc-Extension        20745
+dtype: object
+
+ ------------------ 
+
+CATEGORIE
+Infractions entrainant la mort         335
+Introduction                         84873
+Méfait                               78265
+Vol dans / sur véhicule à moteur    102658
+Vol de véhicule à moteur             73795
+Vols qualifiés                       21299
+dtype: object
+
+ ------------------ 
+
+QUART
+jour    184646
+nuit     58196
+soir    118383
+dtype: object
