@@ -75,7 +75,8 @@ class GenericExplorer():
 
             if location_columns:
                 for loc in location_columns:
-                    continuous.remove(loc)
+                    if loc in continuous:
+                        continuous.remove(loc)
 
             # FIRST CHUNK
             if i == 0:
@@ -109,8 +110,8 @@ class GenericExplorer():
             print(f"Dates range from {date_min} to {date_max}")
 
         print("\n ------------------ \n")
-        print(borough_counts)
+        print(borough_counts.sort_values(ascending = False))
 
         for column in categorical:
             print("\n ------------------ \n")
-            print(other_counts[column])
+            print(other_counts[column].sort_values(ascending = False))

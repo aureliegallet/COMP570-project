@@ -91,337 +91,337 @@ max    5454.000000           NaN  ...         62.415245  889000.000000
  ------------------ 
 
 BOROUGH
-Ahuntsic-Cartierville                       42
-Anjou                                       12
-Côte-des-Neiges-Notre-Dame-de-Grâce         53
-L'Île-Bizard-Sainte-Geneviève                4
-LaSalle                                     35
-Lachine                                     28
-Le Plateau-Mont-Royal                       30
-Le Sud-Ouest                                27
-Mercier-Hochelaga-Maisonneuve               49
-Montréal-Nord                               34
-Outremont                                    9
-Pierrefonds-Roxboro                         26
-Rivière-des-Prairies-Pointe-aux-Trembles    40
-Rosemont-La Petite-Patrie                   49
-Saint-Laurent                               39
-Saint-Léonard                               21
-Verdun                                      31
-Ville-Marie                                 16
 Villeray-Saint-Michel-Parc-Extension        55
+Côte-des-Neiges-Notre-Dame-de-Grâce         53
+Mercier-Hochelaga-Maisonneuve               49
+Rosemont-La Petite-Patrie                   49
+Ahuntsic-Cartierville                       42
+Rivière-des-Prairies-Pointe-aux-Trembles    40
+Saint-Laurent                               39
+LaSalle                                     35
+Montréal-Nord                               34
+Verdun                                      31
+Le Plateau-Mont-Royal                       30
+Lachine                                     28
+Le Sud-Ouest                                27
+Pierrefonds-Roxboro                         26
+Saint-Léonard                               21
+Ville-Marie                                 16
+Anjou                                       12
+Outremont                                    9
+L'Île-Bizard-Sainte-Geneviève                4
 dtype: object
 
  ------------------ 
 
 NOM_COURT_ORGNS
-AVISE Centre de formation Charlevoix      4
-Académie De Roberval                      2
-Académie Dunton                           1
-Académie Hillcrest                        1
-Académie Internationale Marymount         1
-                                         ..
-École à l'Orée-des-Bois                   3
-École à l'Orée-du-Bois                    1
-École à l'Unisson                         1
-École éduc. inter. de Laval               1
-Écoles primaires St-Paul--Ste-Gertrude    2
+Centre d'éducation des adultes              99
+École forestière de La Tuque                98
+Centre de formation générale aux adultes    59
+CFP Carrefour Form. Mauricie                46
+CEA Mgr-Beaudoin-Les Sources                45
+                                            ..
+École Bienville                              1
+École Boijoli                                1
+École Saint-Rédempteur                       1
+École Saint-Romuald                          1
+École Père-Pacifique                         1
 Length: 2302, dtype: object
 
  ------------------ 
 
 NOM_OFFCL_ORGNS
-AVISE Centre de formation Charlevoix         4
-Académie De Roberval                         2
-Académie Dunton                              1
-Académie Hillcrest                           1
-Académie Internationale Marymount            1
-                                            ..
-École Île-des-Soeurs                         1
-École à l'Orée-des-Bois                      3
-École à l'Orée-du-Bois                       1
-École à l'Unisson                            1
-Écoles primaires St-Paul--Sainte-Gertrude    2
+Centre d'éducation des adultes des Patriotes                        77
+Centre de formation générale aux adultes des Grandes-Seigneuries    59
+École forestière de La Tuque - Formation professionnelle            53
+Carrefour Formation Mauricie formation professionnelle              46
+École forestière de La Tuque - Éducation des adultes                45
+                                                                    ..
+École Caron                                                          1
+École Sainte-Clotilde                                                1
+École Carrefour étudiant                                             1
+École Sainte-Catherine-de-Sienne                                     1
+École Adélard-Desrosiers                                             1
 Length: 2306, dtype: object
 
  ------------------ 
 
 ADRS_GEO_L1_GDUNO_ORGNS
-1 Mayaupiu Road         1
-1 Mayaupiu road         1
-1, route Hardy          1
-1, rue Academy          1
-1, rue Arthur-Pigeon    2
-                       ..
-Puvirnituq              5
-Quaqtaq                 3
-Salluit                 4
-Tasiujaq                2
-Umiujaq                 1
+461, rue Saint-François         98
+1430, rue Montarville           77
+25 rue d'Abbotsford             59
+5105, avenue Albert-Tessier     46
+1600, 1re Avenue                45
+                                ..
+244-A, chemin de la Montagne     1
+2430, rue Darling                1
+2425, rue Galt Ouest             1
+2425, boulevard Cournoyer        1
+Umiujaq                          1
 Length: 2622, dtype: object
 
  ------------------ 
 
 ADRS_GEO_L2_GDUNO_ORGNS
-(Greenfield Park)        5
-(LeMoyne)                1
-(Saint-Hubert)          19
-2e étage                 1
-3e étage                 1
-                        ..
-montée Saint-Nicolas     3
-rue Châteauguay          1
-rue Réal                 1
-rue de Toulouse          1
-suite 101                1
+Jonquière            32
+(Saint-Hubert)       19
+(Greenfield Park)     5
+Saint-Nicolas         5
+L'Étang-du-Nord       5
+                     ..
+Radisson              1
+Anse-au-Griffon       1
+Fatima                1
+Route rurale 4        1
+suite 101             1
 Length: 64, dtype: object
 
  ------------------ 
 
 CD_POSTL_GDUNO_ORGNS
-G0A1E0     3
-G0A1H0     3
-G0A1L0     2
-G0A1N0     2
-G0A1S0     2
+G9X1T8    98
+J3V3T5    77
+J6J1K3    59
+G9N7A3    46
+G5Y3N3    45
           ..
-J9Y1H6     1
-J9Y1N1     1
-J9Z1C5    17
-J9Z1K8     2
-J9Z2A2     4
+G0V1M0     1
+G0V1N0     1
+H7P4K6     1
+H7P3T2     1
+H8P1X9     1
 Length: 2403, dtype: object
 
  ------------------ 
 
 NOM_MUNCP_GDUNO_ORGNS
-Acton Vale     4
-Adstock        2
-Akulivik       2
-Albanel        2
-Alma          40
-              ..
-Wickham        1
-Windsor        8
-Wotton         1
-Yamachiche     2
-Yamaska        1
+Montréal                    571
+Laval                       250
+Québec                      210
+Longueuil                   184
+Gatineau                    133
+                           ... 
+Saint-Barthélemy              1
+Saint-Augustin-de-Woburn      1
+Saint-Aubert                  1
+Saint-Armand                  1
+Yamaska                       1
 Length: 710, dtype: object
 
  ------------------ 
 
 NOM_IMM
-A.S. Johnson Memorial                   2
-Académie Dunton                         1
-Académie Sacré-Coeur                    2
-Académie Saint-Clément                  1
-Académie Sainte-Marie                   1
-                                       ..
-Île d'Orléans - Saint-Laurent, de l'    1
-Île d'Orléans - Saint-Pierre, de l'     1
-Île, secondaire de l'                   2
-Île-des-Soeurs                          2
-Îlot des Appalaches                     1
+Hôtel-Dieu-de-Lévis        46
+Notre-Dame                 37
+Saint-Joseph               35
+Saint-Paul                 23
+Centre administratif       20
+                           ..
+Marie-Médiatrice            1
+Marie-Leneuf                1
+Chomedey-de-Maisonneuve     1
+Christ-Roi, du              1
+Îlot des Appalaches         1
 Length: 3000, dtype: object
 
  ------------------ 
 
 ADRS_GEO_L1_GDUNO_IMM
----                         1
-1, avenue Pearson           1
-1, avenue de l'Église       3
-1, avenue du Parc           1
-1, avenue du Sacré-Coeur    1
-                           ..
-Tête-à-la-Baleine           3
-Unité La Rade               2
-Unité Le Rivage             2
-Unité la Vigie              2
-Vieux Fort                  3
+143, rue Wolfe              46
+700, rue Forest             34
+250, rue Gagnon             16
+3995, boul. Lévesque Est    11
+193, Port-Royal             11
+                            ..
+273, rue du Couvent Est      1
+2730, rue Beauparlant        1
+2735, rue Papineau           1
+2743, rue De Rouen           1
+---                          1
 Length: 3489, dtype: object
 
  ------------------ 
 
 NOM_MUNCP_GDUNO_IMM
-Acton Vale    8
-Adstock       4
-Aguanish      2
-Akulivik      2
-Albanel       4
-             ..
-Wickham       2
-Windsor       6
-Wotton        1
-Yamachiche    1
-Yamaska       1
+Montréal                         600
+Laval                            253
+Québec                           207
+Longueuil                        169
+Gatineau                         127
+                                ... 
+Saint-Bruno-de-Guigues             1
+Saint-Blaise-sur-Richelieu         1
+Saint-Bernard-de-Michaudville      1
+Saint-Barthélemy                   1
+Yamaska                            1
 Length: 852, dtype: object
 
  ------------------ 
 
 CD_POSTL_GDUNO_IMM
-G0A1E0    2
-G0A1H0    3
-G0A1L0    3
-G0A1N0    1
-G0A1R1    2
-         ..
-J9Y1N1    1
-J9Z1C5    1
-J9Z1K8    2
-J9Z2A2    6
-J9Z2Y2    1
+G6V3Z1    46
+J9P2L3    34
+G0C1E0    17
+J6N2W8    16
+G4X2V7    15
+          ..
+H2R2A7     1
+H2R2S9     1
+H2S2B8     1
+H2S2G3     1
+J9Z2Y2     1
 Length: 3068, dtype: object
 
  ------------------ 
 
 SITE_WEB_ORGNS
-https:///jeanfortin-lasource/                                2
-https:///www.cssmb.gouv.qc.ca/etablissements/levis-sauve/    1
-https://academie-de-roberval.cssdm.gouv.qc.ca/               2
-https://academie-dunton.cssdm.gouv.qc.ca/                    1
-https://academielesestacades.csscdr.gouv.qc.ca/              2
-                                                            ..
-https://www.wqsb.qc.ca/Schools/poltimor_fr.htm               1
-https://www.wqsb.qc.ca/Schools/queen_e_fr.htm                1
-https://www.wqsb.qc.ca/Schools/symmes_fr.htm                 1
-https://www.wqsb.qc.ca/Schools/theberge_fr.htm               1
-https://zenith.cssvdc.gouv.qc.ca/                            1
+https://www.csssamares.gouv.qc.ca        122
+https://eflt.ca/                          98
+https://www.eapatriotes.ca/               77
+https://www.csrs.qc.ca/etablissements     60
+https://cfgadgs.cssdgs.gouv.qc.ca/        59
+                                        ... 
+https://face.cssdm.gouv.qc.ca/             1
+https://evgp.ecoles.csmv.qc.ca/            1
+https://eveil.csscotesud.gouv.qc.ca/       1
+https://eveil.cssbe.gouv.qc.ca             1
+https://zenith.cssvdc.gouv.qc.ca/          1
 Length: 1827, dtype: object
 
  ------------------ 
 
 ORDRE_ENS
+Préscolaire - Primaire                 2263
+Éducation aux adultes                  1301
 Formation professionnelle               804
+Secondaire                              579
 Primaire                                199
+Préscolaire - Primaire - Secondaire     174
 Primaire - Secondaire                    91
 Préscolaire                              42
-Préscolaire - Primaire                 2263
-Préscolaire - Primaire - Secondaire     174
 Préscolaire - Secondaire                  1
-Secondaire                              579
-Éducation aux adultes                  1301
 dtype: object
 
  ------------------ 
 
 TYPE_CS
-Anglo      590
 Franco    4747
+Anglo      590
 Statut     117
 dtype: object
 
  ------------------ 
 
 STYLE_CART
-1_OrgImm_Anglo_prescolaire           1
-1_OrgImm_Franco_prescolaire         36
-1_OrgImm_Statut_prescolaire          5
-2_OrgImm_Anglo_primaire              8
-2_OrgImm_Franco_primaire           186
-2_OrgImm_Statut_primaire             5
-3_OrgImm_Anglo_secondaire           84
-3_OrgImm_Franco_secondaire         483
-3_OrgImm_Statut_secondaire          12
-4_OrgImm_Anglo_presc_prim          185
 4_OrgImm_Franco_presc_prim        2069
-4_OrgImm_Statut_presc_prim           9
-5_OrgImm_Anglo_presc_prim_sec       48
-5_OrgImm_Franco_presc_prim_sec     104
-5_OrgImm_Statut_presc_prim_sec      22
-6_OrgImm_Anglo_presc_sec             1
-7_OrgImm_Anglo_prim_sec              9
-7_OrgImm_Franco_prim_sec            74
-7_OrgImm_Statut_prim_sec             8
-8_OrgImm_Anglo_Fp                  132
-8_OrgImm_Franco_Fp                 646
-8_OrgImm_Statut_Fp                  26
-9_OrgImm_Anglo_Adu                 122
 9_OrgImm_Franco_Adu               1149
+8_OrgImm_Franco_Fp                 646
+3_OrgImm_Franco_secondaire         483
+2_OrgImm_Franco_primaire           186
+4_OrgImm_Anglo_presc_prim          185
+8_OrgImm_Anglo_Fp                  132
+9_OrgImm_Anglo_Adu                 122
+5_OrgImm_Franco_presc_prim_sec     104
+3_OrgImm_Anglo_secondaire           84
+7_OrgImm_Franco_prim_sec            74
+5_OrgImm_Anglo_presc_prim_sec       48
+1_OrgImm_Franco_prescolaire         36
 9_OrgImm_Statut_Adu                 30
+8_OrgImm_Statut_Fp                  26
+5_OrgImm_Statut_presc_prim_sec      22
+3_OrgImm_Statut_secondaire          12
+7_OrgImm_Anglo_prim_sec              9
+4_OrgImm_Statut_presc_prim           9
+7_OrgImm_Statut_prim_sec             8
+2_OrgImm_Anglo_primaire              8
+2_OrgImm_Statut_primaire             5
+1_OrgImm_Statut_prescolaire          5
+6_OrgImm_Anglo_presc_sec             1
+1_OrgImm_Anglo_prescolaire           1
 dtype: object
 
  ------------------ 
 
 NOM_MUNCP
-Acton Vale    8
-Adstock       4
-Aguanish      2
-Akulivik      2
-Albanel       4
-             ..
-Wickham       2
-Windsor       6
-Wotton        1
-Yamachiche    1
-Yamaska       1
+Montréal                      600
+Laval                         253
+Québec                        207
+Longueuil                     169
+Gatineau                      127
+                             ... 
+Saint-Nazaire-d'Acton           1
+Rivière-à-Pierre                1
+Saint-Narcisse-de-Rimouski      1
+Hampstead                       1
+Yamaska                         1
 Length: 851, dtype: object
 
  ------------------ 
 
 NOM_MRC
-Abitibi                             45
-Abitibi-Ouest                       37
-Acton                               13
-Administration régionale Kativik    42
-Antoine-Labelle                     62
-                                    ..
-Thérèse-De Blainville               66
-Trois-Rivières                      71
-Témiscamingue                       27
-Témiscouata                         42
-Vaudreuil-Soulanges                 65
+Montréal              695
+Longueuil             274
+Laval                 253
+Québec                215
+Gatineau              127
+                     ... 
+La Côte-de-Beaupré     11
+Charlevoix-Est         11
+Charlevoix              9
+Caniapiscau             6
+L'Île-d'Orléans         4
 Length: 104, dtype: object
 
  ------------------ 
 
 NOM_REG_ADM
-Abitibi-Témiscamingue            217
-Bas-Saint-Laurent                246
-Capitale-Nationale               304
-Centre-du-Québec                 208
-Chaudière-Appalaches             439
-Côte-Nord                        140
-Estrie                           357
-Gaspésie–Îles-de-la-Madeleine    179
-Lanaudière                       231
-Laurentides                      342
-Laval                            253
-Mauricie                         338
-Montréal                         695
 Montérégie                       912
-Nord-du-Québec                   109
-Outaouais                        220
+Montréal                         695
+Chaudière-Appalaches             439
+Estrie                           357
+Laurentides                      342
+Mauricie                         338
+Capitale-Nationale               304
 Saguenay–Lac-Saint-Jean          263
+Laval                            253
+Bas-Saint-Laurent                246
+Lanaudière                       231
+Outaouais                        220
+Abitibi-Témiscamingue            217
+Centre-du-Québec                 208
+Gaspésie–Îles-de-la-Madeleine    179
+Côte-Nord                        140
+Nord-du-Québec                   109
 dtype: object
 
  ------------------ 
 
 NOM_CEP
-Abitibi-Est              65
-Abitibi-Ouest            82
-Acadie                   23
-Anjou–Louis-Riel         18
-Argenteuil               31
-                         ..
-Verdun                   31
-Viau                     30
-Vimont-Auteuil           18
-Westmount–Saint-Louis    12
-Îles-de-la-Madeleine     13
+Laviolette–Saint-Maurice          169
+Ungava                            109
+Rivière-du-Loup–Témiscouata–Le    107
+Roberval                           96
+Gaspé                              95
+                                 ... 
+Hochelaga-Maisonneuve              16
+Sainte-Marie–Saint-Jacques         15
+Prévost                            14
+Îles-de-la-Madeleine               13
+Westmount–Saint-Louis              12
 Length: 127, dtype: object
 
  ------------------ 
 
 NOM_CS
-Centre de services scolaire De La Jonquière          37
-Centre de services scolaire Harricana                47
-Centre de services scolaire Marguerite-Bourgeoys    182
-Centre de services scolaire Marie-Victorin          151
-Centre de services scolaire René-Lévesque            62
-                                                   ... 
-Commission scolaire New Frontiers                    33
-Commission scolaire Riverside                       122
-Commission scolaire Sir-Wilfrid-Laurier              51
-Commission scolaire Western Québec                   39
-Commission scolaire crie                             41
+Centre de services scolaire de Montréal                267
+Centre de services scolaire de l'Énergie               236
+Centre de services scolaire de Laval                   229
+Centre de services scolaire Marguerite-Bourgeoys       182
+Centre de services scolaire de la Beauce-Etchemin      169
+                                                      ... 
+Centre de services scolaire de la Baie-James            26
+Commission scolaire Central Québec                      23
+Centre de services scolaire de Charlevoix               19
+Centre de services scolaire de la Moyenne-Côte-Nord     17
+Centre de services scolaire des Îles                     9
 Length: 72, dtype: object

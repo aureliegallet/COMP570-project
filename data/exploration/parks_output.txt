@@ -59,97 +59,97 @@ max    2245.000000  5721.000000   295.631928
  ------------------ 
 
 BOROUGH
-Ahuntsic-Cartierville                                    121
-Anjou                                                     28
-Autre                                                    114
-Commission scolaire                                       48
-Côte-des-Neiges-Notre-Dame-de-Grâce                       96
-L'Île-Bizard-Sainte-Geneviève                             52
-LaSalle                                                   79
-Lachine                                                   57
-Le Plateau-Mont-Royal                                     67
+Rivière-des-Prairies-Pointe-aux-Trembles                 199
+Ville-Marie                                              186
 Le Sud-Ouest                                             142
 Mercier-Hochelaga-Maisonneuve                            127
-Montréal-Nord                                             43
-Montréal-Ouest                                             1
-Outremont                                                 27
-Pierrefonds-Roxboro                                      112
-Rivière-des-Prairies-Pointe-aux-Trembles                 199
-Rosemont-La Petite-Patrie                                 65
-Saint-Laurent                                             95
-Saint-Léonard                                             47
+Ahuntsic-Cartierville                                    121
+Autre                                                    114
 Service des grands parcs, du Mont-Royal et des sports    112
+Pierrefonds-Roxboro                                      112
 Verdun                                                   104
-Ville-Marie                                              186
+Côte-des-Neiges-Notre-Dame-de-Grâce                       96
+Saint-Laurent                                             95
 Villeray-Saint-Michel-Parc-Extension                      85
+LaSalle                                                   79
+Le Plateau-Mont-Royal                                     67
+Rosemont-La Petite-Patrie                                 65
+Lachine                                                   57
+L'Île-Bizard-Sainte-Geneviève                             52
+Commission scolaire                                       48
+Saint-Léonard                                             47
+Montréal-Nord                                             43
+Anjou                                                     28
+Outremont                                                 27
+Montréal-Ouest                                             1
 Westmount                                                  1
 dtype: object
 
  ------------------ 
 
 Type
-Aire d'exercice          1
-Aire de repos            5
-Av.                      3
-Belvédère                1
-Boisé                    1
-Boulevard                8
-CHSLD                    1
-Carré                    1
-Chemin                   1
-Cimetière                4
-Collège                  1
-Complexe                 1
-Cégep                    1
-Des                      1
-Domaine                  2
-Espace                   4
-Esplanade                2
-Futur parc               1
-Gare                     1
-Golf                    11
-Grand parc              66
-Jardin                   2
-Mairie                   2
-Marina                   1
-Mini-parc                6
-Musée                    1
 Parc                   919
-Parc linéaire            2
-Parc écran               1
-Parc-canin               1
-Parc-nature             34
-Parc-école              21
-Parc-école primaire      1
-Passage                  5
 Place                  149
-Placette                 2
+Grand parc              66
 Promenade               44
-Ruelle                   1
-Seuil                    1
+Parc-nature             34
 Square                  31
-Stade                    1
-Tennis                   1
-Terrasse                 4
-Toit-vert                1
-Usine                    1
-Woonerf                  3
-École                    2
-Île                      1
+Parc-école              21
 Îlot                    16
-Îlot central             1
+Golf                    11
+Boulevard                8
+Mini-parc                6
+Aire de repos            5
+Passage                  5
+Espace                   4
+Cimetière                4
+Terrasse                 4
+Av.                      3
+Woonerf                  3
+Placette                 2
+Parc linéaire            2
+Mairie                   2
 Îlots                    2
+Jardin                   2
+Esplanade                2
+Domaine                  2
+École                    2
+Seuil                    1
+Tennis                   1
+Toit-vert                1
+Ruelle                   1
+Usine                    1
+Île                      1
+Îlot central             1
+Stade                    1
+Aire d'exercice          1
+Parc-école primaire      1
+Parc-canin               1
+Parc écran               1
+Marina                   1
+Gare                     1
+Futur parc               1
+Des                      1
+Cégep                    1
+Complexe                 1
+Collège                  1
+Chemin                   1
+Carré                    1
+CHSLD                    1
+Boisé                    1
+Belvédère                1
+Musée                    1
 dtype: object
 
  ------------------ 
 
 Lien
-d'        13
-de        51
 de l'    123
-de la     54
-des      108
 du       121
+des      108
+de la     54
+de        51
+d'        13
 l'         1
 le         1
 place      1
@@ -159,97 +159,97 @@ dtype: object
  ------------------ 
 
 Nom
-24e Av. / Cn                   1
-24e Av. Pat                    1
-25e Avenue                     1
-27e Avenue                     1
-33e Av. / Cn                   2
-                              ..
-Île des Soeurs                 1
-Île-Mercier                    1
-Île-de-la-Visitation           2
-écoterritoire de la falaise    2
-île de Montréal                2
+Ouest                             46
+Rapides                           21
+Est                               20
+Abords du Pont Jacques-Cartier    13
+Ruisseau-De Montigny              12
+                                  ..
+Gouin ( Haynes )                   1
+Gouin ( 55e Av.)                   1
+Gorilles                           1
+Goncourt                           1
+Labrecque / Robin                  1
 Length: 1477, dtype: object
 
  ------------------ 
 
 NUM_INDEX
-0002-000     1
-0003-000     2
-0004-000     1
-0005-000     1
-0006-000     1
-            ..
-9543-000     6
-9562-060     2
-9569-000     2
+9512-000    46
+1215-000    21
+9514-000    20
+0908-000    13
 9570-000    12
-9575-000     6
+            ..
+0852-000     1
+0851-001     1
+0840-000     1
+0839-000     1
+1171-000     1
 Length: 1443, dtype: object
 
  ------------------ 
 
 PROPRIETE
+Ville de Montréal      1808
 Commission scolaire      89
-Hydro-Québec              1
 Institutionnel           87
 Privé                    25
-Ville de Montréal      1808
+Hydro-Québec              1
 dtype: object
 
  ------------------ 
 
 COMPETENCE
-Agglomération              114
 Arrondissement            1703
-Gouvernement du Canada       6
-Gouvernement du Québec      65
-Local                        3
-Municipale                  32
+Agglomération              114
 Privé                       87
+Gouvernement du Québec      65
+Municipale                  32
+Gouvernement du Canada       6
+Local                        3
 dtype: object
 
  ------------------ 
 
 TYPO1
-Autre espace vert          184
-BD - Jardin                  1
+Parc d'arrondissement     1384
 En cours de validation     270
 Espace voirie              264
+Autre espace vert          184
 Grand parc                 139
-Parc d'arrondissement     1384
+BD - Jardin                  1
 dtype: object
 
  ------------------ 
 
 TYPO2
-Bande gazonnée            28
-Bande riveraine           26
-Cimetière                  3
-Communautaire              1
-Espace institutionnel     50
-Espace sportif            33
-Espace vacant              6
-Espace vert               33
-Golf                      12
-Jardin Botanique           2
 Parc de quartier         526
 Parc de voisinage        319
-Parc linéaire             28
-Parc métropolitain        10
-Parc urbain               29
-Parc école                92
-Parc écran                29
-Parc-nature              100
-Passage                   30
-Place publique           138
-Promenade urbaine         21
-Rue partagée               4
-Rue piétonne               1
-Ruelle verte               1
-Square                    19
-Toit-vert                  1
 Îlot de verdure          232
 Îlot de voirie           198
+Place publique           138
+Parc-nature              100
+Parc école                92
+Espace institutionnel     50
+Espace sportif            33
+Espace vert               33
+Passage                   30
+Parc écran                29
+Parc urbain               29
+Parc linéaire             28
+Bande gazonnée            28
+Bande riveraine           26
+Promenade urbaine         21
+Square                    19
+Golf                      12
+Parc métropolitain        10
+Espace vacant              6
+Rue partagée               4
+Cimetière                  3
+Jardin Botanique           2
+Communautaire              1
+Rue piétonne               1
+Ruelle verte               1
+Toit-vert                  1
 dtype: object
