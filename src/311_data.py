@@ -15,7 +15,7 @@ def main():
     # path = path.replace(" ", "%20")
     # loader.load_to_csv(path, output_path)
 
-    df = pd.read_csv(output_path, encoding='latin-1')
+    df = pd.read_csv(output_path)
 
     # Clear spacing because it is inconsistent between entries
     df['ARRONDISSEMENT'] = df['ARRONDISSEMENT'].str.replace(' ', '')
@@ -49,6 +49,8 @@ def main():
 
     # Change as needed
     target_df = matching_df
+
+    print(target_df['ARRONDISSEMENT_GEO'].unique())
 
     borough_count = target_df[target_df['ARRONDISSEMENT_GEO'].isin(boroughs)]['ARRONDISSEMENT_GEO'].value_counts()
     resulting_df = borough_count.reset_index()
