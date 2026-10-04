@@ -86,6 +86,7 @@ class GenericExplorer():
     def print_other_counts(self, dataset, categorical, other_counts):
         for column in categorical:
             print("\n ------------------ \n")
+            print(categorical)
             print(other_counts[column].sort_values(ascending = False))
 
             # Avoid completely unreadable plots
