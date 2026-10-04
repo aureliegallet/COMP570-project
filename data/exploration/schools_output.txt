@@ -1,0 +1,468 @@
+Dataframe Head
+
+   _id  ...                                  NOM_CS
+0    1  ...   Centre de services scolaire Harricana
+1    2  ...  Centre de services scolaire des Phares
+2    3  ...  Centre de services scolaire des Phares
+3    4  ...  Centre de services scolaire des Phares
+4    5  ...  Centre de services scolaire des Phares
+
+[5 rows x 35 columns]
+
+ ------------------ 
+
+Dataframe Columns
+
+Index(['_id', 'DT_MAJ_GDUNO', 'COMBINE_NUO_NUI', 'CD_ORGNS', 'NOM_COURT_ORGNS',
+       'NOM_OFFCL_ORGNS', 'ADRS_GEO_L1_GDUNO_ORGNS', 'ADRS_GEO_L2_GDUNO_ORGNS',
+       'CD_POSTL_GDUNO_ORGNS', 'CD_MUNCP_GDUNO_ORGNS', 'NOM_MUNCP_GDUNO_ORGNS',
+       'CD_IMM', 'NOM_IMM', 'ADRS_GEO_L1_GDUNO_IMM', 'ADRS_GEO_L2_GDUNO_IMM',
+       'CD_MUNCP_GDUNO_IMM', 'NOM_MUNCP_GDUNO_IMM', 'CD_POSTL_GDUNO_IMM',
+       'PRESC', 'PRIM', 'SEC', 'FORM_PRO', 'ADULTE', 'SITE_WEB_ORGNS',
+       'COORD_X_LL84_IMM', 'COORD_Y_LL84_IMM', 'ORDRE_ENS', 'CD_CS', 'TYPE_CS',
+       'STYLE_CART', 'NOM_MUNCP', 'NOM_MRC', 'NOM_REG_ADM', 'NOM_CEP',
+       'NOM_CS'],
+      dtype='str')
+
+ ------------------ 
+
+Dataframe Information
+
+<class 'pandas.DataFrame'>
+RangeIndex: 5454 entries, 0 to 5453
+Data columns (total 35 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  
+ 0   _id                      5454 non-null   int64  
+ 1   DT_MAJ_GDUNO             0 non-null      float64
+ 2   COMBINE_NUO_NUI          0 non-null      float64
+ 3   CD_ORGNS                 5454 non-null   int64  
+ 4   NOM_COURT_ORGNS          5454 non-null   str    
+ 5   NOM_OFFCL_ORGNS          5454 non-null   str    
+ 6   ADRS_GEO_L1_GDUNO_ORGNS  5454 non-null   str    
+ 7   ADRS_GEO_L2_GDUNO_ORGNS  159 non-null    str    
+ 8   CD_POSTL_GDUNO_ORGNS     5454 non-null   str    
+ 9   CD_MUNCP_GDUNO_ORGNS     5454 non-null   int64  
+ 10  NOM_MUNCP_GDUNO_ORGNS    5454 non-null   str    
+ 11  CD_IMM                   5454 non-null   int64  
+ 12  NOM_IMM                  5454 non-null   str    
+ 13  ADRS_GEO_L1_GDUNO_IMM    5454 non-null   str    
+ 14  ADRS_GEO_L2_GDUNO_IMM    0 non-null      float64
+ 15  CD_MUNCP_GDUNO_IMM       5454 non-null   int64  
+ 16  NOM_MUNCP_GDUNO_IMM      5454 non-null   str    
+ 17  CD_POSTL_GDUNO_IMM       5453 non-null   str    
+ 18  PRESC                    5454 non-null   int64  
+ 19  PRIM                     5454 non-null   int64  
+ 20  SEC                      5454 non-null   int64  
+ 21  FORM_PRO                 5454 non-null   int64  
+ 22  ADULTE                   5454 non-null   int64  
+ 23  SITE_WEB_ORGNS           4467 non-null   str    
+ 24  COORD_X_LL84_IMM         5453 non-null   float64
+ 25  COORD_Y_LL84_IMM         5453 non-null   float64
+ 26  ORDRE_ENS                5454 non-null   str    
+ 27  CD_CS                    5454 non-null   int64  
+ 28  TYPE_CS                  5454 non-null   str    
+ 29  STYLE_CART               5454 non-null   str    
+ 30  NOM_MUNCP                5453 non-null   str    
+ 31  NOM_MRC                  5453 non-null   str    
+ 32  NOM_REG_ADM              5453 non-null   str    
+ 33  NOM_CEP                  5453 non-null   str    
+ 34  NOM_CS                   5454 non-null   str    
+dtypes: float64(5), int64(11), str(19)
+memory usage: 1.5 MB
+None
+
+ ------------------ 
+
+Dataframe Description
+
+               _id  DT_MAJ_GDUNO  ...  COORD_Y_LL84_IMM          CD_CS
+count  5454.000000           0.0  ...       5453.000000    5454.000000
+mean   2727.500000           NaN  ...         46.551183  806636.963696
+std    1574.578515           NaN  ...          1.762214   57814.559003
+min       1.000000           NaN  ...         45.011746  689000.000000
+25%    1364.250000           NaN  ...         45.523639  759000.000000
+50%    2727.500000           NaN  ...         45.851265  822000.000000
+75%    4090.750000           NaN  ...         46.859462  864000.000000
+max    5454.000000           NaN  ...         62.415245  889000.000000
+
+[8 rows x 16 columns]
+
+ ------------------ 
+
+Total length of reported dataset: 5454
+Empty values per column
+DT_MAJ_GDUNO               5454
+ADRS_GEO_L2_GDUNO_IMM      5454
+COMBINE_NUO_NUI            5454
+ADRS_GEO_L2_GDUNO_ORGNS    5295
+BOROUGH                    4854
+SITE_WEB_ORGNS              987
+NOM_MRC                       1
+NOM_CEP                       1
+NOM_MUNCP                     1
+CD_POSTL_GDUNO_IMM            1
+NOM_REG_ADM                   1
+NOM_MUNCP_GDUNO_IMM           0
+NOM_MUNCP_GDUNO_ORGNS         0
+NOM_OFFCL_ORGNS               0
+ADRS_GEO_L1_GDUNO_IMM         0
+ORDRE_ENS                     0
+PRIM                          0
+SEC                           0
+STYLE_CART                    0
+TYPE_CS                       0
+PRESC                         0
+NOM_COURT_ORGNS               0
+NOM_IMM                       0
+NOM_CS                        0
+ADRS_GEO_L1_GDUNO_ORGNS       0
+FORM_PRO                      0
+CD_POSTL_GDUNO_ORGNS          0
+CD_ORGNS                      0
+CD_MUNCP_GDUNO_ORGNS          0
+CD_MUNCP_GDUNO_IMM            0
+CD_IMM                        0
+CD_CS                         0
+ADULTE                        0
+_id                           0
+dtype: object
+Total rows with missing values: 5454
+
+ ------------------ 
+
+BOROUGH
+Villeray-Saint-Michel-Parc-Extension        55
+Côte-des-Neiges-Notre-Dame-de-Grâce         53
+Mercier-Hochelaga-Maisonneuve               49
+Rosemont-La Petite-Patrie                   49
+Ahuntsic-Cartierville                       42
+Rivière-des-Prairies-Pointe-aux-Trembles    40
+Saint-Laurent                               39
+LaSalle                                     35
+Montréal-Nord                               34
+Verdun                                      31
+Le Plateau-Mont-Royal                       30
+Lachine                                     28
+Le Sud-Ouest                                27
+Pierrefonds-Roxboro                         26
+Saint-Léonard                               21
+Ville-Marie                                 16
+Anjou                                       12
+Outremont                                    9
+L'Île-Bizard-Sainte-Geneviève                4
+dtype: object
+
+ ------------------ 
+
+NOM_COURT_ORGNS
+Centre d'éducation des adultes              99
+École forestière de La Tuque                98
+Centre de formation générale aux adultes    59
+CFP Carrefour Form. Mauricie                46
+CEA Mgr-Beaudoin-Les Sources                45
+                                            ..
+École Bienville                              1
+École Boijoli                                1
+École Saint-Rédempteur                       1
+École Saint-Romuald                          1
+École Père-Pacifique                         1
+Length: 2302, dtype: object
+
+ ------------------ 
+
+NOM_OFFCL_ORGNS
+Centre d'éducation des adultes des Patriotes                        77
+Centre de formation générale aux adultes des Grandes-Seigneuries    59
+École forestière de La Tuque - Formation professionnelle            53
+Carrefour Formation Mauricie formation professionnelle              46
+École forestière de La Tuque - Éducation des adultes                45
+                                                                    ..
+École Caron                                                          1
+École Sainte-Clotilde                                                1
+École Carrefour étudiant                                             1
+École Sainte-Catherine-de-Sienne                                     1
+École Adélard-Desrosiers                                             1
+Length: 2306, dtype: object
+
+ ------------------ 
+
+ADRS_GEO_L1_GDUNO_ORGNS
+461, rue Saint-François         98
+1430, rue Montarville           77
+25 rue d'Abbotsford             59
+5105, avenue Albert-Tessier     46
+1600, 1re Avenue                45
+                                ..
+244-A, chemin de la Montagne     1
+2430, rue Darling                1
+2425, rue Galt Ouest             1
+2425, boulevard Cournoyer        1
+Umiujaq                          1
+Length: 2622, dtype: object
+
+ ------------------ 
+
+ADRS_GEO_L2_GDUNO_ORGNS
+Jonquière            32
+(Saint-Hubert)       19
+(Greenfield Park)     5
+Saint-Nicolas         5
+L'Étang-du-Nord       5
+                     ..
+Radisson              1
+Anse-au-Griffon       1
+Fatima                1
+Route rurale 4        1
+suite 101             1
+Length: 64, dtype: object
+
+ ------------------ 
+
+CD_POSTL_GDUNO_ORGNS
+G9X1T8    98
+J3V3T5    77
+J6J1K3    59
+G9N7A3    46
+G5Y3N3    45
+          ..
+G0V1M0     1
+G0V1N0     1
+H7P4K6     1
+H7P3T2     1
+H8P1X9     1
+Length: 2403, dtype: object
+
+ ------------------ 
+
+NOM_MUNCP_GDUNO_ORGNS
+Montréal                    571
+Laval                       250
+Québec                      210
+Longueuil                   184
+Gatineau                    133
+                           ... 
+Saint-Barthélemy              1
+Saint-Augustin-de-Woburn      1
+Saint-Aubert                  1
+Saint-Armand                  1
+Yamaska                       1
+Length: 710, dtype: object
+
+ ------------------ 
+
+NOM_IMM
+Hôtel-Dieu-de-Lévis        46
+Notre-Dame                 37
+Saint-Joseph               35
+Saint-Paul                 23
+Centre administratif       20
+                           ..
+Marie-Médiatrice            1
+Marie-Leneuf                1
+Chomedey-de-Maisonneuve     1
+Christ-Roi, du              1
+Îlot des Appalaches         1
+Length: 3000, dtype: object
+
+ ------------------ 
+
+ADRS_GEO_L1_GDUNO_IMM
+143, rue Wolfe              46
+700, rue Forest             34
+250, rue Gagnon             16
+3995, boul. Lévesque Est    11
+193, Port-Royal             11
+                            ..
+273, rue du Couvent Est      1
+2730, rue Beauparlant        1
+2735, rue Papineau           1
+2743, rue De Rouen           1
+---                          1
+Length: 3489, dtype: object
+
+ ------------------ 
+
+NOM_MUNCP_GDUNO_IMM
+Montréal                         600
+Laval                            253
+Québec                           207
+Longueuil                        169
+Gatineau                         127
+                                ... 
+Saint-Bruno-de-Guigues             1
+Saint-Blaise-sur-Richelieu         1
+Saint-Bernard-de-Michaudville      1
+Saint-Barthélemy                   1
+Yamaska                            1
+Length: 852, dtype: object
+
+ ------------------ 
+
+CD_POSTL_GDUNO_IMM
+G6V3Z1    46
+J9P2L3    34
+G0C1E0    17
+J6N2W8    16
+G4X2V7    15
+          ..
+H2R2A7     1
+H2R2S9     1
+H2S2B8     1
+H2S2G3     1
+J9Z2Y2     1
+Length: 3068, dtype: object
+
+ ------------------ 
+
+SITE_WEB_ORGNS
+https://www.csssamares.gouv.qc.ca        122
+https://eflt.ca/                          98
+https://www.eapatriotes.ca/               77
+https://www.csrs.qc.ca/etablissements     60
+https://cfgadgs.cssdgs.gouv.qc.ca/        59
+                                        ... 
+https://face.cssdm.gouv.qc.ca/             1
+https://evgp.ecoles.csmv.qc.ca/            1
+https://eveil.csscotesud.gouv.qc.ca/       1
+https://eveil.cssbe.gouv.qc.ca             1
+https://zenith.cssvdc.gouv.qc.ca/          1
+Length: 1827, dtype: object
+
+ ------------------ 
+
+ORDRE_ENS
+Préscolaire - Primaire                 2263
+Éducation aux adultes                  1301
+Formation professionnelle               804
+Secondaire                              579
+Primaire                                199
+Préscolaire - Primaire - Secondaire     174
+Primaire - Secondaire                    91
+Préscolaire                              42
+Préscolaire - Secondaire                  1
+dtype: object
+
+ ------------------ 
+
+TYPE_CS
+Franco    4747
+Anglo      590
+Statut     117
+dtype: object
+
+ ------------------ 
+
+STYLE_CART
+4_OrgImm_Franco_presc_prim        2069
+9_OrgImm_Franco_Adu               1149
+8_OrgImm_Franco_Fp                 646
+3_OrgImm_Franco_secondaire         483
+2_OrgImm_Franco_primaire           186
+4_OrgImm_Anglo_presc_prim          185
+8_OrgImm_Anglo_Fp                  132
+9_OrgImm_Anglo_Adu                 122
+5_OrgImm_Franco_presc_prim_sec     104
+3_OrgImm_Anglo_secondaire           84
+7_OrgImm_Franco_prim_sec            74
+5_OrgImm_Anglo_presc_prim_sec       48
+1_OrgImm_Franco_prescolaire         36
+9_OrgImm_Statut_Adu                 30
+8_OrgImm_Statut_Fp                  26
+5_OrgImm_Statut_presc_prim_sec      22
+3_OrgImm_Statut_secondaire          12
+7_OrgImm_Anglo_prim_sec              9
+4_OrgImm_Statut_presc_prim           9
+7_OrgImm_Statut_prim_sec             8
+2_OrgImm_Anglo_primaire              8
+2_OrgImm_Statut_primaire             5
+1_OrgImm_Statut_prescolaire          5
+6_OrgImm_Anglo_presc_sec             1
+1_OrgImm_Anglo_prescolaire           1
+dtype: object
+
+ ------------------ 
+
+NOM_MUNCP
+Montréal                      600
+Laval                         253
+Québec                        207
+Longueuil                     169
+Gatineau                      127
+                             ... 
+Saint-Nazaire-d'Acton           1
+Rivière-à-Pierre                1
+Saint-Narcisse-de-Rimouski      1
+Hampstead                       1
+Yamaska                         1
+Length: 851, dtype: object
+
+ ------------------ 
+
+NOM_MRC
+Montréal              695
+Longueuil             274
+Laval                 253
+Québec                215
+Gatineau              127
+                     ... 
+La Côte-de-Beaupré     11
+Charlevoix-Est         11
+Charlevoix              9
+Caniapiscau             6
+L'Île-d'Orléans         4
+Length: 104, dtype: object
+
+ ------------------ 
+
+NOM_REG_ADM
+Montérégie                       912
+Montréal                         695
+Chaudière-Appalaches             439
+Estrie                           357
+Laurentides                      342
+Mauricie                         338
+Capitale-Nationale               304
+Saguenay–Lac-Saint-Jean          263
+Laval                            253
+Bas-Saint-Laurent                246
+Lanaudière                       231
+Outaouais                        220
+Abitibi-Témiscamingue            217
+Centre-du-Québec                 208
+Gaspésie–Îles-de-la-Madeleine    179
+Côte-Nord                        140
+Nord-du-Québec                   109
+dtype: object
+
+ ------------------ 
+
+NOM_CEP
+Laviolette–Saint-Maurice          169
+Ungava                            109
+Rivière-du-Loup–Témiscouata–Le    107
+Roberval                           96
+Gaspé                              95
+                                 ... 
+Hochelaga-Maisonneuve              16
+Sainte-Marie–Saint-Jacques         15
+Prévost                            14
+Îles-de-la-Madeleine               13
+Westmount–Saint-Louis              12
+Length: 127, dtype: object
+
+ ------------------ 
+
+NOM_CS
+Centre de services scolaire de Montréal                267
+Centre de services scolaire de l'Énergie               236
+Centre de services scolaire de Laval                   229
+Centre de services scolaire Marguerite-Bourgeoys       182
+Centre de services scolaire de la Beauce-Etchemin      169
+                                                      ... 
+Centre de services scolaire de la Baie-James            26
+Commission scolaire Central Québec                      23
+Centre de services scolaire de Charlevoix               19
+Centre de services scolaire de la Moyenne-Côte-Nord     17
+Centre de services scolaire des Îles                     9
+Length: 72, dtype: object
