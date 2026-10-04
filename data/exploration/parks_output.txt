@@ -1,0 +1,274 @@
+Dataframe Head
+
+   _id  OBJECTID  Type  ...      COMPETENCE                  TYPO1             TYPO2
+0    1      3477   NaN  ...           Privé      Autre espace vert    Espace sportif
+1    2      3478   Av.  ...  Arrondissement          Espace voirie    Îlot de voirie
+2    3      3479  Parc  ...  Arrondissement  Parc d'arrondissement  Parc de quartier
+3    4      3480   NaN  ...  Arrondissement      Autre espace vert        Parc écran
+4    5      3481   NaN  ...  Arrondissement      Autre espace vert        Parc écran
+
+[5 rows x 12 columns]
+
+ ------------------ 
+
+Dataframe Columns
+
+Index(['_id', 'OBJECTID', 'Type', 'Lien', 'Nom', 'NUM_INDEX', 'SUPERFICIE',
+       'PROPRIETE', 'GESTION', 'COMPETENCE', 'TYPO1', 'TYPO2'],
+      dtype='str')
+
+ ------------------ 
+
+Dataframe Information
+
+<class 'pandas.DataFrame'>
+RangeIndex: 2245 entries, 0 to 2244
+Data columns (total 12 columns):
+ #   Column      Non-Null Count  Dtype  
+---  ------      --------------  -----  
+ 0   _id         2245 non-null   int64  
+ 1   OBJECTID    2245 non-null   int64  
+ 2   Type        1374 non-null   str    
+ 3   Lien        474 non-null    str    
+ 4   Nom         1923 non-null   str    
+ 5   NUM_INDEX   1790 non-null   str    
+ 6   SUPERFICIE  2245 non-null   float64
+ 7   PROPRIETE   2010 non-null   str    
+ 8   GESTION     2008 non-null   str    
+ 9   COMPETENCE  2010 non-null   str    
+ 10  TYPO1       2242 non-null   str    
+ 11  TYPO2       1972 non-null   str    
+dtypes: float64(1), int64(2), str(9)
+memory usage: 210.6 KB
+None
+
+ ------------------ 
+
+Dataframe Description
+
+               _id     OBJECTID   SUPERFICIE
+count  2245.000000  2245.000000  2245.000000
+mean   1123.000000  4599.000000     3.018653
+std     648.219999   648.219999    16.408553
+min       1.000000  3477.000000     0.000576
+25%     562.000000  4038.000000     0.069799
+50%    1123.000000  4599.000000     0.256457
+75%    1684.000000  5160.000000     1.097827
+max    2245.000000  5721.000000   295.631928
+
+ ------------------ 
+
+Total length of reported dataset: 2245
+Empty values per column
+Lien          1771
+Type           871
+NUM_INDEX      455
+Nom            322
+TYPO2          273
+BOROUGH        237
+COMPETENCE     235
+PROPRIETE      235
+TYPO1            3
+OBJECTID         0
+SUPERFICIE       0
+_id              0
+dtype: object
+Total rows with missing values: 1833
+
+ ------------------ 
+
+BOROUGH
+Rivière-des-Prairies-Pointe-aux-Trembles                 199
+Ville-Marie                                              186
+Le Sud-Ouest                                             142
+Mercier-Hochelaga-Maisonneuve                            127
+Ahuntsic-Cartierville                                    121
+Autre                                                    114
+Service des grands parcs, du Mont-Royal et des sports    112
+Pierrefonds-Roxboro                                      112
+Verdun                                                   104
+Côte-des-Neiges-Notre-Dame-de-Grâce                       96
+Saint-Laurent                                             95
+Villeray-Saint-Michel-Parc-Extension                      85
+LaSalle                                                   79
+Le Plateau-Mont-Royal                                     67
+Rosemont-La Petite-Patrie                                 65
+Lachine                                                   57
+L'Île-Bizard-Sainte-Geneviève                             52
+Commission scolaire                                       48
+Saint-Léonard                                             47
+Montréal-Nord                                             43
+Anjou                                                     28
+Outremont                                                 27
+Montréal-Ouest                                             1
+Westmount                                                  1
+dtype: object
+
+ ------------------ 
+
+Type
+Parc                   919
+Place                  149
+Grand parc              66
+Promenade               44
+Parc-nature             34
+Square                  31
+Parc-école              21
+Îlot                    16
+Golf                    11
+Boulevard                8
+Mini-parc                6
+Aire de repos            5
+Passage                  5
+Espace                   4
+Cimetière                4
+Terrasse                 4
+Av.                      3
+Woonerf                  3
+Placette                 2
+Parc linéaire            2
+Mairie                   2
+Îlots                    2
+Jardin                   2
+Esplanade                2
+Domaine                  2
+École                    2
+Seuil                    1
+Tennis                   1
+Toit-vert                1
+Ruelle                   1
+Usine                    1
+Île                      1
+Îlot central             1
+Stade                    1
+Aire d'exercice          1
+Parc-école primaire      1
+Parc-canin               1
+Parc écran               1
+Marina                   1
+Gare                     1
+Futur parc               1
+Des                      1
+Cégep                    1
+Complexe                 1
+Collège                  1
+Chemin                   1
+Carré                    1
+CHSLD                    1
+Boisé                    1
+Belvédère                1
+Musée                    1
+dtype: object
+
+ ------------------ 
+
+Lien
+de l'    123
+du       121
+des      108
+de la     54
+de        51
+d'        13
+l'         1
+le         1
+place      1
+pour       1
+dtype: object
+
+ ------------------ 
+
+Nom
+Ouest                             46
+Rapides                           21
+Est                               20
+Abords du Pont Jacques-Cartier    13
+Ruisseau-De Montigny              12
+                                  ..
+Gouin ( Haynes )                   1
+Gouin ( 55e Av.)                   1
+Gorilles                           1
+Goncourt                           1
+Labrecque / Robin                  1
+Length: 1477, dtype: object
+
+ ------------------ 
+
+NUM_INDEX
+9512-000    46
+1215-000    21
+9514-000    20
+0908-000    13
+9570-000    12
+            ..
+0852-000     1
+0851-001     1
+0840-000     1
+0839-000     1
+1171-000     1
+Length: 1443, dtype: object
+
+ ------------------ 
+
+PROPRIETE
+Ville de Montréal      1808
+Commission scolaire      89
+Institutionnel           87
+Privé                    25
+Hydro-Québec              1
+dtype: object
+
+ ------------------ 
+
+COMPETENCE
+Arrondissement            1703
+Agglomération              114
+Privé                       87
+Gouvernement du Québec      65
+Municipale                  32
+Gouvernement du Canada       6
+Local                        3
+dtype: object
+
+ ------------------ 
+
+TYPO1
+Parc d'arrondissement     1384
+En cours de validation     270
+Espace voirie              264
+Autre espace vert          184
+Grand parc                 139
+BD - Jardin                  1
+dtype: object
+
+ ------------------ 
+
+TYPO2
+Parc de quartier         526
+Parc de voisinage        319
+Îlot de verdure          232
+Îlot de voirie           198
+Place publique           138
+Parc-nature              100
+Parc école                92
+Espace institutionnel     50
+Espace sportif            33
+Espace vert               33
+Passage                   30
+Parc écran                29
+Parc urbain               29
+Parc linéaire             28
+Bande gazonnée            28
+Bande riveraine           26
+Promenade urbaine         21
+Square                    19
+Golf                      12
+Parc métropolitain        10
+Espace vacant              6
+Rue partagée               4
+Cimetière                  3
+Jardin Botanique           2
+Communautaire              1
+Rue piétonne               1
+Ruelle verte               1
+Toit-vert                  1
+dtype: object
