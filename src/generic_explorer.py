@@ -1,3 +1,7 @@
+"""
+Runs basic exploration
+"""
+
 import pandas as pd
 from loader import Loader
 from borough_identifier import BoroughIdentifier
@@ -12,6 +16,7 @@ class GenericExplorer():
 
 
     def str_to_num(self, df):
+        "Changes str columns to numerical columns if possible"
         for column in df.columns:
             try:
                 df[column] = pd.to_numeric(df[column])
@@ -21,6 +26,7 @@ class GenericExplorer():
 
     
     def print_main_info(self, df):
+        "Print statements as function to clean up the main explore function"
         print("Dataframe Head\n")
         print(df.head(5)) # Print only once
         print("\n ------------------ \n")
@@ -35,6 +41,8 @@ class GenericExplorer():
 
 
     def clean_location(self, df, borough_column, location_columns, location_type):
+        "Clean up the location to only BOROUGH column"
+
         if borough_column:
             df = df.rename(columns = {borough_column : "BOROUGH"})
 
@@ -59,6 +67,7 @@ class GenericExplorer():
 
     # Final printing
     def print_empty(self, length, empty_values, rows_with_missing):
+        "Print statements as function to clean up the main explore function"
         print("\n ------------------ \n")
         print(f"Total length of reported dataset: {length}")
         print(f"Empty values per column")
@@ -66,10 +75,12 @@ class GenericExplorer():
         print(f"Total rows with missing values: {rows_with_missing}")
 
     def print_date_range(self, min, max):
+        "Print statements as function to clean up the main explore function"
         print("\n ------------------ \n")
         print(f"Dates range from {min} to {max}")
 
     def print_boroughs(self, dataset, borough_counts):
+        "Print statements as function to clean up the main explore function"
         print("\n ------------------ \n")
         print(borough_counts.sort_values(ascending = False))
 
@@ -84,6 +95,7 @@ class GenericExplorer():
         plt.savefig(self.save_dir / f"{dataset}_boroughs_values.png")
 
     def print_other_counts(self, dataset, categorical, other_counts):
+        "Print statements as function to clean up the main explore function"
         for column in categorical:
             print("\n ------------------ \n")
             print(categorical)
@@ -103,6 +115,8 @@ class GenericExplorer():
 
 
     def explore_dataset(self, dataset, date_column = None, borough_column = None, location_columns = None, location_type = None):
+        "Runs full generic exploration of dataset"
+        
         borough_counts = pd.Series() # return type of value counts
         other_counts = {}
         categorical = []

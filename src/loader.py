@@ -24,8 +24,8 @@ class Loader():
         self.data_dir.mkdir(parents = True, exist_ok = True)
     
     # Builds the desired URL based on the requested dataset and the type of request
-    def build_request(self, dataset, is_sql = False, sql_command = "", customized_command = ""):
-        # customized_command for additional filtering like &limit=5
+    def build_request(self, dataset, is_sql = False, sql_command = "", customized_command = ""): # customized_command for additional filtering like &limit=5
+        "Builds request to call API"
         request = ""
         if dataset in list(self.datasets_url.keys()):
             if is_sql:
@@ -39,8 +39,9 @@ class Loader():
 
 
     def send_request(self, input):
+        "Sends request, based on https://tariyekorogha.medium.com/solution-to-403-client-error-forbidden-for-url-with-python-3-180effbdb21"
         input = input.replace(" ", "%20")
-        request = Request(input, headers={"User-Agent": "COMP570-project"}) # https://tariyekorogha.medium.com/solution-to-403-client-error-forbidden-for-url-with-python-3-180effbdb21
+        request = Request(input, headers={"User-Agent": "COMP570-project"}) 
         response = urlopen(request).read().decode("utf-8")
         response = json.loads(response)
 
@@ -49,6 +50,8 @@ class Loader():
     
 
     def load_chunks(self, dataset):
+        "Loads chunk per chunk using offsets"
+
         if dataset not in list(self.datasets_url.keys()):
             print("\n ------------------ \n")
             print("Invalid dataset.")
@@ -80,6 +83,8 @@ class Loader():
 
 
     def load_to_csv(self, dataset, input_request):
+        "Load a dataset to CSV"
+        
         data = self.send_request(input_request)
         save_path = self.data_dir / f"raw_{dataset}.csv"
 
