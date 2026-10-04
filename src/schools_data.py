@@ -1,4 +1,3 @@
-import pathlib
 import urllib.request
 import pandas as pd
 import json
@@ -18,7 +17,7 @@ def main():
     parser.add_argument('-i', '--input-url', default="https://www.donneesquebec.ca/recherche/api/3/action/datastore_search")
     parser.add_argument('-r', '--input-resource', default="c6640a54-bc4b-43ec-864e-6c325dce61bc")
     parser.add_argument('-m', '--input-municipality', default="Montréal")
-    parser.add_argument('-o', '--output', type=pathlib.Path, default=default_data_path)
+    parser.add_argument('-o', '--output', type=Path, default=default_data_path)
 
     args = parser.parse_args()
 

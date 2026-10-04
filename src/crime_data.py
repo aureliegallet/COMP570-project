@@ -1,4 +1,4 @@
-import urllib.request
+import utils
 import pandas as pd
 import json
 import argparse
@@ -17,8 +17,7 @@ def main():
 
     parser.add_argument('-i', '--input-url', default="https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?")
     parser.add_argument('-r', '--input-resource', default="c6f482bf-bf0f-4960-8b2f-9982c211addd")
-    parser.add_argument('-o', '--output', type=pathlib.Path, default=default_data_path)
-
+    parser.add_argument('-o', '--output', type=Path, default=default_data_path)
     args = parser.parse_args()
 
     if args.output.suffix.lower() == ".csv":
@@ -26,16 +25,16 @@ def main():
     elif args.output.is_dir():
         output_path = args.output / 'crime_dataset.csv'
     else:
-        raise("output should be either a directory in which crime_dataset.csv will be saved, a csv file path.")
+        raise("output should be either a directory in which crime_dataset.csv will be saved or a csv file path.")
     
     loader = Loader()
 
     # Pull data from donnees quebec
     crime_sql = f"""sql=SELECT "_id", "CATEGORIE", "DATE", "X", "Y", "LONGITUDE", "LATITUDE" from "{args.input_resource}" where "DATE" >= '2021-01-01' AND "DATE" < '2022-01-01'"""
     path = f"""{args.input_url}{crime_sql}"""
-    path = path.replace(" ", "%20")
-    loader.load_to_csv(path, output_path)
-    df = pd.read_csv(output_path, encoding='latin-1')
+    data = loader.load(path)
+    df = pd.DataFrame(data)
+    df = utils.str_to_num(df)
 
     # Remove rows with na values
     print(f"Original dataset length: {len(df)}")

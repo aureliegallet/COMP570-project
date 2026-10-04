@@ -1,10 +1,9 @@
 """
 Runs basic exploration
 """
-
+import utils
 import pandas as pd
 from loader import Loader
-from borough_identifier import BoroughIdentifier
 import matplotlib.pyplot as plt
 from pathlib import Path
 
@@ -13,17 +12,6 @@ class GenericExplorer():
         self.loader = Loader()
         self.save_dir = Path(__file__).resolve().parent.parent / "data/figures"
         self.save_dir.mkdir(parents = True, exist_ok = True)
-
-
-    def str_to_num(self, df):
-        "Changes str columns to numerical columns if possible"
-        for column in df.columns:
-            try:
-                df[column] = pd.to_numeric(df[column])
-            except ValueError: # If it fails, leave it as is
-                pass
-        return df
-
     
     def print_main_info(self, df):
         "Print statements as function to clean up the main explore function"
@@ -39,31 +27,6 @@ class GenericExplorer():
         print("Dataframe Description\n")
         print(df.describe())
 
-
-    def clean_location(self, df, borough_column, location_columns, location_type):
-        "Clean up the location to only BOROUGH column"
-
-        if borough_column:
-            df = df.rename(columns = {borough_column : "BOROUGH"})
-
-        if location_columns:
-            borough_identifier = BoroughIdentifier()
-            if location_type == "NAD83":
-                df["BOROUGH"] = df.apply(
-                    lambda row: borough_identifier.match_NAD83_to_borough(row[location_columns[0]], row[location_columns[1]]), # Because custom function does not accept full Series
-                    axis = 1
-                ) 
-            elif location_type == "WSG84":
-                df["BOROUGH"] = df.apply(
-                    lambda row: borough_identifier.match_WSG84_to_borough(row[location_columns[0]], row[location_columns[1]]), # Because custom function does not accept full Series
-                    axis = 1
-                ) 
-            else:
-                print("\n ------------------ \n")
-                print("\n Unsupported location type. \n")
-            df = df.drop(columns=location_columns)
-        
-        return df
 
     # Final printing
     def print_empty(self, length, empty_values, rows_with_missing):
@@ -98,7 +61,6 @@ class GenericExplorer():
         "Print statements as function to clean up the main explore function"
         for column in categorical:
             print("\n ------------------ \n")
-            print(categorical)
             print(other_counts[column].sort_values(ascending = False))
 
             # Avoid completely unreadable plots
@@ -131,7 +93,7 @@ class GenericExplorer():
             df = df.drop(columns=["_full_text"])
 
             # Convert some columns from str to numbers
-            df = self.str_to_num(df)
+            df = utils.str_to_num(df)
 
             # FIRST CHUNK
             if i == 0:
@@ -153,7 +115,7 @@ class GenericExplorer():
                     date_max = df[date_column].max()
 
             # ALL CHUNKS
-            df = self.clean_location(df, borough_column, location_columns, location_type)
+            df = utils.clean_location(df, borough_column = borough_column, location_columns = location_columns, location_type = location_type)
 
             # Length and missing values
             length += len(df)

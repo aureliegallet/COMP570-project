@@ -82,6 +82,12 @@ class Loader():
             yield data
 
 
+    def load(self, input_request):
+        "Load a dataset and return it"
+        data = self.send_request(input_request)
+        return data
+
+
     def load_to_csv(self, dataset, input_request):
         "Load a dataset to CSV"
         
