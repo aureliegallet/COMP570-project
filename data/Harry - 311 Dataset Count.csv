@@ -1,22 +1,21 @@
-Borough,Complaints,Adjusted Complaints,Requests,Adjusted Requests,Comments,Adjusted Comments,Information
-Côte-des-Neiges-Notre-Dame-de-Grâce,"1,786",0,"1,788",4,707,0,0
-Ville-Marie,"1,534",5,"2,477",13,"1,118",2,0
-Verdun,555,0,"1,152",2,475,0,0
-Montréal-Nord,739,1,"1,403",3,425,2,0
-LePlateau-Mont-Royal,"1,915",21,"2,289",51,"1,288",28,0
-Villeray-Saint-Michel-Parc-Extension,"1,468",11,"2,267",47,"1,006",19,0
-Rivière-des-Prairies-Pointe-aux-Trembles,"1,209",0,"2,397",0,844,2,0
-Ahuntsic-Cartierville,"2,510",4,"2,367",16,"1,365",2,0
-LaSalle,466,1,913,5,564,0,0
-Outremont,251,1,411,3,164,1,0
-Mercier-Hochelaga-Maisonneuve,"1,398",5,"2,512",12,"1,484",6,0
-L'Île-Bizard-Sainte-Geneviève,345,0,448,0,93,0,0
-Rosemont-LaPetite-Patrie,"1,269",6,"2,231",21,"3,096",7,0
-Pierrefonds-Roxboro,741,0,955,0,985,0,0
-Anjou,463,0,816,1,457,0,0
-Lachine,301,0,971,3,251,0,0
-Saint-Léonard,533,0,970,2,309,2,0
-LeSud-Ouest,620,2,"1,677",10,597,5,0
-Saint-Laurent,319,0,"3,315",0,219,1,0
-Not Boroughs,2,53,23,425,2,103,0
-Total,"18,424",110,"31,382",618,"15,449",180,0
+Borough,Complaints,Adjusted Complaints,Requests,Adjusted Requests,Comments,Adjusted Comments,Most Common Complaint,Most Common Adjusted Complaint,Most Common Requests,Most Common Adjusted Request,Most Common Comment,Most Common Adjusted Comment
+Ahuntsic-Cartierville,668,0,2636,6,392,1,Collectededéchets,,Bacroulant,Signalisationécrite-Entretien,Opérationdéneigement,Collectededéchets
+Anjou,132,0,616,0,129,0,Opérationdéneigement,,Entretiend'édificesmunicipaux,,Opérationdéneigement,
+Côte-des-Neiges-Notre-Dame-de-Grâce,446,0,1876,0,255,0,Collectededéchets,,Collectededéchets,,Opérationdéneigement,
+L'Île-Bizard-Sainte-Geneviève,133,0,725,0,49,0,Collectededéchets,,Collectededéchets,,Opérationdéneigement,
+LaSalle,217,1,969,0,181,0,Permis-Divers,Centredeservices311,Prisederendez-vous,,Opérationdéneigement,
+Lachine,161,0,861,1,110,0,Collectedesmatièresrecyclables,,Collectedesmatièresrecyclables,Feuxdecirculation-Entretien,Opérationdéneigement,
+LePlateau-Mont-Royal,750,4,3103,25,477,6,Bacroulant,Opérationdéneigement,Prisederendez-vous,Feuxdecirculation-Entretien,Opérationdéneigement,CarteInfo-Neige
+LeSud-Ouest,225,2,1567,4,132,2,Opérationdéneigement,Mobilitéélectriquelibre-service,Dépôtillégal-Déchets,Horticulture-Divers,Opérationdéneigement,Marquagedelachaussée-Existant
+Mercier-Hochelaga-Maisonneuve,471,2,2477,7,325,1,Opérationdéneigement,Info-travaux-Arrondissement,Branchetombée,*Visionvélo,Opérationdéneigement,Espacepourlavie
+Montréal-Nord,275,0,1278,0,138,0,Balaimécanique,,Balaimécanique,,Opérationdéneigement,
+Outremont,105,0,493,4,70,0,Collectededéchets,,Collectededéchets,Signalisation-Circulation-Études,Opérationdéneigement,
+Pierrefonds-Roxboro,222,0,1196,0,142,0,Collectededéchets,,Collectedesmatièresorganiques,,Opérationdéneigement,
+Rivière-des-Prairies-Pointe-aux-Trembles,443,0,1999,1,300,1,Collectedesmatièresrecyclables,,Bacroulant,Changementd'adresse-Taxesfoncières,Opérationdéneigement,Élagage
+Rosemont-LaPetite-Patrie,636,1,2884,16,848,2,Collectededéchets,Bureaud'arrondissement-Serviceàlaclientèle,Branchetombée,Feuxdecirculation-Entretien,Opérationdéneigement,Opérationdéneigement
+Saint-Laurent,109,0,2982,1,67,0,Opérationdéneigement,,Encaissement-Oasis,Grandparc,Opérationdéneigement,
+Saint-Léonard,206,0,889,2,163,1,Collectededéchets,,Bacroulant,Taxesfoncières,Opérationdéneigement,SRRR
+Verdun,187,0,1064,4,140,0,Collectededéchets,,Dépôtillégal-Déchets,Animalmort,Opérationdéneigement,
+Ville-Marie,438,3,1816,20,319,1,Occupationdudomainepublic,Opérationdéneigement,Dépôtillégal-Déchets,Feuxdecirculation-Entretien,Opérationdéneigement,Info-travaux-Arrondissement
+Villeray-Saint-Michel-Parc-Extension,509,3,2391,50,322,4,Collectededéchets,Horticulture-Entretien,Dépôtillégal-Déchets,Feuxdecirculation-Entretien,Opérationdéneigement,Opérationdéneigement
+Not-Borough,2,28,19,18,1,31,,,,,,
