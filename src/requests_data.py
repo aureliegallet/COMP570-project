@@ -4,18 +4,18 @@ import pandas as pd
 import json
 
 def main():
-    output_path = Path(__file__).resolve().parent.parent / "data" / "output_complaints.csv"
+    output_dir = Path(__file__).resolve().parent.parent / "data" / "raw_requests.csv"
     
     processed_output_path = Path(__file__).resolve().parent.parent / "data" / "output_complaints_processed.csv"
     processed_output_path2 = Path(__file__).resolve().parent.parent / "data" / "output_complaints_actions.csv"
 
     # Uncomment below to download dataset. Filtered download of 311 that only takes non-null arrondissement entries, "plainte" nature, and in the year of 2021
-    # loader = Loader()
-    # path = """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?sql=SELECT * from "dbfc05f8-b939-4639-ae52-2e77f738e43f" where ("ARRONDISSEMENT" is not null or "ARRONDISSEMENT_GEO" is not null) and "NATURE" = 'Plainte' and "DDS_DATE_CREATION" > '2021-01-01 00:00:00'"""
-    # path = path.replace(" ", "%20")
-    # loader.load_to_csv(path, output_path)
+    loader = Loader()
+    path = """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?sql=SELECT * from "dbfc05f8-b939-4639-ae52-2e77f738e43f" where ("ARRONDISSEMENT" is not null or "ARRONDISSEMENT_GEO" is not null) and "NATURE" = 'Plainte' and "DDS_DATE_CREATION" > '2021-01-01 00:00:00'"""
+    path = path.replace(" ", "%20")
+    loader.load_to_csv("requests", path)
 
-    df = pd.read_csv(output_path)
+    df = pd.read_csv(output_dir)
 
     # Clear spacing because it is inconsistent between entries
     df['ARRONDISSEMENT'] = df['ARRONDISSEMENT'].str.replace(' ', '')
