@@ -58,6 +58,25 @@ max    2245.000000  5721.000000   295.631928
 
  ------------------ 
 
+Total length of reported dataset: 2245
+Empty values per column
+Lien          1771
+Type           871
+NUM_INDEX      455
+Nom            322
+TYPO2          273
+BOROUGH        237
+COMPETENCE     235
+PROPRIETE      235
+TYPO1            3
+OBJECTID         0
+SUPERFICIE       0
+_id              0
+dtype: object
+Total rows with missing values: 1833
+
+ ------------------ 
+
 BOROUGH
 Rivière-des-Prairies-Pointe-aux-Trembles                 199
 Ville-Marie                                              186

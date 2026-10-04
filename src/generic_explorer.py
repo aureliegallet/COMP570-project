@@ -4,8 +4,6 @@ from borough_identifier import BoroughIdentifier
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# TO DO check NAs
-
 class GenericExplorer():
     def __init__(self):
         self.loader = Loader()
@@ -60,10 +58,12 @@ class GenericExplorer():
         return df
 
     # Final printing
-    def print_empty_values(self, empty_values):
+    def print_empty(self, length, empty_values, rows_with_missing):
         print("\n ------------------ \n")
+        print(f"Total length of reported dataset: {length}")
         print(f"Empty values per column")
         print(empty_values.sort_values(ascending = False))
+        print(f"Total rows with missing values: {rows_with_missing}")
 
     def print_date_range(self, min, max):
         print("\n ------------------ \n")
@@ -106,7 +106,9 @@ class GenericExplorer():
         other_counts = {}
         categorical = []
         continuous = []
+        length = 0
         empty_values = pd.Series()
+        rows_with_missing = 0
 
         for i, chunk in enumerate(self.loader.load_chunks(dataset)):
 
@@ -138,8 +140,15 @@ class GenericExplorer():
             # ALL CHUNKS
             df = self.clean_location(df, borough_column, location_columns, location_type)
 
+            # Length and missing values
+            length += len(df)
             empty_values = empty_values.add(df.isna().sum(), fill_value = 0)
 
+            normal_length = len(df)
+            temp = df.dropna()
+            removed_length = len(temp)
+            rows_with_missing += normal_length - removed_length
+            
             # Value counts
             if borough_column or location_columns:
                 borough_counts = borough_counts.add(df["BOROUGH"].value_counts(), fill_value = 0) # https://stackoverflow.com/questions/28353577/merging-and-sum-up-several-value-counts-series-in-pandas
@@ -156,7 +165,7 @@ class GenericExplorer():
                     date_max = df[date_column].max()
 
         # Final printing
-        self.print_empty_values(empty_values)
+        self.print_empty(length, empty_values, rows_with_missing)
 
         if date_column:
             self.print_date_range(date_min, date_max)

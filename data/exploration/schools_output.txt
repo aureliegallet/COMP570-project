@@ -90,6 +90,47 @@ max    5454.000000           NaN  ...         62.415245  889000.000000
 
  ------------------ 
 
+Total length of reported dataset: 5454
+Empty values per column
+DT_MAJ_GDUNO               5454
+ADRS_GEO_L2_GDUNO_IMM      5454
+COMBINE_NUO_NUI            5454
+ADRS_GEO_L2_GDUNO_ORGNS    5295
+BOROUGH                    4854
+SITE_WEB_ORGNS              987
+NOM_MRC                       1
+NOM_CEP                       1
+NOM_MUNCP                     1
+CD_POSTL_GDUNO_IMM            1
+NOM_REG_ADM                   1
+NOM_MUNCP_GDUNO_IMM           0
+NOM_MUNCP_GDUNO_ORGNS         0
+NOM_OFFCL_ORGNS               0
+ADRS_GEO_L1_GDUNO_IMM         0
+ORDRE_ENS                     0
+PRIM                          0
+SEC                           0
+STYLE_CART                    0
+TYPE_CS                       0
+PRESC                         0
+NOM_COURT_ORGNS               0
+NOM_IMM                       0
+NOM_CS                        0
+ADRS_GEO_L1_GDUNO_ORGNS       0
+FORM_PRO                      0
+CD_POSTL_GDUNO_ORGNS          0
+CD_ORGNS                      0
+CD_MUNCP_GDUNO_ORGNS          0
+CD_MUNCP_GDUNO_IMM            0
+CD_IMM                        0
+CD_CS                         0
+ADULTE                        0
+_id                           0
+dtype: object
+Total rows with missing values: 5454
+
+ ------------------ 
+
 BOROUGH
 Villeray-Saint-Michel-Parc-Extension        55
 Côte-des-Neiges-Notre-Dame-de-Grâce         53

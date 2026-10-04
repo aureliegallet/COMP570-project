@@ -1,11 +1,11 @@
 Dataframe Head
 
-       _id  ID_UNIQUE  ... DERNIER_STATUT  DATE_DERNIER_STATUT
-0  1277666  19-300840  ...        Refusée  2019-09-19T14:40:36
-1  1277667  19-300841  ...       Terminée  2019-09-23T09:04:25
-2  1277668  19-300842  ...       Terminée  2020-04-29T15:34:07
-3  1277669  19-300843  ...       Terminée  2019-09-16T08:16:53
-4  1277670  19-300844  ...       Terminée  2019-09-25T11:33:06
+   _id  ID_UNIQUE       NATURE  ... LOC_Y  DERNIER_STATUT  DATE_DERNIER_STATUT
+0    1        NaN  Information  ...   NaN             NaN  2019-11-10T08:48:01
+1    2        NaN  Information  ...   NaN             NaN  2019-11-18T08:35:08
+2    3        NaN  Information  ...   NaN             NaN  2019-11-18T08:36:40
+3    4        NaN  Information  ...   NaN             NaN  2019-11-26T08:39:41
+4    5        NaN  Information  ...   NaN             NaN  2019-11-26T08:43:43
 
 [5 rows x 30 columns]
 
@@ -34,19 +34,19 @@ Data columns (total 30 columns):
  #   Column                   Non-Null Count  Dtype  
 ---  ------                   --------------  -----  
  0   _id                      32000 non-null  int64  
- 1   ID_UNIQUE                32000 non-null  str    
+ 1   ID_UNIQUE                0 non-null      float64
  2   NATURE                   32000 non-null  str    
  3   ACTI_NOM                 32000 non-null  str    
- 4   TYPE_LIEU_INTERV         32000 non-null  str    
- 5   RUE                      26037 non-null  str    
- 6   RUE_INTERSECTION1        6207 non-null   str    
- 7   RUE_INTERSECTION2        6202 non-null   str    
- 8   LOC_ERREUR_GDT           32000 non-null  int64  
- 9   ARRONDISSEMENT           32000 non-null  str    
- 10  ARRONDISSEMENT_GEO       31997 non-null  str    
- 11  LIN_CODE_POSTAL          23361 non-null  str    
+ 4   TYPE_LIEU_INTERV         0 non-null      float64
+ 5   RUE                      0 non-null      float64
+ 6   RUE_INTERSECTION1        0 non-null      float64
+ 7   RUE_INTERSECTION2        0 non-null      float64
+ 8   LOC_ERREUR_GDT           0 non-null      float64
+ 9   ARRONDISSEMENT           0 non-null      float64
+ 10  ARRONDISSEMENT_GEO       0 non-null      float64
+ 11  LIN_CODE_POSTAL          0 non-null      float64
  12  DDS_DATE_CREATION        32000 non-null  str    
- 13  PROVENANCE_ORIGINALE     31895 non-null  str    
+ 13  PROVENANCE_ORIGINALE     32000 non-null  str    
  14  PROVENANCE_TELEPHONE     32000 non-null  int64  
  15  PROVENANCE_COURRIEL      32000 non-null  int64  
  16  PROVENANCE_PERSONNE      32000 non-null  int64  
@@ -57,13 +57,13 @@ Data columns (total 30 columns):
  21  PROVENANCE_MEDIASOCIAUX  32000 non-null  int64  
  22  PROVENANCE_SITEINTERNET  32000 non-null  int64  
  23  UNITE_RESP_PARENT        32000 non-null  str    
- 24  LOC_LONG                 32000 non-null  float64
- 25  LOC_LAT                  32000 non-null  float64
- 26  LOC_X                    32000 non-null  float64
- 27  LOC_Y                    32000 non-null  float64
- 28  DERNIER_STATUT           32000 non-null  str    
+ 24  LOC_LONG                 0 non-null      float64
+ 25  LOC_LAT                  0 non-null      float64
+ 26  LOC_X                    0 non-null      float64
+ 27  LOC_Y                    0 non-null      float64
+ 28  DERNIER_STATUT           0 non-null      float64
  29  DATE_DERNIER_STATUT      32000 non-null  str    
-dtypes: float64(4), int64(11), str(15)
+dtypes: float64(14), int64(10), str(6)
 memory usage: 7.3 MB
 None
 
@@ -71,329 +71,188 @@ None
 
 Dataframe Description
 
-                _id  LOC_ERREUR_GDT  ...          LOC_X         LOC_Y
-count  3.200000e+04    32000.000000  ...   32000.000000  3.200000e+04
-mean   1.293678e+06        0.054781  ...  295472.714217  5.043145e+06
-std    9.245980e+03        0.227556  ...    5929.268097  2.880437e+04
-min    1.277666e+06        0.000000  ...      -0.999993 -1.000000e+00
-25%    1.285676e+06        0.000000  ...  292815.293270  5.039721e+06
-50%    1.293676e+06        0.000000  ...  296563.870175  5.042916e+06
-75%    1.301677e+06        0.000000  ...  299251.030462  5.046484e+06
-max    1.326691e+06        1.000000  ...  306409.929889  5.062437e+06
+                _id  ID_UNIQUE  TYPE_LIEU_INTERV  ...  LOC_X  LOC_Y  DERNIER_STATUT
+count  32000.000000        0.0               0.0  ...    0.0    0.0             0.0
+mean   16028.449562        NaN               NaN  ...    NaN    NaN             NaN
+std     9322.743082        NaN               NaN  ...    NaN    NaN             NaN
+min        1.000000        NaN               NaN  ...    NaN    NaN             NaN
+25%     8000.750000        NaN               NaN  ...    NaN    NaN             NaN
+50%    16000.500000        NaN               NaN  ...    NaN    NaN             NaN
+75%    24000.250000        NaN               NaN  ...    NaN    NaN             NaN
+max    76590.000000        NaN               NaN  ...    NaN    NaN             NaN
 
-[8 rows x 15 columns]
-
- ------------------ 
- 
-Dataset stopped loading at 192000 because of error HTTP Error 504: Gateway Time-out.
+[8 rows x 24 columns]
 
  ------------------ 
 
-Dates range from 2019-01-01T05:19:27 to 2021-10-12T10:49:22
+Total length of reported dataset: 2105573
+Empty values per column
+RUE_INTERSECTION2          1924800
+RUE_INTERSECTION1          1924676
+LIN_CODE_POSTAL            1280772
+RUE                        1198209
+BOROUGH                    1017302
+ARRONDISSEMENT_GEO         1014699
+LOC_ERREUR_GDT             1014604
+LOC_LAT                    1014604
+LOC_LONG                   1014604
+TYPE_LIEU_INTERV           1014062
+ARRONDISSEMENT             1014062
+DERNIER_STATUT             1014057
+ID_UNIQUE                  1014057
+PROVENANCE_ORIGINALE          2245
+PROVENANCE_SITEINTERNET          0
+UNITE_RESP_PARENT                0
+PROVENANCE_TELEPHONE             0
+PROVENANCE_TELECOPIEUR           0
+ACTI_NOM                         0
+PROVENANCE_COURRIER              0
+PROVENANCE_PERSONNE              0
+PROVENANCE_MOBILE                0
+PROVENANCE_MEDIASOCIAUX          0
+PROVENANCE_INSTANCE              0
+PROVENANCE_COURRIEL              0
+NATURE                           0
+DDS_DATE_CREATION                0
+DATE_DERNIER_STATUT              0
+_id                              0
+dtype: object
+Total rows with missing values: 2105514
+
+ ------------------ 
+
+Dates range from 2019-01-01T00:12:32 to 2021-12-28T07:33:52
 
  ------------------ 
 
 BOROUGH
-Saint-Laurent                               18535
-Rosemont-La Petite-Patrie                   17245
-Ahuntsic-Cartierville                       16294
-Le Plateau-Mont-Royal                       15741
-Mercier-Hochelaga-Maisonneuve               14335
-Ville-Marie                                 13882
-Villeray-Saint-Michel-Parc-Extension        13534
-Côte-des-Neiges-Notre-Dame-de-Grâce         12164
-Rivière-des-Prairies-Pointe-aux-Trembles    11989
-Le Sud-Ouest                                10408
-Montréal-Nord                                7420
-Verdun                                       6540
-Pierrefonds-Roxboro                          6338
-Saint-Léonard                                5871
-Lachine                                      5728
-LaSalle                                      5598
-Anjou                                        4099
-L'Île-Bizard-Sainte-Geneviève                3070
-Outremont                                    2693
+Saint-Laurent                               110766.0
+Ahuntsic-Cartierville                        93491.0
+Rosemont-La Petite-Patrie                    86520.0
+Le Plateau-Mont-Royal                        84871.0
+Mercier-Hochelaga-Maisonneuve                81636.0
+Villeray-Saint-Michel-Parc-Extension         79343.0
+Ville-Marie                                  75025.0
+Rivière-des-Prairies-Pointe-aux-Trembles     70171.0
+Côte-des-Neiges-Notre-Dame-de-Grâce          67401.0
+Le Sud-Ouest                                 59014.0
+Montréal-Nord                                42952.0
+Pierrefonds-Roxboro                          39301.0
+Verdun                                       38663.0
+Lachine                                      34149.0
+Saint-Léonard                                33836.0
+LaSalle                                      32955.0
+Anjou                                        25048.0
+L'Île-Bizard-Sainte-Geneviève                18573.0
+Outremont                                    14556.0
 dtype: object
 
  ------------------ 
 
-ID_UNIQUE
-19-300840    1.0
-20-62321     1.0
-20-243342    1.0
-20-243401    1.0
-20-24349     1.0
-            ... 
-19-90825     1.0
-19-90826     1.0
-19-90827     1.0
-19-90828     1.0
-21-278311    1.0
-Length: 192000, dtype: object
-
- ------------------ 
-
 NATURE
-Requete        185400
-Plainte          3312
-Commentaire      3288
+Requete        1056753.0
+Information    1014057.0
+Plainte          18761.0
+Commentaire      16002.0
 dtype: object
 
  ------------------ 
 
 ACTI_NOM
-Dépôt illégal - Déchets                   8153.0
-Collecte de déchets                       7254.0
-Bac roulant                               7212.0
-Éclairage existant - Entretien            6044.0
-Collecte des matières recyclables         5471.0
-                                           ...  
-*Réparation - Gazon par l'entrepreneur       1.0
-*E. T. - Temps de la traverse                1.0
-REM - Occupation permanente                  1.0
-Rampe de mise à l'eau                        1.0
-**Complexe sportif                           1.0
-Length: 876, dtype: object
-
- ------------------ 
-
-TYPE_LIEU_INTERV
-Adresse         156985
-Intersection     24112
-Troncon           8108
-Installation      2795
-dtype: object
-
- ------------------ 
-
-RUE
-boulevard Gouin             1703.0
-rue Sherbrooke              1490.0
-rue Notre-Dame              1295.0
-rue Saint-Denis             1235.0
-boulevard Henri-Bourassa    1012.0
-                             ...  
-rue des Historiens             1.0
-boulevard Ville-Marie          1.0
-rue Burelle                    1.0
-rue Pierre-Bonne               1.0
-chemin de Kingston             1.0
-Length: 4220, dtype: object
-
- ------------------ 
-
-RUE_INTERSECTION1
-rue Sherbrooke              788.0
-boulevard Henri-Bourassa    516.0
-rue Notre-Dame              516.0
-rue Beaubien                412.0
-boulevard Gouin             397.0
-                            ...  
-avenue du Casino              1.0
-rue Jules-Léger               1.0
-rue Jules-Huot                1.0
-avenue du Chardonnet          1.0
-rue Liénart                   1.0
-Length: 2836, dtype: object
-
- ------------------ 
-
-RUE_INTERSECTION2
-rue Sherbrooke              685.0
-boulevard Henri-Bourassa    464.0
-rue Jean-Talon              390.0
-rue Notre-Dame              339.0
-voie Non-nommée             337.0
-                            ...  
-rue Pierre-Gaulin             1.0
-rue Pierre-Gauthier           1.0
-rue Doric                     1.0
-rue Pierre-Lacroix            1.0
-rue De Saint-Réal             1.0
-Length: 3023, dtype: object
-
- ------------------ 
-
-ARRONDISSEMENT
-Saint-Laurent                                 18576.0
-Rosemont - La Petite-Patrie                   17277.0
-Ahuntsic - Cartierville                       16338.0
-Le Plateau-Mont-Royal                         15621.0
-Mercier - Hochelaga-Maisonneuve               14304.0
-Ville-Marie                                   13949.0
-Villeray-Saint-Michel - Parc-Extension        13554.0
-Côte-des-Neiges - Notre-Dame-de-Grâce         12351.0
-Rivière-des-Prairies - Pointe-aux-Trembles    11993.0
-Le Sud-Ouest                                  10468.0
-Montréal-Nord                                  7403.0
-Verdun                                         6532.0
-Pierrefonds - Roxboro                          6397.0
-Saint-Léonard                                  5891.0
-Lachine                                        5758.0
-LaSalle                                        5612.0
-Anjou                                          4107.0
-L'Île-Bizard - Sainte-Geneviève                3061.0
-Outremont                                      2693.0
-Montréal-Est                                     28.0
-Mont-Royal                                       18.0
-Pointe-Claire                                    15.0
-Dorval                                           11.0
-Ville de Montréal                                 9.0
-Westmount                                         8.0
-Dollard-des-Ormeaux                               6.0
-Côte-Saint-Luc                                    6.0
-Kirkland                                          4.0
-Beaconsfield                                      4.0
-Montréal-Ouest                                    2.0
-Hampstead                                         1.0
-Sainte-Anne-de-Bellevue                           1.0
-Senneville                                        1.0
-Baie-d'Urfé                                       1.0
-dtype: object
-
- ------------------ 
-
-ARRONDISSEMENT_GEO
-Saint-Laurent                               18559.0
-Rosemont-La Petite-Patrie                   17199.0
-Ahuntsic-Cartierville                       16295.0
-Le Plateau-Mont-Royal                       15931.0
-Mercier-Hochelaga-Maisonneuve               14264.0
-Villeray-Saint-Michel-Parc-Extension        13684.0
-Ville-Marie                                 13678.0
-Côte-des-Neiges-Notre-Dame-de-Grâce         12309.0
-Rivière-des-Prairies-Pointe-aux-Trembles    11987.0
-Le Sud-Ouest                                10430.0
-Montréal-Nord                                7401.0
-Verdun                                       6523.0
-Pierrefonds-Roxboro                          6388.0
-Saint-Léonard                                5890.0
-Lachine                                      5748.0
-LaSalle                                      5605.0
-Anjou                                        4104.0
-L'Île-Bizard-Sainte-Geneviève                3062.0
-Outremont                                    2661.0
-Mont-Royal                                     68.0
-Westmount                                      60.0
-Montréal-Est                                   33.0
-Côte-Saint-Luc                                 31.0
-Dorval                                         21.0
-Pointe-Claire                                  20.0
-Dollard-des-Ormeaux                            16.0
-Montréal-Ouest                                  6.0
-Hampstead                                       5.0
-Kirkland                                        4.0
-Beaconsfield                                    4.0
-Senneville                                      2.0
-Sainte-Anne-de-Bellevue                         1.0
-Baie-d'Urfé                                     1.0
-dtype: object
-
- ------------------ 
-
-LIN_CODE_POSTAL
-H2G2B3    245.0
-H4L3R8    166.0
-H4M2M7     91.0
-H1N1E1     64.0
-H2T3E6     63.0
-          ...  
-H1V3J2      1.0
-H4J1E4      1.0
-H4J1E3      1.0
-H1V3L5      1.0
-H9X4C7      1.0
-Length: 27893, dtype: object
+Taxes foncières                                     122968.0
+Collecte de déchets                                  87777.0
+Collecte des encombrants                             83799.0
+Cour municipale                                      55177.0
+Permis - Divers                                      54722.0
+                                                      ...   
+*Bris dans chalet                                        1.0
+*Parc - Aire d'exercice canin                            1.0
+*Parc - Activité hivernale                               1.0
+*Opération 1er juillet                                   1.0
+Culture, sports, loisirs et développement social         1.0
+Length: 1222, dtype: object
 
  ------------------ 
 
 PROVENANCE_ORIGINALE
-Téléphone         139137.0
-Personne           31598.0
-Courriel            9431.0
-Mobile              7162.0
-Internet            3787.0
-Courrier             383.0
-Instance             121.0
-Médias sociaux        49.0
-Télécopieur            3.0
+Téléphone         1653785.0
+Personne           316508.0
+Courriel            69436.0
+Mobile              40980.0
+Internet            18123.0
+Courrier             3308.0
+Instance              855.0
+Médias sociaux        287.0
+Télécopieur            46.0
 dtype: object
 
  ------------------ 
 
 UNITE_RESP_PARENT
-ROSEMONT - LA PETITE-PATRIE                                     23926.0
-ST-LAURENT                                                      17904.0
-AHUNTSIC-CARTIERVILLE                                           14348.0
-PLATEAU-MONT-ROYAL                                              13592.0
-MERCIER - HOCHELAGA-MAISONNEUVE                                 12235.0
-VILLERAY - ST-MICHEL - PARC-EXTENSION                           11604.0
-VILLE-MARIE                                                     11457.0
-COTE-DES-NEIGES - NOTRE-DAME-DE-GRÂCE                           10832.0
-RIVIÈRE-DES-PRAIRIES - POINTE-AUX-TREMBLES                      10409.0
-SUD-OUEST                                                        8859.0
-MONTREAL-NORD                                                    7076.0
-VERDUN                                                           6174.0
-PIERREFONDS - ROXBORO                                            5947.0
-LACHINE                                                          5506.0
-SAINT-LÉONARD                                                    5394.0
-LASALLE                                                          4957.0
-SERVICE DES FINANCES ET DE L ÉVALUATION FONCIÈRE                 4946.0
-ANJOU                                                            3860.0
-L ÎLE BIZARD - STE-GENEVIÈVE                                     2920.0
-OUTREMONT                                                        2365.0
-RÉALISATION DES PROJETS D INFRASTRUCTURES URBAINES               1797.0
-DIRECTION GÉNÉRALE                                               1376.0
-SERVICE DE L URBANISME ET DE LA MOBILITÉ                         1360.0
-SERVICE DE L EAU                                                 1122.0
-SERVICE DES GRANDS PARCS, DU MONT-ROYAL ET DES SPORTS             532.0
-SERVICE DE L ENVIRONNEMENT                                        346.0
-SERVICE DE POLICE DE LA VILLE DE MONTREAL                         203.0
-SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE              199.0
-STATIONNEMENT MTL - SERVICE AUXILIAIRES                           154.0
-DIRECTION IMAGE DE MARQUE ET STRATÉGIES NUMÉRIQUES                 99.0
-DIVISION DU TRANSPORT ACTIF ET COLLECTIFS                          96.0
-SERVICE DE SÉCURITÉ INCENDIE DE MONTRÉAL                           88.0
-DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES              65.0
-SERVICE DES AFFAIRES JURIDIQUES                                    64.0
-SERVICE DE L ÉVALUATION FONCIÈRE                                   38.0
-SERVICE DES RESSOURCES HUMAINES ET DES COMMUNICATIONS              35.0
-SERVICE DE LA CULTURE                                              25.0
-SERVICE DE L ESPACE POUR LA VIE                                    24.0
-DIRECTION DE L EXPÉRIENCE CITOYENNE ET DU CENTRE DE SERVICES       20.0
-SERVICE DE L EXPÉRIENCE CITOYENNE ET DES COMMUNICATIONS            19.0
-SERVICE DE LA DIVERSITÉ ET DE L INCLUSION SOCIALE                  16.0
-SERVICE DE L HABITATION                                             4.0
-SERVICE DE LA GESTION ET DE LA PLANIFICATION DES IMMEUBLES          3.0
-ART PUBLIC, PATRIMOINE ET TOPONYMIE                                 3.0
-SECTION CENTRE DE SERVICES 311                                      1.0
-dtype: object
-
- ------------------ 
-
-DERNIER_STATUT
-Terminée                     182475.0
-Refusée                        5057.0
-Transmise pour traitement      2504.0
-Annulée                        1575.0
-Prise en charge                 240.0
-Supprimée                       127.0
-Acceptée                         18.0
-Réactivée                         4.0
+DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES           461376.0
+ST-LAURENT                                                      197191.0
+ROSEMONT - LA PETITE-PATRIE                                     193775.0
+MERCIER - HOCHELAGA-MAISONNEUVE                                 111943.0
+SUD-OUEST                                                       111215.0
+RIVIÈRE-DES-PRAIRIES - POINTE-AUX-TREMBLES                       96756.0
+VILLERAY - ST-MICHEL - PARC-EXTENSION                            96517.0
+PLATEAU-MONT-ROYAL                                               87234.0
+AHUNTSIC-CARTIERVILLE                                            86961.0
+LASALLE                                                          78340.0
+COTE-DES-NEIGES - NOTRE-DAME-DE-GRÂCE                            66903.0
+VILLE-MARIE                                                      62979.0
+SAINT-LÉONARD                                                    61998.0
+ANJOU                                                            60966.0
+MONTREAL-NORD                                                    41346.0
+PIERREFONDS - ROXBORO                                            39735.0
+LACHINE                                                          39213.0
+VERDUN                                                           38999.0
+DIRECTION GÉNÉRALE                                               34399.0
+SERVICE DES FINANCES ET DE L ÉVALUATION FONCIÈRE                 27887.0
+OUTREMONT                                                        27327.0
+SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE             21671.0
+L ÎLE BIZARD - STE-GENEVIÈVE                                     19041.0
+RÉALISATION DES PROJETS D INFRASTRUCTURES URBAINES                8905.0
+SERVICE DE L URBANISME ET DE LA MOBILITÉ                          7347.0
+SERVICE DE L EAU                                                  5620.0
+SERVICE DE POLICE DE LA VILLE DE MONTREAL                         4184.0
+SERVICE DES GRANDS PARCS, DU MONT-ROYAL ET DES SPORTS             3979.0
+IDENTIFICATION JUDICIAIRE                                         3729.0
+RELATIONS AVEC LES CITOYENS - 311                                 2435.0
+SERVICE DE L ENVIRONNEMENT                                        1826.0
+STATIONNEMENT MTL - SERVICE AUXILIAIRES                            663.0
+DIRECTION IMAGE DE MARQUE ET STRATÉGIES NUMÉRIQUES                 488.0
+SERVICE DE SÉCURITÉ INCENDIE DE MONTRÉAL                           474.0
+SERVICE DES AFFAIRES JURIDIQUES                                    439.0
+DIVISION DU TRANSPORT ACTIF ET COLLECTIFS                          429.0
+SERVICE DES RESSOURCES HUMAINES ET DES COMMUNICATIONS              248.0
+SERVICE DE LA CULTURE                                              193.0
+SERVICE DE L EXPÉRIENCE CITOYENNE ET DES COMMUNICATIONS            161.0
+SERVICE DE L ÉVALUATION FONCIÈRE                                   160.0
+SERVICE DE LA DIVERSITÉ ET DE L INCLUSION SOCIALE                  103.0
+SERVICE DE L ESPACE POUR LA VIE                                     93.0
+SERVICE DE L HABITATION                                             72.0
+ART PUBLIC, PATRIMOINE ET TOPONYMIE                                 69.0
+DIRECTION DE L EXPÉRIENCE CITOYENNE ET DU CENTRE DE SERVICES        66.0
+SECTION CENTRE DE SERVICES 311                                      58.0
+APP. RÈGLEMENTATION STATIONNEMENT                                   37.0
+SERVICE DE LA GESTION ET DE LA PLANIFICATION DES IMMEUBLES          18.0
+SERVICE DU GREFFE                                                    3.0
+SERVICE DES TECHNOLOGIES DE L INFORMATION                            2.0
 dtype: object
 
  ------------------ 
 
 DATE_DERNIER_STATUT
-2019-10-03T10:20:46    63.0
-2020-05-14T15:24:46    57.0
-2020-06-18T10:06:54    45.0
-2020-06-09T13:59:55    40.0
-2020-05-29T09:35:20    40.0
-                       ... 
-2019-12-19T06:06:39     1.0
-2019-12-19T06:11:27     1.0
-2019-12-19T06:46:51     1.0
-2019-12-19T06:49:50     1.0
-2025-11-04T13:52:02     1.0
-Length: 180471, dtype: object
+2019-03-01T10:37:25    240.0
+2019-01-28T14:15:31    239.0
+2019-03-04T16:03:29    195.0
+2019-01-30T14:09:29    190.0
+2020-07-09T09:29:01    188.0
+                       ...  
+2020-01-10T13:51:49      1.0
+2020-01-10T13:52:23      1.0
+2020-01-10T13:52:24      1.0
+2020-01-10T13:53:03      1.0
+2025-11-07T14:57:45      1.0
+Length: 1226194, dtype: object

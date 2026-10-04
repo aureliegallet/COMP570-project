@@ -22,82 +22,97 @@ Index(['_id', 'CATEGORIE', 'DATE', 'QUART', 'PDQ', 'X', 'Y', 'LONGITUDE',
 Dataframe Information
 
 <class 'pandas.DataFrame'>
-RangeIndex: 10000 entries, 0 to 9999
+RangeIndex: 32000 entries, 0 to 31999
 Data columns (total 9 columns):
  #   Column     Non-Null Count  Dtype  
 ---  ------     --------------  -----  
- 0   _id        10000 non-null  int64  
- 1   CATEGORIE  10000 non-null  str    
- 2   DATE       10000 non-null  str    
- 3   QUART      10000 non-null  str    
- 4   PDQ        10000 non-null  int64  
- 5   X          9788 non-null   float64
- 6   Y          9788 non-null   float64
- 7   LONGITUDE  9788 non-null   float64
- 8   LATITUDE   9788 non-null   float64
+ 0   _id        32000 non-null  int64  
+ 1   CATEGORIE  32000 non-null  str    
+ 2   DATE       32000 non-null  str    
+ 3   QUART      32000 non-null  str    
+ 4   PDQ        32000 non-null  int64  
+ 5   X          31527 non-null  float64
+ 6   Y          31527 non-null  float64
+ 7   LONGITUDE  31527 non-null  float64
+ 8   LATITUDE   31527 non-null  float64
 dtypes: float64(4), int64(2), str(3)
-memory usage: 703.3 KB
+memory usage: 2.2 MB
 None
 
  ------------------ 
 
 Dataframe Description
 
-                 _id           PDQ  ...    LONGITUDE     LATITUDE
-count   10000.000000  10000.000000  ...  9788.000000  9788.000000
-mean     5689.640100     24.611500  ...   -73.623822    45.518386
-std      7821.162864     14.235583  ...     0.068761     0.056245
-min         1.000000      1.000000  ...   -73.924475    45.415309
-25%      2500.750000     12.000000  ...   -73.649698    45.468128
-50%      5000.500000     23.000000  ...   -73.609184    45.518765
-75%      7500.250000     38.000000  ...   -73.576012    45.555034
-max    211016.000000     55.000000  ...   -73.480105    45.701384
+                 _id           PDQ  ...     LONGITUDE      LATITUDE
+count   32000.000000  32000.000000  ...  31527.000000  31527.000000
+mean    16227.676000     26.095375  ...    -73.613215     45.525961
+std     10087.856909     13.889366  ...      0.069478      0.053663
+min         1.000000      1.000000  ...    -73.955221     45.402734
+25%      8000.750000     13.000000  ...    -73.636629     45.487830
+50%     16000.500000     26.000000  ...    -73.597231     45.524662
+75%     24000.250000     38.000000  ...    -73.569807     45.558074
+max    211016.000000     55.000000  ...    -73.480105     45.701384
 
 [8 rows x 6 columns]
 
  ------------------ 
 
-Dates range from 2015-01-01 to 2026-09-30
+Total length of reported dataset: 361333
+Empty values per column
+BOROUGH      86497
+LATITUDE     60379
+LONGITUDE    60379
+PDQ              8
+CATEGORIE        0
+DATE             0
+QUART            0
+_id              0
+dtype: object
+Total rows with missing values: 86497
+
+ ------------------ 
+
+Dates range from 2015-01-01 to 2026-10-01
 
  ------------------ 
 
 BOROUGH
-Ville-Marie                                 42215
-Mercier-Hochelaga-Maisonneuve               26625
-Le Plateau-Mont-Royal                       22232
-Rosemont-La Petite-Patrie                   21737
-Villeray-Saint-Michel-Parc-Extension        20745
-Côte-des-Neiges-Notre-Dame-de-Grâce         19418
-Ahuntsic-Cartierville                       17588
-Saint-Laurent                               14738
-Le Sud-Ouest                                13947
-Montréal-Nord                               13339
-Rivière-des-Prairies-Pointe-aux-Trembles    13006
-Saint-Léonard                               11099
-LaSalle                                      8067
+Ville-Marie                                 42223
+Mercier-Hochelaga-Maisonneuve               26631
+Le Plateau-Mont-Royal                       22240
+Rosemont-La Petite-Patrie                   21749
+Villeray-Saint-Michel-Parc-Extension        20753
+Côte-des-Neiges-Notre-Dame-de-Grâce         19420
+Ahuntsic-Cartierville                       17592
+Saint-Laurent                               14742
+Le Sud-Ouest                                13954
+Montréal-Nord                               13342
+Rivière-des-Prairies-Pointe-aux-Trembles    13009
+Saint-Léonard                               11100
+LaSalle                                      8076
 Verdun                                       7679
-Anjou                                        7074
-Lachine                                      6647
-Pierrefonds-Roxboro                          5061
+Anjou                                        7075
+Lachine                                      6648
+Pierrefonds-Roxboro                          5068
 Outremont                                    2290
-L'Île-Bizard-Sainte-Geneviève                1244
+L'Île-Bizard-Sainte-Geneviève                1245
 dtype: object
 
  ------------------ 
 
 CATEGORIE
-Vol dans / sur véhicule à moteur    102658
-Introduction                         84873
-Méfait                               78265
-Vol de véhicule à moteur             73795
-Vols qualifiés                       21299
+Vol dans / sur véhicule à moteur    102705
+Introduction                         84891
+Méfait                               78280
+Vol de véhicule à moteur             73812
+Vols qualifiés                       21310
 Infractions entrainant la mort         335
 dtype: object
 
  ------------------ 
 
 QUART
-jour    184646
-soir    118383
-nuit     58196
+jour    184711
+soir    118413
+nuit     58209
 dtype: object
