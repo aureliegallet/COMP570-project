@@ -60,6 +60,11 @@ class GenericExplorer():
         return df
 
     # Final printing
+    def print_empty_values(self, empty_values):
+        print("\n ------------------ \n")
+        print(f"Empty values per column")
+        print(empty_values.sort_values(ascending = False))
+
     def print_date_range(self, min, max):
         print("\n ------------------ \n")
         print(f"Dates range from {min} to {max}")
@@ -101,6 +106,7 @@ class GenericExplorer():
         other_counts = {}
         categorical = []
         continuous = []
+        empty_values = pd.Series()
 
         for i, chunk in enumerate(self.loader.load_chunks(dataset)):
 
@@ -132,6 +138,8 @@ class GenericExplorer():
             # ALL CHUNKS
             df = self.clean_location(df, borough_column, location_columns, location_type)
 
+            empty_values = empty_values.add(df.isna().sum(), fill_value = 0)
+
             # Value counts
             if borough_column or location_columns:
                 borough_counts = borough_counts.add(df["BOROUGH"].value_counts(), fill_value = 0) # https://stackoverflow.com/questions/28353577/merging-and-sum-up-several-value-counts-series-in-pandas
@@ -148,6 +156,8 @@ class GenericExplorer():
                     date_max = df[date_column].max()
 
         # Final printing
+        self.print_empty_values(empty_values)
+
         if date_column:
             self.print_date_range(date_min, date_max)
 
