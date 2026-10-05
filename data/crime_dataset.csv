@@ -1,20 +1,20 @@
-BOROUGH,criminal_acts
-Ville-Marie,2957
-Mercier-Hochelaga-Maisonneuve,2081
-Villeray-Saint-Michel-Parc-Extension,1595
-Rosemont-La Petite-Patrie,1488
-Côte-des-Neiges-Notre-Dame-de-Grâce,1485
-Ahuntsic-Cartierville,1396
-Le Plateau-Mont-Royal,1359
-Rivière-des-Prairies-Pointe-aux-Trembles,1116
-Montréal-Nord,1106
-Saint-Laurent,1070
-Le Sud-Ouest,1033
-Saint-Léonard,995
-LaSalle,737
-Anjou,710
-Verdun,571
-Lachine,448
-Pierrefonds-Roxboro,340
-Outremont,153
-L'Île-Bizard-Sainte-Geneviève,107
+BOROUGH,theft_acts,break_in_acts,misdemeanor_acts,death_acts
+Ahuntsic-Cartierville,905,273,218,0.0
+Anjou,537,73,98,2.0
+Côte-des-Neiges-Notre-Dame-de-Grâce,874,285,325,1.0
+L'Île-Bizard-Sainte-Geneviève,59,21,27,0.0
+LaSalle,457,127,150,3.0
+Lachine,249,93,104,2.0
+Le Plateau-Mont-Royal,556,478,323,2.0
+Le Sud-Ouest,468,301,262,2.0
+Mercier-Hochelaga-Maisonneuve,1106,535,439,1.0
+Montréal-Nord,701,213,189,3.0
+Outremont,75,30,48,0.0
+Pierrefonds-Roxboro,174,93,73,0.0
+Rivière-des-Prairies-Pointe-aux-Trembles,728,176,210,2.0
+Rosemont-La Petite-Patrie,808,335,345,0.0
+Saint-Laurent,774,158,138,0.0
+Saint-Léonard,684,164,145,2.0
+Verdun,274,166,131,0.0
+Ville-Marie,1361,660,932,4.0
+Villeray-Saint-Michel-Parc-Extension,963,276,355,1.0
