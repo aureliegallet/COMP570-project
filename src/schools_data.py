@@ -53,35 +53,18 @@ def main():
     # Group lines with same school name in the same borough to avoid duplicate records for the same establishment
     df = df.groupby(['NOM_OFFCL_ORGNS', 'borough'], as_index=False).agg(lambda x: ', '.join(x.dropna().astype(str).unique()))
 
-    # Borough population records according to https://ville.montreal.qc.ca/pls/portal/docs/PAGE/MTL_STATS_FR/MEDIA/DOCUMENTS/CARTE_POPULATION%20ET%20SUPERFICIE%202021.PDF
-    total_pop = {
-        'Côte-des-Neiges-Notre-Dame-de-Grâce': 170583, 
-        'Ville-Marie': 104944,
-        'Montréal-Nord': 88471,
-        'Mercier-Hochelaga-Maisonneuve': 140627,
-        'Pierrefonds-Roxboro': 70382,
-        'Rivière-des-Prairies-Pointe-aux-Trembles': 107941,
-        'Lachine': 46428,
-        'Saint-Laurent': 102104,
-        'Rosemont-La Petite-Patrie': 141813,
-        'Ahuntsic-Cartierville': 135336,
-        'Le Plateau-Mont-Royal': 105813,
-        'Verdun': 70377,
-        'LaSalle': 82235,
-        'Villeray-Saint-Michel-Parc-Extension': 145090,
-        'Anjou': 43243,
-        'Le Sud-Ouest': 84553,
-        'L\'Île-Bizard-Sainte-Geneviève': 18885,
-        'Saint-Léonard': 79495,
-        'Outremont': 24629
-    }
+    census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
+    census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
+    census_df.columns = census_df.columns.str.replace("Arrondissement d'", "")
+    census_df.columns = census_df.columns.str.replace("Arrondissement du", "Le")
+    census_df.columns = census_df.columns.str.replace("–", "-")
 
     # Compute output with borough, total population in that borough, number of schools in that borough, and number of residents per school
     output = {
         'borough': df['borough'].unique(),
     }
     output_df = pd.DataFrame(output)
-    output_df['total_pop'] = output_df['borough'].map(total_pop)
+    output_df['total_pop'] = output_df['borough'].map(lambda brgh: census_df[brgh]['Population totale en 2021'])
     output_df['num_schools'] = output_df['borough'].map(lambda brgh: len(df[df['borough']==brgh]))
     output_df['residents_per_school'] = output_df['total_pop'] / output_df['num_schools']
 
