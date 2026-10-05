@@ -6,7 +6,7 @@ DATASETS = [
     ("parks_dataset.csv", "borough"),
     ("schools_dataset.csv", "borough"),
     ("housing_dataset.csv", "borough"),
-    ("requests.csv", "Borough")
+    ("requests_dataset.csv", "Borough")
 ]
 
 DATA_PATH = Path(__file__).resolve().parent.parent / "data"
