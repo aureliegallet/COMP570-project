@@ -56,7 +56,7 @@ Number of instances for each source dataset:
 - Schools: 355 instances
 - Parks: 1646 instances
 - Crimes: 22545 instances
-- 311 requests: 32001 instances
+- 311 requests: @Harry
 - Renting information: @Arash ?
 
 Each source dataset contains all instances that were complete and provided by the city of Montreal or the province of Quebec.
