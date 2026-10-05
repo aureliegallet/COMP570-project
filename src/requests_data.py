@@ -5,23 +5,23 @@ import json
 import utils
 
 def main():
-    complaints_processed = Path(__file__).resolve().parent.parent / "data" / "output_complaints_processed.csv"
-    complaints_processed_non_matching = Path(__file__).resolve().parent.parent / "data" / "output_complaints_processed_non_matching.csv"
-    complaints_actions = Path(__file__).resolve().parent.parent / "data" / "output_complaints_actions.csv"
-    complaints_actions_non_matching = Path(__file__).resolve().parent.parent / "data" / "output_complaints_actions_non_matching.csv"
-    complaints_output_dir = Path(__file__).resolve().parent.parent / "data" / "output_complaints.csv"
+    complaints_processed = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed.csv"
+    complaints_processed_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed_non_matching.csv"
+    complaints_actions = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_actions.csv"
+    complaints_actions_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_actions_non_matching.csv"
+    complaints_output_dir = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints.csv"
 
-    requests_processed = Path(__file__).resolve().parent.parent / "data" / "output_requests_processed.csv"
-    requests_processed_non_matching = Path(__file__).resolve().parent.parent / "data" / "output_requests_processed_non_matching.csv"
-    requests_actions = Path(__file__).resolve().parent.parent / "data" / "output_requests_actions.csv"
-    requests_actions_non_matching = Path(__file__).resolve().parent.parent / "data" / "output_requests_actions_non_matching.csv"
-    requests_output_dir = Path(__file__).resolve().parent.parent / "data" / "output_requests.csv"
+    requests_processed = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_processed.csv"
+    requests_processed_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_processed_non_matching.csv"
+    requests_actions = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_actions.csv"
+    requests_actions_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_actions_non_matching.csv"
+    requests_output_dir = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests.csv"
 
-    comments_processed = Path(__file__).resolve().parent.parent / "data" / "output_comments_processed.csv"
-    comments_processed_non_matching = Path(__file__).resolve().parent.parent / "data" / "output_comments_processed_non_matching.csv"
-    comments_actions = Path(__file__).resolve().parent.parent / "data" / "output_comments_actions.csv"
-    comments_actions_non_matching = Path(__file__).resolve().parent.parent / "data" / "output_comments_actions_non_matching.csv"
-    comments_output_dir = Path(__file__).resolve().parent.parent / "data" / "output_comments.csv"
+    comments_processed = Path(__file__).resolve().parent.parent / "data/requests" / "output_comments_processed.csv"
+    comments_processed_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_comments_processed_non_matching.csv"
+    comments_actions = Path(__file__).resolve().parent.parent / "data/requests" / "output_comments_actions.csv"
+    comments_actions_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_comments_actions_non_matching.csv"
+    comments_output_dir = Path(__file__).resolve().parent.parent / "data/requests" / "output_comments.csv"
 
     completed_datasets = [
         complaints_processed, complaints_processed_non_matching, 
@@ -173,7 +173,7 @@ def main():
         is_not_borough = merged_df['Borough'] == 'Not-Borough'
         merged_df = pd.concat([merged_df[~is_not_borough], merged_df[is_not_borough]], ignore_index=True)
 
-        merged_path = Path(__file__).resolve().parent.parent / "data" / "requests_datasets.csv"
+        merged_path = Path(__file__).resolve().parent.parent / "data" / "requests_dataset.csv"
         merged_df.to_csv(merged_path, index=False)
 
 if __name__ == "__main__":
