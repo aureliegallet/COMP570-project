@@ -17,28 +17,6 @@ CRIMES = {
 
 ACTS = ["theft", "break_in", "misdemeanor", "death"]
 
-# according to https://ville.montreal.qc.ca/pls/portal/docs/PAGE/MTL_STATS_FR/MEDIA/DOCUMENTS/CARTE_POPULATION%20ET%20SUPERFICIE%202021.PDF
-TOTAL_POPULATION = {
-    'Côte-des-Neiges-Notre-Dame-de-Grâce': 170583, 
-    'Ville-Marie': 104944,
-    'Montréal-Nord': 88471,
-    'Mercier-Hochelaga-Maisonneuve': 140627,
-    'Pierrefonds-Roxboro': 70382,
-    'Rivière-des-Prairies-Pointe-aux-Trembles': 107941,
-    'Lachine': 46428,
-    'Saint-Laurent': 102104,
-    'Rosemont-La Petite-Patrie': 141813,
-    'Ahuntsic-Cartierville': 135336,
-    'Le Plateau-Mont-Royal': 105813,
-    'Verdun': 70377,
-    'LaSalle': 82235,
-    'Villeray-Saint-Michel-Parc-Extension': 145090,
-    'Anjou': 43243,
-    'Le Sud-Ouest': 84553,
-    "L'Île-Bizard-Sainte-Geneviève": 18885,
-    'Saint-Léonard': 79495,
-    'Outremont': 24629
-}
 
 def check_location(df, original_nan, longitude, latitude):
     "Check for missing location"
@@ -167,12 +145,31 @@ def main():
     print(df["CATEGORIE"].value_counts())
 
 
+    # Get population stuff
+    census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
+    census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
+    census_df.columns = census_df.columns.str.replace("Arrondissement d'", "")
+    census_df.columns = census_df.columns.str.replace("Arrondissement du", "Le")
+    census_df.columns = census_df.columns.str.replace("–", "-")
+
+    print("\n ------------------ \n")
+    print("Census integrity check:")
+    total_population = 0
+    for borough in borough_identifier.boroughs:
+        total_population += census_df[borough]['Population totale en 2021']
+    print("Sum of census borough populations in 2021:", total_population)
+    print("Declared city population in 2021:", census_df['Ville de Montréal']['Population totale en 2021'])
+    if total_population == census_df['Ville de Montréal']['Population totale en 2021']:
+        print("Integrity check passed.")
+    else: 
+        print("Integrity check failed.")
+
     # Count number of records of criminal acts for each borough
     final = pd.DataFrame({"BOROUGH": []})
     for act in ACTS:
         counts = df[df["CATEGORIE"] == act]["BOROUGH"].value_counts().reset_index()
         counts[f"{act}_acts_per_capita"] = counts.apply(
-            lambda row: row["count"] / TOTAL_POPULATION[row["BOROUGH"]], 
+            lambda row: row["count"] / census_df[row["BOROUGH"]]['Population totale en 2021'], 
             axis = 1
         ) 
         counts = counts.drop(columns=["count"])
@@ -182,7 +179,6 @@ def main():
     print("\n ------------------ \n")
     print(final)
     
-
     # Save crime counts to csv
     final.to_csv(output_path, index = False)
     print("\n ------------------ \n")

@@ -50,37 +50,24 @@ def main():
     df = df[~df['GESTION'].isin(not_boroughs)]
     df = df[df['GESTION'].notna()]
 
-    # Borough area records according to https://ville.montreal.qc.ca/pls/portal/docs/PAGE/MTL_STATS_FR/MEDIA/DOCUMENTS/CARTE_POPULATION%20ET%20SUPERFICIE%202021.PDF
-    total_area = {
-        'Côte-des-Neiges-Notre-Dame-de-Grâce': 2140, # according to https://ville.montreal.qc.ca/pls/portal/docs/PAGE/MTL_STATS_FR/MEDIA/DOCUMENTS/CARTE_POPULATION%20ET%20SUPERFICIE%202021.PDF
-        'Ville-Marie': 1650,
-        'Montréal-Nord': 1110,
-        'Mercier-Hochelaga-Maisonneuve': 2540,
-        'Pierrefonds-Roxboro': 2710,
-        'Rivière-des-Prairies-Pointe-aux-Trembles': 4230,
-        'Lachine': 1770,
-        'Saint-Laurent': 4280,
-        'Rosemont-La Petite-Patrie': 1590,
-        'Ahuntsic-Cartierville': 2420,
-        'Le Plateau-Mont-Royal': 810,
-        'Verdun': 970,
-        'LaSalle': 1630,
-        'Villeray-Saint-Michel-Parc-Extension': 1650,
-        'Anjou': 1370,
-        'Le Sud-Ouest': 1570,
-        'L\'Île-Bizard-Sainte-Geneviève': 2360,
-        'Saint-Léonard': 1350,
-        'Outremont': 390
-    }
+    census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
+    census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
+    census_df.columns = census_df.columns.str.replace("Arrondissement d'", "")
+    census_df.columns = census_df.columns.str.replace("Arrondissement du", "Le")
+    census_df.columns = census_df.columns.str.replace("–", "-")
 
     # Compute output with borough, total population in that borough, total green area in that borough, and percentage of overall green area in that borough
     output = {
         'borough': df['GESTION'].unique(),
     }
     output_df = pd.DataFrame(output)
-    output_df['total_area (ha)'] = output_df['borough'].map(total_area)
+    output_df['total_area (ha)'] = output_df['borough'].map(lambda brgh: census_df[brgh]['Superficie (en km2)']) * 100  
     output_df['green_area (ha)'] = output_df['borough'].map(lambda brgh: df[df['GESTION']==brgh]['SUPERFICIE'].astype(float).sum())
     output_df['green_area (%)'] = output_df['green_area (ha)'] / output_df['total_area (ha)'] * 100
+
+    print("Integrity check:")
+    print("sum of borough areas:", output_df['total_area (ha)'].sum())
+    print("declared city area:", census_df['Ville de Montréal']['Superficie (en km2)']*100)
 
     # Save output to csv
     output_df.to_csv(output_path, index=False)
