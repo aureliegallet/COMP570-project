@@ -64,20 +64,29 @@ def main():
     df = df.drop(columns = ["_full_text"])
     df = utils.str_to_num(df)
     df["CATEGORIE"] = df["CATEGORIE"].replace(CRIMES)
-    original_nan = df.isna()
     initial_length = len(df)
     print(f"Dataframe length: {initial_length}")
 
 
+    # Check for duplicates
+    print("\n ------------------ \n")
+    duplicates = df.duplicated(subset = ["CATEGORIE", "DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"]).sum()
+    print(f"Number of duplicates: {duplicates}")
+    df = df.drop_duplicates(subset = ["CATEGORIE", "DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"], ignore_index = True)
+    print(f"Percentage of dropped duplicates: {(duplicates / initial_length) * 100 :.2f}%.") # Assume these have to be duplicates
+    no_duplicates = len(df)
+
+
     # Check for missing coordinates and converting them to boroughs
+    original_nan = df.isna()
     check_location(df, original_nan, "X", "Y")
     check_location(df, original_nan, "LONGITUDE", "LATITUDE")
     all_na_filter = (original_nan["X"] & original_nan["Y"] & original_nan["LONGITUDE"] & original_nan["LATITUDE"])
     no_location = len(df[all_na_filter])
-    df = df.dropna(subset = ["X", "Y", "LONGITUDE", "LATITUDE"])
+    df = df.dropna(subset = ["X", "Y", "LONGITUDE", "LATITUDE"], ignore_index = True)
     print("\n ------------------ \n")
     print(f"Number of rows where all coordinates are missing: {no_location}.")
-    print(f"Percentage of dropped no coordinate rows: {(no_location / initial_length) * 100 :.2f}%.")
+    print(f"Percentage of dropped no coordinate rows: {(no_location / no_duplicates) * 100 :.2f}%.")
 
     
     # Replace coordinates with borough using BoroughIdentifier tool
@@ -104,7 +113,7 @@ def main():
     
     df["BOROUGH_WSG84"] = df["BOROUGH_WSG84"].fillna(df["BOROUGH_NAD83"]) # Replace the one missing value in BOROUGH_WSG84 with the BOROUGH_NAD83 value
     print(f"Number of missing values in the 'BOROUGH_WSG84' column: {df["BOROUGH_WSG84"].isna().sum()}")
-    df = df.dropna(subset = ["BOROUGH_NAD83", "BOROUGH_WSG84"])
+    df = df.dropna(subset = ["BOROUGH_NAD83", "BOROUGH_WSG84"], ignore_index = True)
     removed_unidentified = len(df)
     print(f"Percentage of dropped no coordinate rows: {((after_borough_length - removed_unidentified) / after_borough_length) * 100 :.2f}%.")
 
@@ -122,7 +131,15 @@ def main():
     print("Remaining missing values")
     print(df.isna().sum())
     print(f"Percentage of total dropped rows: {((initial_length - removed_unidentified) / initial_length) * 100 :.2f}%.")
-    
+
+
+    # Check other columns
+    print("\n ------------------ \n")
+    print(f"Date ranges from {df["DATE"].min()} to {df["DATE"].max()}.")
+    print("\n ------------------ \n")
+    print(df["QUART"].value_counts())
+    print("\n ------------------ \n")
+    print(df["CATEGORIE"].value_counts())
 
 
     # Count number of records of criminal acts for each borough
