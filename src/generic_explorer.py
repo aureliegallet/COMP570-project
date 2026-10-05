@@ -89,8 +89,9 @@ class GenericExplorer():
 
         for i, chunk in enumerate(self.loader.load_chunks(dataset)):
 
-            df = pd.DataFrame(chunk)            
-            df = df.drop(columns=["_full_text"])
+            df = pd.DataFrame(chunk)  
+            if "_full_text" in df.columns:  
+                df = df.drop(columns=["_full_text"])
 
             # Convert some columns from str to numbers
             df = utils.str_to_num(df)
