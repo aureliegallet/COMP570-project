@@ -1,0 +1,21 @@
+Borough,Complaints,Adjusted Complaints,Requests,Adjusted Requests,Comments,Adjusted Comments,Most Common Complaint,Most Common Adjusted Complaint,Most Common Requests,Most Common Adjusted Request,Most Common Comment,Most Common Adjusted Comment
+Ahuntsic-Cartierville,668,0,2686,8,392,1,Collectededéchets,,Bacroulant,Feuxdecirculation-Entretien,Opérationdéneigement,Collectededéchets
+Anjou,132,0,648,1,129,0,Opérationdéneigement,,Élagage,Nettoyagedudomainepublic,Opérationdéneigement,
+Côte-des-Neiges-Notre-Dame-de-Grâce,446,0,2160,1,255,0,Collectededéchets,,Collectededéchets,Feuxdecirculation-Entretien,Opérationdéneigement,
+L'Île-Bizard-Sainte-Geneviève,133,0,569,0,49,0,Collectededéchets,,Collectededéchets,,Opérationdéneigement,
+LaSalle,217,1,993,0,181,0,Permis-Divers,Centredeservices311,Prisederendez-vous,,Opérationdéneigement,
+Lachine,161,0,939,0,110,0,Collectedesmatièresrecyclables,,Collectedesmatièresrecyclables,,Opérationdéneigement,
+LePlateau-Mont-Royal,750,4,2787,36,477,6,Bacroulant,Opérationdéneigement,Prisederendez-vous,Feuxdecirculation-Entretien,Opérationdéneigement,Collectederésidusalimentaires
+LeSud-Ouest,225,2,1800,9,132,2,Opérationdéneigement,Signalisation-Circulation-Études,Dépôtillégal-Déchets,Feuxdecirculation-Entretien,Opérationdéneigement,Marquagedelachaussée-Existant
+Mercier-Hochelaga-Maisonneuve,471,2,2471,9,325,1,Opérationdéneigement,Info-travaux-Arrondissement,Bacroulant,Taxesfoncières,Opérationdéneigement,Espacepourlavie
+Montréal-Nord,275,0,1286,0,138,0,Balaimécanique,,Balaimécanique,,Opérationdéneigement,
+Outremont,105,0,454,2,70,0,Collectededéchets,,Dépôtillégal-Déchets,RetourDDS,Opérationdéneigement,
+Pierrefonds-Roxboro,222,0,1191,0,142,0,Collectededéchets,,Bacroulant,,Opérationdéneigement,
+Rivière-des-Prairies-Pointe-aux-Trembles,443,0,1843,5,300,1,Collectedesmatièresrecyclables,,Éclairageexistant-Entretien,Changementd'adresse-Taxesfoncières,Opérationdéneigement,Élagage
+Rosemont-LaPetite-Patrie,636,1,2634,19,848,2,Collectededéchets,Bureaud'arrondissement-Serviceàlaclientèle,Encombrantsnonramassés,Animalmort,Opérationdéneigement,Occupationdudomainepublic
+Saint-Laurent,109,0,2778,0,67,0,Opérationdéneigement,,Encaissement-Stop+,,Opérationdéneigement,
+Saint-Léonard,206,0,990,4,163,1,Collectededéchets,,Bacroulant,Opérationdéneigement,Opérationdéneigement,SRRR
+Verdun,187,0,1209,2,140,0,Collectededéchets,,Dépôtillégal-Déchets,Contrôleanimalier,Opérationdéneigement,
+Ville-Marie,438,3,2002,22,319,1,Occupationdudomainepublic,Voiecyclable-Planification-Servicecentral,Dépôtillégal-Déchets,Feuxdecirculation-Entretien,Opérationdéneigement,Info-travaux-Arrondissement
+Villeray-Saint-Michel-Parc-Extension,509,3,2356,43,322,4,Collectededéchets,Horticulture-Entretien,Collectederésidusalimentaires,Signalisation-Circulation-Études,Opérationdéneigement,Opérationdéneigement
+Not-Borough,2,28,14,29,1,31,,,,,,
