@@ -9,6 +9,11 @@
   "missing_3br_costs": 0,
   "missing_burden_percentages": 0,
   "missing_renter_incomes": 0,
+  "budget_endpoints_cad_per_month": [
+    2000,
+    3000
+  ],
+  "undefined_household_growth_rows": 0,
   "source_limitations": [
     "mean rent",
     "2–3-bedroom rental count in price range",
