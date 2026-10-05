@@ -107,9 +107,9 @@ def main():
         resulting_df.loc[len(resulting_df)] = ['Not-Borough', not_borough_count]
 
         filtered_target_df = target_df[target_df['ARRONDISSEMENT_GEO'].isin(boroughs)]
-        most_common_action = filtered_target_df.value_counts(['ARRONDISSEMENT_GEO', 'ACTI_NOM'])
+        most_common_action = filtered_target_df.value_counts(['ARRONDISSEMENT_GEO', 'ACTI_NOM']) # Sorts with max on top
         most_common_action = most_common_action.reset_index(name='Count')
-        most_common_action = most_common_action.drop_duplicates(subset=['ARRONDISSEMENT_GEO'])
+        most_common_action = most_common_action.drop_duplicates(subset=['ARRONDISSEMENT_GEO']) # Drops all other mentions of the same arrondissement except the first
         most_common_action = most_common_action.reset_index(drop=True)
 
         print(resulting_df)
@@ -135,9 +135,9 @@ def main():
         resulting_df.loc[len(resulting_df)] = ['Not-Borough', not_borough_count]
 
         filtered_target_df = target_df[target_df['ARRONDISSEMENT_GEO'].isin(boroughs)]
-        most_common_action = filtered_target_df.value_counts(['ARRONDISSEMENT_GEO', 'ACTI_NOM'])
+        most_common_action = filtered_target_df.value_counts(['ARRONDISSEMENT_GEO', 'ACTI_NOM']) # Sorts with max on top
         most_common_action = most_common_action.reset_index(name='Count')
-        most_common_action = most_common_action.drop_duplicates(subset=['ARRONDISSEMENT_GEO'])
+        most_common_action = most_common_action.drop_duplicates(subset=['ARRONDISSEMENT_GEO']) # Drops all other mentions of the same arrondissement except the first
         most_common_action = most_common_action.reset_index(drop=True)
 
         print(resulting_df)
@@ -154,7 +154,7 @@ def main():
     if all(Path(path).exists() for path in completed_datasets) and all(Path(path).exists() for path in action_datasets):
         merged_df = pd.DataFrame()
         for index, path in enumerate(completed_datasets):
-            if merged_df.empty:
+            if merged_df.empty: # This seems wrong but we never go there so let's not touch
                 merged_df = pd.read_csv(complaints_processed)
                 merged_df = merged_df.rename(columns={'Count': completed_dataset_names[index]})
             else:
