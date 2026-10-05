@@ -6,6 +6,7 @@ from urllib.request import Request, urlopen
 import json
 import csv
 from pathlib import Path
+import pandas as pd
 
 
 
@@ -52,33 +53,49 @@ class Loader():
     def load_chunks(self, dataset):
         "Loads chunk per chunk using offsets"
 
-        if dataset not in list(self.datasets_url.keys()):
-            print("\n ------------------ \n")
-            print("Invalid dataset.")
-            yield None
-
-        page = 0
-        load_more = True
-        while load_more:
-            sql = (
-                'SELECT * '
-                f'FROM "{self.datasets_url[dataset]}" '
-                f'LIMIT {self.page_size} OFFSET {self.page_size * page}'
-            )
-            sql = sql.replace(" ", "%20")
-
-            try: 
-                input_request = self.build_request(dataset, is_sql = True, sql_command = sql)
-                data = self.send_request(input_request)
-            except Exception as e:
+        if dataset != "housing":
+            if dataset not in list(self.datasets_url.keys()):
                 print("\n ------------------ \n")
-                print(f"Dataset stopped loading at {self.page_size * page} because of error {e}.")
-                break
+                print("Invalid dataset.")
+                yield None
 
-            if len(data) < self.page_size:
-                load_more = False
-            else: 
-                page += 1
+            page = 0
+            load_more = True
+            while load_more:
+                sql = (
+                    'SELECT * '
+                    f'FROM "{self.datasets_url[dataset]}" '
+                    f'LIMIT {self.page_size} OFFSET {self.page_size * page}'
+                )
+                sql = sql.replace(" ", "%20")
+
+                try: 
+                    input_request = self.build_request(dataset, is_sql = True, sql_command = sql)
+                    data = self.send_request(input_request)
+                except Exception as e:
+                    print("\n ------------------ \n")
+                    print(f"Dataset stopped loading at {self.page_size * page} because of error {e}.")
+                    break
+
+                if len(data) < self.page_size:
+                    load_more = False
+                else: 
+                    page += 1
+                yield data
+        else:
+            housing_csvs = [
+                "01_renter_monthly_housing_costs.csv",
+                "02_renter_housing_cost_burden.csv",
+                "03_renter_household_income.csv",
+                "04_renter_costs_by_bedrooms.csv",
+                "05_renter_household_counts.csv"
+            ]
+            data = pd.DataFrame({"Géographie": []})
+            for file in housing_csvs:
+                path = Path(__file__).resolve().parent.parent / "data/housing/raw" / file
+                df = pd.read_csv(path)
+                df = df.replace("nd", None)
+                data = pd.merge(data, df, how = "outer", on = "Géographie")
             yield data
 
 

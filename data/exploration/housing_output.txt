@@ -1,0 +1,198 @@
+Dataframe Head
+
+                            Géographie  ...  Variation_pct
+0                Ahuntsic-Cartierville  ...            3.9
+1                                Anjou  ...            1.3
+2  Côte-des-Neiges-Notre-Dame-de-Grâce  ...            5.3
+3                              LaSalle  ...            8.7
+4                              Lachine  ...            6.7
+
+[5 rows x 51 columns]
+
+ ------------------ 
+
+Dataframe Columns
+
+Index(['Géographie', 'Frais de logement médian 2016 ($)',
+       'Frais de logement médian 2021 ($)', 'Variation 2016-2021 (%)',
+       'Couples sans enfants', 'Couples avec enfants',
+       'Familles monoparentales', 'Personnes seules', 'Tous_les_menages_Total',
+       'Tous_les_menages_30pct', 'Tous_les_menages_50pct',
+       'Couples_sans_enfants_Total', 'Couples_sans_enfants_30pct',
+       'Couples_sans_enfants_50pct', 'Couples_avec_enfants_Total',
+       'Couples_avec_enfants_30pct', 'Couples_avec_enfants_50pct',
+       'Familles_monoparentales_Total', 'Familles_monoparentales_30pct',
+       'Familles_monoparentales_50pct', 'Personnes_seules_Total',
+       'Personnes_seules_30pct', 'Personnes_seules_50pct', 'Autres_Total',
+       'Autres_30pct', 'Autres_50pct', 'Nombre de ménages', 'Moins de 20 000$',
+       '20 000$ à 29 999$', '30 000$ à 39 999$', '40 000$ à 49 999$',
+       '50 000$ à 59 999$', '60 000$ à 69 999$', '70 000$ à 79 999$',
+       '80 000$ à 89 999$', '90 000$ à 99 999$', '100 000$ à 109 999$',
+       '110 000$ à 119 999$', '120 000$ à 129 999$', '130 000$ à 139 999$',
+       '140 000$ à 149 999$', '150 000$ et plus', 'Revenu médian ($)',
+       'Studio (aucune chambre)', '1 chambre', '2 chambres', '3 chambres',
+       '4 chambres ou plus', 'N_2016', 'N_2021', 'Variation_pct'],
+      dtype='str')
+
+ ------------------ 
+
+Dataframe Information
+
+<class 'pandas.DataFrame'>
+RangeIndex: 20 entries, 0 to 19
+Data columns (total 51 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   Géographie                         20 non-null     str    
+ 1   Frais de logement médian 2016 ($)  20 non-null     int64  
+ 2   Frais de logement médian 2021 ($)  20 non-null     int64  
+ 3   Variation 2016-2021 (%)            20 non-null     float64
+ 4   Couples sans enfants               20 non-null     int64  
+ 5   Couples avec enfants               20 non-null     int64  
+ 6   Familles monoparentales            20 non-null     int64  
+ 7   Personnes seules                   20 non-null     int64  
+ 8   Tous_les_menages_Total             20 non-null     int64  
+ 9   Tous_les_menages_30pct             20 non-null     float64
+ 10  Tous_les_menages_50pct             20 non-null     float64
+ 11  Couples_sans_enfants_Total         20 non-null     int64  
+ 12  Couples_sans_enfants_30pct         20 non-null     float64
+ 13  Couples_sans_enfants_50pct         20 non-null     float64
+ 14  Couples_avec_enfants_Total         20 non-null     int64  
+ 15  Couples_avec_enfants_30pct         20 non-null     float64
+ 16  Couples_avec_enfants_50pct         20 non-null     float64
+ 17  Familles_monoparentales_Total      20 non-null     int64  
+ 18  Familles_monoparentales_30pct      20 non-null     float64
+ 19  Familles_monoparentales_50pct      20 non-null     float64
+ 20  Personnes_seules_Total             20 non-null     int64  
+ 21  Personnes_seules_30pct             20 non-null     float64
+ 22  Personnes_seules_50pct             20 non-null     float64
+ 23  Autres_Total                       20 non-null     int64  
+ 24  Autres_30pct                       20 non-null     float64
+ 25  Autres_50pct                       20 non-null     float64
+ 26  Nombre de ménages                  20 non-null     int64  
+ 27  Moins de 20 000$                   20 non-null     int64  
+ 28  20 000$ à 29 999$                  20 non-null     int64  
+ 29  30 000$ à 39 999$                  20 non-null     int64  
+ 30  40 000$ à 49 999$                  20 non-null     int64  
+ 31  50 000$ à 59 999$                  20 non-null     int64  
+ 32  60 000$ à 69 999$                  20 non-null     int64  
+ 33  70 000$ à 79 999$                  20 non-null     int64  
+ 34  80 000$ à 89 999$                  20 non-null     int64  
+ 35  90 000$ à 99 999$                  20 non-null     int64  
+ 36  100 000$ à 109 999$                20 non-null     int64  
+ 37  110 000$ à 119 999$                20 non-null     int64  
+ 38  120 000$ à 129 999$                20 non-null     int64  
+ 39  130 000$ à 139 999$                20 non-null     int64  
+ 40  140 000$ à 149 999$                20 non-null     int64  
+ 41  150 000$ et plus                   20 non-null     int64  
+ 42  Revenu médian ($)                  20 non-null     int64  
+ 43  Studio (aucune chambre)            18 non-null     float64
+ 44  1 chambre                          20 non-null     int64  
+ 45  2 chambres                         20 non-null     int64  
+ 46  3 chambres                         20 non-null     int64  
+ 47  4 chambres ou plus                 20 non-null     int64  
+ 48  N_2016                             20 non-null     int64  
+ 49  N_2021                             20 non-null     int64  
+ 50  Variation_pct                      20 non-null     float64
+dtypes: float64(15), int64(35), str(1)
+memory usage: 8.1 KB
+None
+
+ ------------------ 
+
+Dataframe Description
+
+       Frais de logement médian 2016 ($)  ...  Variation_pct
+count                          20.000000  ...      20.000000
+mean                          796.550000  ...       4.960000
+std                           107.997795  ...       4.633448
+min                           708.000000  ...      -0.900000
+25%                           727.000000  ...       1.450000
+50%                           780.000000  ...       4.000000
+75%                           808.250000  ...       7.250000
+max                          1186.000000  ...      19.300000
+
+[8 rows x 50 columns]
+
+ ------------------ 
+
+Total length of reported dataset: 20
+Empty values per column
+Studio (aucune chambre)              2
+1 chambre                            0
+N_2021                               0
+Couples_sans_enfants_50pct           0
+Couples_sans_enfants_Total           0
+Familles monoparentales              0
+Familles_monoparentales_30pct        0
+Familles_monoparentales_50pct        0
+Familles_monoparentales_Total        0
+Frais de logement médian 2016 ($)    0
+Frais de logement médian 2021 ($)    0
+Moins de 20 000$                     0
+N_2016                               0
+Nombre de ménages                    0
+Couples_avec_enfants_Total           0
+Personnes seules                     0
+Personnes_seules_30pct               0
+Personnes_seules_50pct               0
+Personnes_seules_Total               0
+Revenu médian ($)                    0
+Tous_les_menages_30pct               0
+Tous_les_menages_50pct               0
+Tous_les_menages_Total               0
+Variation 2016-2021 (%)              0
+Couples_sans_enfants_30pct           0
+Couples_avec_enfants_50pct           0
+100 000$ à 109 999$                  0
+40 000$ à 49 999$                    0
+110 000$ à 119 999$                  0
+120 000$ à 129 999$                  0
+130 000$ à 139 999$                  0
+140 000$ à 149 999$                  0
+150 000$ et plus                     0
+2 chambres                           0
+20 000$ à 29 999$                    0
+3 chambres                           0
+30 000$ à 39 999$                    0
+4 chambres ou plus                   0
+50 000$ à 59 999$                    0
+Couples_avec_enfants_30pct           0
+60 000$ à 69 999$                    0
+70 000$ à 79 999$                    0
+80 000$ à 89 999$                    0
+90 000$ à 99 999$                    0
+Autres_30pct                         0
+Autres_50pct                         0
+Autres_Total                         0
+BOROUGH                              0
+Couples avec enfants                 0
+Couples sans enfants                 0
+Variation_pct                        0
+dtype: object
+Total rows with missing values: 2
+
+ ------------------ 
+
+BOROUGH
+Ahuntsic-Cartierville                       1
+Anjou                                       1
+Villeray-Saint-Michel-Parc Extension        1
+Ville-Marie                                 1
+Ville de Montréal                           1
+Verdun                                      1
+Sud-Ouest                                   1
+Saint-Léonard                               1
+Saint-Laurent                               1
+Rosemont-La Petite-Patrie                   1
+Rivière-des-Prairies-Pointe-aux-Trembles    1
+Plateau-Mont-Royal                          1
+Pierrefonds-Roxboro                         1
+Outremont                                   1
+Montréal-Nord                               1
+Mercier-Hochelaga-Maisonneuve               1
+Lachine                                     1
+LaSalle                                     1
+Côte-des-Neiges-Notre-Dame-de-Grâce         1
+Île-Bizard-Sainte-Geneviève                 1
+dtype: object
