@@ -68,6 +68,10 @@ def main():
     output_df['num_schools'] = output_df['borough'].map(lambda brgh: len(df[df['borough']==brgh]))
     output_df['residents_per_school'] = output_df['total_pop'] / output_df['num_schools']
 
+    print("Integrity check:")
+    print("sum of borough populations:", output_df['total_pop'].sum())
+    print("declared city population:", census_df['Ville de Montréal']['Population totale en 2021'])
+
     # Save output to csv
     output_df.to_csv(output_path, index=False)
     print(f"Succesfully saved {len(output_df)} lines to {output_path}.")

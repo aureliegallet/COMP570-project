@@ -65,6 +65,10 @@ def main():
     output_df['green_area (ha)'] = output_df['borough'].map(lambda brgh: df[df['GESTION']==brgh]['SUPERFICIE'].astype(float).sum())
     output_df['green_area (%)'] = output_df['green_area (ha)'] / output_df['total_area (ha)'] * 100
 
+    print("Integrity check:")
+    print("sum of borough areas:", output_df['total_area (ha)'].sum())
+    print("declared city area:", census_df['Ville de Montréal']['Superficie (en km2)']*100)
+
     # Save output to csv
     output_df.to_csv(output_path, index=False)
     print(f"Succesfully saved {len(output_df)} lines to {output_path}.")
