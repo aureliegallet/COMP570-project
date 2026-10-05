@@ -17,6 +17,29 @@ CRIMES = {
 
 ACTS = ["theft", "break_in", "misdemeanor", "death"]
 
+# according to https://ville.montreal.qc.ca/pls/portal/docs/PAGE/MTL_STATS_FR/MEDIA/DOCUMENTS/CARTE_POPULATION%20ET%20SUPERFICIE%202021.PDF
+TOTAL_POPULATION = {
+    'Côte-des-Neiges-Notre-Dame-de-Grâce': 170583, 
+    'Ville-Marie': 104944,
+    'Montréal-Nord': 88471,
+    'Mercier-Hochelaga-Maisonneuve': 140627,
+    'Pierrefonds-Roxboro': 70382,
+    'Rivière-des-Prairies-Pointe-aux-Trembles': 107941,
+    'Lachine': 46428,
+    'Saint-Laurent': 102104,
+    'Rosemont-La Petite-Patrie': 141813,
+    'Ahuntsic-Cartierville': 135336,
+    'Le Plateau-Mont-Royal': 105813,
+    'Verdun': 70377,
+    'LaSalle': 82235,
+    'Villeray-Saint-Michel-Parc-Extension': 145090,
+    'Anjou': 43243,
+    'Le Sud-Ouest': 84553,
+    "L'Île-Bizard-Sainte-Geneviève": 18885,
+    'Saint-Léonard': 79495,
+    'Outremont': 24629
+}
+
 def check_location(df, original_nan, longitude, latitude):
     "Check for missing location"
 
@@ -63,7 +86,7 @@ def main():
     df = pd.DataFrame(data)
     df = df.drop(columns = ["_full_text"])
     df = utils.str_to_num(df)
-    df["CATEGORIE"] = df["CATEGORIE"].replace(CRIMES)
+    df["CATEGORIE"] = df["CATEGORIE"].replace(CRIMES) # Possible based on generic exploration report
     initial_length = len(df)
     print(f"Dataframe length: {initial_length}")
 
@@ -72,6 +95,8 @@ def main():
     print("\n ------------------ \n")
     duplicates = df.duplicated(subset = ["CATEGORIE", "DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"]).sum()
     print(f"Number of duplicates: {duplicates}")
+    duplicates = df.duplicated(subset = ["DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"]).sum()
+    print(f"Number of incidents at the same time and place but different label: {duplicates}") # Ignore these cos it might have been two different things?
     df = df.drop_duplicates(subset = ["CATEGORIE", "DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"], ignore_index = True)
     print(f"Percentage of dropped duplicates: {(duplicates / initial_length) * 100 :.2f}%.") # Assume these have to be duplicates
     no_duplicates = len(df)
@@ -146,14 +171,17 @@ def main():
     final = pd.DataFrame({"BOROUGH": []})
     for act in ACTS:
         counts = df[df["CATEGORIE"] == act]["BOROUGH"].value_counts().reset_index()
-        counts = counts.rename(columns={
-            "count" : f"{act}_acts"
-        })
+        counts[f"{act}_acts_per_capita"] = counts.apply(
+            lambda row: row["count"] / TOTAL_POPULATION[row["BOROUGH"]], 
+            axis = 1
+        ) 
+        counts = counts.drop(columns=["count"])
         counts_df = pd.DataFrame(counts)
         final = pd.merge(final, counts_df, how = "outer", on = "BOROUGH")
     final = final.fillna(int(0))
     print("\n ------------------ \n")
     print(final)
+    
 
     # Save crime counts to csv
     final.to_csv(output_path, index = False)
