@@ -132,12 +132,12 @@ def main():
     after_borough_length = len(df)
     all_na_filter = (after_borough_na["BOROUGH_NAD83"] & after_borough_na["BOROUGH_WSG84"])
     print("\n ------------------ \n")
-    print(f"Number of missing values in the 'BOROUGH_NAD83' column: {after_borough_na["BOROUGH_NAD83"].sum()}")
-    print(f"Number of missing values in the 'BOROUGH_WSG84' column: {after_borough_na["BOROUGH_WSG84"].sum()}")
+    print(f"Number of missing values in the 'BOROUGH_NAD83' column: {after_borough_na['BOROUGH_NAD83'].sum()}")
+    print(f"Number of missing values in the 'BOROUGH_WSG84' column: {after_borough_na['BOROUGH_WSG84'].sum()}")
     print(f"Number of rows where both 'BOROUGH_WSG84' and 'BOROUGH_WSG84' are missing: {len(df[all_na_filter])}")
     
     df["BOROUGH_WSG84"] = df["BOROUGH_WSG84"].fillna(df["BOROUGH_NAD83"]) # Replace the one missing value in BOROUGH_WSG84 with the BOROUGH_NAD83 value
-    print(f"Number of missing values in the 'BOROUGH_WSG84' column: {df["BOROUGH_WSG84"].isna().sum()}")
+    print(f"Number of missing values in the 'BOROUGH_WSG84' column: {df['BOROUGH_WSG84'].isna().sum()}")
     df = df.dropna(subset = ["BOROUGH_NAD83", "BOROUGH_WSG84"], ignore_index = True)
     removed_unidentified = len(df)
     print(f"Percentage of dropped no coordinate rows: {((after_borough_length - removed_unidentified) / after_borough_length) * 100 :.2f}%.")
@@ -160,7 +160,7 @@ def main():
 
     # Check other columns
     print("\n ------------------ \n")
-    print(f"Date ranges from {df["DATE"].min()} to {df["DATE"].max()}.")
+    print(f"Date ranges from {df['DATE'].min()} to {df['DATE'].max()}.")
     print("\n ------------------ \n")
     print(df["QUART"].value_counts())
     print("\n ------------------ \n")
