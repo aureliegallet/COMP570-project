@@ -41,6 +41,8 @@ def main():
         data_dict = json.loads(response.read().decode('utf-8'))
     df = pd.DataFrame(data_dict["result"]["records"])
 
+    lengths = [len(df)]
+    print("Total number of rows upon loading:", lengths[-1])
 
     # Convert coordinates to borough and save it in new column
     bi = BoroughIdentifier()
@@ -49,9 +51,18 @@ def main():
     # Remove schools intended for adult learning
     df = df[~df['ORDRE_ENS'].str.contains('adultes')]
     df = df[~df['ORDRE_ENS'].str.contains('professionnelle')]
+    lengths.append(len(df))
+    print("Number of adult learning schools removed:", lengths[-2] - lengths[-1])
+
+    # Check levels remaining in dataset. Should have Préscolaire, Primaire & Secondaire.
+    print("Education levels:", df['ORDRE_ENS'].unique())
 
     # Group lines with same school name in the same borough to avoid duplicate records for the same establishment
     df = df.groupby(['NOM_OFFCL_ORGNS', 'borough'], as_index=False).agg(lambda x: ', '.join(x.dropna().astype(str).unique()))
+    lengths.append(len(df))
+    print("Number of rows lost to merging schools with the same name in the same borough:", lengths[-2] - lengths[-1])
+
+    print(f"Total number of rows removed: {lengths[0] - lengths[-1]} which is roughly equal to {((lengths[0] - lengths[-1]) / lengths[0]) * 100 :.2f}%.")
 
     census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
     census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
@@ -64,13 +75,13 @@ def main():
         'borough': df['borough'].unique(),
     }
     output_df = pd.DataFrame(output)
-    output_df['total_pop'] = output_df['borough'].map(lambda brgh: census_df[brgh]['Population totale en 2021'])
+    output_df['num_children'] = output_df['borough'].map(lambda brgh: census_df[brgh]['0 à 14 ans']["0 à 14 ans"].iloc[0])
     output_df['num_schools'] = output_df['borough'].map(lambda brgh: len(df[df['borough']==brgh]))
-    output_df['residents_per_school'] = output_df['total_pop'] / output_df['num_schools']
+    output_df['children_per_school'] = output_df['num_children'] / output_df['num_schools']
 
-    print("Integrity check:")
-    print("sum of borough populations:", output_df['total_pop'].sum())
-    print("declared city population:", census_df['Ville de Montréal']['Population totale en 2021'])
+    print("Children population count integrity check:")
+    print("sum of borough children populations:", output_df['num_children'].sum())
+    print("declared city children population:", census_df['Ville de Montréal']['0 à 14 ans']["0 à 14 ans"].iloc[0])
 
     # Save output to csv
     output_df.to_csv(output_path, index=False)
