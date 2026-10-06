@@ -68,6 +68,18 @@ def main():
     initial_length = len(df)
     print(f"Dataframe length: {initial_length}")
 
+    # missing values
+    empty_values = df.isna().sum()
+    print("\n ------------------ \n")
+    print("Missing values per column")
+    print(empty_values)
+
+    empty_pdq = df[df["PDQ"].isna()]
+    print("\n ------------------ \n")
+    print("PDQ missing value for one row, check if we can identify borough.")
+    print(empty_pdq)
+    print("No location coordinates.")
+
 
     # Check for duplicates
     print("\n ------------------ \n")

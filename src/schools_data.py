@@ -5,6 +5,28 @@ import argparse
 from pathlib import Path
 from borough_identifier import BoroughIdentifier
 
+BOROUGHS = [
+    "Ahuntsic-Cartierville", 
+    "Anjou", 
+    "Côte-des-Neiges-Notre-Dame-de-Grâce", 
+    "Lachine",
+    "LaSalle",
+    "Le Plateau-Mont-Royal",
+    "Le Sud-Ouest",
+    "L'Île-Bizard-Sainte-Geneviève",
+    "Mercier-Hochelaga-Maisonneuve",
+    "Montréal-Nord",
+    "Outremont",
+    "Pierrefonds-Roxboro",
+    "Rivière-des-Prairies-Pointe-aux-Trembles",
+    "Rosemont-La Petite-Patrie",
+    "Saint-Laurent",
+    "Saint-Léonard",
+    "Verdun",
+    "Ville-Marie",
+    "Villeray-Saint-Michel-Parc-Extension"
+]
+
 def main():
     parser = argparse.ArgumentParser(
         prog='schools_data',
@@ -41,10 +63,27 @@ def main():
         data_dict = json.loads(response.read().decode('utf-8'))
     df = pd.DataFrame(data_dict["result"]["records"])
 
-
     # Convert coordinates to borough and save it in new column
     bi = BoroughIdentifier()
     df['borough'] = df.apply(lambda row: bi.match_WSG84_to_borough(longitude_x=row['COORD_X_LL84_IMM'], latitude_y=row['COORD_Y_LL84_IMM']), axis=1)
+    
+    # missing values
+    empty_df = df.isna()
+    empty_values = empty_df.sum()
+    print("\n ------------------ \n")
+    print("Missing values per column in returned dataset.")
+    print(empty_values)
+    print("\n ------------------ \n")
+
+    missing_counts = pd.DataFrame()
+    for borough in BOROUGHS:
+        missing_counts[borough] = df[df["borough"] == borough].isna().sum()
+    print("Missing values per borough.")
+    print(missing_counts)
+    missing_counts.insert(0, "Column", df.columns) # Absent in CSV without this line
+    missing_counts.to_csv(default_data_path / "checks/schools_missing.csv", index=False)
+    print("\n ------------------ \n")
+    
 
     # Remove schools intended for adult learning
     df = df[~df['ORDRE_ENS'].str.contains('adultes')]

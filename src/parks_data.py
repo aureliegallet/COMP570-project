@@ -4,6 +4,28 @@ import json
 import argparse
 from pathlib import Path
 
+BOROUGHS = [
+    "Ahuntsic-Cartierville", 
+    "Anjou", 
+    "Côte-des-Neiges-Notre-Dame-de-Grâce", 
+    "Lachine",
+    "LaSalle",
+    "Le Plateau-Mont-Royal",
+    "Le Sud-Ouest",
+    "L'Île-Bizard-Sainte-Geneviève",
+    "Mercier-Hochelaga-Maisonneuve",
+    "Montréal-Nord",
+    "Outremont",
+    "Pierrefonds-Roxboro",
+    "Rivière-des-Prairies-Pointe-aux-Trembles",
+    "Rosemont-La Petite-Patrie",
+    "Saint-Laurent",
+    "Saint-Léonard",
+    "Verdun",
+    "Ville-Marie",
+    "Villeray-Saint-Michel-Parc-Extension"
+]
+
 def main():
     parser = argparse.ArgumentParser(
         prog='parks_data',
@@ -40,6 +62,22 @@ def main():
         data_dict = json.loads(response.read().decode('utf-8'))
     df = pd.DataFrame(data_dict["result"]["records"])
 
+    # missing values
+    empty_df = df.isna()
+    empty_values = empty_df.sum()
+    print("\n ------------------ \n")
+    print("Missing values per column in returned dataset.")
+    print(empty_values)
+    print("\n ------------------ \n")
+
+    missing_counts = pd.DataFrame()
+    for borough in BOROUGHS:
+        missing_counts[borough] = df[df["GESTION"] == borough].isna().sum()
+    print("Missing values per borough.")
+    print(missing_counts)
+    missing_counts.insert(0, "Column", df.columns) # Absent in CSV without this line
+    missing_counts.to_csv(default_data_path / "checks/parks_missing.csv", index=False)
+    print("\n ------------------ \n")
 
     # Remove rows with no park name and private parks
     df = df[df['Nom'].notna()]
