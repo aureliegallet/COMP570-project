@@ -63,6 +63,7 @@ def main():
     # Make dataset
     df = pd.DataFrame(data)
     df = df.drop(columns = ["_full_text"])
+    df.to_csv(default_data_path / 'raw' / 'crime.csv')
     df = utils.str_to_num(df)
     df["CATEGORIE"] = df["CATEGORIE"].replace(CRIMES) # Possible based on generic exploration report
     initial_length = len(df)
