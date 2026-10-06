@@ -56,7 +56,7 @@ Number of instances for each source dataset:
 - Schools: 355 instances
 - Parks: 1646 instances
 - Crimes: 22545 instances
-- 311 requests: @Harry
+- 311 requests: 332341 instances
 - Renting information: @Arash ?
 
 Each source dataset contains all instances that were complete and provided by the city of Montreal or the province of Quebec.
@@ -289,7 +289,7 @@ The group students will maintain the dataset for the duration of the project.
 
 The students can be contacted at:
 aurelie.gallet@mail.mcgill.ca
-@Harry email pls
+harry.hu@mail.mcgill.ca
 andrew.saffar@mail.mcgill.ca
 @Arash email pls
 
