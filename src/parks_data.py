@@ -65,7 +65,7 @@ def main():
     lengths.append(len(df))
     print("Number of rows removed because of a missing handling authority:", lengths[-2] - lengths[-1])
 
-    print("Total number of rows removed:", lengths[0] - lengths[-1])
+    print(f"Total number of rows removed: {lengths[0] - lengths[-1]} which is roughly equal to {((lengths[0] - lengths[-1]) / lengths[0]) * 100 :.2f}%.")
 
     census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
     census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
