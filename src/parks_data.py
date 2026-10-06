@@ -62,6 +62,9 @@ def main():
         data_dict = json.loads(response.read().decode('utf-8'))
     df = pd.DataFrame(data_dict["result"]["records"])
 
+    lengths = [len(df)]
+    print("Total number of rows upon loading:", lengths[-1])
+    
     # missing values
     empty_df = df.isna()
     empty_values = empty_df.sum()
@@ -78,15 +81,30 @@ def main():
     missing_counts.insert(0, "Column", df.columns) # Absent in CSV without this line
     missing_counts.to_csv(default_data_path / "checks/parks_missing.csv", index=False)
     print("\n ------------------ \n")
-
+    
     # Remove rows with no park name and private parks
     df = df[df['Nom'].notna()]
+    lengths.append(len(df))
+    print("Number of rows removed because of a missing park name:", lengths[-2] - lengths[-1])
+
     df = df[df['COMPETENCE'] != "Privé"]
+    lengths.append(len(df))
+    print("Number of rows removed because park is private:", lengths[-2] - lengths[-1])
+
+    # Check for duplicates (entries can have the same unique park identifier if a park consists of several polygones. Thus, we check if they also have the exact same area which would indicate true duplication)
+    print("Number of rows with same unique park identifier but different areas:", len(df[df.duplicated(subset=['NUM_INDEX', 'SUPERFICIE'])]))
 
     # Remove parks that have no borough or are not handled by a borough
     not_boroughs = ['Autre', 'Commission scolaire', 'Service des grands parcs, du Mont-Royal et des sports', 'Westmount']
     df = df[~df['GESTION'].isin(not_boroughs)]
+    lengths.append(len(df))
+    print("Number of rows removed because park is not handled by a borough:", lengths[-2] - lengths[-1])
+    
     df = df[df['GESTION'].notna()]
+    lengths.append(len(df))
+    print("Number of rows removed because of a missing handling authority:", lengths[-2] - lengths[-1])
+
+    print(f"Total number of rows removed: {lengths[0] - lengths[-1]} which is roughly equal to {((lengths[0] - lengths[-1]) / lengths[0]) * 100 :.2f}%.")
 
     census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
     census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
@@ -103,7 +121,7 @@ def main():
     output_df['green_area (ha)'] = output_df['borough'].map(lambda brgh: df[df['GESTION']==brgh]['SUPERFICIE'].astype(float).sum())
     output_df['green_area (%)'] = output_df['green_area (ha)'] / output_df['total_area (ha)'] * 100
 
-    print("Integrity check:")
+    print("Area integrity check:")
     print("sum of borough areas:", output_df['total_area (ha)'].sum())
     print("declared city area:", census_df['Ville de Montréal']['Superficie (en km2)']*100)
 
