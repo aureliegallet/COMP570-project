@@ -74,7 +74,7 @@ def caculate_missing(loader):
     rows_with_missing = 0
 
     page = 0
-    page_size = 32000
+    page_size = 30000
     load_more = True
     missing_counts = pd.DataFrame()
     while load_more:
