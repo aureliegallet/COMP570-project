@@ -8,7 +8,6 @@ import csv
 import hashlib
 import io
 import json
-import math
 import re
 from pathlib import Path
 
@@ -28,6 +27,7 @@ ALIASES = {
     "Villeray-Saint-Michel-Parc Extension": "Villeray-Saint-Michel-Parc-Extension",
 }
 BUDGETS_CAD = (2000, 3000)
+ASSUMED_MONTHLY_INCOME_CAD = 3000
 
 
 def household_growth_pct(previous, current):
@@ -90,20 +90,21 @@ def main():
     if set(costs) != expected:
         raise ValueError(f"Borough mismatch: {set(costs) ^ expected}")
 
+    if ASSUMED_MONTHLY_INCOME_CAD <= 0:
+        raise ValueError("Assumed monthly income must be positive")
     output = []
     for borough, row in sorted(costs.items()):
         two, three = int(row["2 chambres"]), int(row["3 chambres"])
-        burden = float(tables["02_renter_housing_cost_burden.csv"][borough]["Tous_les_menages_30pct"])
         households = tables["05_renter_household_counts.csv"][borough]
         previous, current = int(households["N_2016"]), int(households["N_2021"])
         if min(two, three) <= 0:
             raise ValueError(f"Invalid housing costs for {borough}")
-        if not math.isfinite(burden) or not 0 <= burden <= 100:
-            raise ValueError(f"Invalid burden percentage for {borough}")
         output.append({"borough": borough, "census_year": 2021,
                        "median_monthly_shelter_cost_2br_cad": two,
                        "median_monthly_shelter_cost_3br_cad": three,
-                       "renter_households_spending_30pct_or_more_pct": burden})
+                       "assumed_monthly_household_income_cad": ASSUMED_MONTHLY_INCOME_CAD,
+                       "median_2br_cost_share_of_assumed_income_pct": round(100 * two / ASSUMED_MONTHLY_INCOME_CAD, 2),
+                       "median_3br_cost_share_of_assumed_income_pct": round(100 * three / ASSUMED_MONTHLY_INCOME_CAD, 2)})
         for bedrooms, median in [(2, two), (3, three)]:
             for budget in BUDGETS_CAD:
                 output[-1][f"budget_{budget}_minus_median_{bedrooms}br_cad"] = budget - median
@@ -123,7 +124,7 @@ def main():
         "borough_rows": len(output), "duplicate_boroughs": 0,
         "unmatched_boundary_boroughs": [], "missing_2br_costs": 0,
         "missing_3br_costs": 0,
-        "missing_burden_percentages": 0,
+        "assumed_monthly_household_income_cad": ASSUMED_MONTHLY_INCOME_CAD,
         "budget_endpoints_cad_per_month": list(BUDGETS_CAD),
         "undefined_household_growth_rows": sum(r["renter_household_growth_2016_2021_pct"] is None for r in output),
         "source_limitations": ["mean rent", "2–3-bedroom rental count in price range",
