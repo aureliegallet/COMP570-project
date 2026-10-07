@@ -1,13 +1,25 @@
 Dataframe Head
 
-   _id  OBJECTID  Type  ...      COMPETENCE                  TYPO1             TYPO2
-0    1      3477   NaN  ...           Privé      Autre espace vert    Espace sportif
-1    2      3478   Av.  ...  Arrondissement          Espace voirie    Îlot de voirie
-2    3      3479  Parc  ...  Arrondissement  Parc d'arrondissement  Parc de quartier
-3    4      3480   NaN  ...  Arrondissement      Autre espace vert        Parc écran
-4    5      3481   NaN  ...  Arrondissement      Autre espace vert        Parc écran
+   _id  OBJECTID  Type Lien                                   Nom NUM_INDEX  \
+0    1      3477   NaN  NaN  Université Concordia - Campus Loyola  1807-004   
+1    2      3478   Av.   du                                 Boisé  1641-513   
+2    3      3479  Parc  NaN                        Maurice-Cullen  0137-000   
+3    4      3480   NaN  NaN              Décarie / Zone Tampon #2  1641-637   
+4    5      3481   NaN  NaN              Décarie / Zone Tampon #2  1641-637   
 
-[5 rows x 12 columns]
+   SUPERFICIE          PROPRIETE                              GESTION  \
+0    5.054930     Institutionnel                                Autre   
+1    0.032364  Ville de Montréal  Côte-des-Neiges-Notre-Dame-de-Grâce   
+2    0.542681  Ville de Montréal  Côte-des-Neiges-Notre-Dame-de-Grâce   
+3    0.033510  Ville de Montréal  Côte-des-Neiges-Notre-Dame-de-Grâce   
+4    0.014242  Ville de Montréal  Côte-des-Neiges-Notre-Dame-de-Grâce   
+
+       COMPETENCE                  TYPO1             TYPO2  
+0           Privé      Autre espace vert    Espace sportif  
+1  Arrondissement          Espace voirie    Îlot de voirie  
+2  Arrondissement  Parc d'arrondissement  Parc de quartier  
+3  Arrondissement      Autre espace vert        Parc écran  
+4  Arrondissement      Autre espace vert        Parc écran  
 
  ------------------ 
 

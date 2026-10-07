@@ -78,6 +78,8 @@ class GenericExplorer():
 
     def explore_dataset(self, dataset, date_column = None, borough_column = None, location_columns = None, location_type = None):
         "Runs full generic exploration of dataset"
+
+        pd.set_option("display.max_columns", 50)
         
         borough_counts = pd.Series() # return type of value counts
         other_counts = {}
