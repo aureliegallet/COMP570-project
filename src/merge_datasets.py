@@ -26,6 +26,7 @@ def main():
 
             datasets = pd.merge(datasets, df, how = "outer", on = "borough")
 
+    datasets = datasets.drop(datasets[datasets["borough"] == "Not-Borough"].index)
     datasets.to_csv(DATA_PATH / "final_dataset.csv", index = False)
 
 

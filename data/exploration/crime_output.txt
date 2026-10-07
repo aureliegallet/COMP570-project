@@ -31,10 +31,10 @@ Data columns (total 9 columns):
  2   DATE       32000 non-null  str    
  3   QUART      32000 non-null  str    
  4   PDQ        32000 non-null  int64  
- 5   X          31510 non-null  float64
- 6   Y          31510 non-null  float64
- 7   LONGITUDE  31510 non-null  float64
- 8   LATITUDE   31510 non-null  float64
+ 5   X          31521 non-null  float64
+ 6   Y          31521 non-null  float64
+ 7   LONGITUDE  31521 non-null  float64
+ 8   LATITUDE   31521 non-null  float64
 dtypes: float64(4), int64(2), str(3)
 memory usage: 2.2 MB
 None
@@ -44,75 +44,75 @@ None
 Dataframe Description
 
                  _id           PDQ  ...     LONGITUDE      LATITUDE
-count   32000.000000  32000.000000  ...  31510.000000  31510.000000
-mean    16238.986969     26.091875  ...    -73.613215     45.525957
-std     10116.929697     13.885447  ...      0.069461      0.053662
+count   32000.000000  32000.000000  ...  31521.000000  31521.000000
+mean    16231.942688     26.097344  ...    -73.613198     45.525968
+std     10098.847256     13.886455  ...      0.069455      0.053662
 min         1.000000      1.000000  ...    -73.955221     45.402734
 25%      8000.750000     13.000000  ...    -73.636629     45.487830
-50%     16000.500000     26.000000  ...    -73.597245     45.524662
-75%     24000.250000     38.000000  ...    -73.569807     45.558073
+50%     16000.500000     26.000000  ...    -73.597231     45.524662
+75%     24000.250000     38.000000  ...    -73.569788     45.558075
 max    211016.000000     55.000000  ...    -73.480105     45.701384
 
 [8 rows x 6 columns]
 
  ------------------ 
 
-Total length of reported dataset: 361367
+Total length of reported dataset: 361502
 Empty values per column
-BOROUGH      86505
-LATITUDE     60384
-LONGITUDE    60384
+BOROUGH      86528
+LATITUDE     60399
+LONGITUDE    60399
 PDQ              8
 CATEGORIE        0
 DATE             0
 QUART            0
 _id              0
 dtype: object
-Total rows with missing values: 86505
+Total rows with missing values: 86528
 
  ------------------ 
 
-Dates range from 2015-01-01 to 2026-10-02
+Dates range from 2015-01-01 to 2026-10-04
 
  ------------------ 
 
 BOROUGH
-Ville-Marie                                 42224
-Mercier-Hochelaga-Maisonneuve               26634
-Le Plateau-Mont-Royal                       22247
-Rosemont-La Petite-Patrie                   21749
-Villeray-Saint-Michel-Parc-Extension        20756
-Côte-des-Neiges-Notre-Dame-de-Grâce         19424
-Ahuntsic-Cartierville                       17596
-Saint-Laurent                               14743
-Le Sud-Ouest                                13955
-Montréal-Nord                               13342
-Rivière-des-Prairies-Pointe-aux-Trembles    13009
-Saint-Léonard                               11100
-LaSalle                                      8077
-Verdun                                       7680
-Anjou                                        7075
+Ville-Marie                                 42245
+Mercier-Hochelaga-Maisonneuve               26648
+Le Plateau-Mont-Royal                       22252
+Rosemont-La Petite-Patrie                   21763
+Villeray-Saint-Michel-Parc-Extension        20761
+Côte-des-Neiges-Notre-Dame-de-Grâce         19437
+Ahuntsic-Cartierville                       17601
+Saint-Laurent                               14755
+Le Sud-Ouest                                13958
+Montréal-Nord                               13344
+Rivière-des-Prairies-Pointe-aux-Trembles    13013
+Saint-Léonard                               11105
+LaSalle                                      8078
+Verdun                                       7681
+Anjou                                        7077
 Lachine                                      6648
-Pierrefonds-Roxboro                          5068
-Outremont                                    2290
+Pierrefonds-Roxboro                          5071
+Outremont                                    2292
 L'Île-Bizard-Sainte-Geneviève                1245
 dtype: object
 
  ------------------ 
 
 CATEGORIE
-Vol dans / sur véhicule à moteur    102714
-Introduction                         84904
-Méfait                               78288
-Vol de véhicule à moteur             73815
-Vols qualifiés                       21311
+Vol dans / sur véhicule à moteur    102745
+Introduction                         84940
+Méfait                               78310
+Vol de véhicule à moteur             73850
+Vols qualifiés                       21322
 Infractions entrainant la mort         335
 dtype: object
 
  ------------------ 
 
 QUART
-jour    184734
-soir    118418
-nuit     58215
+jour    184809
+soir    118456
+nuit     58237
 dtype: object
