@@ -40,6 +40,8 @@ def main():
     with urllib.request.urlopen(url) as response:
         data_dict = json.loads(response.read().decode('utf-8'))
     df = pd.DataFrame(data_dict["result"]["records"])
+    
+    df.to_csv(default_data_path / 'raw' / 'schools.csv')
 
     lengths = [len(df)]
     print("Total number of rows upon loading:", lengths[-1])

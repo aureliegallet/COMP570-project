@@ -40,6 +40,8 @@ def main():
         data_dict = json.loads(response.read().decode('utf-8'))
     df = pd.DataFrame(data_dict["result"]["records"])
 
+    df.to_csv(default_data_path / 'raw' / 'parks.csv')
+
     lengths = [len(df)]
     print("Total number of rows upon loading:", lengths[-1])
     
@@ -53,7 +55,7 @@ def main():
     print("Number of rows removed because park is private:", lengths[-2] - lengths[-1])
 
     # Check for duplicates (entries can have the same unique park identifier if a park consists of several polygones. Thus, we check if they also have the exact same area which would indicate true duplication)
-    print("Number of rows with same unique park identifier but different areas:", len(df[df.duplicated(subset=['NUM_INDEX', 'SUPERFICIE'])]))
+    print("Number of rows with same unique park identifier and same areas:", len(df[df.duplicated(subset=['NUM_INDEX', 'SUPERFICIE'])]))
 
     # Remove parks that have no borough or are not handled by a borough
     not_boroughs = ['Autre', 'Commission scolaire', 'Service des grands parcs, du Mont-Royal et des sports', 'Westmount']
