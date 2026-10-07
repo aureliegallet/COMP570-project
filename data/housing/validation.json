@@ -1,0 +1,21 @@
+{
+  "source_html_sha256": "fd47cd82d65a332c3b143d1f1efb3546e36a79618311c241ddd8d55498084309",
+  "source_rows_per_table": 20,
+  "city_total_rows_removed_per_table": 1,
+  "borough_rows": 19,
+  "duplicate_boroughs": 0,
+  "unmatched_boundary_boroughs": [],
+  "missing_2br_costs": 0,
+  "missing_3br_costs": 0,
+  "assumed_monthly_household_income_cad": 3000,
+  "budget_endpoints_cad_per_month": [
+    2000,
+    3000
+  ],
+  "undefined_household_growth_rows": 0,
+  "source_limitations": [
+    "mean rent",
+    "2–3-bedroom rental count in price range",
+    "2–3-bedroom rental percentage in price range"
+  ]
+}
