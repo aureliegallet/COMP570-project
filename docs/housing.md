@@ -13,10 +13,8 @@
 - `median_monthly_shelter_cost_2br_cad`: median monthly housing cost for renters in 2-bedroom homes (whole CAD).
 - `median_monthly_shelter_cost_3br_cad`: the same measure for 3-bedroom homes (whole CAD).
 - `renter_households_spending_30pct_or_more_pct`: percentage of renters spending at least 30% of income on housing (decimal, 0–100).
-- `median_annual_renter_household_income_before_tax_cad`: median yearly renter household income before tax (whole CAD).
-- `income_reference_year`: 2020 (integer).
 
-The income and percentage columns cover all bedroom sizes. The percentage excludes households with zero or negative income, following the source’s definition.
+The housing-cost burden percentage covers all bedroom sizes. It describes existing renter households, not the fixed-income target family. Median household income and its reference year are excluded because the project assumes a fixed target income. The original income table is retained only as an archived source. The percentage excludes households with zero or negative income, following the source’s definition.
 
 ## Added calculations
 
@@ -27,13 +25,13 @@ The income and percentage columns cover all bedroom sizes. The percentage exclud
 
 Positive budget differences mean the budget exceeds the historical median; negative differences mean it is below. They are not estimates of available listings, actual savings, or the percentage of homes within budget. The $2,000 and $3,000 endpoints are project assumptions and are not inflation-adjusted. Growth is calculated from the published counts, which are rounded, so it may differ slightly from the source's published `Variation_pct`.
 
-The CSV now has 19 rows and 14 columns. The four budget differences were checked against the bedroom-cost table, and all 19 growth calculations were checked against the household counts.
+The CSV now has 19 rows and 12 columns. The four budget differences were checked against the bedroom-cost table, and all 19 growth calculations were checked against the household counts.
 
 ## Processing
 
-The script selects renters (`Locataires`), removes the city-total row, fixes four borough names to match the project, and combines the columns by borough. The original four indicators come directly from the source. The added budget differences and household growth are calculated as described below.
+The script selects renters (`Locataires`), removes the city-total row, fixes four borough names to match the project, and combines the columns by borough. The three selected indicators come directly from the source. The added budget differences and household growth are calculated as described above.
 
-All 76 indicator values were checked against the originals. There are no missing values, and all 19 borough names match the parks, schools and crime files.
+All 57 selected indicator values were checked against the originals. There are no missing values, and all 19 borough names match the parks, schools and crime files.
 
 Run `python3 src/housing.py` from the repository root to rebuild the CSV. Original files are in `data/housing/raw/`; check results are in `data/housing/validation.json`.
 
