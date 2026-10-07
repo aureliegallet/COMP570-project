@@ -199,7 +199,7 @@ The resulting aggregate statistics in pur final dataset were normalized to value
 ### Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
 If so, please provide a link or other access point to the “raw” data.
 
-@all should we include raw_*.csv files?
+The raw data for the crime, parks and schools data can be found under data/raw/*.csv in the GitHub linked in the following question. The raw data for the 311 requests was not saved due to size concerns.
 
 ### Is the software that was used to preprocess/clean/label the data available? 
 If so, please provide a link or other access point.
