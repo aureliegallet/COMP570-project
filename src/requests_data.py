@@ -5,6 +5,28 @@ import json
 import utils
 
 
+COMPLAINTS_PROCESSED = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed.csv"
+COMPLAINTS_PROCESSED_NON_MATCHING = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed_non_matching.csv"
+COMPLAINTS_ACTIONS = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_actions.csv"
+
+REQUESTS_PROCESSED = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_processed.csv"
+REQUESTS_PROCESSED_NON_MATCHING = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_processed_non_matching.csv"
+REQUESTS_ACTIONS = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_actions.csv"
+
+COMPLETED_DATASETS = [COMPLAINTS_PROCESSED, COMPLAINTS_PROCESSED_NON_MATCHING, REQUESTS_PROCESSED, REQUESTS_PROCESSED_NON_MATCHING]
+COMPLETED_DATASET_NAMES = ["Complaints", "Adjusted Complaints", "Requests", "Adjusted Requests"]
+
+ACTION_DATASETS = [COMPLAINTS_ACTIONS, REQUESTS_ACTIONS]
+ACTION_DATASET_NAMES = ["Most Common Complaint", "Most Common Requests"]
+
+COMPLAINTS_OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints.csv"
+REQUESTS_OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests.csv"
+OUTPUT_DIRS = [COMPLAINTS_OUTPUT_DIR, REQUESTS_OUTPUT_DIR]
+
+NATURES = ["Plainte", "Requete"]
+
+HARD_LIMIT = '30000'
+
 BOROUGHS = [
     "Côte-des-Neiges-Notre-Dame-de-Grâce",
     "Ville-Marie",
@@ -27,6 +49,7 @@ BOROUGHS = [
     "Saint-Laurent"
 ]
 
+
 def accumulate_counts(target_df, cumulative_df):
     borough_count = target_df[target_df['ARRONDISSEMENT_GEO'].isin(BOROUGHS)]['ARRONDISSEMENT_GEO'].value_counts()
     resulting_df = borough_count.reset_index()
@@ -47,46 +70,6 @@ def accumulate_counts(target_df, cumulative_df):
 
 
 def main():
-    complaints_processed = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed.csv"
-    complaints_processed_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed_non_matching.csv"
-    complaints_actions = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_actions.csv"
-    complaints_output_dir = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints.csv"
-
-    requests_processed = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_processed.csv"
-    requests_processed_non_matching = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_processed_non_matching.csv"
-    requests_actions = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests_actions.csv"
-    requests_output_dir = Path(__file__).resolve().parent.parent / "data/requests" / "output_requests.csv"
-
-    completed_datasets = [
-        complaints_processed, complaints_processed_non_matching, 
-        requests_processed, requests_processed_non_matching
-    ]
-
-    completed_dataset_names = [
-        "Complaints", "Adjusted Complaints", 
-        "Requests", "Adjusted Requests"
-    ]
-
-    action_datasets = [
-        complaints_actions,
-        requests_actions
-    ]
-
-    action_dataset_names = [
-        "Most Common Complaint",
-        "Most Common Requests"
-    ]
-
-    output_dirs = [
-        complaints_output_dir, requests_output_dir
-    ]
-
-    natures = [
-        "Plainte", "Requete"
-    ]
-
-    hard_limit = '30000'
-
     loader = Loader()
 
     # Get total count of 2021 rows
@@ -97,18 +80,25 @@ def main():
 
     count_filtered_2021 = 0
     
-    for index, path in enumerate(output_dirs):
+    for index, path in enumerate(OUTPUT_DIRS):
         # Filtered download of 311 that only takes non-null arrondissement entries, a specific nature, and in the year of 2021
         cumulative_df_matching = pd.DataFrame()
         cumulative_df_non_matching = pd.DataFrame()
         cumulative_df_actions = pd.DataFrame()
+
         last_id = '0'
         loop_counter = 0
-
         print("\n ------------------ \n")
-        print("Processing " + natures[index])
+        print("Processing " + NATURES[index])
+        
         while True:
-            path = """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?sql=SELECT * from "dbfc05f8-b939-4639-ae52-2e77f738e43f" where ("ARRONDISSEMENT" is not null or "ARRONDISSEMENT_GEO" is not null) and "NATURE" = '""" + natures[index] + """' and "DDS_DATE_CREATION" > '2021-01-01 00:00:00' and "ID_UNIQUE" > '""" + last_id + """' ORDER BY "ID_UNIQUE" LIMIT """ + hard_limit
+            path = (
+                """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?"""
+                'sql=SELECT * from "dbfc05f8-b939-4639-ae52-2e77f738e43f"'
+                """where ("ARRONDISSEMENT" is not null or "ARRONDISSEMENT_GEO" is not null)"""
+                f"""and "NATURE" = '{NATURES[index]}' and "DDS_DATE_CREATION" > '2021-01-01 00:00:00'"""
+                f"""and "ID_UNIQUE" > '{last_id}' ORDER BY "ID_UNIQUE" LIMIT {HARD_LIMIT}"""
+            )
             data = loader.load(path)
             df = pd.DataFrame(data)
             df = utils.str_to_num(df)
@@ -154,40 +144,40 @@ def main():
 
 
         # Final processing and saving
-        counts_matching_path = completed_datasets[index * 2]
+        counts_matching_path = COMPLETED_DATASETS[index * 2]
         cumulative_df_matching.to_csv(counts_matching_path, index=False)
 
-        counts_non_matching_path = completed_datasets[index * 2 + 1]
+        counts_non_matching_path = COMPLETED_DATASETS[index * 2 + 1]
         cumulative_df_non_matching.to_csv(counts_non_matching_path, index=False)
 
         cumulative_df_actions = cumulative_df_actions.sort_values(by=['Count'], ascending=False)
         cumulative_df_actions = cumulative_df_actions.drop_duplicates(subset=['ARRONDISSEMENT_GEO']) # Drops all other mentions of the same arrondissement except the first
         cumulative_df_actions = cumulative_df_actions.reset_index(drop=True)
-        action_output_path = action_datasets[index]
+        action_output_path = ACTION_DATASETS[index]
         cumulative_df_actions.to_csv(action_output_path, index=False)
 
     print("\n ------------------ \n")
     print(f"Total lines used: {count_filtered_2021}")
 
     # When all datasets are available merge them together
-    if all(Path(path).exists() for path in completed_datasets) and all(Path(path).exists() for path in action_datasets):
+    if all(Path(path).exists() for path in COMPLETED_DATASETS) and all(Path(path).exists() for path in ACTION_DATASETS):
         merged_df = pd.DataFrame()
-        for index, path in enumerate(completed_datasets):
+        for index, path in enumerate(COMPLETED_DATASETS):
             if merged_df.empty: # This seems wrong but we never go there so let's not touch
                 merged_df = pd.read_csv(path)
-                merged_df = merged_df.rename(columns={'Count': completed_dataset_names[index]})
+                merged_df = merged_df.rename(columns={'Count': COMPLETED_DATASET_NAMES[index]})
             else:
                 merged_df = pd.merge(merged_df, pd.read_csv(path), on='Borough', how='outer')
-                merged_df = merged_df.rename(columns={'Count': completed_dataset_names[index]})
+                merged_df = merged_df.rename(columns={'Count': COMPLETED_DATASET_NAMES[index]})
                 merged_df = merged_df.fillna(value=0)
-                merged_df[completed_dataset_names[index]] = merged_df[completed_dataset_names[index]].astype(int)
+                merged_df[COMPLETED_DATASET_NAMES[index]] = merged_df[COMPLETED_DATASET_NAMES[index]].astype(int)
 
-        for index, path in enumerate(action_datasets):
+        for index, path in enumerate(ACTION_DATASETS):
             new_df = pd.read_csv(path)
             new_df = new_df.rename(columns={'ARRONDISSEMENT_GEO': 'Borough'})
             new_df = new_df.drop(columns=['Count'])
             merged_df = pd.merge(merged_df, new_df, on='Borough', how='outer')
-            merged_df = merged_df.rename(columns={'ACTI_NOM': action_dataset_names[index]})
+            merged_df = merged_df.rename(columns={'ACTI_NOM': ACTION_DATASET_NAMES[index]})
 
         is_not_borough = merged_df['Borough'] == 'Not-Borough'
         merged_df = pd.concat([merged_df[~is_not_borough], merged_df[is_not_borough]], ignore_index=True)
