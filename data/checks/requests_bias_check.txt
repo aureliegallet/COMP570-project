@@ -1,0 +1,152 @@
+Number of entries for 2021: 684344
+Number of unique action labels 2021: 902
+
+ ------------------ 
+
+Missing values for unfiltered 2021 dataset.
+Loop 1
+Loop 2
+Loop 3
+Loop 4
+Loop 5
+Loop 6
+Loop 7
+Loop 8
+Loop 9
+Loop 10
+Loop 11
+Loop 12
+Loop 13
+Loop 14
+Loop 15
+Loop 16
+Loop 17
+Loop 18
+Loop 19
+Loop 20
+Loop 21
+Loop 21
+
+ ------------------ 
+
+Total length of reported dataset: 684344
+Empty values per column
+RUE_INTERSECTION2          621138
+RUE_INTERSECTION1          621077
+LIN_CODE_POSTAL            371488
+RUE                        340669
+LOC_LONG                   276993
+LOC_ERREUR_GDT             276993
+LOC_LAT                    276993
+LOC_X                      276993
+LOC_Y                      276993
+ARRONDISSEMENT             276559
+TYPE_LIEU_INTERV           276559
+DERNIER_STATUT             276553
+ID_UNIQUE                  276553
+PROVENANCE_ORIGINALE          770
+PROVENANCE_SITEINTERNET         0
+UNITE_RESP_PARENT               0
+_full_text                      0
+PROVENANCE_TELEPHONE            0
+PROVENANCE_TELECOPIEUR          0
+ACTI_NOM                        0
+PROVENANCE_COURRIER             0
+PROVENANCE_PERSONNE             0
+PROVENANCE_MOBILE               0
+PROVENANCE_MEDIASOCIAUX         0
+PROVENANCE_INSTANCE             0
+PROVENANCE_COURRIEL             0
+NATURE                          0
+DDS_DATE_CREATION               0
+DATE_DERNIER_STATUT             0
+ARRONDISSEMENT_GEO              0
+_id                             0
+dtype: object
+Total rows with missing values: 684320
+Missing values per borough
+                         Côte-des-Neiges-Notre-Dame-de-Grâce  ...  Saint-Laurent
+_id                                                        0  ...              0
+_full_text                                                 0  ...              0
+ID_UNIQUE                                                  0  ...              0
+NATURE                                                     0  ...              0
+ACTI_NOM                                                   0  ...              0
+TYPE_LIEU_INTERV                                           0  ...              0
+RUE                                                     3721  ...          11300
+RUE_INTERSECTION1                                      21861  ...          34164
+RUE_INTERSECTION2                                      21865  ...          34178
+LOC_ERREUR_GDT                                             0  ...              0
+ARRONDISSEMENT                                             0  ...              0
+ARRONDISSEMENT_GEO                                         0  ...              0
+LIN_CODE_POSTAL                                         5339  ...          13203
+DDS_DATE_CREATION                                          0  ...              0
+PROVENANCE_ORIGINALE                                      44  ...              2
+PROVENANCE_TELEPHONE                                       0  ...              0
+PROVENANCE_COURRIEL                                        0  ...              0
+PROVENANCE_PERSONNE                                        0  ...              0
+PROVENANCE_COURRIER                                        0  ...              0
+PROVENANCE_TELECOPIEUR                                     0  ...              0
+PROVENANCE_INSTANCE                                        0  ...              0
+PROVENANCE_MOBILE                                          0  ...              0
+PROVENANCE_MEDIASOCIAUX                                    0  ...              0
+PROVENANCE_SITEINTERNET                                    0  ...              0
+UNITE_RESP_PARENT                                          0  ...              0
+LOC_LONG                                                   0  ...              0
+LOC_LAT                                                    0  ...              0
+LOC_X                                                      0  ...              0
+LOC_Y                                                      0  ...              0
+DERNIER_STATUT                                             0  ...              0
+DATE_DERNIER_STATUT                                        0  ...              0
+
+[31 rows x 19 columns]
+
+ ------------------ 
+
+Processing Plainte
+Loop 1
+
+ ------------------ 
+
+Processing Requete
+Loop 1
+Loop 2
+Loop 3
+Loop 4
+Loop 5
+Loop 6
+Loop 7
+Loop 8
+Loop 9
+Loop 10
+Loop 11
+
+ ------------------ 
+
+Total lines used: 334304
+
+ ------------------ 
+
+Bin collection bias
+                                         registered_as_complaint  ... proportion
+ARRONDISSEMENT_GEO                                                ...           
+Saint-Laurent                                                 11  ...      0.025
+LeSud-Ouest                                                   13  ...   0.031401
+Mercier-Hochelaga-Maisonneuve                                 30  ...   0.035211
+Ville-Marie                                                   16  ...   0.038278
+Verdun                                                        12  ...   0.044118
+LePlateau-Mont-Royal                                          33  ...   0.045643
+Rosemont-LaPetite-Patrie                                      87  ...   0.047828
+L'Île-Bizard-Sainte-Geneviève                                 36  ...   0.053492
+Montréal-Nord                                                 34  ...   0.054226
+Rivière-des-Prairies-Pointe-aux-Trembles                      53  ...   0.055036
+Anjou                                                         13  ...   0.055319
+Villeray-Saint-Michel-Parc-Extension                          53  ...   0.055848
+Ahuntsic-Cartierville                                         90  ...   0.066225
+LaSalle                                                       27  ...   0.067839
+Côte-des-Neiges-Notre-Dame-de-Grâce                           86  ...   0.070376
+Saint-Léonard                                                 43  ...   0.074913
+Outremont                                                     27  ...   0.075419
+Pierrefonds-Roxboro                                           51  ...   0.081862
+Lachine                                                       22  ...   0.094017
+
+[19 rows x 3 columns]

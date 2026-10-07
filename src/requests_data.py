@@ -68,7 +68,65 @@ def accumulate_counts(target_df, cumulative_df):
         cumulative_df = cumulative_df.drop(columns='ToAdd')
     return cumulative_df
 
+def caculate_missing(loader):
+    length = 0
+    empty_values = pd.Series()
+    rows_with_missing = 0
 
+    page = 0
+    page_size = 32000
+    load_more = True
+    missing_counts = pd.DataFrame()
+    while load_more:
+        path = (
+            """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?"""
+            'sql=SELECT * from "dbfc05f8-b939-4639-ae52-2e77f738e43f"'
+            """where "DDS_DATE_CREATION" > '2021-01-01 00:00:00'"""
+            f"""LIMIT {page_size} OFFSET {page_size * page}"""
+        )
+        try: 
+            data = loader.load(path)
+        except Exception as e:
+            print("\n ------------------ \n")
+            print(f"Dataset stopped loading at {page_size * page} because of error {e}.")
+            break
+
+        if len(data) < page_size:
+            load_more = False
+        else: 
+            page += 1
+
+        df = pd.DataFrame(data)
+        df = utils.str_to_num(df)
+        df['ARRONDISSEMENT_GEO'] = df['ARRONDISSEMENT_GEO'].fillna("Not-Borough").str.replace(' ', '')
+
+        length += len(df)
+        empty_values = empty_values.add(df.isna().sum(), fill_value = 0)
+
+        normal_length = len(df)
+        temp = df.dropna()
+        removed_length = len(temp)
+        rows_with_missing += normal_length - removed_length
+
+        for borough in BOROUGHS:
+            if borough in missing_counts.columns:
+                missing_counts[borough] = missing_counts[borough] + df[df["ARRONDISSEMENT_GEO"] == borough].isna().sum()
+            else:
+                missing_counts[borough] = df[df["ARRONDISSEMENT_GEO"] == borough].isna().sum()
+
+        print("Loop " + str(page))
+
+
+    print("\n ------------------ \n")
+    print(f"Total length of reported dataset: {length}")
+    print(f"Empty values per column")
+    print(empty_values.sort_values(ascending = False))
+    print(f"Total rows with missing values: {rows_with_missing}")
+    print("Missing values per borough")
+    print(missing_counts)
+    missing_counts.insert(0, "Column", df.columns) # Absent in CSV without this line
+    missing_counts.to_csv(Path(__file__).resolve().parent.parent / "data/checks/requests_missing.csv", index=False)
+    
 
 def main():
     loader = Loader()
@@ -87,6 +145,12 @@ def main():
 
     count_filtered_2021 = 0
     checks = [pd.Series(), pd.Series()]
+
+    # Compute missing values for unfiltered 2021
+    print("\n ------------------ \n")
+    print(f"Missing values for unfiltered 2021 dataset.")
+    caculate_missing(loader)
+
 
     # Filtered processing
     for index, path in enumerate(OUTPUT_DIRS):
