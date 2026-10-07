@@ -5,7 +5,7 @@ import argparse
 import time
 import re
 from pathlib import Path
-from geopy.geocoders import ArcGIS
+from geopy.geocoders import Nominatim
 from borough_identifier import BoroughIdentifier
 
 BOROUGHS = [
@@ -96,7 +96,7 @@ def main():
     print("\n ------------------ \n")
     print("Bias check for private parks")
     private_df = df[df['COMPETENCE'] == "Privé"]
-    geolocator = ArcGIS(user_agent="data_science") # Rate limited, cannot run again
+    geolocator = Nominatim(user_agent="COMP570-project") # Rate limited, cannot run again
 
     locations = []
     bi = BoroughIdentifier()
@@ -110,6 +110,7 @@ def main():
             print(f"> Found: {location.latitude}, {location.longitude}")
             locations.append(bi.match_WSG84_to_borough(longitude_x=location.longitude, latitude_y=location.latitude)), 
         except:
+            locations.append(None)
             print(f"> Parc not found: {row[1]["Nom"]}")
 
         time.sleep(1.1)

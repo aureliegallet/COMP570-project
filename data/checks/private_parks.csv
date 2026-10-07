@@ -2,47 +2,47 @@ _id,OBJECTID,Type,Lien,Nom,NUM_INDEX,SUPERFICIE,PROPRIETE,GESTION,COMPETENCE,TYP
 1,3477,,,Université Concordia - Campus Loyola,1807-004,5.054930290035682,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Côte-des-Neiges-Notre-Dame-de-Grâce
 65,3541,Promenade,de la,Commune,1806-117,1.1138190816560096,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 83,3559,,,Collège Jean-de-Brébeuf,1860-013,9.433896179568553,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Côte-des-Neiges-Notre-Dame-de-Grâce
-113,3589,Parc,de la,Polyvalente De Pointe-Aux-Trembles,1083-000,8.219374192844043,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Rivière-des-Prairies-Pointe-aux-Trembles
-123,3599,,,École-Notre-Dame Loyola High,,2.0806701666945258,Institutionnel,Autre,Privé,Parc d'arrondissement,Parc école,Rivière-des-Prairies-Pointe-aux-Trembles
-146,3622,,,Jardin Botanique,0084-000,69.41075956203575,Institutionnel,Autre,Privé,Autre espace vert,Jardin Botanique,Côte-des-Neiges-Notre-Dame-de-Grâce
+113,3589,Parc,de la,Polyvalente De Pointe-Aux-Trembles,1083-000,8.219374192844043,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,
+123,3599,,,École-Notre-Dame Loyola High,,2.0806701666945258,Institutionnel,Autre,Privé,Parc d'arrondissement,Parc école,
+146,3622,,,Jardin Botanique,0084-000,69.41075956203575,Institutionnel,Autre,Privé,Autre espace vert,Jardin Botanique,Rosemont-La Petite-Patrie
 150,3626,,,Lower Canada Collège,,2.4003451779464156,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Côte-des-Neiges-Notre-Dame-de-Grâce
 182,3658,,,Collège André-Grasset,1860-010,2.989503414197991,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Ahuntsic-Cartierville
-183,3659,,,Université de Montréal,1807-200,4.2984595671967964,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-206,3682,,,Cégep de Maisonneuve,,1.100893980849885,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Lachine
-211,3687,,,Yolène-Jumelle,,0.6854084418723696,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+183,3659,,,Université de Montréal,1807-200,4.2984595671967964,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Côte-des-Neiges-Notre-Dame-de-Grâce
+206,3682,,,Cégep de Maisonneuve,,1.100893980849885,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,
+211,3687,,,Yolène-Jumelle,,0.6854084418723696,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Côte-des-Neiges-Notre-Dame-de-Grâce
 215,3691,,,Collège Reine-Marie,,4.066104052792871,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Villeray-Saint-Michel-Parc-Extension
-216,3692,Place,de l',Horloge,,0.06529816703263631,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-238,3714,,,Yolène-Jumelle,,0.35730471128242464,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-256,3732,,,Collège Notre-Dame,1860-024,7.5813371727621925,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Ville-Marie
-275,3751,Cimetière,,Congrégation Shearith Israel Spanish Portuguese,1816-002,0.5786253349989404,Privé,Autre,Privé,Autre espace vert,Cimetière,Côte-des-Neiges-Notre-Dame-de-Grâce
-331,3807,Espace,,Jean-Blais,1177-000,0.025938583115179485,Institutionnel,Autre,Privé,Espace voirie,Îlot de voirie,Ville-Marie
-341,3817,Cimetière,,Congrégation Shaar Hashomayim,1816-001,2.5781181078962505,Privé,Autre,Privé,Autre espace vert,Cimetière,Ville-Marie
-399,3875,,,Institut Albert-Prévost,1801-002,0.7474937690790174,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ahuntsic-Cartierville
+216,3692,Place,de l',Horloge,,0.06529816703263631,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+238,3714,,,Yolène-Jumelle,,0.35730471128242464,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Côte-des-Neiges-Notre-Dame-de-Grâce
+256,3732,,,Collège Notre-Dame,1860-024,7.5813371727621925,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Côte-des-Neiges-Notre-Dame-de-Grâce
+275,3751,Cimetière,,Congrégation Shearith Israel Spanish Portuguese,1816-002,0.5786253349989404,Privé,Autre,Privé,Autre espace vert,Cimetière,
+331,3807,Espace,,Jean-Blais,1177-000,0.025938583115179485,Institutionnel,Autre,Privé,Espace voirie,Îlot de voirie,
+341,3817,Cimetière,,Congrégation Shaar Hashomayim,1816-001,2.5781181078962505,Privé,Autre,Privé,Autre espace vert,Cimetière,
+399,3875,,,Institut Albert-Prévost,1801-002,0.7474937690790174,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 402,3878,,,Collège De Bois-De- Boulogne,1860-012,3.458088404086316,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Ahuntsic-Cartierville
-440,3916,,,Soccerplexe Catalogna,,0.8858063188411347,Privé,Autre,Privé,Autre espace vert,Espace sportif,L'Île-Bizard-Sainte-Geneviève
-488,3964,Place,de l',Horloge,,0.1636863354432516,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+440,3916,,,Soccerplexe Catalogna,,0.8858063188411347,Privé,Autre,Privé,Autre espace vert,Espace sportif,
+488,3964,Place,de l',Horloge,,0.1636863354432516,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 489,3965,Cimetière,,Mont-Royal,1816-200,65.40860104788386,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Outremont
-501,3977,Place,de l',Horloge,,0.0015534740376314902,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+501,3977,Place,de l',Horloge,,0.0015534740376314902,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 511,3987,Parc,,Olympique de Montréal,0083-000,47.466462671856284,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Mercier-Hochelaga-Maisonneuve
-520,3996,Place,de l',Horloge,,0.011653275371636003,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-572,4048,,,Base militaire Longue-Pointe,,6.94292216926892,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Mercier-Hochelaga-Maisonneuve
+520,3996,Place,de l',Horloge,,0.011653275371636003,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+572,4048,,,Base militaire Longue-Pointe,,6.94292216926892,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 583,4059,,,Gilbert-Langevin,,0.10623875298428145,Institutionnel,Autre,Privé,Autre espace vert,Espace vacant,Le Plateau-Mont-Royal
 719,4195,,,Centre Boscoville,1192-000,25.42477272971129,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,
-849,4325,,,Piscine Pierrefonds Park,2730-022,0.2131305890915467,Privé,Autre,Privé,Autre espace vert,Espace sportif,Pierrefonds-Roxboro
+849,4325,,,Piscine Pierrefonds Park,2730-022,0.2131305890915467,Privé,Autre,Privé,Autre espace vert,Espace sportif,
 880,4356,,,Piscine Thorndale,2730-023,0.43559306429905575,Privé,Autre,Privé,Autre espace vert,Espace sportif,Pierrefonds-Roxboro
 916,4392,Parc,du,Collège,,0.4292177712536817,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,L'Île-Bizard-Sainte-Geneviève
-947,4423,Golf,,Elm Ridge,,172.00546480504426,Privé,Autre,Privé,Autre espace vert,Golf,L'Île-Bizard-Sainte-Geneviève
+947,4423,Golf,,Elm Ridge,,172.00546480504426,Privé,Autre,Privé,Autre espace vert,Golf,
 969,4445,,,Cégep Saint-Laurent,,13.511366512435583,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Saint-Laurent
-1012,4488,,,Université Mcgill (Général),1806-200,7.7765087483492,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-1014,4490,Parc,,Alphonse-Desjardins,2716-000,0.052578362138915764,Privé,Autre,Privé,Parc d'arrondissement,Parc de voisinage,Pierrefonds-Roxboro
-1041,4517,,,Cégep Vanier,,19.47927321991423,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Rosemont-La Petite-Patrie
+1012,4488,,,Université Mcgill (Général),1806-200,7.7765087483492,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+1014,4490,Parc,,Alphonse-Desjardins,2716-000,0.052578362138915764,Privé,Autre,Privé,Parc d'arrondissement,Parc de voisinage,
+1041,4517,,,Cégep Vanier,,19.47927321991423,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Saint-Laurent
 1045,4521,Parc,du,Bassin-Bonsecours,1806-119,5.135911880588314,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
 1047,4523,,,École Vanguard Québec,,2.910994618560285,Institutionnel,Autre,Privé,Parc d'arrondissement,Parc école,Saint-Laurent
-1067,4543,Golf,,Saint-Raphaël,,21.94631098167241,Privé,Autre,Privé,Autre espace vert,Golf,L'Île-Bizard-Sainte-Geneviève
-1073,4549,Golf,,Saint-Raphaël,,118.76600598838691,Privé,Autre,Privé,Autre espace vert,Golf,L'Île-Bizard-Sainte-Geneviève
+1067,4543,Golf,,Saint-Raphaël,,21.94631098167241,Privé,Autre,Privé,Autre espace vert,Golf,
+1073,4549,Golf,,Saint-Raphaël,,118.76600598838691,Privé,Autre,Privé,Autre espace vert,Golf,
 1096,4572,Collège,,Saint-Jean-Vianney,,11.911066506105243,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Rivière-des-Prairies-Pointe-aux-Trembles
 1129,4605,,,Institut Universitaire en Santé Mentale Douglas,1820-001,59.522932871701876,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Verdun
-1165,4641,Place,de l',Horloge,,0.05639002454302578,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+1165,4641,Place,de l',Horloge,,0.05639002454302578,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1168,4644,Golf,,Île des Soeurs,,26.485625589819847,Privé,Autre,Privé,Autre espace vert,Golf,Verdun
 1180,4656,,,Collège Mont Saint-Louis,,1.5890906948331687,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Ahuntsic-Cartierville
 1202,4678,,,Grand Séminaire de Montréal,1806-310,8.299353908028644,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
@@ -52,8 +52,8 @@ _id,OBJECTID,Type,Lien,Nom,NUM_INDEX,SUPERFICIE,PROPRIETE,GESTION,COMPETENCE,TYP
 1319,4795,,,Club de golf métropolitain Anjou,,90.91457639241062,Privé,Autre,Privé,Autre espace vert,Golf,Anjou
 1323,4799,Promenade,de la,Commune,1806-117,0.3286461360808886,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1324,4800,Promenade,de la,Commune,1806-117,0.12521090253218956,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
-1328,4804,,,Piscine Terrasse Roxboro,2730-019,0.09898804614991687,Privé,Autre,Privé,Autre espace vert,Espace sportif,Pierrefonds-Roxboro
-1330,4806,,,Université de Montréal,1807-200,42.36613705789789,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+1328,4804,,,Piscine Terrasse Roxboro,2730-019,0.09898804614991687,Privé,Autre,Privé,Autre espace vert,Espace sportif,
+1330,4806,,,Université de Montréal,1807-200,42.36613705789789,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Côte-des-Neiges-Notre-Dame-de-Grâce
 1332,4808,Promenade,de la,Commune,1806-117,0.5708639475670267,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1337,4813,,,Pauline-Julien,0234-000,0.7262260696403225,Institutionnel,Autre,Privé,Espace voirie,Îlot de voirie,Le Plateau-Mont-Royal
 1355,4831,Promenade,de la,Commune,1806-117,0.2648040864163942,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
@@ -61,28 +61,28 @@ _id,OBJECTID,Type,Lien,Nom,NUM_INDEX,SUPERFICIE,PROPRIETE,GESTION,COMPETENCE,TYP
 1357,4833,Promenade,de la,Commune,1806-117,1.067860487397964,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1358,4834,Promenade,de la,Commune,1806-117,0.8492440289189636,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1371,4847,,,Piscine Briarwood,2730-019,0.5048536984926456,Privé,Autre,Privé,Autre espace vert,Espace sportif,Pierrefonds-Roxboro
-1381,4857,Place,de l',Horloge,,2.245271562110085,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-1392,4868,,,Jardins de la Basilique Saint-Patrick,0672-000,1.5415975819558325,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-1415,4891,Place,de l',Horloge,,0.023062150632578365,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+1381,4857,Place,de l',Horloge,,2.245271562110085,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+1392,4868,,,Jardins de la Basilique Saint-Patrick,0672-000,1.5415975819558325,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+1415,4891,Place,de l',Horloge,,0.023062150632578365,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1416,4892,Promenade,de la,Commune,1806-117,0.4609706554282227,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
-1432,4908,Usine,,Charles-J.-des Baillets,,16.237655891870375,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-1455,4931,Parc,du,Centre Canadien d'Architecture,1053-001,1.240279145053693,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
-1510,4986,,,Thomas-Paine / Diderot,1280-000,4.329677480228738,Privé,Autre,Privé,Autre espace vert,Espace vacant,Rivière-des-Prairies-Pointe-aux-Trembles
-1650,5126,Parc,,Vincent-D'Indy,2612-000,3.1638218086341876,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Outremont
-1873,5349,Complexe,,Guy-Descary,,2.0790741133190656,Privé,Autre,Privé,Autre espace vert,Espace institutionnel,Ville-Marie
+1432,4908,Usine,,Charles-J.-des Baillets,,16.237655891870375,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+1455,4931,Parc,du,Centre Canadien d'Architecture,1053-001,1.240279145053693,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
+1510,4986,,,Thomas-Paine / Diderot,1280-000,4.329677480228738,Privé,Autre,Privé,Autre espace vert,Espace vacant,
+1650,5126,Parc,,Vincent-D'Indy,2612-000,3.1638218086341876,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,
+1873,5349,Complexe,,Guy-Descary,,2.0790741133190656,Privé,Autre,Privé,Autre espace vert,Espace institutionnel,
 1875,5351,Promenade,de la,Commune,1806-117,0.3592118618309935,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,
 1878,5354,,,Centre récréatif Lachine Ouest,,0.3519741313662582,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Lachine
-1887,5363,Golf,,Meadowbrook,,0.13328066594312915,Privé,Autre,Privé,Autre espace vert,Golf,Côte-des-Neiges-Notre-Dame-de-Grâce
-1888,5364,Golf,,Meadowbrook,,23.683940076152066,Privé,Autre,Privé,Autre espace vert,Golf,Côte-des-Neiges-Notre-Dame-de-Grâce
-1889,5365,Golf,,Meadowbrook,,1.0059562358315874,Privé,Autre,Privé,Autre espace vert,Golf,Côte-des-Neiges-Notre-Dame-de-Grâce
+1887,5363,Golf,,Meadowbrook,,0.13328066594312915,Privé,Autre,Privé,Autre espace vert,Golf,
+1888,5364,Golf,,Meadowbrook,,23.683940076152066,Privé,Autre,Privé,Autre espace vert,Golf,
+1889,5365,Golf,,Meadowbrook,,1.0059562358315874,Privé,Autre,Privé,Autre espace vert,Golf,
 1890,5366,,,Club de canöe de course de Lachine,,0.7414214459190281,Privé,Autre,Privé,Autre espace vert,Espace sportif,Lachine
-1891,5367,Toit-vert,du,Regroupement De Lachine,,0.08305030045493016,Privé,Autre,Privé,Autre espace vert,Espace institutionnel,Lachine
-2063,5539,,,Stade Percival-Molson,1806-201,10.343292851287966,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,
+1891,5367,Toit-vert,du,Regroupement De Lachine,,0.08305030045493016,Privé,Autre,Privé,Autre espace vert,Espace institutionnel,
+2063,5539,,,Stade Percival-Molson,1806-201,10.343292851287966,Institutionnel,Autre,Privé,Autre espace vert,Espace sportif,Ville-Marie
 2080,5556,,,Hôpital Royal Victoria,1806-006,3.9284510969421684,Institutionnel,Autre,Privé,Autre espace vert,Espace institutionnel,Côte-des-Neiges-Notre-Dame-de-Grâce
 2087,5563,Place,,Alice-Girard,2625-000,0.46387750194099636,Institutionnel,Autre,Privé,Parc d'arrondissement,Place publique,Outremont
-2129,5605,,,Jardin Botanique,0084-000,4.126450813198589,Institutionnel,Autre,Privé,Autre espace vert,Jardin Botanique,Côte-des-Neiges-Notre-Dame-de-Grâce
+2129,5605,,,Jardin Botanique,0084-000,4.126450813198589,Institutionnel,Autre,Privé,Autre espace vert,Jardin Botanique,Rosemont-La Petite-Patrie
 2135,5611,Golf,,Royal Montréal,,0.20376320553703953,Privé,Autre,Privé,Autre espace vert,Golf,L'Île-Bizard-Sainte-Geneviève
 2139,5615,Golf,,Royal Montréal,,272.30804937277685,Privé,Autre,Privé,Autre espace vert,Golf,L'Île-Bizard-Sainte-Geneviève
-2173,5649,Parc,,Michel-Bélanger,1329-000,0.2954216770877297,Privé,Autre,Privé,Parc d'arrondissement,Place publique,L'Île-Bizard-Sainte-Geneviève
+2173,5649,Parc,,Michel-Bélanger,1329-000,0.2954216770877297,Privé,Autre,Privé,Parc d'arrondissement,Place publique,Ville-Marie
 2209,5685,Golf,de l',île de Montréal,9562-060,68.71433060718233,Privé,Autre,Privé,Autre espace vert,Golf,Rivière-des-Prairies-Pointe-aux-Trembles
 2236,5712,Golf,de l',île de Montréal,9562-060,77.49992183917952,Privé,Autre,Privé,Autre espace vert,Golf,Rivière-des-Prairies-Pointe-aux-Trembles

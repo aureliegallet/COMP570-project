@@ -1,67 +1,60 @@
 Dataframe Head
 
-   _id  ID_UNIQUE       NATURE                             ACTI_NOM  \
-0    1        NaN  Information      Feux de circulation - Entretien   
-1    2        NaN  Information           Direction - Capital humain   
-2    3        NaN  Information               Gouvernement du Québec   
-3    4        NaN  Information  Permis de construction - rénovation   
-4    5        NaN  Information                Accès à l'information   
+      _id  ID_UNIQUE       NATURE         ACTI_NOM  TYPE_LIEU_INTERV  RUE  \
+0  386274        NaN  Information  Cour municipale               NaN  NaN   
+1  386275        NaN  Information  Cour municipale               NaN  NaN   
+2  386276        NaN  Information  Cour municipale               NaN  NaN   
+3  386277        NaN  Information  Taxes foncières               NaN  NaN   
+4  386278        NaN  Information  Taxes foncières               NaN  NaN   
 
-   TYPE_LIEU_INTERV  RUE  RUE_INTERSECTION1  RUE_INTERSECTION2  \
-0               NaN  NaN                NaN                NaN   
-1               NaN  NaN                NaN                NaN   
-2               NaN  NaN                NaN                NaN   
-3               NaN  NaN                NaN                NaN   
-4               NaN  NaN                NaN                NaN   
+   RUE_INTERSECTION1  RUE_INTERSECTION2  LOC_ERREUR_GDT  ARRONDISSEMENT  \
+0                NaN                NaN             NaN             NaN   
+1                NaN                NaN             NaN             NaN   
+2                NaN                NaN             NaN             NaN   
+3                NaN                NaN             NaN             NaN   
+4                NaN                NaN             NaN             NaN   
 
-   LOC_ERREUR_GDT  ARRONDISSEMENT  ARRONDISSEMENT_GEO  LIN_CODE_POSTAL  \
-0             NaN             NaN                 NaN              NaN   
-1             NaN             NaN                 NaN              NaN   
-2             NaN             NaN                 NaN              NaN   
-3             NaN             NaN                 NaN              NaN   
-4             NaN             NaN                 NaN              NaN   
+   ARRONDISSEMENT_GEO  LIN_CODE_POSTAL    DDS_DATE_CREATION  \
+0                 NaN              NaN  2019-06-07T11:49:36   
+1                 NaN              NaN  2019-06-07T11:49:43   
+2                 NaN              NaN  2019-06-07T11:49:50   
+3                 NaN              NaN  2019-06-07T11:49:58   
+4                 NaN              NaN  2019-06-07T11:50:06   
 
-     DDS_DATE_CREATION PROVENANCE_ORIGINALE  PROVENANCE_TELEPHONE  \
-0  2019-11-10T08:48:01            Téléphone                     1   
-1  2019-11-18T08:35:08            Téléphone                     1   
-2  2019-11-18T08:36:40            Téléphone                     1   
-3  2019-11-26T08:39:41            Téléphone                     1   
-4  2019-11-26T08:43:43            Téléphone                     1   
+  PROVENANCE_ORIGINALE  PROVENANCE_TELEPHONE  PROVENANCE_COURRIEL  \
+0             Personne                     0                    0   
+1             Personne                     0                    0   
+2             Personne                     0                    0   
+3             Personne                     0                    0   
+4             Personne                     0                    0   
 
-   PROVENANCE_COURRIEL  PROVENANCE_PERSONNE  PROVENANCE_COURRIER  \
-0                    0                    0                    0   
-1                    0                    0                    0   
-2                    0                    0                    0   
-3                    0                    0                    0   
-4                    0                    0                    0   
+   PROVENANCE_PERSONNE  PROVENANCE_COURRIER  PROVENANCE_TELECOPIEUR  \
+0                    1                    0                       0   
+1                    1                    0                       0   
+2                    1                    0                       0   
+3                    1                    0                       0   
+4                    1                    0                       0   
 
-   PROVENANCE_TELECOPIEUR  PROVENANCE_INSTANCE  PROVENANCE_MOBILE  \
-0                       0                    0                  0   
-1                       0                    0                  0   
-2                       0                    0                  0   
-3                       0                    0                  0   
-4                       0                    0                  0   
+   PROVENANCE_INSTANCE  PROVENANCE_MOBILE  PROVENANCE_MEDIASOCIAUX  \
+0                    0                  0                        0   
+1                    0                  0                        0   
+2                    0                  0                        0   
+3                    0                  0                        0   
+4                    0                  0                        0   
 
-   PROVENANCE_MEDIASOCIAUX  PROVENANCE_SITEINTERNET  \
-0                        0                        0   
-1                        0                        0   
-2                        0                        0   
-3                        0                        0   
-4                        0                        0   
+   PROVENANCE_SITEINTERNET                      UNITE_RESP_PARENT  LOC_LONG  \
+0                        0  VILLERAY - ST-MICHEL - PARC-EXTENSION       NaN   
+1                        0  VILLERAY - ST-MICHEL - PARC-EXTENSION       NaN   
+2                        0  VILLERAY - ST-MICHEL - PARC-EXTENSION       NaN   
+3                        0  VILLERAY - ST-MICHEL - PARC-EXTENSION       NaN   
+4                        0  VILLERAY - ST-MICHEL - PARC-EXTENSION       NaN   
 
-                                   UNITE_RESP_PARENT  LOC_LONG  LOC_LAT  \
-0  DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIOR...       NaN      NaN   
-1                                         ST-LAURENT       NaN      NaN   
-2                                         ST-LAURENT       NaN      NaN   
-3                                              ANJOU       NaN      NaN   
-4  DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIOR...       NaN      NaN   
-
-   LOC_X  LOC_Y  DERNIER_STATUT  DATE_DERNIER_STATUT  
-0    NaN    NaN             NaN  2019-11-10T08:48:01  
-1    NaN    NaN             NaN  2019-11-18T08:35:08  
-2    NaN    NaN             NaN  2019-11-18T08:36:40  
-3    NaN    NaN             NaN  2019-11-26T08:39:41  
-4    NaN    NaN             NaN  2019-11-26T08:43:43  
+   LOC_LAT  LOC_X  LOC_Y  DERNIER_STATUT  DATE_DERNIER_STATUT  
+0      NaN    NaN    NaN             NaN  2019-06-07T11:49:36  
+1      NaN    NaN    NaN             NaN  2019-06-07T11:49:43  
+2      NaN    NaN    NaN             NaN  2019-06-07T11:49:50  
+3      NaN    NaN    NaN             NaN  2019-06-07T11:49:58  
+4      NaN    NaN    NaN             NaN  2019-06-07T11:50:06  
 
  ------------------ 
 
@@ -125,15 +118,15 @@ None
 
 Dataframe Description
 
-                _id  ID_UNIQUE  TYPE_LIEU_INTERV  RUE  RUE_INTERSECTION1  \
-count  32000.000000        0.0               0.0  0.0                0.0   
-mean   16028.449562        NaN               NaN  NaN                NaN   
-std     9322.743082        NaN               NaN  NaN                NaN   
-min        1.000000        NaN               NaN  NaN                NaN   
-25%     8000.750000        NaN               NaN  NaN                NaN   
-50%    16000.500000        NaN               NaN  NaN                NaN   
-75%    24000.250000        NaN               NaN  NaN                NaN   
-max    76590.000000        NaN               NaN  NaN                NaN   
+                 _id  ID_UNIQUE  TYPE_LIEU_INTERV  RUE  RUE_INTERSECTION1  \
+count   32000.000000        0.0               0.0  0.0                0.0   
+mean   402274.508688        NaN               NaN  NaN                NaN   
+std      9237.769375        NaN               NaN  NaN                NaN   
+min    386274.000000        NaN               NaN  NaN                NaN   
+25%    394274.750000        NaN               NaN  NaN                NaN   
+50%    402274.500000        NaN               NaN  NaN                NaN   
+75%    410274.250000        NaN               NaN  NaN                NaN   
+max    418384.000000        NaN               NaN  NaN                NaN   
 
        RUE_INTERSECTION2  LOC_ERREUR_GDT  ARRONDISSEMENT  ARRONDISSEMENT_GEO  \
 count                0.0             0.0             0.0                 0.0   
@@ -147,8 +140,8 @@ max                  NaN             NaN             NaN                 NaN
 
        LIN_CODE_POSTAL  PROVENANCE_TELEPHONE  PROVENANCE_COURRIEL  \
 count              0.0          32000.000000         32000.000000   
-mean               NaN              0.931281             0.011562   
-std                NaN              0.252979             0.106907   
+mean               NaN              0.802875             0.011781   
+std                NaN              0.397834             0.107902   
 min                NaN              0.000000             0.000000   
 25%                NaN              1.000000             0.000000   
 50%                NaN              1.000000             0.000000   
@@ -157,8 +150,8 @@ max                NaN              1.000000             1.000000
 
        PROVENANCE_PERSONNE  PROVENANCE_COURRIER  PROVENANCE_TELECOPIEUR  \
 count         32000.000000         32000.000000                 32000.0   
-mean              0.056594             0.000188                     0.0   
-std               0.231068             0.013692                     0.0   
+mean              0.185188             0.000063                     0.0   
+std               0.388456             0.007906                     0.0   
 min               0.000000             0.000000                     0.0   
 25%               0.000000             0.000000                     0.0   
 50%               0.000000             0.000000                     0.0   
@@ -166,24 +159,24 @@ min               0.000000             0.000000                     0.0
 max               1.000000             1.000000                     0.0   
 
        PROVENANCE_INSTANCE  PROVENANCE_MOBILE  PROVENANCE_MEDIASOCIAUX  \
-count              32000.0       32000.000000             32000.000000   
-mean                   0.0           0.000313                 0.000031   
-std                    0.0           0.017675                 0.005590   
-min                    0.0           0.000000                 0.000000   
-25%                    0.0           0.000000                 0.000000   
-50%                    0.0           0.000000                 0.000000   
-75%                    0.0           0.000000                 0.000000   
-max                    0.0           1.000000                 1.000000   
+count         32000.000000       32000.000000                  32000.0   
+mean              0.000031           0.000063                      0.0   
+std               0.005590           0.007906                      0.0   
+min               0.000000           0.000000                      0.0   
+25%               0.000000           0.000000                      0.0   
+50%               0.000000           0.000000                      0.0   
+75%               0.000000           0.000000                      0.0   
+max               1.000000           1.000000                      0.0   
 
        PROVENANCE_SITEINTERNET  LOC_LONG  LOC_LAT  LOC_X  LOC_Y  \
-count             32000.000000       0.0      0.0    0.0    0.0   
-mean                  0.000031       NaN      NaN    NaN    NaN   
-std                   0.005590       NaN      NaN    NaN    NaN   
-min                   0.000000       NaN      NaN    NaN    NaN   
-25%                   0.000000       NaN      NaN    NaN    NaN   
-50%                   0.000000       NaN      NaN    NaN    NaN   
-75%                   0.000000       NaN      NaN    NaN    NaN   
-max                   1.000000       NaN      NaN    NaN    NaN   
+count                  32000.0       0.0      0.0    0.0    0.0   
+mean                       0.0       NaN      NaN    NaN    NaN   
+std                        0.0       NaN      NaN    NaN    NaN   
+min                        0.0       NaN      NaN    NaN    NaN   
+25%                        0.0       NaN      NaN    NaN    NaN   
+50%                        0.0       NaN      NaN    NaN    NaN   
+75%                        0.0       NaN      NaN    NaN    NaN   
+max                        0.0       NaN      NaN    NaN    NaN   
 
        DERNIER_STATUT  
 count             0.0  
@@ -197,178 +190,176 @@ max               NaN
 
  ------------------ 
 
-Dataset stopped loading at 704000 because of error HTTP Error 504: Gateway Time-out.
-
- ------------------ 
-
-Total length of reported dataset: 704000
+Total length of reported dataset: 2105573
 Empty values per column
-RUE_INTERSECTION2          655783
-RUE_INTERSECTION1          655748
-LIN_CODE_POSTAL            477164
-RUE                        455113
-BOROUGH                    406022
-ARRONDISSEMENT_GEO         405298
-LOC_ERREUR_GDT             405282
-LOC_LAT                    405282
-LOC_LONG                   405282
-TYPE_LIEU_INTERV           404740
-ARRONDISSEMENT             404740
-DERNIER_STATUT             404735
-ID_UNIQUE                  404735
-PROVENANCE_ORIGINALE          591
-PROVENANCE_SITEINTERNET         0
-UNITE_RESP_PARENT               0
-PROVENANCE_TELEPHONE            0
-PROVENANCE_TELECOPIEUR          0
-ACTI_NOM                        0
-PROVENANCE_COURRIER             0
-PROVENANCE_PERSONNE             0
-PROVENANCE_MOBILE               0
-PROVENANCE_MEDIASOCIAUX         0
-PROVENANCE_INSTANCE             0
-PROVENANCE_COURRIEL             0
-NATURE                          0
-DDS_DATE_CREATION               0
-DATE_DERNIER_STATUT             0
-_id                             0
+RUE_INTERSECTION2          1935585
+RUE_INTERSECTION1          1935429
+LIN_CODE_POSTAL            1309037
+RUE                        1229511
+BOROUGH                    1061455
+ARRONDISSEMENT_GEO         1058752
+LOC_ERREUR_GDT             1058665
+LOC_LAT                    1058665
+LOC_LONG                   1058665
+TYPE_LIEU_INTERV           1057039
+ARRONDISSEMENT             1057039
+DERNIER_STATUT             1057024
+ID_UNIQUE                  1057024
+PROVENANCE_ORIGINALE          2055
+PROVENANCE_SITEINTERNET          0
+UNITE_RESP_PARENT                0
+PROVENANCE_TELEPHONE             0
+PROVENANCE_TELECOPIEUR           0
+ACTI_NOM                         0
+PROVENANCE_COURRIER              0
+PROVENANCE_PERSONNE              0
+PROVENANCE_MOBILE                0
+PROVENANCE_MEDIASOCIAUX          0
+PROVENANCE_INSTANCE              0
+PROVENANCE_COURRIEL              0
+NATURE                           0
+DDS_DATE_CREATION                0
+DATE_DERNIER_STATUT              0
+_id                              0
 dtype: object
-Total rows with missing values: 703987
+Total rows with missing values: 2105515
 
  ------------------ 
 
-Dates range from 2019-01-01T00:12:32 to 2021-12-28T07:33:52
+Dates range from 2019-01-01T00:12:32 to 2021-08-19T13:19:50
 
  ------------------ 
 
 BOROUGH
-Saint-Laurent                               30187.0
-Rosemont-La Petite-Patrie                   24966.0
-Ahuntsic-Cartierville                       24767.0
-Le Plateau-Mont-Royal                       22674.0
-Mercier-Hochelaga-Maisonneuve               22350.0
-Villeray-Saint-Michel-Parc-Extension        21814.0
-Ville-Marie                                 20546.0
-Rivière-des-Prairies-Pointe-aux-Trembles    19735.0
-Côte-des-Neiges-Notre-Dame-de-Grâce         17879.0
-Le Sud-Ouest                                16068.0
-Montréal-Nord                               11540.0
-Pierrefonds-Roxboro                         11450.0
-Verdun                                      10605.0
-Saint-Léonard                                9623.0
-Lachine                                      9157.0
-LaSalle                                      9062.0
-Anjou                                        6756.0
-L'Île-Bizard-Sainte-Geneviève                4815.0
-Outremont                                    3984.0
+Saint-Laurent                               107285.0
+Ahuntsic-Cartierville                        89164.0
+Rosemont-La Petite-Patrie                    87106.0
+Le Plateau-Mont-Royal                        85371.0
+Mercier-Hochelaga-Maisonneuve                78762.0
+Villeray-Saint-Michel-Parc-Extension         76132.0
+Ville-Marie                                  71991.0
+Côte-des-Neiges-Notre-Dame-de-Grâce          65041.0
+Rivière-des-Prairies-Pointe-aux-Trembles     63745.0
+Le Sud-Ouest                                 56763.0
+Montréal-Nord                                40598.0
+Verdun                                       37214.0
+Pierrefonds-Roxboro                          34960.0
+Saint-Léonard                                31843.0
+LaSalle                                      31589.0
+Lachine                                      31346.0
+Anjou                                        22611.0
+L'Île-Bizard-Sainte-Geneviève                18289.0
+Outremont                                    14308.0
 dtype: object
 
  ------------------ 
 
 NATURE
-Information    404735.0
-Requete        289397.0
-Commentaire      5099.0
-Plainte          4769.0
+Information    1057024.0
+Requete        1014332.0
+Plainte          18883.0
+Commentaire      15334.0
 dtype: object
 
  ------------------ 
 
 ACTI_NOM
-Taxes foncières               48617.0
-Collecte des encombrants      34088.0
-Collecte de déchets           30415.0
-Permis - Divers               21189.0
-Cour municipale               20778.0
-                               ...   
-*Équipement terr. sportifs        1.0
-*Herbe à poux                     1.0
-*Haie publique                    1.0
-*Événement public                 1.0
-*Puceron                          1.0
-Length: 1063, dtype: object
+Taxes foncières                                          131026.0
+Collecte des encombrants                                  91005.0
+Collecte de déchets                                       87059.0
+Permis - Divers                                           57120.0
+Cour municipale                                           55563.0
+                                                           ...   
+*Parc - Mobilier et signalisation - Bris et entretien         1.0
+Obstacle en marge avant                                       1.0
+*Permis - Bruit - Circulation des camions                     1.0
+Mobilier urbain - Entretien                                   1.0
+**Autre - Centre des loisirs                                  1.0
+Length: 1202, dtype: object
 
  ------------------ 
 
 PROVENANCE_ORIGINALE
-Téléphone         566695.0
-Personne           98542.0
-Courriel           19745.0
-Mobile             11678.0
-Internet            5418.0
-Courrier             989.0
-Instance             229.0
-Médias sociaux        95.0
-Télécopieur           18.0
+Téléphone         1688401.0
+Personne           293660.0
+Courriel            62090.0
+Mobile              34995.0
+Internet            20527.0
+Courrier             2439.0
+Instance             1094.0
+Médias sociaux        270.0
+Télécopieur            42.0
 dtype: object
 
  ------------------ 
 
 UNITE_RESP_PARENT
-DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES           188664.0
-ST-LAURENT                                                       66404.0
-ROSEMONT - LA PETITE-PATRIE                                      63520.0
-SUD-OUEST                                                        39219.0
-MERCIER - HOCHELAGA-MAISONNEUVE                                  34527.0
-RIVIÈRE-DES-PRAIRIES - POINTE-AUX-TREMBLES                       31941.0
-VILLERAY - ST-MICHEL - PARC-EXTENSION                            28395.0
-LASALLE                                                          26676.0
-PLATEAU-MONT-ROYAL                                               24290.0
-AHUNTSIC-CARTIERVILLE                                            22673.0
-SAINT-LÉONARD                                                    22636.0
-ANJOU                                                            21657.0
-COTE-DES-NEIGES - NOTRE-DAME-DE-GRÂCE                            18341.0
-VILLE-MARIE                                                      17322.0
-PIERREFONDS - ROXBORO                                            11922.0
-DIRECTION GÉNÉRALE                                               11161.0
-MONTREAL-NORD                                                    11150.0
-LACHINE                                                          11093.0
-VERDUN                                                           10315.0
-OUTREMONT                                                         8605.0
-SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE              8404.0
-SERVICE DES FINANCES ET DE L ÉVALUATION FONCIÈRE                  7899.0
-L ÎLE BIZARD - STE-GENEVIÈVE                                      5007.0
-SERVICE DE L URBANISME ET DE LA MOBILITÉ                          2252.0
-RÉALISATION DES PROJETS D INFRASTRUCTURES URBAINES                1841.0
-SERVICE DE POLICE DE LA VILLE DE MONTREAL                         1688.0
-IDENTIFICATION JUDICIAIRE                                         1672.0
-SERVICE DES GRANDS PARCS, DU MONT-ROYAL ET DES SPORTS             1103.0
-RELATIONS AVEC LES CITOYENS - 311                                 1078.0
-SERVICE DE L EAU                                                   810.0
-SERVICE DE L ENVIRONNEMENT                                         561.0
-STATIONNEMENT MTL - SERVICE AUXILIAIRES                            217.0
-SERVICE DES AFFAIRES JURIDIQUES                                    197.0
-SERVICE DE SÉCURITÉ INCENDIE DE MONTRÉAL                           136.0
-DIVISION DU TRANSPORT ACTIF ET COLLECTIFS                          114.0
-SERVICE DES RESSOURCES HUMAINES ET DES COMMUNICATIONS              105.0
-DIRECTION IMAGE DE MARQUE ET STRATÉGIES NUMÉRIQUES                  97.0
-SERVICE DE LA CULTURE                                               58.0
-SERVICE DE L EXPÉRIENCE CITOYENNE ET DES COMMUNICATIONS             56.0
-SERVICE DE L ÉVALUATION FONCIÈRE                                    42.0
-SERVICE DE L ESPACE POUR LA VIE                                     31.0
-SERVICE DE LA DIVERSITÉ ET DE L INCLUSION SOCIALE                   26.0
-SERVICE DE L HABITATION                                             22.0
-APP. RÈGLEMENTATION STATIONNEMENT                                   20.0
-SECTION CENTRE DE SERVICES 311                                      18.0
-ART PUBLIC, PATRIMOINE ET TOPONYMIE                                 16.0
-DIRECTION DE L EXPÉRIENCE CITOYENNE ET DU CENTRE DE SERVICES        13.0
-SERVICE DE LA GESTION ET DE LA PLANIFICATION DES IMMEUBLES           4.0
-SERVICE DES TECHNOLOGIES DE L INFORMATION                            1.0
+DIVISION 311 ET INTERVENTIONS RAPIDES ET PRIORITAIRES           475398.0
+ST-LAURENT                                                      204513.0
+ROSEMONT - LA PETITE-PATRIE                                     198262.0
+SUD-OUEST                                                       114099.0
+MERCIER - HOCHELAGA-MAISONNEUVE                                 111384.0
+RIVIÈRE-DES-PRAIRIES - POINTE-AUX-TREMBLES                      102008.0
+VILLERAY - ST-MICHEL - PARC-EXTENSION                            91588.0
+PLATEAU-MONT-ROYAL                                               86123.0
+AHUNTSIC-CARTIERVILLE                                            81674.0
+LASALLE                                                          78138.0
+SAINT-LÉONARD                                                    63856.0
+COTE-DES-NEIGES - NOTRE-DAME-DE-GRÂCE                            63443.0
+ANJOU                                                            60024.0
+VILLE-MARIE                                                      59828.0
+MONTREAL-NORD                                                    38893.0
+VERDUN                                                           37478.0
+LACHINE                                                          36890.0
+PIERREFONDS - ROXBORO                                            35052.0
+DIRECTION GÉNÉRALE                                               32173.0
+SERVICE DES FINANCES ET DE L ÉVALUATION FONCIÈRE                 29076.0
+OUTREMONT                                                        22882.0
+SER.CONCERTATION DES ARROND. ET EXPÉRIENCE CITOYENNE             18838.0
+L ÎLE BIZARD - STE-GENEVIÈVE                                     18468.0
+RÉALISATION DES PROJETS D INFRASTRUCTURES URBAINES                9467.0
+SERVICE DE L EAU                                                  8707.0
+SERVICE DE L URBANISME ET DE LA MOBILITÉ                          6824.0
+SERVICE DE POLICE DE LA VILLE DE MONTREAL                         4417.0
+IDENTIFICATION JUDICIAIRE                                         4086.0
+SERVICE DES GRANDS PARCS, DU MONT-ROYAL ET DES SPORTS             3525.0
+RELATIONS AVEC LES CITOYENS - 311                                 2453.0
+SERVICE DE L ENVIRONNEMENT                                        1954.0
+SERVICE DES AFFAIRES JURIDIQUES                                    641.0
+STATIONNEMENT MTL - SERVICE AUXILIAIRES                            633.0
+DIRECTION IMAGE DE MARQUE ET STRATÉGIES NUMÉRIQUES                 492.0
+DIVISION DU TRANSPORT ACTIF ET COLLECTIFS                          489.0
+SERVICE DE SÉCURITÉ INCENDIE DE MONTRÉAL                           455.0
+SERVICE DES RESSOURCES HUMAINES ET DES COMMUNICATIONS              339.0
+SERVICE DE L ÉVALUATION FONCIÈRE                                   243.0
+SERVICE DE LA CULTURE                                              161.0
+SERVICE DE L EXPÉRIENCE CITOYENNE ET DES COMMUNICATIONS            143.0
+SERVICE DE LA DIVERSITÉ ET DE L INCLUSION SOCIALE                   98.0
+DIRECTION DE L EXPÉRIENCE CITOYENNE ET DU CENTRE DE SERVICES        85.0
+SERVICE DE L ESPACE POUR LA VIE                                     79.0
+SERVICE DE L HABITATION                                             60.0
+ART PUBLIC, PATRIMOINE ET TOPONYMIE                                 51.0
+APP. RÈGLEMENTATION STATIONNEMENT                                   33.0
+SECTION CENTRE DE SERVICES 311                                      30.0
+SERVICE DE LA GESTION ET DE LA PLANIFICATION DES IMMEUBLES          13.0
+SERVICE DES TECHNOLOGIES DE L INFORMATION                            4.0
+SERVICE DE LA QUALITÉ DE VIE                                         1.0
 SERVICE DU GREFFE                                                    1.0
+SARS-BALAIS                                                          1.0
 dtype: object
 
  ------------------ 
 
 DATE_DERNIER_STATUT
-2020-05-14T15:24:46    115.0
-2019-01-28T14:15:31    112.0
-2019-01-30T14:09:29     97.0
-2020-02-27T12:35:52     88.0
-2019-03-01T10:37:25     80.0
+2021-02-12T13:57:58    167.0
+2020-12-07T16:23:46    156.0
+2021-06-11T10:03:51    156.0
+2020-12-07T16:22:59    149.0
+2020-02-15T17:14:33    147.0
                        ...  
-2019-10-15T12:04:49      1.0
-2019-10-15T12:01:20      1.0
-2019-10-15T12:01:11      1.0
-2019-10-15T12:01:10      1.0
-2025-11-07T14:57:45      1.0
-Length: 585519, dtype: object
+2020-09-07T16:38:53      1.0
+2020-09-07T16:40:43      1.0
+2020-09-07T16:41:01      1.0
+2020-09-07T16:42:01      1.0
+2020-07-07T14:35:13      1.0
+Length: 1232271, dtype: object
