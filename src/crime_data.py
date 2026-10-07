@@ -65,21 +65,33 @@ def main():
     df = df.drop(columns = ["_full_text"])
     df.to_csv(default_data_path / 'raw' / 'crime.csv')
     df = utils.str_to_num(df)
-    df["CATEGORIE"] = df["CATEGORIE"].replace(CRIMES) # Possible based on generic exploration report
     initial_length = len(df)
     print(f"Dataframe length: {initial_length}")
+
+    # missing values
+    empty_values = df.isna().sum()
+    print("\n ------------------ \n")
+    print("Missing values per column")
+    print(empty_values)
+
+    empty_pdq = df[df["PDQ"].isna()]
+    print("\n ------------------ \n")
+    print("PDQ missing value for one row, check if we can identify borough.")
+    print(empty_pdq)
+    print("No location coordinates.")
 
 
     # Check for duplicates
     print("\n ------------------ \n")
     duplicates = df.duplicated(subset = ["CATEGORIE", "DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"]).sum()
     print(f"Number of duplicates: {duplicates}")
-    duplicates = df.duplicated(subset = ["DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"]).sum()
-    print(f"Number of incidents at the same time and place but different label: {duplicates}") # Ignore these cos it might have been two different things?
+    duplicates_wrong_label = df.duplicated(subset = ["DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"]).sum()
+    print(f"Number of incidents at the same time and place but different label: {duplicates_wrong_label}") # Ignore these cos it might have been two different things?
     df = df.drop_duplicates(subset = ["CATEGORIE", "DATE", "QUART", "PDQ", "X", "Y", "LONGITUDE", "LATITUDE"], ignore_index = True)
     print(f"Percentage of dropped duplicates: {(duplicates / initial_length) * 100 :.2f}%.") # Assume these have to be duplicates
-    no_duplicates = len(df)
 
+    # Regroup theft categories
+    df["CATEGORIE"] = df["CATEGORIE"].replace(CRIMES) # Possible based on generic exploration report
 
     # Check for missing coordinates and converting them to boroughs
     original_nan = df.isna()
@@ -90,7 +102,7 @@ def main():
     df = df.dropna(subset = ["X", "Y", "LONGITUDE", "LATITUDE"], ignore_index = True)
     print("\n ------------------ \n")
     print(f"Number of rows where all coordinates are missing: {no_location}.")
-    print(f"Percentage of dropped no coordinate rows: {(no_location / no_duplicates) * 100 :.2f}%.")
+    print(f"Percentage of dropped no coordinate rows: {(no_location / initial_length) * 100 :.2f}%.")
 
     
     # Replace coordinates with borough using BoroughIdentifier tool
@@ -108,18 +120,18 @@ def main():
 
     # Check for missing identified boroughs
     after_borough_na = df.isna()
-    after_borough_length = len(df)
     all_na_filter = (after_borough_na["BOROUGH_NAD83"] & after_borough_na["BOROUGH_WSG84"])
     print("\n ------------------ \n")
     print(f"Number of missing values in the 'BOROUGH_NAD83' column: {after_borough_na['BOROUGH_NAD83'].sum()}")
     print(f"Number of missing values in the 'BOROUGH_WSG84' column: {after_borough_na['BOROUGH_WSG84'].sum()}")
     print(f"Number of rows where both 'BOROUGH_WSG84' and 'BOROUGH_WSG84' are missing: {len(df[all_na_filter])}")
-    
+
+    after_borough_length = len(df)
     df["BOROUGH_WSG84"] = df["BOROUGH_WSG84"].fillna(df["BOROUGH_NAD83"]) # Replace the one missing value in BOROUGH_WSG84 with the BOROUGH_NAD83 value
-    print(f"Number of missing values in the 'BOROUGH_WSG84' column: {df['BOROUGH_WSG84'].isna().sum()}")
+    print(f"Number of missing values in the 'BOROUGH_WSG84' column after adjustment: {df['BOROUGH_WSG84'].isna().sum()}")
     df = df.dropna(subset = ["BOROUGH_NAD83", "BOROUGH_WSG84"], ignore_index = True)
     removed_unidentified = len(df)
-    print(f"Percentage of dropped no coordinate rows: {((after_borough_length - removed_unidentified) / after_borough_length) * 100 :.2f}%.")
+    print(f"Percentage of dropped unidentified rows: {((after_borough_length - removed_unidentified) / initial_length) * 100 :.2f}%.")
 
 
     # Check if the boroughs are mismatched

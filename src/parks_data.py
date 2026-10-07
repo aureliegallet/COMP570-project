@@ -2,7 +2,33 @@ import urllib.request
 import pandas as pd
 import json
 import argparse
+import time
+import re
 from pathlib import Path
+from geopy.geocoders import ArcGIS
+from borough_identifier import BoroughIdentifier
+
+BOROUGHS = [
+    "Ahuntsic-Cartierville", 
+    "Anjou", 
+    "Côte-des-Neiges-Notre-Dame-de-Grâce", 
+    "Lachine",
+    "LaSalle",
+    "Le Plateau-Mont-Royal",
+    "Le Sud-Ouest",
+    "L'Île-Bizard-Sainte-Geneviève",
+    "Mercier-Hochelaga-Maisonneuve",
+    "Montréal-Nord",
+    "Outremont",
+    "Pierrefonds-Roxboro",
+    "Rivière-des-Prairies-Pointe-aux-Trembles",
+    "Rosemont-La Petite-Patrie",
+    "Saint-Laurent",
+    "Saint-Léonard",
+    "Verdun",
+    "Ville-Marie",
+    "Villeray-Saint-Michel-Parc-Extension"
+]
 
 def main():
     parser = argparse.ArgumentParser(
@@ -45,10 +71,61 @@ def main():
     lengths = [len(df)]
     print("Total number of rows upon loading:", lengths[-1])
     
+    # missing values
+    empty_df = df.isna()
+    empty_values = empty_df.sum()
+    print("\n ------------------ \n")
+    print("Missing values per column in returned dataset.")
+    print(empty_values)
+    print("\n ------------------ \n")
+
+    missing_counts = pd.DataFrame()
+    for borough in BOROUGHS:
+        missing_counts[borough] = df[df["GESTION"] == borough].isna().sum()
+    print("Missing values per borough.")
+    print(missing_counts)
+    missing_counts.insert(0, "Column", df.columns) # Absent in CSV without this line
+    missing_counts.to_csv(default_data_path / "checks/parks_missing.csv", index=False)
+    print("\n ------------------ \n")
+    
     # Remove rows with no park name and private parks
     df = df[df['Nom'].notna()]
     lengths.append(len(df))
     print("Number of rows removed because of a missing park name:", lengths[-2] - lengths[-1])
+
+    print("\n ------------------ \n")
+    print("Bias check for private parks")
+    private_df = df[df['COMPETENCE'] == "Privé"]
+    geolocator = ArcGIS(user_agent="data_science") # Rate limited, cannot run again
+
+    locations = []
+    bi = BoroughIdentifier()
+    for row in private_df.iterrows():
+        search_text = f"{row[1]["Type"]} {row[1]["Lien"]} {row[1]["Nom"]} montréal"
+        search_text = search_text.replace("nan", "")
+        search_text = re.sub(r"\s+", " ", search_text)
+        print(f"- Searched text: {search_text}")
+        try: 
+            location = geolocator.geocode(search_text) # https://github.com/geopy/geopy
+            print(f"> Found: {location.latitude}, {location.longitude}")
+            locations.append(bi.match_WSG84_to_borough(longitude_x=location.longitude, latitude_y=location.latitude)), 
+        except:
+            print(f"> Parc not found: {row[1]["Nom"]}")
+
+        time.sleep(1.1)
+
+    private_df["borough"] = locations
+    private_df.to_csv(default_data_path / "checks/private_parks.csv", index=False)
+
+    output_private = {
+        'borough': df['GESTION'].unique(),
+    }
+    output_private = pd.DataFrame(output_private)
+    output_private['green_area (ha)'] = output_private['borough'].map(lambda brgh: private_df[private_df['borough']==brgh]['SUPERFICIE'].astype(float).sum())
+    output_private.to_csv(default_data_path / "checks/private_green_per_borough.csv", index=False)
+    print(output_private[["borough", "green_area (ha)"]])
+    print("\n ------------------ \n")
+
 
     df = df[df['COMPETENCE'] != "Privé"]
     lengths.append(len(df))

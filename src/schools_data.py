@@ -4,6 +4,30 @@ import json
 import argparse
 from pathlib import Path
 from borough_identifier import BoroughIdentifier
+import matplotlib.pyplot as plt
+import numpy as np
+
+BOROUGHS = [
+    "Ahuntsic-Cartierville", 
+    "Anjou", 
+    "Côte-des-Neiges-Notre-Dame-de-Grâce", 
+    "Lachine",
+    "LaSalle",
+    "Le Plateau-Mont-Royal",
+    "Le Sud-Ouest",
+    "L'Île-Bizard-Sainte-Geneviève",
+    "Mercier-Hochelaga-Maisonneuve",
+    "Montréal-Nord",
+    "Outremont",
+    "Pierrefonds-Roxboro",
+    "Rivière-des-Prairies-Pointe-aux-Trembles",
+    "Rosemont-La Petite-Patrie",
+    "Saint-Laurent",
+    "Saint-Léonard",
+    "Verdun",
+    "Ville-Marie",
+    "Villeray-Saint-Michel-Parc-Extension"
+]
 
 def main():
     parser = argparse.ArgumentParser(
@@ -50,6 +74,29 @@ def main():
     bi = BoroughIdentifier()
     df['borough'] = df.apply(lambda row: bi.match_WSG84_to_borough(longitude_x=row['COORD_X_LL84_IMM'], latitude_y=row['COORD_Y_LL84_IMM']), axis=1)
 
+    # Remove schools with no borough. These are usually schools from Westmount or other non-boroughs.
+    df = df[~df['borough'].isna()]
+    lengths.append(len(df))
+    print("Number of schools removed due to not being in a borough:", lengths[-2] - lengths[-1])
+    
+    # missing values
+    empty_df = df.isna()
+    empty_values = empty_df.sum()
+    print("\n ------------------ \n")
+    print("Missing values per column in returned dataset.")
+    print(empty_values)
+    print("\n ------------------ \n")
+
+    missing_counts = pd.DataFrame()
+    for borough in BOROUGHS:
+        missing_counts[borough] = df[df["borough"] == borough].isna().sum()
+    print("Missing values per borough.")
+    print(missing_counts)
+    missing_counts.insert(0, "Column", df.columns) # Absent in CSV without this line
+    missing_counts.to_csv(default_data_path / "checks/schools_missing.csv", index=False)
+    print("\n ------------------ \n")
+    
+
     # Remove schools intended for adult learning
     df = df[~df['ORDRE_ENS'].str.contains('adultes')]
     df = df[~df['ORDRE_ENS'].str.contains('professionnelle')]
@@ -88,6 +135,46 @@ def main():
     # Save output to csv
     output_df.to_csv(output_path, index=False)
     print(f"Succesfully saved {len(output_df)} lines to {output_path}.")
+
+    counts_df = df.groupby(["borough", "TYPE_CS"]).size().unstack(fill_value=0)
+
+    labels = counts_df.index.to_numpy()
+    anglo_schools = counts_df["Anglo"]
+    french_schools = counts_df["Franco"]
+
+    x = np.arange(len(labels))
+    width = 0.25
+
+    fig, ax = plt.subplots()
+    ax.bar(x - width/2, anglo_schools, width, label='Anglo')
+    ax.bar(x + width/2, french_schools, width, label='Franco')
+
+    ax.set_title('School languages per borough')
+    ax.set_xticks(x)
+    plt.xticks(rotation='vertical')
+    ax.set_xticklabels(labels)
+    ax.legend()
+
+    fig.tight_layout()
+
+    plt.savefig(default_data_path / "checks/schools_per_language.png")
+
+    bias_checks = pd.DataFrame({
+        'borough': counts_df.index.to_numpy(),
+        'anglo_school_count': counts_df['Anglo'],
+        'franco_school_count': counts_df['Franco']
+    })
+    bias_checks["english_speaker_pct"] = bias_checks['borough'].map(lambda brgh: 
+        (census_df[brgh]['Anglais seulement'] + census_df[brgh]['Français et anglais'].iloc[0]) / census_df[brgh]["Total - Connaissance des langues officielles pour la population totale à l'exclusion des résidents d'un établissement institutionnel"]
+    )
+    bias_checks["french_speaker_pct"] = bias_checks['borough'].map(lambda brgh: 
+        (census_df[brgh]['Français seulement'] + census_df[brgh]['Français et anglais'].iloc[0]) / census_df[brgh]["Total - Connaissance des langues officielles pour la population totale à l'exclusion des résidents d'un établissement institutionnel"]
+    )
+    bias_checks['num_children'] = bias_checks['borough'].map(lambda brgh: census_df[brgh]['0 à 14 ans']["0 à 14 ans"].iloc[0])
+    bias_checks["english_students_per_school"] = (bias_checks["num_children"] * bias_checks["english_speaker_pct"]) / bias_checks["anglo_school_count"]
+    bias_checks["french_students_per_school"] = (bias_checks["num_children"] * bias_checks["french_speaker_pct"]) / bias_checks["franco_school_count"]
+
+    bias_checks.to_csv(default_data_path / "checks/schools_language_bias.csv")
 
 
 if __name__ == "__main__":

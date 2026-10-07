@@ -1,0 +1,256 @@
+Total number of rows upon loading: 2245
+
+ ------------------ 
+
+Missing values per column in returned dataset.
+_id              0
+OBJECTID         0
+Type           871
+Lien          1771
+Nom            322
+NUM_INDEX      455
+SUPERFICIE       0
+PROPRIETE      235
+GESTION        237
+COMPETENCE     235
+TYPO1            3
+TYPO2          273
+dtype: int64
+
+ ------------------ 
+
+Missing values per borough.
+            Ahuntsic-Cartierville  ...  Villeray-Saint-Michel-Parc-Extension
+_id                             0  ...                                     0
+OBJECTID                        0  ...                                     0
+Type                           44  ...                                    38
+Lien                          101  ...                                    76
+Nom                             1  ...                                     0
+NUM_INDEX                       1  ...                                     1
+SUPERFICIE                      0  ...                                     0
+PROPRIETE                       0  ...                                     0
+GESTION                         0  ...                                     0
+COMPETENCE                      0  ...                                     0
+TYPO1                           0  ...                                     0
+TYPO2                           0  ...                                     0
+
+[12 rows x 19 columns]
+
+ ------------------ 
+
+Number of rows removed because of a missing park name: 322
+
+ ------------------ 
+
+Bias check for private parks
+- Searched text:  Université Concordia - Campus Loyola montréal
+> Found: 45.457391, -73.640302
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text:  Collège Jean-de-Brébeuf montréal
+> Found: 45.50164, -73.62289
+- Searched text: Parc de la Polyvalente De Pointe-Aux-Trembles montréal
+> Found: 45.6844, -73.49489
+- Searched text:  École-Notre-Dame Loyola High montréal
+> Found: 45.6735289, -73.4941231
+- Searched text:  Jardin Botanique montréal
+> Found: 45.4992, -73.6237
+- Searched text:  Lower Canada Collège montréal
+> Found: 45.470579, -73.623982
+- Searched text:  Collège André-Grasset montréal
+> Found: 45.550928, -73.6332125
+- Searched text:  Université de Montréal montréal
+> Found: 45.5228814, -73.5555375
+- Searched text:  Cégep de Maisonneuve montréal
+> Found: 45.4450542, -73.6978362
+- Searched text:  Yolène-Jumelle montréal
+> Found: 45.508867, -73.554242
+- Searched text:  Collège Reine-Marie montréal
+> Found: 45.573173, -73.632601
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text:  Yolène-Jumelle montréal
+> Found: 45.508867, -73.554242
+- Searched text:  Collège Notre-Dame montréal
+> Found: 45.5043676, -73.5568447
+- Searched text: Cimetière Congrégation Shearith Israel Spanish Portuguese montréal
+> Found: 45.489965, -73.63172
+- Searched text: Espace Jean-Blais montréal
+> Found: 45.5058381, -73.567159
+- Searched text: Cimetière Congrégation Shaar Hashomayim montréal
+> Found: 45.508867, -73.554242
+- Searched text:  Institut Albert-Prévost montréal
+> Found: 45.523485683713, -73.739571748038
+- Searched text:  Collège De Bois-De- Boulogne montréal
+> Found: 45.538413, -73.676199
+- Searched text:  Soccerplexe Catalogna montréal
+> Found: 45.492624408041, -73.883547933789
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text: Cimetière Mont-Royal montréal
+> Found: 45.50997, -73.60034
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text: Parc Olympique de Montréal montréal
+> Found: 45.55785, -73.55164
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text:  Base militaire Longue-Pointe montréal
+> Found: 45.578073, -73.533148
+- Searched text:  Gilbert-Langevin montréal
+> Found: 45.532404373006, -73.59293155335
+- Searched text:  Centre Boscoville montréal
+> Found: 48.59442, 1.45083
+- Searched text:  Piscine Pierrefonds Park montréal
+> Found: 45.49402, -73.84939
+- Searched text:  Piscine Thorndale montréal
+> Found: 45.472104, -73.857818
+- Searched text: Parc du Collège montréal
+> Found: 45.4848, -73.8698
+- Searched text: Golf Elm Ridge montréal
+> Found: 45.477641151157, -73.903508000049
+- Searched text:  Cégep Saint-Laurent montréal
+> Found: 45.512841, -73.671849
+- Searched text:  Université Mcgill (Général) montréal
+> Found: 45.5053051, -73.5778056
+- Searched text: Parc Alphonse-Desjardins montréal
+> Found: 45.5037, -73.7766
+- Searched text:  Cégep Vanier montréal
+> Found: 45.548795, -73.558891
+- Searched text: Parc du Bassin-Bonsecours montréal
+> Found: 45.5087157, -73.547799
+- Searched text:  École Vanguard Québec montréal
+> Found: 45.496562, -73.677523
+- Searched text: Golf Saint-Raphaël montréal
+> Found: 45.506046, -73.897329
+- Searched text: Golf Saint-Raphaël montréal
+> Found: 45.506046, -73.897329
+- Searched text: Collège Saint-Jean-Vianney montréal
+> Found: 45.6922863, -73.5197398
+- Searched text:  Institut Universitaire en Santé Mentale Douglas montréal
+> Found: 45.4422115, -73.5848493
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text: Golf Île des Soeurs montréal
+> Found: 45.454655, -73.5567887
+- Searched text:  Collège Mont Saint-Louis montréal
+> Found: 45.5692, -73.6582
+- Searched text:  Grand Séminaire de Montréal montréal
+> Found: 45.4940686, -73.5853045
+- Searched text:  Collège de Montréal montréal
+> Found: 45.494124, -73.584803
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text: Cimetière Notre-Dame-des-Neiges montréal
+> Found: 45.4986326, -73.608217
+- Searched text:  Club de golf métropolitain Anjou montréal
+> Found: 45.625208, -73.562981
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text:  Piscine Terrasse Roxboro montréal
+> Found: 45.509349, -73.805911
+- Searched text:  Université de Montréal montréal
+> Found: 45.5228814, -73.5555375
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text:  Pauline-Julien montréal
+> Found: 45.535907964749, -73.588616914096
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text:  Piscine Briarwood montréal
+> Found: 45.513604, -73.835929
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text:  Jardins de la Basilique Saint-Patrick montréal
+> Found: 45.508867, -73.554242
+- Searched text: Place de l' Horloge montréal
+> Found: 45.5124852, -73.5459118
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text: Usine Charles-J.-des Baillets montréal
+> Found: 45.508867, -73.554242
+- Searched text: Parc du Centre Canadien d'Architecture montréal
+> Found: 45.4908915, -73.5784077
+- Searched text:  Thomas-Paine / Diderot montréal
+> Found: 45.658567041547, -73.550231497173
+- Searched text: Parc Vincent-D'Indy montréal
+> Found: 45.509501834406, -73.60898196103
+- Searched text: Complexe Guy-Descary montréal
+> Found: 45.508867, -73.554242
+- Searched text: Promenade de la Commune montréal
+> Found: 43.1996829, 2.1409729
+- Searched text:  Centre récréatif Lachine Ouest montréal
+> Found: 45.4458, -73.6514
+- Searched text: Golf Meadowbrook montréal
+> Found: 45.4614667, -73.6577944
+- Searched text: Golf Meadowbrook montréal
+> Found: 45.4614667, -73.6577944
+- Searched text: Golf Meadowbrook montréal
+> Found: 45.4614667, -73.6577944
+- Searched text:  Club de canöe de course de Lachine montréal
+> Found: 45.433301, -73.680844
+- Searched text: Toit-vert du Regroupement De Lachine montréal
+> Found: 45.433301, -73.680844
+- Searched text:  Stade Percival-Molson montréal
+> Found: 38.060716806486, -92.560694055997
+- Searched text:  Hôpital Royal Victoria montréal
+> Found: 45.473274, -73.601649
+- Searched text: Place Alice-Girard montréal
+> Found: 45.5227, -73.6182
+- Searched text:  Jardin Botanique montréal
+> Found: 45.4992, -73.6237
+- Searched text: Golf Royal Montréal montréal
+> Found: 45.49337, -73.90112
+- Searched text: Golf Royal Montréal montréal
+> Found: 45.49337, -73.90112
+- Searched text: Parc Michel-Bélanger montréal
+> Found: 45.478331918191, -73.926577670934
+- Searched text: Golf de l' île de Montréal montréal
+> Found: 45.68571, -73.5116
+- Searched text: Golf de l' île de Montréal montréal
+> Found: 45.68571, -73.5116
+                                              borough  green_area (ha)
+0                                               Autre         0.000000
+1                 Côte-des-Neiges-Notre-Dame-de-Grâce       247.733922
+2                                         Ville-Marie       105.718159
+3                                       Montréal-Nord         0.000000
+4                       Mercier-Hochelaga-Maisonneuve        54.409385
+5                                 Pierrefonds-Roxboro         1.305144
+6            Rivière-des-Prairies-Pointe-aux-Trembles       172.755041
+7                                             Lachine         2.277340
+8                                       Saint-Laurent        16.422361
+9                           Rosemont-La Petite-Patrie        19.479273
+10                              Ahuntsic-Cartierville         8.784176
+11                              Le Plateau-Mont-Royal         0.832465
+12                                Commission scolaire         0.000000
+13                                             Verdun        86.008558
+14                                            LaSalle         0.000000
+15               Villeray-Saint-Michel-Parc-Extension         4.066104
+16  Service des grands parcs, du Mont-Royal et des...         0.000000
+17                                              Anjou        90.914576
+18                                       Le Sud-Ouest         0.000000
+19                                          Westmount         0.000000
+20                      L'Île-Bizard-Sainte-Geneviève       586.840040
+21                                      Saint-Léonard         0.000000
+22                                          Outremont        69.036300
+23                                                NaN         0.000000
+
+ ------------------ 
+
+Number of rows removed because park is private: 87
+Number of rows with same unique park identifier but different areas: 0
+Number of rows removed because park is not handled by a borough: 187
+Number of rows removed because of a missing handling authority: 3
+Total number of rows removed: 599 which is roughly equal to 26.68%.
+Area integrity check:
+sum of borough areas: 36516.5
+declared city area: 36474.0
+Succesfully saved 19 lines to /Users/aureliegallet/Documents/Work/McGill/Fall_2026/Data_Science/COMP570-project/data/parks_dataset.csv.
