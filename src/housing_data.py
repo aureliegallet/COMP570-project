@@ -10,6 +10,7 @@ import io
 import json
 import re
 from pathlib import Path
+import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/housing/raw"
@@ -134,6 +135,14 @@ def main():
         json.dumps(audit, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Created {target.name}: {len(output)} boroughs, {len(output[0])} columns.")
 
+    # missing values
+    for file in TABLES.keys():
+        path = RAW / file
+        df = pd.read_csv(path, encoding="utf-8")
+        empty_values = df.isna().sum()
+        print("\n ------------------ \n")
+        print("Missing values per column in returned dataset.")
+        print(empty_values)
 
 if __name__ == "__main__":
     main()
