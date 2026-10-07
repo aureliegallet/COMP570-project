@@ -69,6 +69,7 @@ def accumulate_counts(target_df, cumulative_df):
     return cumulative_df
 
 
+
 def main():
     loader = Loader()
 
@@ -78,8 +79,16 @@ def main():
     count_2021 = loader.send_request(request)
     print(f"Number of entries for 2021: {count_2021[0]['count']}")
 
+    # Get action labels of 2021 rows
+    request_action_sql = f"""SELECT COUNT(DISTINCT "ACTI_NOM") from "dbfc05f8-b939-4639-ae52-2e77f738e43f" where "DDS_DATE_CREATION" > '2021-01-01 00:00:00'"""
+    request_action = loader.build_request("requests", is_sql = True, sql_command = request_action_sql)
+    count_action_2021 = loader.send_request(request_action)
+    print(f"Number of unique action labels 2021: {count_action_2021[0]['count']}")
+
     count_filtered_2021 = 0
-    
+    checks = [pd.Series(), pd.Series()]
+
+    # Filtered processing
     for index, path in enumerate(OUTPUT_DIRS):
         # Filtered download of 311 that only takes non-null arrondissement entries, a specific nature, and in the year of 2021
         cumulative_df_matching = pd.DataFrame()
@@ -90,7 +99,7 @@ def main():
         loop_counter = 0
         print("\n ------------------ \n")
         print("Processing " + NATURES[index])
-        
+
         while True:
             path = (
                 """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?"""
@@ -114,6 +123,10 @@ def main():
             df['ARRONDISSEMENT_GEO'] = df['ARRONDISSEMENT_GEO'].str.replace(' ', '')
             df['ACTI_NOM'] = df['ACTI_NOM'].str.replace(' ', '')
 
+            # Recording how often boroughs have this as a plainte or a request
+            counting_bins = df[df['ACTI_NOM'] == "Collectededéchets"]["ARRONDISSEMENT_GEO"].value_counts()
+            checks[index] = checks[index].add(counting_bins, fill_value = 0) # https://stackoverflow.com/questions/28353577/merging-and-sum-up-several-value-counts-series-in-pandas
+        
             matching_df = df[df['ARRONDISSEMENT'] == df['ARRONDISSEMENT_GEO']]
             non_matching_df = df[df['ARRONDISSEMENT'] != df['ARRONDISSEMENT_GEO']]
 
@@ -159,11 +172,21 @@ def main():
     print("\n ------------------ \n")
     print(f"Total lines used: {count_filtered_2021}")
 
+    print("\n ------------------ \n")
+    print("Bin collection bias")
+    bin_df = pd.concat([checks[0], checks[1]], axis = 1)
+    bin_df.columns = ["registered_as_complaint", "registered_as_request"]
+    bin_df["proportion"] = bin_df["registered_as_complaint"] / (bin_df["registered_as_complaint"] + bin_df["registered_as_request"])
+    bin_df = bin_df.sort_values(by="proportion")
+    bin_df.to_csv(Path(__file__).resolve().parent.parent / "data/checks" / "collecte_dechets_counts.csv")
+    print(bin_df)
+
+
     # When all datasets are available merge them together
     if all(Path(path).exists() for path in COMPLETED_DATASETS) and all(Path(path).exists() for path in ACTION_DATASETS):
         merged_df = pd.DataFrame()
         for index, path in enumerate(COMPLETED_DATASETS):
-            if merged_df.empty: # This seems wrong but we never go there so let's not touch
+            if merged_df.empty:
                 merged_df = pd.read_csv(path)
                 merged_df = merged_df.rename(columns={'Count': COMPLETED_DATASET_NAMES[index]})
             else:
