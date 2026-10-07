@@ -16,6 +16,8 @@ python3 src/entry_point.py schools > data/exploration/schools_output.txt
 echo "Running requests exploration..." 
 python3 src/entry_point.py requests > data/exploration/requests_output.txt
 
+echo "Running housing exploration..." 
+python3 src/entry_point.py housing > data/exploration/housing_output.txt
 
 echo "CLEANING" 
 
@@ -31,6 +33,8 @@ python3 src/schools_data.py
 echo "Running requests cleaning..." 
 python3 src/requests_data.py 
 
+echo "Running housing cleaning..." 
+python3 src/housing_data.py 
 
 echo "MERGING"
 python3 src/merge_datasets.py 

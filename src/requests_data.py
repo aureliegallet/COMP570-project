@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import json
 import utils
-
+import time
 
 COMPLAINTS_PROCESSED = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed.csv"
 COMPLAINTS_PROCESSED_NON_MATCHING = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed_non_matching.csv"
@@ -77,6 +77,7 @@ def caculate_missing(loader):
     page_size = 30000
     load_more = True
     missing_counts = pd.DataFrame()
+    number_timeouts = 0
     while load_more:
         path = (
             """https://www.donneesquebec.ca/recherche/api/3/action/datastore_search_sql?"""
@@ -91,30 +92,39 @@ def caculate_missing(loader):
             print(f"Dataset stopped loading at {page_size * page} because of error {e}.")
             break
 
-        if len(data) < page_size:
-            load_more = False
-        else: 
-            page += 1
+        if data is None and number_timeouts < 2:
+            number_timeouts += 1
+            time.sleep(5)
+        elif data is None and number_timeouts >= 2:
+            print("Gateway time out twice, stopped run.")
+            break
+        else:
+            number_timeouts = 0
 
-        df = pd.DataFrame(data)
-        df = utils.str_to_num(df)
-        df['ARRONDISSEMENT_GEO'] = df['ARRONDISSEMENT_GEO'].fillna("Not-Borough").str.replace(' ', '')
+            if len(data) < page_size:
+                load_more = False
+            else: 
+                page += 1
 
-        length += len(df)
-        empty_values = empty_values.add(df.isna().sum(), fill_value = 0)
+            df = pd.DataFrame(data)
+            df = utils.str_to_num(df)
+            df['ARRONDISSEMENT_GEO'] = df['ARRONDISSEMENT_GEO'].fillna("Not-Borough").str.replace(' ', '')
 
-        normal_length = len(df)
-        temp = df.dropna()
-        removed_length = len(temp)
-        rows_with_missing += normal_length - removed_length
+            length += len(df)
+            empty_values = empty_values.add(df.isna().sum(), fill_value = 0)
 
-        for borough in BOROUGHS:
-            if borough in missing_counts.columns:
-                missing_counts[borough] = missing_counts[borough] + df[df["ARRONDISSEMENT_GEO"] == borough].isna().sum()
-            else:
-                missing_counts[borough] = df[df["ARRONDISSEMENT_GEO"] == borough].isna().sum()
+            normal_length = len(df)
+            temp = df.dropna()
+            removed_length = len(temp)
+            rows_with_missing += normal_length - removed_length
 
-        print("Loop " + str(page))
+            for borough in BOROUGHS:
+                if borough in missing_counts.columns:
+                    missing_counts[borough] = missing_counts[borough] + df[df["ARRONDISSEMENT_GEO"] == borough].isna().sum()
+                else:
+                    missing_counts[borough] = df[df["ARRONDISSEMENT_GEO"] == borough].isna().sum()
+
+            print("Loop " + str(page))
 
 
     print("\n ------------------ \n")

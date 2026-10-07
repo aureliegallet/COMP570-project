@@ -25,26 +25,27 @@ Loop 18
 Loop 19
 Loop 20
 Loop 21
-Loop 21
+Loop 22
+Loop 22
 
  ------------------ 
 
 Total length of reported dataset: 684344
 Empty values per column
-RUE_INTERSECTION2          621138
-RUE_INTERSECTION1          621077
-LIN_CODE_POSTAL            371488
-RUE                        340669
-LOC_LONG                   276993
-LOC_ERREUR_GDT             276993
-LOC_LAT                    276993
-LOC_X                      276993
-LOC_Y                      276993
-ARRONDISSEMENT             276559
-TYPE_LIEU_INTERV           276559
-DERNIER_STATUT             276553
-ID_UNIQUE                  276553
-PROVENANCE_ORIGINALE          770
+RUE_INTERSECTION2          642388
+RUE_INTERSECTION1          642366
+LIN_CODE_POSTAL            477799
+RUE                        457826
+LOC_LONG                   414344
+ARRONDISSEMENT             414344
+TYPE_LIEU_INTERV           414344
+DERNIER_STATUT             414344
+ID_UNIQUE                  414344
+LOC_ERREUR_GDT             414344
+LOC_LAT                    414344
+LOC_X                      414344
+LOC_Y                      414344
+PROVENANCE_ORIGINALE          525
 PROVENANCE_SITEINTERNET         0
 UNITE_RESP_PARENT               0
 _full_text                      0
@@ -63,7 +64,7 @@ DATE_DERNIER_STATUT             0
 ARRONDISSEMENT_GEO              0
 _id                             0
 dtype: object
-Total rows with missing values: 684320
+Total rows with missing values: 684324
 Missing values per borough
                          Côte-des-Neiges-Notre-Dame-de-Grâce  ...  Saint-Laurent
 _id                                                        0  ...              0
@@ -72,15 +73,15 @@ ID_UNIQUE                                                  0  ...              0
 NATURE                                                     0  ...              0
 ACTI_NOM                                                   0  ...              0
 TYPE_LIEU_INTERV                                           0  ...              0
-RUE                                                     3721  ...          11300
-RUE_INTERSECTION1                                      21861  ...          34164
-RUE_INTERSECTION2                                      21865  ...          34178
+RUE                                                     2456  ...           7942
+RUE_INTERSECTION1                                      15196  ...          22119
+RUE_INTERSECTION2                                      15201  ...          22126
 LOC_ERREUR_GDT                                             0  ...              0
 ARRONDISSEMENT                                             0  ...              0
 ARRONDISSEMENT_GEO                                         0  ...              0
-LIN_CODE_POSTAL                                         5339  ...          13203
+LIN_CODE_POSTAL                                         3601  ...           9085
 DDS_DATE_CREATION                                          0  ...              0
-PROVENANCE_ORIGINALE                                      44  ...              2
+PROVENANCE_ORIGINALE                                      37  ...              1
 PROVENANCE_TELEPHONE                                       0  ...              0
 PROVENANCE_COURRIEL                                        0  ...              0
 PROVENANCE_PERSONNE                                        0  ...              0
