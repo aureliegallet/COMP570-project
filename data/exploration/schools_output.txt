@@ -1,13 +1,88 @@
 Dataframe Head
 
-   _id  ...                                  NOM_CS
-0    1  ...   Centre de services scolaire Harricana
-1    2  ...  Centre de services scolaire des Phares
-2    3  ...  Centre de services scolaire des Phares
-3    4  ...  Centre de services scolaire des Phares
-4    5  ...  Centre de services scolaire des Phares
+   _id  DT_MAJ_GDUNO  COMBINE_NUO_NUI  CD_ORGNS  \
+0    1           NaN              NaN    783350   
+1    2           NaN              NaN    712335   
+2    3           NaN              NaN    712405   
+3    4           NaN              NaN    712017   
+4    5           NaN              NaN    712030   
 
-[5 rows x 35 columns]
+                  NOM_COURT_ORGNS  \
+0                   La Passerelle   
+1  Centre d'éducation des adultes   
+2          CFP de Mont-Joli-Mitis   
+3                École Grand Défi   
+4                École des Alizés   
+
+                                     NOM_OFFCL_ORGNS  \
+0    Centre d'éducation des adultes de la Passerelle   
+1          Centre d'éducation des adultes des Phares   
+2  Centre de formation professionnelle de Mont-Jo...   
+3                                   École Grand Défi   
+4                                   École des Alizés   
+
+    ADRS_GEO_L1_GDUNO_ORGNS ADRS_GEO_L2_GDUNO_ORGNS CD_POSTL_GDUNO_ORGNS  \
+0  341, rue Principale Nord                     NaN               J9T2L8   
+1          424, avenue Ross                     NaN               G5L6J2   
+2     1414, rue des Érables                     NaN               G5H4A8   
+3         1632, rue Lindsay                     NaN               G5H3A6   
+4   45, avenue de la Grotte                     NaN               G5H1W4   
+
+   CD_MUNCP_GDUNO_ORGNS NOM_MUNCP_GDUNO_ORGNS  CD_IMM  \
+0                 88055                  Amos  783808   
+1                 10043              Rimouski  712009   
+2                  9077             Mont-Joli  712009   
+3                  9077             Mont-Joli  712009   
+4                  9077             Mont-Joli  712010   
+
+                                   NOM_IMM    ADRS_GEO_L1_GDUNO_IMM  \
+0  La Passerelle (Centre de santé Pikogan)   5, rue David-Kistabish   
+1                   CFA de Mont-Joli-Mitis        1632, rue Lindsay   
+2                   CFA de Mont-Joli-Mitis        1632, rue Lindsay   
+3                   CFA de Mont-Joli-Mitis        1632, rue Lindsay   
+4                              Alizés, des  45, avenue de la Grotte   
+
+   ADRS_GEO_L2_GDUNO_IMM  CD_MUNCP_GDUNO_IMM NOM_MUNCP_GDUNO_IMM  \
+0                    NaN               88802             Pikogan   
+1                    NaN                9077           Mont-Joli   
+2                    NaN                9077           Mont-Joli   
+3                    NaN                9077           Mont-Joli   
+4                    NaN                9077           Mont-Joli   
+
+  CD_POSTL_GDUNO_IMM  PRESC  PRIM  SEC  FORM_PRO  ADULTE  \
+0             J9T3A3      0     0    0         0       1   
+1             G5H3A6      0     0    0         0       1   
+2             G5H3A6      0     0    0         1       0   
+3             G5H3A6      0     0    1         0       0   
+4             G5H1W4      1     1    0         0       0   
+
+                                      SITE_WEB_ORGNS  COORD_X_LL84_IMM  \
+0  https://www.cssh.gouv.qc.ca/etablissement/la-p...               NaN   
+1                  https://cea.cssphares.gouv.qc.ca/         -68.18820   
+2                             https://jesuispro.com/         -68.18820   
+3  https://www.csphares.qc.ca/programme-pii-et-gr...         -68.18820   
+4               https://alizes.cssphares.gouv.qc.ca/         -68.18631   
+
+   COORD_Y_LL84_IMM                  ORDRE_ENS   CD_CS TYPE_CS  \
+0               NaN      Éducation aux adultes  783000  Franco   
+1         48.584581      Éducation aux adultes  712000  Franco   
+2         48.584581  Formation professionnelle  712000  Franco   
+3         48.584581                 Secondaire  712000  Franco   
+4         48.586912     Préscolaire - Primaire  712000  Franco   
+
+                   STYLE_CART  NOM_MUNCP   NOM_MRC        NOM_REG_ADM  \
+0         9_OrgImm_Franco_Adu        NaN       NaN                NaN   
+1         9_OrgImm_Franco_Adu  Mont-Joli  La Mitis  Bas-Saint-Laurent   
+2          8_OrgImm_Franco_Fp  Mont-Joli  La Mitis  Bas-Saint-Laurent   
+3  3_OrgImm_Franco_secondaire  Mont-Joli  La Mitis  Bas-Saint-Laurent   
+4  4_OrgImm_Franco_presc_prim  Mont-Joli  La Mitis  Bas-Saint-Laurent   
+
+                  NOM_CEP                                  NOM_CS  
+0                     NaN   Centre de services scolaire Harricana  
+1  Matane-Matapédia-Mitis  Centre de services scolaire des Phares  
+2  Matane-Matapédia-Mitis  Centre de services scolaire des Phares  
+3  Matane-Matapédia-Mitis  Centre de services scolaire des Phares  
+4  Matane-Matapédia-Mitis  Centre de services scolaire des Phares  
 
  ------------------ 
 
@@ -76,17 +151,45 @@ None
 
 Dataframe Description
 
-               _id  DT_MAJ_GDUNO  ...  COORD_Y_LL84_IMM          CD_CS
-count  5454.000000           0.0  ...       5453.000000    5454.000000
-mean   2727.500000           NaN  ...         46.551183  806636.963696
-std    1574.578515           NaN  ...          1.762214   57814.559003
-min       1.000000           NaN  ...         45.011746  689000.000000
-25%    1364.250000           NaN  ...         45.523639  759000.000000
-50%    2727.500000           NaN  ...         45.851265  822000.000000
-75%    4090.750000           NaN  ...         46.859462  864000.000000
-max    5454.000000           NaN  ...         62.415245  889000.000000
+               _id  DT_MAJ_GDUNO  COMBINE_NUO_NUI       CD_ORGNS  \
+count  5454.000000           0.0              0.0    5454.000000   
+mean   2727.500000           NaN              NaN  806822.375321   
+std    1574.578515           NaN              NaN   57815.530885   
+min       1.000000           NaN              NaN  689007.000000   
+25%    1364.250000           NaN              NaN  759001.250000   
+50%    2727.500000           NaN              NaN  822022.000000   
+75%    4090.750000           NaN              NaN  864326.000000   
+max    5454.000000           NaN              NaN  889499.000000   
 
-[8 rows x 16 columns]
+       CD_MUNCP_GDUNO_ORGNS         CD_IMM  ADRS_GEO_L2_GDUNO_IMM  \
+count           5454.000000    5454.000000                    0.0   
+mean           56536.832233  806659.369820                    NaN   
+std            25265.257982   57730.638046                    NaN   
+min             1023.000000  689002.000000                    NaN   
+25%            37067.000000  759005.500000                    NaN   
+50%            63048.000000  822001.500000                    NaN   
+75%            72015.000000  864068.000000                    NaN   
+max            99818.000000  889019.000000                    NaN   
+
+       CD_MUNCP_GDUNO_IMM        PRESC         PRIM          SEC     FORM_PRO  \
+count         5454.000000  5454.000000  5454.000000  5454.000000  5454.000000   
+mean         55928.569124     0.454712     0.500000     0.154932     0.147415   
+std          25089.934333     0.497990     0.500046     0.361873     0.354551   
+min           1023.000000     0.000000     0.000000     0.000000     0.000000   
+25%          36033.000000     0.000000     0.000000     0.000000     0.000000   
+50%          61027.000000     0.000000     0.500000     0.000000     0.000000   
+75%          71083.000000     1.000000     1.000000     0.000000     0.000000   
+max          99820.000000     1.000000     1.000000     1.000000     1.000000   
+
+            ADULTE  COORD_X_LL84_IMM  COORD_Y_LL84_IMM          CD_CS  
+count  5454.000000       5453.000000       5453.000000    5454.000000  
+mean      0.238541        -72.588785         46.551183  806636.963696  
+std       0.426230          2.774829          1.762214   57814.559003  
+min       0.000000        -79.490305         45.011746  689000.000000  
+25%       0.000000        -73.719795         45.523639  759000.000000  
+50%       0.000000        -73.279578         45.851265  822000.000000  
+75%       0.000000        -71.361646         46.859462  864000.000000  
+max       1.000000        -57.187334         62.415245  889000.000000  
 
  ------------------ 
 

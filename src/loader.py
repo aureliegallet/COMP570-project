@@ -101,8 +101,13 @@ class Loader():
 
     def load(self, input_request):
         "Load a dataset and return it"
-        data = self.send_request(input_request)
-        return data
+        try:
+            data = self.send_request(input_request)
+            return data
+        except Exception as e:
+            print("\n ------------------ \n")
+            print(f"IMPORTANT: Dataset didn't load because of error {e}.")
+            return None
 
 
     def load_to_csv(self, dataset, input_request):
