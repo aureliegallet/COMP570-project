@@ -85,7 +85,12 @@ def main():
     print("\n ------------------ \n")
     print("Missing values per column in returned dataset.")
     print(empty_values)
+    
+    normal_length = len(df)
+    temp = df.dropna()
+    print(f"Total rows with missing values: {normal_length - len(temp)}")
     print("\n ------------------ \n")
+
 
     missing_counts = pd.DataFrame()
     for borough in BOROUGHS:

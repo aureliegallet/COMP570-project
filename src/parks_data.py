@@ -78,6 +78,10 @@ def main():
     print("Missing values per column in returned dataset.")
     print(empty_values)
     print("\n ------------------ \n")
+    normal_length = len(df)
+    temp = df.dropna()
+    print(f"Total rows with missing values: {normal_length - len(temp)}")
+    print("\n ------------------ \n")
 
     missing_counts = pd.DataFrame()
     for borough in BOROUGHS:
@@ -88,87 +92,87 @@ def main():
     missing_counts.to_csv(default_data_path / "checks/parks_missing.csv", index=False)
     print("\n ------------------ \n")
     
-    # Remove rows with no park name and private parks
-    df = df[df['Nom'].notna()]
-    lengths.append(len(df))
-    print("Number of rows removed because of a missing park name:", lengths[-2] - lengths[-1])
+    # # Remove rows with no park name and private parks
+    # df = df[df['Nom'].notna()]
+    # lengths.append(len(df))
+    # print("Number of rows removed because of a missing park name:", lengths[-2] - lengths[-1])
 
-    print("\n ------------------ \n")
-    print("Bias check for private parks")
-    private_df = df[df['COMPETENCE'] == "Privé"]
-    geolocator = Nominatim(user_agent="COMP570-project") # Rate limited, cannot run again
+    # print("\n ------------------ \n")
+    # print("Bias check for private parks")
+    # private_df = df[df['COMPETENCE'] == "Privé"]
+    # geolocator = Nominatim(user_agent="COMP570-project") # Rate limited, cannot run again
 
-    locations = []
-    bi = BoroughIdentifier()
-    for row in private_df.iterrows():
-        search_text = f"{row[1]["Type"]} {row[1]["Lien"]} {row[1]["Nom"]} montréal"
-        search_text = search_text.replace("nan", "")
-        search_text = re.sub(r"\s+", " ", search_text)
-        print(f"- Searched text: {search_text}")
-        try: 
-            location = geolocator.geocode(search_text) # https://github.com/geopy/geopy
-            print(f"> Found: {location.latitude}, {location.longitude}")
-            locations.append(bi.match_WSG84_to_borough(longitude_x=location.longitude, latitude_y=location.latitude)), 
-        except:
-            locations.append(None)
-            print(f"> Parc not found: {row[1]["Nom"]}")
+    # locations = []
+    # bi = BoroughIdentifier()
+    # for row in private_df.iterrows():
+    #     search_text = f"{row[1]["Type"]} {row[1]["Lien"]} {row[1]["Nom"]} montréal"
+    #     search_text = search_text.replace("nan", "")
+    #     search_text = re.sub(r"\s+", " ", search_text)
+    #     print(f"- Searched text: {search_text}")
+    #     try: 
+    #         location = geolocator.geocode(search_text) # https://github.com/geopy/geopy
+    #         print(f"> Found: {location.latitude}, {location.longitude}")
+    #         locations.append(bi.match_WSG84_to_borough(longitude_x=location.longitude, latitude_y=location.latitude)), 
+    #     except:
+    #         locations.append(None)
+    #         print(f"> Parc not found: {row[1]["Nom"]}")
 
-        time.sleep(1.1)
+    #     time.sleep(1.1)
 
-    private_df["borough"] = locations
-    private_df.to_csv(default_data_path / "checks/private_parks.csv", index=False)
+    # private_df["borough"] = locations
+    # private_df.to_csv(default_data_path / "checks/private_parks.csv", index=False)
 
-    output_private = {
-        'borough': df['GESTION'].unique(),
-    }
-    output_private = pd.DataFrame(output_private)
-    output_private['green_area (ha)'] = output_private['borough'].map(lambda brgh: private_df[private_df['borough']==brgh]['SUPERFICIE'].astype(float).sum())
-    output_private.to_csv(default_data_path / "checks/private_green_per_borough.csv", index=False)
-    print(output_private[["borough", "green_area (ha)"]])
-    print("\n ------------------ \n")
+    # output_private = {
+    #     'borough': df['GESTION'].unique(),
+    # }
+    # output_private = pd.DataFrame(output_private)
+    # output_private['green_area (ha)'] = output_private['borough'].map(lambda brgh: private_df[private_df['borough']==brgh]['SUPERFICIE'].astype(float).sum())
+    # output_private.to_csv(default_data_path / "checks/private_green_per_borough.csv", index=False)
+    # print(output_private[["borough", "green_area (ha)"]])
+    # print("\n ------------------ \n")
 
 
-    df = df[df['COMPETENCE'] != "Privé"]
-    lengths.append(len(df))
-    print("Number of rows removed because park is private:", lengths[-2] - lengths[-1])
+    # df = df[df['COMPETENCE'] != "Privé"]
+    # lengths.append(len(df))
+    # print("Number of rows removed because park is private:", lengths[-2] - lengths[-1])
 
-    # Check for duplicates (entries can have the same unique park identifier if a park consists of several polygones. Thus, we check if they also have the exact same area which would indicate true duplication)
-    print("Number of rows with same unique park identifier and same areas:", len(df[df.duplicated(subset=['NUM_INDEX', 'SUPERFICIE'])]))
+    # # Check for duplicates (entries can have the same unique park identifier if a park consists of several polygones. Thus, we check if they also have the exact same area which would indicate true duplication)
+    # print("Number of rows with same unique park identifier and same areas:", len(df[df.duplicated(subset=['NUM_INDEX', 'SUPERFICIE'])]))
 
-    # Remove parks that have no borough or are not handled by a borough
-    not_boroughs = ['Autre', 'Commission scolaire', 'Service des grands parcs, du Mont-Royal et des sports', 'Westmount']
-    df = df[~df['GESTION'].isin(not_boroughs)]
-    lengths.append(len(df))
-    print("Number of rows removed because park is not handled by a borough:", lengths[-2] - lengths[-1])
+    # # Remove parks that have no borough or are not handled by a borough
+    # not_boroughs = ['Autre', 'Commission scolaire', 'Service des grands parcs, du Mont-Royal et des sports', 'Westmount']
+    # df = df[~df['GESTION'].isin(not_boroughs)]
+    # lengths.append(len(df))
+    # print("Number of rows removed because park is not handled by a borough:", lengths[-2] - lengths[-1])
     
-    df = df[df['GESTION'].notna()]
-    lengths.append(len(df))
-    print("Number of rows removed because of a missing handling authority:", lengths[-2] - lengths[-1])
+    # df = df[df['GESTION'].notna()]
+    # lengths.append(len(df))
+    # print("Number of rows removed because of a missing handling authority:", lengths[-2] - lengths[-1])
 
-    print(f"Total number of rows removed: {lengths[0] - lengths[-1]} which is roughly equal to {((lengths[0] - lengths[-1]) / lengths[0]) * 100 :.2f}%.")
+    # print(f"Total number of rows removed: {lengths[0] - lengths[-1]} which is roughly equal to {((lengths[0] - lengths[-1]) / lengths[0]) * 100 :.2f}%.")
 
-    census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
-    census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
-    census_df.columns = census_df.columns.str.replace("Arrondissement d'", "")
-    census_df.columns = census_df.columns.str.replace("Arrondissement du", "Le")
-    census_df.columns = census_df.columns.str.replace("–", "-")
+    # census_df = pd.read_excel(default_data_path / "DONNÉES DU RECENSEMENT DE 2021_AGGLOMÉRATION DE MONTRÉAL_TOTAUX ET POURCENTAGES_0.XLSX", skiprows=(0,1,2), index_col=0)
+    # census_df.columns = census_df.columns.str.replace("Arrondissement de ", "")
+    # census_df.columns = census_df.columns.str.replace("Arrondissement d'", "")
+    # census_df.columns = census_df.columns.str.replace("Arrondissement du", "Le")
+    # census_df.columns = census_df.columns.str.replace("–", "-")
 
-    # Compute output with borough, total population in that borough, total green area in that borough, and percentage of overall green area in that borough
-    output = {
-        'borough': df['GESTION'].unique(),
-    }
-    output_df = pd.DataFrame(output)
-    output_df['total_area (ha)'] = output_df['borough'].map(lambda brgh: census_df[brgh]['Superficie (en km2)']) * 100  
-    output_df['green_area (ha)'] = output_df['borough'].map(lambda brgh: df[df['GESTION']==brgh]['SUPERFICIE'].astype(float).sum())
-    output_df['green_area (%)'] = output_df['green_area (ha)'] / output_df['total_area (ha)'] * 100
+    # # Compute output with borough, total population in that borough, total green area in that borough, and percentage of overall green area in that borough
+    # output = {
+    #     'borough': df['GESTION'].unique(),
+    # }
+    # output_df = pd.DataFrame(output)
+    # output_df['total_area (ha)'] = output_df['borough'].map(lambda brgh: census_df[brgh]['Superficie (en km2)']) * 100  
+    # output_df['green_area (ha)'] = output_df['borough'].map(lambda brgh: df[df['GESTION']==brgh]['SUPERFICIE'].astype(float).sum())
+    # output_df['green_area (%)'] = output_df['green_area (ha)'] / output_df['total_area (ha)'] * 100
 
-    print("Area integrity check:")
-    print("sum of borough areas:", output_df['total_area (ha)'].sum())
-    print("declared city area:", census_df['Ville de Montréal']['Superficie (en km2)']*100)
+    # print("Area integrity check:")
+    # print("sum of borough areas:", output_df['total_area (ha)'].sum())
+    # print("declared city area:", census_df['Ville de Montréal']['Superficie (en km2)']*100)
 
-    # Save output to csv
-    output_df.to_csv(output_path, index=False)
-    print(f"Succesfully saved {len(output_df)} lines to {output_path}.")
+    # # Save output to csv
+    # output_df.to_csv(output_path, index=False)
+    # print(f"Succesfully saved {len(output_df)} lines to {output_path}.")
 
 
 if __name__ == "__main__":
