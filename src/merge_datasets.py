@@ -27,6 +27,17 @@ def main():
             datasets = pd.merge(datasets, df, how = "outer", on = "borough")
 
     datasets = datasets.drop(datasets[datasets["borough"] == "Not-Borough"].index)
+
+    # Process 311 per capita
+    total_complaints = datasets["Complaints"] + datasets["Adjusted Complaints"]
+    total_requests = datasets["Requests"] + datasets["Adjusted Requests"]
+    datasets.insert(datasets.columns.get_loc("Adjusted Complaints") + 1, "Total Complaints", total_complaints)
+    datasets.insert(datasets.columns.get_loc("Adjusted Requests") + 1, "Total Requests", total_requests)
+    total_complaints_per_capita = datasets["Adjusted Complaints"] / datasets["POPULATION"]
+    total_requests_per_capita = datasets["Adjusted Requests"] / datasets["POPULATION"]
+    datasets.insert(datasets.columns.get_loc("Total Complaints") + 1, "Complaints per Capita", total_complaints_per_capita)
+    datasets.insert(datasets.columns.get_loc("Total Requests") + 1, "Requests per Capita", total_requests_per_capita)
+
     datasets.to_csv(DATA_PATH / "final_dataset.csv", index = False)
 
 

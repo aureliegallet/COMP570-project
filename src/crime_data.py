@@ -181,6 +181,10 @@ def main():
     final = pd.DataFrame({"BOROUGH": []})
     for act in ACTS:
         counts = df[df["CATEGORIE"] == act]["BOROUGH"].value_counts().reset_index()
+        counts[f"Total {act}"] = counts.apply(
+            lambda row: row["count"], 
+            axis = 1
+        ) 
         counts[f"{act}_acts_per_capita"] = counts.apply(
             lambda row: row["count"] / census_df[row["BOROUGH"]]['Population totale en 2021'], 
             axis = 1
@@ -189,6 +193,7 @@ def main():
         counts_df = pd.DataFrame(counts)
         final = pd.merge(final, counts_df, how = "outer", on = "BOROUGH")
     final = final.fillna(int(0))
+    final["POPULATION"] = final["BOROUGH"].map(lambda brgh: census_df[brgh]['Population totale en 2021'])
     print("\n ------------------ \n")
     print(final)
     
