@@ -67,7 +67,7 @@ Number of instances for each source dataset:
 - Parks: 1646 instances
 - Crimes: 22545 instances
 - 311 requests: 332341 instances
-- Renting information: 100 instances <!-- @Arash please confirm --> 
+- Renting information: 100 instances 
 
 Each source dataset contains all instances that were complete and provided by the city of Montreal or the province of Quebec.
 
@@ -114,6 +114,22 @@ To our knowledge, there are no errors in the dataset.
 might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.**
 
 The dataset is self-contained.
+
+However, it was built using datasets that are subject to change by the open data portals hosted by Montréal and the province of Québec. These datasets are:
+- Borough limits: https://donnees.montreal.ca/dataset/limites-administratives-agglomeration
+- Crimes: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels 
+- Parks: https://donnees.montreal.ca/dataset/grands-parcs-parcs-d-arrondissements-et-espaces-publics 
+- Schools: https://www.donneesquebec.ca/recherche/dataset/localisation-des-etablissements-d-enseignement-du-reseau-scolaire-au-quebec/resource/c6640a54-bc4b-43ec-864e-6c325dce61bc 
+- Housing: https://donnees.montreal.ca/fr/dataset/profils-menages-logements
+- 311: https://www.donneesquebec.ca/recherche/dataset/vmtl-requete-311
+
+All data above was collected under the Creative Commons Attribution 4.0.
+
+The census data was collected on https://ville.montreal.qc.ca/portal/page?_pageid=6897,68149701&_dad=portal&_schema=PORTAL which comes from the Census data on https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E.
+
+<!-- @ ANDREW -->
+
+
 
 <!--  SPACING -->
 
@@ -193,11 +209,13 @@ If not, please describe the timeframe in which the data associated with the inst
 
 The data was collected between 26/09/2026 and 07/10/2026. The data collected regarding crime statistics and 311 complaints were filtered for the year 2021. This year was chosen because it aligns with the latest available census data for Montreal so that the data is the most up to date as possible.
 
+The borough limits data was collected on 28/09/2026.
+The census data was collected on 30/09/2026.
 The crime data is modified daily and was last collected on 7/10/2026.
 The 311 data was reportedly last modified on 4/10/2026 and was last collected on 7/10/2026.
 The parks data was reportedly last modified before our collection on 28/08/2026 and was last collected on 7/10/2026.
 The schools data was reportedly last modified before our collection on 22/09/2026 and was last collected on 7/10/2026.
-The rent data was reportedly last modified 9 months before our collection, with the metadata being last modified on 21/01/2026. We downloaded this data on 28/10/2026. <!-- @Arash please confirm>
+The rent data was reportedly last modified 9 months before our collection, with the metadata being last modified on 21/01/2026. We downloaded this data on 28/10/2026. 
 
 <!--  SPACING -->
 
