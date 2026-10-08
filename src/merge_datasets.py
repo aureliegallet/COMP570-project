@@ -27,6 +27,7 @@ def main():
             datasets = pd.merge(datasets, df, how = "outer", on = "borough")
 
     datasets = datasets.drop(datasets[datasets["borough"] == "Not-Borough"].index)
+    datasets = datasets.drop(columns="census_year")
 
     # Process 311 per capita
     total_complaints = datasets["Complaints"] + datasets["Adjusted Complaints"]
