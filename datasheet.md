@@ -271,7 +271,7 @@ None.
 ### Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? 
 **If so, please provide a description. If not, you may skip the remaining questions in this section.**
 
-Some source data that we ingested was cleaned and filtered to get rid of rows with missing data or unwanted data (e.g. private parks or schools that are not in any of the 19 boroughs). Minor amounts of whitespace editing was necessary to properly measure equivalency. For some source data that had no borough information, we also labeled instances into relevant boroughs by converting coordinates.
+Some source data that we ingested was cleaned and filtered to get rid of rows with missing data or unwanted data (e.g. private parks or schools that are not in any of the 19 boroughs). Minor amounts of whitespace editing was necessary to properly measure equivalency. For some source data that had no borough information, we also labeled instances into relevant boroughs by converting the coordinates provided by the instance.
 The resulting aggregate statistics in our final dataset were normalized to values between 0 and 1.
 
 <!--  SPACING -->
