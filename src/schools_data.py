@@ -178,6 +178,8 @@ def main():
     bias_checks['num_children'] = bias_checks['borough'].map(lambda brgh: census_df[brgh]['0 à 14 ans']["0 à 14 ans"].iloc[0])
     bias_checks["english_students_per_school"] = (bias_checks["num_children"] * bias_checks["english_speaker_pct"]) / bias_checks["anglo_school_count"]
     bias_checks["french_students_per_school"] = (bias_checks["num_children"] * bias_checks["french_speaker_pct"]) / bias_checks["franco_school_count"]
+    bias_checks.replace({"english_students_per_school": np.inf}, 'No anglo schools', inplace=True)
+    bias_checks.replace({"french_students_per_school": np.inf}, 'No franco schools', inplace=True)
 
     bias_checks.to_csv(default_data_path / "checks/schools_language_bias.csv")
 
