@@ -69,7 +69,7 @@ Number of instances for each source dataset:
 - 311 requests: 332341 instances
 - Renting information: 100 instances <!-- @Arash please confirm --> 
 
-Each source dataset contains all instances that were complete and provided by the city of Montreal or the province of Quebec.
+Each source dataset contains all instances that were completed and provided by the city of Montreal or the province of Quebec.
 
 <!--  SPACING -->
 
