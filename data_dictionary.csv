@@ -1,18 +1,18 @@
 ﻿Name,Type,Units,Source,Definition
-borough,Text,N/A,2021 Census data,"Name of the Montreal borough, used to match and combine records across datasets."
-Total theft,Decimal,Incidents,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 theft incidents.
-theft_acts_per_capita,Decimal,Incidents/resident,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 theft incidents divided by 2021 population.
-Total break_in,Decimal,Incidents,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 break in incidents.
-break_in_acts_per_capita,Decimal,Incidents/resident,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 number of break in incidents divided by 2021 population.
-Total misdemeanor,Decimal,Incidents,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 number of misdemeanor incidents.
-misdemeanor_acts_per_capita,Decimal,Incidents/resident,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 misdemeanor incidents divided by 2021 population.
-Total death,Decimal,Incidents/resident,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 deaths.
-death_acts_per_capita,Decimal,Incidents/resident,Crime data: https://donnees.montreal.ca/dataset/actes-criminels; Population: Project,Retained 2021 number of deaths divided by 2021 population
-POPULATION,Integer-valued decimal,People,Number of children: Project; Québec school locations: https://www.donneesquebec.ca/recherche/dataset/localisation-des-etablissements-d-enseignement-du-reseau-scolaire-au-quebec/resource/c6640a54-bc4b-43ec-864e-6c325dce61bc,2021 population aged 0–14
-total_area (ha),Decimal,Hectares,2021 Census data,borough area in square kilometres multiplied by 100.
+borough,Text,N/A,https://donnees.montreal.ca/dataset/limites-administratives-agglomeration,"Name of the Montreal borough, used to match and combine records across datasets."
+Total theft,Decimal,Incidents,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 theft incidents.
+theft_acts_per_capita,Decimal,Incidents/resident,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 theft incidents divided by 2021 population.
+Total break_in,Decimal,Incidents,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 break in incidents.
+break_in_acts_per_capita,Decimal,Incidents/resident,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 number of break in incidents divided by 2021 population.
+Total misdemeanor,Decimal,Incidents,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 number of misdemeanor incidents.
+misdemeanor_acts_per_capita,Decimal,Incidents/resident,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 misdemeanor incidents divided by 2021 population.
+Total death,Decimal,Incidents/resident,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 deaths.
+death_acts_per_capita,Decimal,Incidents/resident,Crime data: https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels; Population: Project,Retained 2021 number of deaths divided by 2021 population
+POPULATION,Integer-valued decimal,People, "2021 Census data: https://ville.montreal.qc.ca/portal/page?_pageid=6897,68149701&_dad=portal&_schema=PORTAL" ,2021 population aged 0–14
+total_area (ha),Decimal,Hectares,"2021 Census data: https://ville.montreal.qc.ca/portal/page?_pageid=6897,68149701&_dad=portal&_schema=PORTAL",borough area in square kilometres multiplied by 100.
 green_area (ha),Decimal,Hectares,Montréal parks and public spaces: https://donnees.montreal.ca/dataset/grands-parcs-parcs-d-arrondissements-et-espaces-publics/resource/f34c3555-c285-4ef3-a55c-f0f5c440ad2d,"The total area, in hectares, of the selected parks managed by each borough"
 green_area (%),Decimal,Percent,Québec school locations: https://www.donneesquebec.ca/recherche/dataset/localisation-des-etablissements-d-enseignement-du-reseau-scolaire-au-quebec/resource/c6640a54-bc4b-43ec-864e-6c325dce61bc,100 × green_area (ha) / total_area (ha).
-num_children,Integer-valued decimal,Children,Number of children: Project; Québec school locations: https://www.donneesquebec.ca/recherche/dataset/localisation-des-etablissements-d-enseignement-du-reseau-scolaire-au-quebec/resource/c6640a54-bc4b-43ec-864e-6c325dce61bc,2021 population aged 0–14
+num_children,Integer-valued decimal,Children,"2021 Census data: https://ville.montreal.qc.ca/portal/page?_pageid=6897,68149701&_dad=portal&_schema=PORTAL",2021 population aged 0–14
 num_schools,Integer-valued decimal,Schools,Montréal 311 service requests: https://www.donneesquebec.ca/recherche/dataset/vmtl-requete-311/resource/dbfc05f8-b939-4639-ae52-2e77f738e43f,Retained establishments assigned geographically to each borough.
 children_per_school,Decimal,Children/school,Montréal 311 service requests: https://www.donneesquebec.ca/recherche/dataset/vmtl-requete-311/resource/dbfc05f8-b939-4639-ae52-2e77f738e43f,"num_children / num_schools. Not actual enrolment, class size or capacity."
 census_year,Integer,Year,Montréal household and housing profiles (2021 Census): https://donnees.montreal.ca/fr/dataset/profils-menages-logements,Year of the housing census data: 2021.
