@@ -4,6 +4,7 @@ import pandas as pd
 import json
 import utils
 import time
+import csv
 
 COMPLAINTS_PROCESSED = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed.csv"
 COMPLAINTS_PROCESSED_NON_MATCHING = Path(__file__).resolve().parent.parent / "data/requests" / "output_complaints_processed_non_matching.csv"
@@ -204,13 +205,18 @@ def main():
             matching_df = df[df['ARRONDISSEMENT'] == df['ARRONDISSEMENT_GEO']]
             non_matching_df = df[df['ARRONDISSEMENT'] != df['ARRONDISSEMENT_GEO']]
 
-
+            # Add filtered df to a CSV
+            raw_path = Path(__file__).resolve().parent.parent / "data/raw/requests.csv"
+            if loop_counter == 0 and path == OUTPUT_DIRS[0]:
+                df.to_csv(raw_path, mode="w", header=True, index=False)
+            else:
+                df.to_csv(raw_path, mode="a", header=False, index=False)
+            
             # First do matching columns
             cumulative_df_matching = accumulate_counts(matching_df, cumulative_df_matching)
 
             # Then do non-matching columns
             cumulative_df_non_matching = accumulate_counts(non_matching_df, cumulative_df_non_matching)
-
 
             # Tally most common action
             most_common_action = df[df['ARRONDISSEMENT_GEO'].isin(BOROUGHS)]
