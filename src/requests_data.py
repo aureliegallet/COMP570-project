@@ -158,9 +158,9 @@ def main():
     checks = [pd.Series(), pd.Series()]
 
     # Compute missing values for unfiltered 2021
-    print("\n ------------------ \n")
-    print(f"Missing values for unfiltered 2021 dataset.")
-    caculate_missing(loader)
+    # print("\n ------------------ \n")
+    # print(f"Missing values for unfiltered 2021 dataset.")
+    # caculate_missing(loader)
 
 
     # Filtered processing
@@ -207,10 +207,12 @@ def main():
 
             # Add filtered df to a CSV
             raw_path = Path(__file__).resolve().parent.parent / "data/raw/requests.csv"
-            if loop_counter == 0 and path == OUTPUT_DIRS[0]:
-                df.to_csv(raw_path, mode="w", header=True, index=False)
+            df_to_save = df.copy()
+            df_to_save = df_to_save.drop(columns=["_full_text"])
+            if (loop_counter == 0) and index == 0:
+                df_to_save.to_csv(raw_path, mode="w", header=True, index=False)
             else:
-                df.to_csv(raw_path, mode="a", header=False, index=False)
+                df_to_save.to_csv(raw_path, mode="a", header=False, index=False)
             
             # First do matching columns
             cumulative_df_matching = accumulate_counts(matching_df, cumulative_df_matching)
