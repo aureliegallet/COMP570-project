@@ -103,7 +103,7 @@ def main():
     head_remaining = set(head["ACTI_NOM"]) - head_set
     tail_remaining = set(tail["ACTI_NOM"]) - tail_set
 
-    boroughs["labels_tail_remaining"] = boroughs["ARRONDISSEMENT_GEO"].map( # for every borough, get all unique actions that are in remaining head
+    boroughs["labels_tail_remaining"] = boroughs["ARRONDISSEMENT_GEO"].map( # for every borough, get all unique actions that are in remaining tail
         lambda borough: 
             set(df[df["ARRONDISSEMENT_GEO"]==borough]["ACTI_NOM"].unique())
             .intersection(tail_remaining)
