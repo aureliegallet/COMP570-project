@@ -29,6 +29,7 @@ Condition (IN):
 ???/??? of the IN set from annotation 1 was excluded in this step
 
 ===== Annotation 3: Topics =====
+
 GENERAL NOTE: Assign label to earliest topic if it could fit multiple topics. (Example: if a label could be considered both Wear and Tear and Missing Services, assign label to Wear and Tear)
 
 1. Vandalism and Crime: Complaints possibly related to illegal/unauthorized activities
