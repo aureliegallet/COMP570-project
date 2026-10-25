@@ -1,0 +1,86 @@
+General rules:
+- Exclusion rules take precedence over inclusion rules (if a label fulfills both an inclusion rule and an exclusion rule, exclude it)
+
+===== Annotation 1: In vs Out of Scope =====
+
+OUT:
+- Label primarily indicates a handling / collection of money
+- Label appears to be a logging of a benign service request (like accessing or recording data)
+- Label seems to relate to internal work within department, or merely correspondence
+- Label appears to be a system log / error message
+
+IN:
+- Everything else that appears to be a neighbourhood issue
+
+???/140 of the open coding set was excluded in this step.
+
+===== Annotation 2: Condition of Neighbourhood vs Transaction within City =====
+
+Transaction (OUT):
+- Label seems to relate to permits
+- The current label does not specify a required action, but there exists another similarly worded label that is clearly a pejorative complaint (example: "Brown bin (organic waste)" vs "Recycling bin: damaged, lost, or stolen")
+- Label possibly indicates maintenance and preventative measures instead of necessarily reactive measures
+- Label seems to indicate work on private property that specifically does not affect the general public
+- Label does not appear to be a complaint and is instead a logging of an event that occurred
+
+Condition (IN):
+- Everything else that appears to be about a condition of the neighbourhood
+
+???/??? of the IN set from annotation 1 was excluded in this step
+
+===== Annotation 3: Topics =====
+GENERAL NOTE: Assign label to earliest topic if it could fit multiple topics. (Example: if a label could be considered both Wear and Tear and Missing Services, assign label to Wear and Tear)
+
+1. Vandalism and Crime: Complaints possibly related to illegal/unauthorized activities
+Inclusion Rules:
+- Label indicates could possibly be a human-inflicted crime
+Exclusion Rules:
+- Not illegal
+Examples:
+- Graffiti – Private property 
+- Illegal dumping – Snow
+Boundary Examples:
+- Waste bin – Damaged, lost, or stolen (included explanation: possibly stolen, which is a crime)
+
+2. Lack of Maintenance, and, Wear and Tear: Complaints related to unmaintained damages accrued over time
+Inclusion Rules:
+- Unmaintained plant life
+- Damages that occur from natural exposure
+- Infestations
+Exclusion Rules:
+- Label possibly indicates preventative measures
+- Damage is caused by illegal activity
+Examples:
+- Grass or weeds – Public property
+- Service line leak
+Boundary Examples:
+- Sewer – Repair/Maintenance (excluded explanation: label indicates maintenance, which can be considered a preventative measure as opposed to a reactive one)
+
+3. Missing Services / Incompetence: Complaints about services that were supposed to have occurred but did not
+Inclusion Rules:
+- Uncollected waste
+- Missing or poorly executed services and infrastructure
+Exclusion Rules:
+- Label indicates could be Wear and Tear instead
+Examples:
+- Uncollected Garbage
+- Signage – Snow
+Boundary Examples:
+- Service box (curb stop) requiring leveling (excluded explanation: appears to be Wear and Tear related)
+
+4. Request for Public Action: Requests for services to be provided or action to be taken by public agent(s)
+Inclusion Rules:
+- New service or action requests
+- Labels that indicate an object or area but do not specify the required action. Assume these to be new requests.
+Exclusion Rules:
+- Label indicates could be lack of maintenance
+- Label indicates could be missing services/incompetence
+Examples:
+- Street closure (emergency/planned)
+- Parking meter
+- Traffic calming
+Boundary Examples:
+- Water – Fire hydrant – Repair (excluded explanation: Repair specified, so this should go to 2 instead. without this, it would have been included here.)
+- Bike rack (included explanation: this does not specify what needs to be done to/about a bike rack. We assume it to be a request for a new bike rack to be installed, thus a request for public action rather than a repair or missing service)
+
+5. Other
