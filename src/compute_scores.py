@@ -1,3 +1,4 @@
+import krippendorff 
 import pandas as pd
 from pathlib import Path
 from sklearn.metrics import cohen_kappa_score
@@ -34,9 +35,21 @@ for task in range(1, 4):
     kappa = compute_kappa(annotator1, annotator2)
     print(f"Cohen's Kappa: {kappa:.2f}")
 
+    # https://github.com/pln-fing-udelar/fast-krippendorff
+    krippen_data = [list(annotator1), list(annotator2)]
+    res = krippendorff.bootstrap_ci(
+        reliability_data=krippen_data,
+        level_of_measurement="nominal",
+        confidence_level=0.95,
+        n_resamples=2000,
+        random_state=42
+    ) 
+    print(f"Alpha: {res.alpha:.3f}")
+    print(f"95% CI: [{res.ci_low:.3f}, {res.ci_high:.3f}]")
+    print(f"Standard Error: {res.standard_error:.4f}")
     print("\n--------- \n")
 
-
+    
 
 """
 Report Cohen’s kappa alongside raw percentage agreement, separately for each of your three annotation dimensions: 
