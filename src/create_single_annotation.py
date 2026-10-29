@@ -13,7 +13,7 @@ with open(DATA_ANNOTATION_PATH / "double_annotate.txt", "r") as file:
 df_double = pd.DataFrame(labels, columns=["label"])
 
 df_single = df_all[~df_all["label"].isin(df_double["label"])] # If we only annotate the head + sampled tail
-df_single["annotation"] = None
+df_single[["task_1", "task_2", "task_3"]] = [None, None, None]
 print(f"Length of single annotation set: {len(df_single)}")
 df_single.to_csv(DATA_ANNOTATION_PATH / "single_annotate.csv", index=False)
 
