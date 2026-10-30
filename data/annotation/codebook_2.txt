@@ -1,0 +1,56 @@
+===== Annotation 1: In vs Out of Scope =====
+
+IN: Something a resident would recognize as a neighbourhood issue.
+Inclusion Criteria:
+- Label represents something a resident would recognize as a neighbourhood issue
+Exclusion Criteria:
+- Label does not cover tax accounts or other forms of government money collection
+- Label does not cover supplier registries
+- Label does not cover internal departmental work
+- Label does not cover correspondence with other levels of government
+Examples: 
+- "Gazon-Réparation" This label describes a neighbourhood issue: it tracks a request for some lawn in the area to be repaired. It is therefore annotated as IN as per the criteria.
+- "Chaussée glissante" This label describes a neighbourhood issue: it tracks complaints about slippery roads/pavements. It is therefore annotated as IN as per the criteria.
+
+OUT: Something a resident would not recognize as a neighbourhood issue.
+Inclusion Criteria:
+- Label covers tax accounts or other forms of government money collection
+- Label covers supplier registries
+- Label covers internal departmental work
+- Label covers correspondence with other levels of government
+Exclusion Criteria:
+- Label does not represent something a resident would recognize as a neighbourhood issue
+Examples: 
+- "Taxe d'eau" This label describes money collection by the city in the form of a tax. It is therefore annotated as OUT as per the criteria.
+- "IRP-Mesured'urgence" This label contains IRP which stands for "Intervention Rapide et Prioritaire". This is an internal department team and tracks their work. It is therefore annotated as OUT as per the criteria.
+
+Edge case: "Transportation and delivery" This label is not very clear as to what exactly it represents. However, it appears to fit into two of the OUT criteria: it is either a supplier related request or related to internal work (transport or delivery of goods handled by the city). It is therefore annotated as OUT as per the criteria.
+
+54/140 of the open coding set was excluded in this step.
+
+===== Annotation 2: Condition of Neighbourhood vs Transaction within City =====
+
+Condition (IN): Condition of the neighbourhood.
+Inclusion Criteria:
+- Describes something that is true of a place
+Exclusion Criteria:
+- Describes an errand a resident is running
+- Tells you about municipal workload rather than about the street anyone lives on.
+Examples:
+- "Immeubles municipaux - Abeilles, guêpes, bourdons à l'intérieur" This label indicates something true of the neighbourhood: there are bees in its municipal buildings. It is therefore annotated as Condition as per the criteria.
+- "Bruit" This label represents noise complaints by residents. These describe something true of the neighbourhood: how noisy it is. It is therefore annotated as Condition as per the criteria.
+
+Transaction (OUT): Transaction with the city.
+Inclusion Criteria:
+- Describes an errand a resident is running
+- Tells you about municipal workload rather than about the street anyone lives on.
+Exclusion Criteria:
+- Describes something that is true of a place
+Examples:
+- "*Borough inspections" This label indicates routine work (inspections) to be carried out by municipal workers. It informs us of the municipal workload. It is therefore annotated as Transaction as per the criteria.
+- "*BacdedéchetsLivraison" This label describes delivery of a bin. This is indicative of a resident errand (bin order) and the municipal workload attached to it (delivery). It is therefore annotated as Transaction as per the criteria.
+
+Edge case:  "Travaux Élagage" This label indicates work to be done regarding tree pruning. However, it also describes the state of the neighbourhood: trees need pruning. As a tie-breaker, we annotate this as Condition.
+
+14/86 of the IN set from annotation 1 was excluded in this step.
+72 open-coding labels remain to be classified into categories after this step.
