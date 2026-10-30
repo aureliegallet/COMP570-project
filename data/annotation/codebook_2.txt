@@ -58,9 +58,8 @@ Edge case:  "Travaux Élagage" This label indicates work to be done regarding tr
 
 ===== Annotation 3: Topics =====
 
-GENERAL NOTE: Assign label to earliest topic if it could fit multiple topics. 
-Example: If a label could be considered both Maintenance / City Works and Cleanliness / Sanitation, put it in Maintenance / City Works
-
+GENERAL NOTE: If a label seems to match two topics, think of the impact of the request on the neighbourhood and what it aims to improve.
+Pick the most specific topic for the label if it seems to match one of the inclusion criteria for it.
 
 1. Maintenance / City Works
 
