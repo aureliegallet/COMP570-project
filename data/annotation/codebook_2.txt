@@ -54,3 +54,101 @@ Edge case:  "Travaux Élagage" This label indicates work to be done regarding tr
 
 14/86 of the IN set from annotation 1 was excluded in this step.
 72 open-coding labels remain to be classified into categories after this step.
+
+
+===== Annotation 3: Topics =====
+
+GENERAL NOTE: Assign label to earliest topic if it could fit multiple topics. 
+Example: If a label could be considered both Maintenance / City Works and Cleanliness / Sanitation, put it in Maintenance / City Works
+
+
+1. Maintenance / City Works
+
+One sentence definition: 
+Label is related to work that needs to be done to repair or maintain the city or citizen's infrastructure and greenery.
+
+Inclusion Rules:
+- Label explicitely mentions repair, construction, works or maintenance.
+- Label consists of an action verb for public or private property that indicates that the city needs to maintain or repair it.
+- Label mentions something that is broken and would need repair by the city.
+- Label mentions public property from which it could be infered that it is in need of repair or maintenance.
+Exclusion Rules:
+- Label that has nothing to do with city works, repair, maintenance, or any type of public or private property that the city could intervene on.
+
+Examples:
+- Gazon-Réparation --> This is about repairing public or private property
+- Entretien d'édifices municipaux --> This is about maintaining public property
+
+Boundary Examples:
+- Mobilier de parc --> We can infer that although this does not mention a specific request about the parc furniture, it is likely a request for the upkeep of said furniture.
+- Asphalte travaux --> While working on asphalt will impact the traffic, the main purpose of this request is primarily for city works and therefore falls under this Maintenance / City Works category.
+- Vandalisme oua ccident - Arbre --> While this could also be put in Sanitation / Cleanliness, a problem with a tree requires an intervention that involves repair and thus falls in the Maintenance / City Works category.
+
+
+2. Traffic Engineering / Parking
+
+One sentence definition: 
+Label related to improving the circulation of people or vehicles on roads or pavements or the storage of vehicles or other modes of transportation in parkings.
+
+Inclusion Rules:
+- Label mentions roads, pavements, cars, or other mode of transportation in the context of improving its circulation.
+- Label mentions traffic signs or lights.
+- Label mentions parking for various modes of transportation such as cars or bicycles.
+Exclusion Rules:
+- Label has nothing to do with improving traffic flow, axes of circulation, or parkings.
+
+Examples:
+- *Sens de rue --> Street direction directly affects how traffic 
+- Stationnement ou débarcadère pour personne à mobilité réduite --> Mentions parking
+- Dos d'âne RUELLE --> A speed bump helps regulate traffic flow
+
+Boundary Examples:
+- *E.T.-Entrée charretière --> Although this is not about a road or a car, the label likely indicates a request related to improving the circulation of the cart.
+- Trottoir glissant --> Although this could be thought of as a maintenance problem, the label is primarily about a pavement that doesn't require extensive work to be made less slippery. This label is mostly about how the slippery pavement can impede circulation.
+
+
+3. Sanitation / Cleanliness
+
+One sentence definition:
+Label related to maintaining a clean and sanitary neighbourhood.
+
+Inclusion Rules:
+- Label mentions trash or unwanted animals
+- Label mentions sewer or water systems that are vital to evacuate city water
+- Label is a request for cleaning of an area or property
+Exclusion Rules:
+- Label has nothing to do with overall city cleanliness and sanitation.
+
+Examples:
+- Déchets-Non ramassés --> Mentions trash that needs to be picked up
+- Affichage-Illégal --> Implies that a surface has been dirtied by an illegal poster or sign.
+
+Boundary Examples:
+- *Z-Puisard --> Although the link with cleanliness is not direct, the maintenance of a drain/catch pit is key to maintain proper sanitation standards in a city.
+
+
+4. Quieteness / Living Comfort
+
+One sentence definition: 
+Label relates to noise and/or noise complaints.
+
+Inclusion Rules:
+- Label mentions noise
+- Label directly addresses the quietness or peacefulness of an area
+Exclusion Rules:
+- Label does not mention noise or peaceful living conditions
+
+Examples:
+- Bruit --> Label directly mentions the word noise
+- 800-Bruits --> Label directly mentions the word noise
+
+Boundary Examples:
+- None found
+
+5. Other
+
+Open coding distribution: 
+- Maintenance / City Works: 32
+- Traffic Engineering / Parking: 17
+- Sanitation / Cleanliness: 21
+- Quieteness / Living Comfort: 2
