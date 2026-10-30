@@ -3,14 +3,18 @@ General rules:
 
 ===== Annotation 1: In vs Out of Scope =====
 
-OUT:
+OUT: Something a resident would not recognize as a neighbourhood issue.
 - Label primarily indicates a handling / collection of money
 - Label appears to be a logging of a benign service request (like accessing or recording data)
 - Label seems to relate to internal work within department, or merely correspondence
 - Label appears to be a system log / error message
+Example: "Water tax" This label describes money collection by the city in the form of a tax. It is therefore annotated as OUT as per the criteria.
 
-IN:
+IN: Something a resident would recognize as a neighbourhood issue.
 - Everything else that appears to be a neighbourhood issue
+Example: "Lawn Repair" This label describes a neighbourhood issue: it tracks a request for some lawn in the area to be repaired. It is therefore annotated as IN as per the criteria.
+
+Edge case: "Transportation and delivery" This label is not very clear as to what exactly it represents. However, it could fit into two of the OUT criteria: it is either a benign service request (a citizen asking for help with transportation) or related to internal work (transport or delivery of goods handled by the city). It is therefore annotated as OUT as per the criteria.
 
 ???/140 of the open coding set was excluded in this step.
 
@@ -18,13 +22,20 @@ IN:
 
 Transaction (OUT):
 - Label seems to relate to permits
-- The current label does not specify a required action, but there exists another similarly worded label that is clearly a pejorative complaint (example: "Brown bin (organic waste)" vs "Recycling bin: damaged, lost, or stolen")
-- Label possibly indicates maintenance and preventative measures instead of necessarily reactive measures
-- Label seems to indicate work on private property that specifically does not affect the general public
+# - The current label does not specify a required action, but there exists another similarly worded label that is clearly a pejorative complaint (example: "Brown bin (organic waste)" vs "Recycling bin: damaged, lost, or stolen")
+# Andrew: don't think we can do this as some labels are specific to boroughs eg. Brown bin (organic waste) might be one boroughs way of logging what would be "Brown bin: damaged, lost, or stolen" elsewhere
+# - Label possibly indicates routine maintenance and preventative measures instead of necessarily reactive measures
+# Andrew: we have a maintenance category in annotation 3 so feels like we shouldn't get rid of all maintenance requests
+- Label seems to indicate work on private property that specifically does not affect the general public # Andrew: is this indicative of transaction over condition? perhaps move to annotation 1? Also stuff like graffiti on private property can impact the public: it is visible to all
 - Label does not appear to be a complaint and is instead a logging of an event that occurred
+Example: "*Borough inspections" This label indicates routine work (inspections) to be carried out by municipal workers. It is therefore annotated as Transaction as per the criteria.
 
 Condition (IN):
 - Everything else that appears to be about a condition of the neighbourhood
+- Label necessarily indicates reactive measures to something that happened or to the state of the neighbourhood
+Example: "Municipal buildings – Bees, wasps, or bumblebees inside" This label indicates a necessary action to be taken due to the state of the neighbourhood (bees in a municipal building needing removed). It is therefore annotated as Condition as per the criteria.
+
+Edge case:  "Indoor sports facilities – Maintenance" This label indicates routine maintenance on municipal facilities. It does not necessarily indicate the facilities are in particularly poor shape. It is therefore annotated as Transaction as per the criteria.
 
 ???/??? of the IN set from annotation 1 was excluded in this step
 
@@ -41,7 +52,7 @@ Examples:
 - Graffiti – Private property 
 - Illegal dumping – Snow
 Boundary Examples:
-- Waste bin – Damaged, lost, or stolen (included explanation: possibly stolen, which is a crime)
+- Waste bin – Damaged, lost, or stolen (included explanation: possibly stolen, which is illegal)
 
 2. Lack of Maintenance, and, Wear and Tear: Complaints related to unmaintained damages accrued over time
 Inclusion Rules:
@@ -85,3 +96,11 @@ Boundary Examples:
 - Bike rack (included explanation: this does not specify what needs to be done to/about a bike rack. We assume it to be a request for a new bike rack to be installed, thus a request for public action rather than a repair or missing service)
 
 5. Other
+Inclusion Rules:
+- Not covered by any other category
+Exclusion Rules:
+- Covered by another category
+Examples:
+- 
+Boundary Examples:
+Not applicable.
