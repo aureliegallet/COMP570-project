@@ -32,7 +32,7 @@ Edge case: "Transportation and delivery" This label is not very clear as to what
 
 Condition (IN): Condition of the neighbourhood.
 Inclusion Criteria:
-- Describes something that is true of a place
+- Describes something that is true of a place. (For example, complaints about noise or garbage pick up relate to the place where the noise can be heard or from where the garbage should have been picked up.)
 Exclusion Criteria:
 - Describes an errand a resident is running
 - Tells you about municipal workload rather than about the street anyone lives on.
