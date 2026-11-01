@@ -1,0 +1,153 @@
+CODEBOOK 2 — PROPOSED REVISION
+Arash Tavangar
+
+I kept the five topics from Codebook 2. My main suggestion is to keep scope, request type, and topic as three seperate decisions. I also clarified some examples and overlapping rules. These changes are for the group to review before using this version.
+
+HOW TO USE THIS CODEBOOK
+
+For each original 311 category name:
+1. Decide whether it is IN or OUT of scope.
+2. If IN, decide whether it is a CONDITION or a TRANSACTION.
+3. If IN, give it one topic, even if it is a transaction.
+
+For OUT labels, leave type and topic as N/A.
+
+Keep the orginal label. If its meaning is unclear, flag it and explain what needs clarification. Do not automatically put it in OUT or Other.
+
+1. IN OR OUT OF SCOPE
+
+IN: The label concerns a neighbourhood issue, local infrastructure, a facility, or a resident-facing service related to these things.
+
+OUT: The label concerns tax accounts, supplier administration, internal office work, intergovernmental correspondence, or system errors rather than a neighbourhood issue.
+
+Examples:
+- Garbage not collected: IN, because it concerns a local service problem.
+- Lawn repair: IN, because it concerns the physical environment.
+- Water tax: OUT, because it concerns tax administration.
+- Receiving a postdated cheque: OUT, because it concerns payment handling.
+
+Important points:
+- Private property is not automatically OUT. An issue on private property can still affect the neighbourhood.
+- A department name or prefix is not enough to mark something OUT. A municipal team may be responding to a neighbourhood issue.
+- For a vague label such as “Transport and delivery,” check its meaning before deciding. Do not assume it is internal work.
+
+2. CONDITION OR TRANSACTION
+
+CONDITION: The label describes an existing problem or state of a place.
+
+TRANSACTION: The label describes obtaining a service, permit, delivery, or routine work without stating an existing problem.
+
+Examples:
+- Fallen tree: CONDITION.
+- Garbage not collected: CONDITION.
+- Damaged bin: CONDITION.
+- Bin delivery: TRANSACTION.
+- Building permit application: TRANSACTION.
+
+If a label describes both a problem and a request to fix it, choose CONDITION.
+
+For routine maintenance, I suggest choosing TRANSACTION unless the label states a problem. For example, “Pruning work” alone does not tell us that a tree is damaged or dangerous. This changes the rule in Codebook 2 and needs group agreement.
+
+A label like “Park furniture” tells us the subject, but not whether something is broken or newly requested. Flag unclear cases instead of guessing.
+
+Transactions still receive topics. They are excluded only from the final condition-based Pareto comparison, not from all annotation and analysis.
+
+3. TOPICS
+
+Choose one topic for each IN label. Classify the subject of the label, not an imagined cause.
+
+A. MAINTENANCE / CITY WORKS
+
+Meaning: Construction, repair, or upkeep of buildings, facilities, trees, greenery, and physical structures.
+
+Include: Building maintenance, lawn repair, tree work, park furniture, and structural road repairs.
+Exclude: Work specifically about traffic controls, parking, waste, water systems, or noise. Use those topics instead.
+
+Examples:
+- Gazon-Réparation: lawn repair.
+- Entretien d'édifices municipaux: municipal building maintenance.
+
+Boundary example:
+- Asphalte travaux: Maintenance, because the subject is work on the road surface. Possible traffic disruption does not automatically make it a Traffic label.
+
+B. TRAFFIC ENGINEERING / PARKING
+
+Meaning: Traffic control, movement, access, and parking for vehicles, cyclists, or pedestrians.
+
+Include: Traffic lights, signs, street direction, speed bumps, parking, bicycle parking, and slippery roads or sidewalks.
+Exclude: General structural repairs such as resurfacing, unless the stated subject is traffic control or access.
+
+Examples:
+- Sens de rue: street direction.
+- Stationnement ou débarcadère pour personne à mobilité réduite: accessible parking or drop-off.
+
+Boundary example:
+- Trottoir glissant: Traffic, under the proposed rule that slippery travel surfaces belong here. The decision should not depend on guessing how much work is needed to fix it.
+
+C. SANITATION / CLEANLINESS
+
+Meaning: Waste, cleaning, pest problems, and water systems.
+
+Include: Waste collection, bins, cleaning, infestations, sewers, drains, and water supply problems or services.
+Exclude: Water taxes, which are OUT of scope; ordinary tree work without a pest issue; general repairs unrelated to sanitation or water.
+
+Examples:
+- Déchets-Non ramassés: garbage not collected.
+- Collecte de résidus alimentaires: food-waste collection.
+
+Boundary example:
+- Puisard: this belongs to the water/drainage subject. The name alone does not tell us whether it describes a condition or transaction.
+
+I suggest explicitly including water supply as well as drainage here. This needs group agreement because the current definition is less clear about water supply.
+
+D. QUIETNESS / LIVING COMFORT
+
+Meaning: Noise and requests directly related to noise. “Living comfort” does not mean every kind of neighbourhood problem.
+
+Include: Noise complaints and in-scope noise-related permits.
+Exclude: Issues that do not explicitly concern noise.
+
+Examples:
+- Bruit.
+- 800-Bruits.
+
+Boundary example:
+- Permis-Bruit-Résidence: if IN, its topic is Quietness / Living Comfort, but its type is TRANSACTION because it concerns a permit.
+
+E. OTHER
+
+Meaning: An understood, relevant subject that does not fit any of the four topics above.
+
+Include: IN labels whose subjects fall outside the four defined topics.
+Exclude: OUT labels, labels that fit another topic, and labels whose meaning is still unclear.
+
+Illustrative examples, not examples confirmed in our dataset:
+- A neighbourhood social-support programme unrelated to the other topics.
+- A local heritage-recognition programme that does not involve physical restoration.
+
+Boundary example:
+- A community programme specifically about recycling belongs to Sanitation / Cleanliness, not Other.
+
+Codebook 2 reports no Other examples in its classified open-coding set. These illustrative examples should be checked against the agreed scope and replaced with actual examples if available. If several real labels in Other share a theme, consider adding or adjusting a topic.
+
+WHEN TWO TOPICS SEEM POSSIBLE
+
+Use the explicit subject before a general word like “repair.”
+- Traffic light repair: Traffic.
+- Sewer repair: Sanitation.
+- Building repair: Maintenance.
+- Cleaning a traffic sign: Sanitation, because the stated issue is cleaning.
+
+Use the specific boundaries above first. If two topics still fit equally, use the original priority order:
+Noise, then Traffic, then Sanitation, then Maintenance, then Other.
+
+Record a short note for dificult decisions. Do not infer crime, damage, or a need for new equipment unless the label or documented meaning supports it.
+
+BEFORE FINALIZING
+
+I think the group should agree on these points:
+- Keeping transactions when assigning topics.
+- Treating routine maintenance as a transaction unless a problem is stated.
+- The boundary between road maintenance and traffic.
+- Including water supply under Sanitation / Cleanliness.
+- How to handle vague labels and abbreviations consistently.
