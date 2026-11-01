@@ -1,7 +1,9 @@
+import sys
 import krippendorff 
 import pandas as pd
 from pathlib import Path
 from sklearn.metrics import cohen_kappa_score
+import argparse
 
 """
 Report Cohen’s kappa alongside raw percentage agreement, separately for each of your three annotation dimensions: 
@@ -14,10 +16,6 @@ Then report Krippendorff’s alpha for each dimension with a bootstrapped 95 per
 Report agreement per topic as well as overall, since an acceptable overall figure can conceal one topic on which annotators almost never agree, and that topic is usually the interesting one. 
 """
 
-DATA_ANNOTATION_PATH = Path(__file__).parent.parent / "data/annotation"
-
-df = pd.read_csv(DATA_ANNOTATION_PATH / "double_annotate.csv")
-
 def compute_agreement(annotator1, annotator2, number_of_labels):
     agreement = (annotator1 == annotator2).sum() / number_of_labels * 100
     return agreement
@@ -26,39 +24,61 @@ def compute_kappa(annotator1, annotator2):
     kappa = cohen_kappa_score(list(annotator1), list(annotator2))
     return kappa
 
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-i', type=str, default="double_annotation_merge.csv", help="CSV file to compute scores on (must be located in /data/annotation)")
+    parser.add_argument('-o', type=str, help="TXT file to save scores in (will save in /data/annotation)")
+    args = parser.parse_args()
+
+    DATA_ANNOTATION_PATH = Path(__file__).parent.parent / "data/annotation"
+    
+    if args.o:
+        file_output = open(DATA_ANNOTATION_PATH / args.o, 'w')
+        sys.stdout = file_output
+    else:
+        file_output = None
+
+    df = pd.read_csv(DATA_ANNOTATION_PATH / args.i)
+
+    try:
+        for task in range(1, 4):
+            print(f"Task {task}:")
+            if task == 1:
+                annotator1 = df["annotator_1_task_1"]
+                annotator2 = df["annotator_2_task_1"]
+                agreement = compute_agreement(annotator1, annotator2, len(df))
+            else:
+                filtered_df = df[(df["annotator_1_task_1"] == "IN") & (df["annotator_2_task_1"] == "IN")] # only on labels both annotators placed in scope
+                print(f"Number of labels both annotators placed in scope: {len(filtered_df)}")
+                annotator1 = filtered_df[f"annotator_1_task_{task}"]
+                annotator2 = filtered_df[f"annotator_2_task_{task}"]
+                agreement = compute_agreement(annotator1, annotator2, len(filtered_df))
+
+            print(f"Raw agreement rate: {agreement}%")
+
+            kappa = compute_kappa(annotator1, annotator2)
+            print(f"Cohen's Kappa: {kappa:.2f}")
+
+            # https://github.com/pln-fing-udelar/fast-krippendorff
+            krippen_data = [list(annotator1), list(annotator2)]
+            res = krippendorff.bootstrap_ci(
+                reliability_data=krippen_data,
+                level_of_measurement="nominal",
+                confidence_level=0.95,
+                n_resamples=2000,
+                random_state=42
+            ) 
+            print(f"Alpha: {res.alpha:.3f}")
+            print(f"95% CI: [{res.ci_low:.3f}, {res.ci_high:.3f}]")
+            print(f"Standard Error: {res.standard_error:.4f}")
+            print("\n--------- \n")
+    finally:
+        if file_output:
+            file_output.close()
+            sys.stdout = sys.__stdout__
+
 if __name__ == "__main__":
-    for task in range(1, 4):
-        print(f"Task {task}:")
-
-        if task == 1:
-            annotator1 = df["annotator_1_task_1"]
-            annotator2 = df["annotator_2_task_1"]
-            agreement = compute_agreement(annotator1, annotator2, len(df))
-        else:
-            filtered_df = df[(df["annotator_1_task_1"] == "IN") & (df["annotator_2_task_1"] == "IN")] # only on labels both annotators placed in scope
-            print(f"Number of labels both annotators placed in scope: {len(filtered_df)}")
-            annotator1 = filtered_df[f"annotator_1_task_{task}"]
-            annotator2 = filtered_df[f"annotator_2_task_{task}"]
-            agreement = compute_agreement(annotator1, annotator2, len(filtered_df))
-
-        print(f"Raw agreement rate: {agreement}%")
-
-        kappa = compute_kappa(annotator1, annotator2)
-        print(f"Cohen's Kappa: {kappa:.2f}")
-
-        # https://github.com/pln-fing-udelar/fast-krippendorff
-        krippen_data = [list(annotator1), list(annotator2)]
-        res = krippendorff.bootstrap_ci(
-            reliability_data=krippen_data,
-            level_of_measurement="nominal",
-            confidence_level=0.95,
-            n_resamples=2000,
-            random_state=42
-        ) 
-        print(f"Alpha: {res.alpha:.3f}")
-        print(f"95% CI: [{res.ci_low:.3f}, {res.ci_high:.3f}]")
-        print(f"Standard Error: {res.standard_error:.4f}")
-        print("\n--------- \n")
+    main()
 
     
 
