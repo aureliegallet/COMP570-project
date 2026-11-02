@@ -11,7 +11,7 @@ Exclusion Criteria:
 - Label covers internal departmental work
 - Label covers correspondence with other levels of government
 - Label covers research and study work
-- For single object/location labels consider the label in the context of 311 and why it is an entry, if you can't conceive of a way it can be pejorative exclude it.
+- For single object/location labels consider the label in the context of 311 and why it is an entry, if you can't conceive of a way it can be pejorative, it is not IN.
 Examples: 
 - "Gazon-Réparation" This label describes a neighbourhood issue: it tracks a request for some lawn in the area to be repaired. It is therefore annotated as IN as per the criteria.
 - "Chaussée glissante" This label describes a neighbourhood issue: it tracks complaints about slippery roads/pavements. It is therefore annotated as IN as per the criteria.
@@ -23,7 +23,7 @@ Inclusion Criteria:
 - Label covers internal departmental work
 - Label covers correspondence with other levels of government
 - Label covers research and study work
-- For single object/location labels consider the label in the context of 311 and why it is an entry, if you can't conceive of a way it can be pejorative include it.
+- For single object/location labels consider the label in the context of 311 and why it is an entry, if you can't conceive of a way it can be pejorative, it is OUT.
 Exclusion Criteria:
 - Label represents something a resident would recognize as a neighbourhood issue
 Examples: 
@@ -32,7 +32,7 @@ Examples:
 
 Edge case: "Transportation and delivery" This label is not very clear as to what exactly it represents. However, it appears to fit into two of the OUT criteria: it is either a supplier related request or related to internal work (transport or delivery of goods handled by the city). It is therefore annotated as OUT as per the criteria.
 
-54/140 of the open coding set was excluded in this step.
+40/140 of the open coding set was excluded in this step.
 
 ===== Annotation 2: Condition of Neighbourhood vs Transaction within City =====
 
@@ -58,14 +58,15 @@ Examples:
 
 Edge case:  "Travaux Élagage" This label indicates work to be done regarding tree pruning. However, it also describes the state of the neighbourhood: trees need pruning. As a tie-breaker, we annotate this as Condition.
 
-14/86 of the IN set from annotation 1 was excluded in this step.
-72 open-coding labels remain to be classified into categories after this step.
+15/100 of the IN set from annotation 1 was excluded in this step.
+85 open-coding labels remain to be classified into categories after this step.
 
 
 ===== Annotation 3: Topics =====
 
 GENERAL NOTE / TIE-BREAKING CRITERIA: If a label seems to match two topics, think of the impact of the request on the neighbourhood and what it aims to improve.
 Follow these steps in order:
+- If the request was annotated as Transaction in Annotation 2, pick Transactions
 - If the request has to do with noise level complaints, pick Quieteness / Living Comfort
 - If the request has to do with improving traffic or parking, pick Traffic Engineering / Parking
 - If the request has to do with the cleanliness or water management of a neighbourhood, pick Sanitation / Cleanliness
@@ -165,6 +166,10 @@ Inclusion Rules:
 Exclusion Rules:
 - Label was not annotated as a Transaction in Annotation 2
 
+Examples:
+- Christmas Tree Collection
+- Recycling bin delivery
+
 6. Other
 
 One sentence definition: 
@@ -182,7 +187,9 @@ Boundary Examples:
 None in the open coding set.
 
 Open coding distribution: 
-- Maintenance / City Works: 32
-- Traffic Engineering / Parking: 17
-- Sanitation / Cleanliness: 21
-- Quieteness / Living Comfort: 2
+- Maintenance / City Works: 34
+- Traffic Engineering / Parking: 19
+- Sanitation / Cleanliness: 28
+- Quieteness / Living Comfort: 3
+- Transactions: 15
+- Other: 0
