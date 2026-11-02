@@ -25,7 +25,7 @@ def main():
     label_col = args.l
     topic_col = args.t
 
-    df = pd.read_csv(input_file, dtype=str)
+    df = pd.read_csv(input_file, dtype=str, usecols=[label_col, topic_col])
 
     topics = df[topic_col].unique()
     documents = []
