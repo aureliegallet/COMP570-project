@@ -166,6 +166,10 @@ Inclusion Rules:
 Exclusion Rules:
 - Label was not annotated as a Transaction in Annotation 2
 
+Examples:
+- Christmas Tree Collection
+- Recycling bin delivery
+
 6. Other
 
 One sentence definition: 
