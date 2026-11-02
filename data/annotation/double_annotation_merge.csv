@@ -27,7 +27,7 @@ Bureaud'arrondissement-Serviceàlaclientèle,OUT,OUT,,,,
 CarteAccèsMontréal,OUT,OUT,,,,
 Certificatd'occupationcommercialeouprofessionnelle,OUT,OUT,,,,
 Chaletdeparc,IN,IN,CONDITION,CONDITION,maintenance / city works,maintenance / city works
-Chienagressif,IN,IN,CONDITION,CONDITION,quieteness / living comfort,quieteness / comfort living
+Chienagressif,IN,IN,CONDITION,CONDITION,quieteness / living comfort,quieteness / living comfort
 Collected'écran(ordinateurettéléviseur),IN,IN,CONDITION,CONDITION,sanitation / cleanliness,sanitation / cleanliness
 Collectedebranchesd'arbre-Agriledufrêne,IN,IN,CONDITION,CONDITION,sanitation / cleanliness,sanitation / cleanliness
 Collectededéchets,IN,IN,CONDITION,CONDITION,sanitation / cleanliness,sanitation / cleanliness

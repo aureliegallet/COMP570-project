@@ -1,0 +1,47 @@
+TASK 1
+
+"*Autre-Compteurd'eau-Résidentiel" to me this is maintenance of the water meter but I can see how it could also be considered as someone ordering a new one and therefore analoguous to bin delivery labels. 
+ '*CAFÉ-TERRASSE(DOMAINEPUBLIC)' I think this one isn't the clearest. IMO it relates to café authorizations to have a terrasse on the street so does concern the neighbourhood. I should have put it in Transaction for annotation 2 though.
+ '*Signalisation-Études-Personneshandicapées' This one seems to relate to putting up road signs that help people with a handicap. I see why the word Etudes could indicate internal work, but IMO this is still indicative of work happening on the street to improve the neighbourhood.
+ 'Appropriationcitoyenne' this is essentially citizens appropriating and improving their neighbourhood as a community so I couldn't really map it to any of the OUT criteria. 
+ 'Bacmontréalais(67litres)' this is analoguous to the other 'bac' labels in open coding which were labelled as IN and Transaction. 
+ 'Développementcommunautaire' similar to Appropriationcitoyenne
+ 'Grandparc' to me this is maintenance of a big park and would be IN similarly to *Bâtiment-Menuiserie being IN in open-coding
+ 'Mobilierurbain' to me this is maintenance of a street furniture and would be IN similarly to Mobilierdeparc being IN in open-coding
+ 'Sportsetloisirs-Activités' I was on the fence for this one. Felt like organizing sports and activities locally could be a neighbourhood issue but not opposed to it being considered OUT by any means.
+ 'Subvention-Habitation-Servicecentral' felt like a good one for the transaction category for me. But can also see this in OUT tbh
+ 'Surveillanceetsécuritépublique' to me this was departmental work because of the surveillance part: I would class it as being indicative of security/policing teams workload as therefore OUT. 
+
+Suggestions: 
+- clarify that public facing work that affects a specific area or a citizen in their home/neighbourhood is not internal departmental work. This is what would make bin delivery or '*Signalisation-Études-Personneshandicapées' IN whereas Direction-Finances is OUT.
+- clarify the rule for objects/locations without a verb or action indicator
+
+---------
+
+TASK 2
+
+'Occupationdudomainepublic' to me this indicates that something is taking up space on public property and therefore would be a Condition.
+"Plantationd'arbre" I was on the fence for this one. Could be read both ways: if a citizen is requeting the tree be planted then Transaction works, if it's a municipal decision then it would land more on Condition.
+
+
+
+---------
+
+TASK 3
+
+'*Bâtiment-Plomberie' Order mentions sanitation before maintenance and sanitation includes water systems so I think sanitation was the right call here.
+ 'Abritemporaire' This seems to indicate a homeless shelter and so I don't think it fits maintenance
+ 'Afficheautoportante-Domainepublic' this doesn't indicate illegal signage, could just as well be about authorized/official posters so I don't think it fits sanitation
+ 'Bornefontaine-Obstruction' we don't really know what is blocking the fire hydrant, could be garbage but my first thought was a vehicle parked in front of it. Since we can't tell this I went Other.
+ 'Branchetombée' To me the fallen branch just needs removing rather than further maintenance so I equated this to garbage removal
+ 'Débrissurlavoiepublique' tie-breaking criteria has traffic above sanitation 
+ "Fermetured'uneconduited'eau-Urgence" sanitation is probably fair for this one, I put maintenance because I didn't feel it met the 'that are vital to evacuate city water' part of the definition
+ "Fuited'eau" sanitation is probably fair for this one, I put maintenance because I didn't feel it met the 'that are vital to evacuate city water' part of the definition
+ 'Grandparc-Agriledufrêne' I don't understand sanitation for this one
+ 'Horticulture-Divers' wasn't sure Horticulture if quite fit city works but fair enough
+ "Localisation/EntretienEntréed'eau" sanitation is probably fair for this one, I put maintenance because I didn't feel it met the 'that are vital to evacuate city water' part of the definition
+ 'Opérationdéneigement' traffic is probably the right call here
+ 'Égout-Entretien' sanitation is the right call here
+
+ Suggestions:
+ - clarify/remove 'that are vital to evacuate city water' in sanitation rules.
