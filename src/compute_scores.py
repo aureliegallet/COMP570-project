@@ -26,7 +26,7 @@ def compute_kappa(annotator1, annotator2):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', type=str, default="double_annotation_merge.csv", help="CSV file to compute scores on (must be located in /data/annotation)")
+    parser.add_argument('-i', type=str, default="double_annotation_merge.csv", help="CSV file to compute scores on (must be located in /data/annotation/labelling)")
     parser.add_argument('-o', type=str, help="TXT file to save scores in (will save in /data/annotation)")
     args = parser.parse_args()
 
@@ -38,7 +38,7 @@ def main():
     else:
         file_output = None
 
-    df = pd.read_csv(DATA_ANNOTATION_PATH / args.i)
+    df = pd.read_csv(DATA_ANNOTATION_PATH / 'labelling' / args.i)
 
     try:
         for task in range(1, 4):

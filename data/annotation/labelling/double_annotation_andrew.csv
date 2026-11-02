@@ -8,7 +8,7 @@
 *Jardins-Renouvellement,IN,,CONDITION,,Maintenance / City Works,
 *Nettoyagedepuisards-rues,IN,,CONDITION,,Sanitation / Cleanliness,
 *Signalisation-Études-Personneshandicapées,IN,,CONDITION,,Traffic Engineering / Parking,
-*Vermine,insectesnuisibles,IN,,CONDITION,,Sanitation / Cleanliness,
+"*Vermine,insectesnuisibles",IN,,CONDITION,,Sanitation / Cleanliness,
 *Zonedelivraison,IN,,CONDITION,,Traffic Engineering / Parking,
 *Élagageexécution,IN,,CONDITION,,Maintenance / City Works,
 Abattaged'arbre,IN,,CONDITION,,Maintenance / City Works,

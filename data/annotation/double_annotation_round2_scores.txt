@@ -1,0 +1,29 @@
+Task 1:
+Raw agreement rate: 92.0%
+Cohen's Kappa: 0.77
+Alpha: 0.775
+95% CI: [0.610, 0.912]
+Standard Error: 0.0775
+
+--------- 
+
+Task 2:
+Number of labels both annotators placed in scope: 73
+Raw agreement rate: 95.8904109589041%
+Cohen's Kappa: 0.55
+Alpha: 0.553
+95% CI: [-0.021, 1.000]
+Standard Error: 0.2669
+
+--------- 
+
+Task 3:
+Number of labels both annotators placed in scope: 73
+Raw agreement rate: 90.41095890410958%
+Cohen's Kappa: 0.86
+Alpha: 0.858
+95% CI: [0.747, 0.943]
+Standard Error: 0.0517
+
+--------- 
+
