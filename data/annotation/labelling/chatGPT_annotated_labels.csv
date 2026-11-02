@@ -1,0 +1,101 @@
+﻿number,label,scope,classification,topic
+1,Analysedel'eaupotable,OUT,,
+2,Autre-Compteurd'eau-Résidentiel,OUT,,
+3,Bacroulant-Livraison,IN,Transaction,Transactions
+4,Bâtiment-Plomberie,IN,Condition,Maintenance / City Works
+5,CAFÉ-TERRASSE(DOMAINEPUBLIC),IN,Transaction,Transactions
+6,E.T.-Arrêtinterdit,IN,Condition,Traffic Engineering / Parking
+7,Jardins-Renouvellement,IN,Condition,Maintenance / City Works
+8,Nettoyagedepuisards-rues,IN,Condition,Sanitation / Cleanliness
+9,Signalisation-Études-Personneshandicapées,OUT,,
+10,"Vermine,insectesnuisibles",IN,Condition,Sanitation / Cleanliness
+11,Zonedelivraison,IN,Condition,Traffic Engineering / Parking
+12,Élagageexécution,IN,Condition,Maintenance / City Works
+13,Abattaged'arbre,IN,Condition,Maintenance / City Works
+14,Abritemporaire,IN,Transaction,Transactions
+15,Acquisitionderuelle,OUT,,
+16,Afficheautoportante-Domainepublic,IN,Transaction,Transactions
+17,Aménagementdeparc,IN,Condition,Maintenance / City Works
+18,Animalmort,IN,Condition,Sanitation / Cleanliness
+19,Animauxsauvages-Nuisance,IN,Condition,Sanitation / Cleanliness
+20,Appropriationcitoyenne,OUT,,
+21,Arbre-Abattaged'arbreprivé,IN,Transaction,Transactions
+22,Bacmontréalais(67litres),IN,Transaction,Transactions
+23,Bornefontaine-Obstruction,IN,Condition,Maintenance / City Works
+24,Branchetombée,IN,Condition,Maintenance / City Works
+25,Bureaud'arrondissement-Serviceàlaclientèle,OUT,,
+26,CarteAccèsMontréal,IN,Transaction,Transactions
+27,Certificatd'occupationcommercialeouprofessionnelle,IN,Transaction,Transactions
+28,Chaletdeparc,IN,Condition,Maintenance / City Works
+29,Chienagressif,IN,Condition,Sanitation / Cleanliness
+30,Collected'écran(ordinateurettéléviseur),IN,Transaction,Transactions
+31,Collectedebranchesd'arbre-Agriledufrêne,IN,Condition,Sanitation / Cleanliness
+32,Collectededéchets,IN,Condition,Sanitation / Cleanliness
+33,Collectederésidusverts,IN,Condition,Sanitation / Cleanliness
+34,Collectedesencombrants,IN,Condition,Sanitation / Cleanliness
+35,Collectedesmatièresrecyclables,IN,Condition,Sanitation / Cleanliness
+36,Contrôleanimalier,OUT,,
+37,Dangerpotentiel-Arbre,IN,Condition,Maintenance / City Works
+38,Direction-Finances,OUT,,
+39,Distributionaucomptoirdebacsoudesacsderécupération,IN,Transaction,Transactions
+40,Débrissurlavoiepublique,IN,Condition,Sanitation / Cleanliness
+41,Dépôtillégal-Déchets,IN,Condition,Sanitation / Cleanliness
+42,Dérogationmineure,IN,Transaction,Transactions
+43,Développementcommunautaire,OUT,,
+44,Encaissementetremboursement,OUT,,
+45,Essouchement,IN,Condition,Maintenance / City Works
+46,Excrémentsterrainprivé,IN,Condition,Sanitation / Cleanliness
+47,Exterminationàl'extérieur-Insectes,IN,Condition,Sanitation / Cleanliness
+48,Exterminationàl'extérieur-Rats,IN,Condition,Sanitation / Cleanliness
+49,Fermetured'uneconduited'eau-Urgence,IN,Condition,Sanitation / Cleanliness
+50,Fuited'eau,IN,Condition,Sanitation / Cleanliness
+51,Gazonouherbeshautes-Domaineprivé,IN,Condition,Maintenance / City Works
+52,Graffitis-Domainepublic,IN,Condition,Sanitation / Cleanliness
+53,Graffitishaineux,IN,Condition,Sanitation / Cleanliness
+54,Grandparc,OUT,,
+55,Grandparc-Agriledufrêne,IN,Condition,Maintenance / City Works
+56,Géomatique,OUT,,
+57,Horticulture-Divers,OUT,,
+58,Horticulture-Entretien,IN,Condition,Maintenance / City Works
+59,Info-travaux-Servicecentral,OUT,,
+60,Installationsculturelles-Entretien,IN,Condition,Maintenance / City Works
+61,Interventiondestationnement-Enquête,OUT,,
+62,Localisation/EntretienEntréed'eau,IN,Condition,Sanitation / Cleanliness
+63,Maladieouinsectes-Arbre,IN,Condition,Maintenance / City Works
+64,Manqued'eau,IN,Condition,Sanitation / Cleanliness
+65,Marquagedelachaussée-Nouveau,IN,Condition,Traffic Engineering / Parking
+66,Mesured'apaisement-Circulation,IN,Condition,Traffic Engineering / Parking
+67,Mobilierurbain,IN,Condition,Maintenance / City Works
+68,Nid-de-poule,IN,Condition,Maintenance / City Works
+69,Occupationdudomainepublic,IN,Transaction,Transactions
+70,Opérationdéneigement,IN,Condition,Maintenance / City Works
+71,Ouvertured'entréed'eau,IN,Transaction,Transactions
+72,Panierdeparcàvider,IN,Condition,Sanitation / Cleanliness
+73,Panierderueàvider,IN,Condition,Sanitation / Cleanliness
+74,Panneaudesignalisationentretienprioritaire,IN,Condition,Traffic Engineering / Parking
+75,Parc-Divers,OUT,,
+76,Parc-Propreté,IN,Condition,Sanitation / Cleanliness
+77,Pavage-Réparation,IN,Condition,Maintenance / City Works
+78,Personnel-Arrondissement,OUT,,
+79,Plantationd'arbre,IN,Condition,Maintenance / City Works
+80,Pollutiondel'airetdel'eau,IN,Condition,Sanitation / Cleanliness
+81,Puisard/TH-Premièreintervention,IN,Condition,Sanitation / Cleanliness
+82,Punaisesdelit,IN,Condition,Sanitation / Cleanliness
+83,Refoulementégout/InondationPropriétéprivée,IN,Condition,Sanitation / Cleanliness
+84,SRRR,OUT,,
+85,ServicesTechniques-Varia,OUT,,
+86,Signalisation-Circulation-Études,OUT,,
+87,Signalisationécrite-Entretien,IN,Condition,Traffic Engineering / Parking
+88,Sportsetloisirs-Activités,IN,Transaction,Transactions
+89,Subvention-Habitation-Servicecentral,IN,Transaction,Transactions
+90,Surveillanceetsécuritépublique,OUT,,
+91,Taxesfoncières,OUT,,
+92,Trottoiroubordure-Réparation,IN,Condition,Maintenance / City Works
+93,Voiecyclable-Études,OUT,,
+94,Voirie-Divers,OUT,,
+95,Y-Eau-Divers,OUT,,
+96,Y-Égout-Divers,OUT,,
+97,Éclairage-Études,OUT,,
+98,Éclairageexistant-Entretien,IN,Condition,Maintenance / City Works
+99,Égout-Entretien,IN,Condition,Sanitation / Cleanliness
+100,Éviction,OUT,,
