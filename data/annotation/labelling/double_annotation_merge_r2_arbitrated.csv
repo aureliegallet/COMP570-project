@@ -1,101 +1,101 @@
-label,annotator_1_task_1,annotator_2_task_1,adjudicator_ruling_task_1,annotator_1_task_2,annotator_2_task_2,adjudicator_ruling_task_2,annotator_1_task_3,annotator_2_task_3,adjudicator_ruling_task_3
-*Analysedel'eaupotable,OUT,OUT,,,,,,,
-*Autre-Compteurd'eau-Résidentiel,IN,IN,,TRANSACTION,CONDITION,CONDITION,transaction,sanitation / cleanliness,sanitation / cleanliness
-*Bacroulant-Livraison,IN,IN,,TRANSACTION,TRANSACTION,,transaction,transaction,
-*Bâtiment-Plomberie,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-*CAFÉ-TERRASSE(DOMAINEPUBLIC),OUT,IN,IN,,TRANSACTION,,,transaction,
-*E.T.-Arrêtinterdit,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-*Jardins-Renouvellement,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-*Nettoyagedepuisards-rues,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-*Signalisation-Études-Personneshandicapées,OUT,OUT,,,,,,,
-"*Vermine,insectesnuisibles",IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-*Zonedelivraison,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-*Élagageexécution,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Abattaged'arbre,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Abritemporaire,IN,IN,,CONDITION,CONDITION,,other,other,
-Acquisitionderuelle,IN,OUT,OUT,TRANSACTION,,,transaction,,
-Afficheautoportante-Domainepublic,IN,IN,,CONDITION,CONDITION,,other,other,
-Aménagementdeparc,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Animalmort,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Animauxsauvages-Nuisance,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Appropriationcitoyenne,IN,OUT,IN,CONDITION,,,other,,
-Arbre-Abattaged'arbreprivé,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Bacmontréalais(67litres),IN,IN,,TRANSACTION,TRANSACTION,,transaction,transaction,
-Bornefontaine-Obstruction,IN,IN,,CONDITION,CONDITION,,other,sanitation / cleanliness,sanitation / cleanliness
-Branchetombée,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,maintenance / city works,sanitation / cleanliness
-Bureaud'arrondissement-Serviceàlaclientèle,OUT,OUT,,,,,,,
-CarteAccèsMontréal,OUT,OUT,,,,,,,
-Certificatd'occupationcommercialeouprofessionnelle,OUT,OUT,,,,,,,
-Chaletdeparc,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Chienagressif,IN,IN,,CONDITION,CONDITION,,quieteness / living comfort,quieteness / living comfort,
-Collected'écran(ordinateurettéléviseur),IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Collectedebranchesd'arbre-Agriledufrêne,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Collectededéchets,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Collectederésidusverts,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Collectedesencombrants,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Collectedesmatièresrecyclables,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Contrôleanimalier,IN,OUT,IN,TRANSACTION,,,transaction,,
-Dangerpotentiel-Arbre,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Direction-Finances,OUT,OUT,,,,,,,
-Distributionaucomptoirdebacsoudesacsderécupération,IN,OUT,IN,TRANSACTION,,,transaction,,
-Débrissurlavoiepublique,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,sanitation / cleanliness,traffic engineering / parking
-Dépôtillégal-Déchets,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Dérogationmineure,OUT,OUT,,,,,,,
-Développementcommunautaire,IN,OUT,OUT,CONDITION,,,other,,
-Encaissementetremboursement,OUT,OUT,,,,,,,
-Essouchement,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Excrémentsterrainprivé,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Exterminationàl'extérieur-Insectes,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Exterminationàl'extérieur-Rats,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Fermetured'uneconduited'eau-Urgence,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Fuited'eau,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Gazonouherbeshautes-Domaineprivé,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Graffitis-Domainepublic,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Graffitishaineux,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Grandparc,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Grandparc-Agriledufrêne,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Géomatique,OUT,OUT,,,,,,,
-Horticulture-Divers,IN,IN,,CONDITION,CONDITION,,other,maintenance / city works,maintenance / city works
-Horticulture-Entretien,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Info-travaux-Servicecentral,OUT,OUT,,,,,,,
-Installationsculturelles-Entretien,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Interventiondestationnement-Enquête,OUT,OUT,,,,,,,
-Localisation/EntretienEntréed'eau,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Maladieouinsectes-Arbre,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Manqued'eau,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Marquagedelachaussée-Nouveau,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Mesured'apaisement-Circulation,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Mobilierurbain,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Nid-de-poule,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Occupationdudomainepublic,IN,IN,,CONDITION,TRANSACTION,TRANSACTION,other,transaction,transaction
-Opérationdéneigement,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Ouvertured'entréed'eau,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Panierdeparcàvider,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Panierderueàvider,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Panneaudesignalisationentretienprioritaire,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Parc-Divers,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Parc-Propreté,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Pavage-Réparation,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Personnel-Arrondissement,OUT,OUT,,,,,,,
-Plantationd'arbre,IN,IN,,CONDITION,TRANSACTION,CONDITION,maintenance / city works,transaction,maintenance / city works
-Pollutiondel'airetdel'eau,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Puisard/TH-Premièreintervention,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Punaisesdelit,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Refoulementégout/InondationPropriétéprivée,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-SRRR,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-ServicesTechniques-Varia,OUT,OUT,,,,,,,
-Signalisation-Circulation-Études,OUT,OUT,,,,,,,
-Signalisationécrite-Entretien,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Sportsetloisirs-Activités,IN,OUT,OUT,CONDITION,,,other,,
-Subvention-Habitation-Servicecentral,OUT,OUT,,,,,,,
-Surveillanceetsécuritépublique,OUT,IN,IN,,TRANSACTION,,,transaction,
-Taxesfoncières,OUT,OUT,,,,,,,
-Trottoiroubordure-Réparation,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Voiecyclable-Études,OUT,OUT,,,,,,,
-Voirie-Divers,IN,IN,,CONDITION,CONDITION,,traffic engineering / parking,traffic engineering / parking,
-Y-Eau-Divers,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Y-Égout-Divers,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Éclairage-Études,OUT,OUT,,,,,,,
-Éclairageexistant-Entretien,IN,IN,,CONDITION,CONDITION,,maintenance / city works,maintenance / city works,
-Égout-Entretien,IN,IN,,CONDITION,CONDITION,,sanitation / cleanliness,sanitation / cleanliness,
-Éviction,OUT,OUT,,,,,,,
+﻿label,annotator_1_task_1,annotator_2_task_1,adjudicator_ruling_task_1,annotator_1_task_2,annotator_2_task_2,adjudicator_ruling_task_2,annotator_1_task_3,annotator_2_task_3,adjudicator_ruling_task_3
+*Analysedel'eaupotable,OUT,OUT,out,,,,,,
+*Autre-Compteurd'eau-Résidentiel,IN,IN,in,TRANSACTION,CONDITION,condition,transaction,sanitation / cleanliness,sanitation / cleanliness
+*Bacroulant-Livraison,IN,IN,in,TRANSACTION,TRANSACTION,transaction,transaction,transaction,transaction
+*Bâtiment-Plomberie,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+*CAFÉ-TERRASSE(DOMAINEPUBLIC),OUT,IN,in,,TRANSACTION,transaction,,transaction,transaction
+*E.T.-Arrêtinterdit,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+*Jardins-Renouvellement,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+*Nettoyagedepuisards-rues,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+*Signalisation-Études-Personneshandicapées,OUT,OUT,out,,,,,,
+"*Vermine,insectesnuisibles",IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+*Zonedelivraison,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+*Élagageexécution,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Abattaged'arbre,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Abritemporaire,IN,IN,in,CONDITION,CONDITION,condition,other,other,other
+Acquisitionderuelle,IN,OUT,out,TRANSACTION,,,transaction,,
+Afficheautoportante-Domainepublic,IN,IN,in,CONDITION,CONDITION,condition,other,other,other
+Aménagementdeparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Animalmort,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Animauxsauvages-Nuisance,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Appropriationcitoyenne,IN,OUT,in,CONDITION,,condition,other,,other
+Arbre-Abattaged'arbreprivé,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Bacmontréalais(67litres),IN,IN,in,TRANSACTION,TRANSACTION,transaction,transaction,transaction,transaction
+Bornefontaine-Obstruction,IN,IN,in,CONDITION,CONDITION,condition,other,sanitation / cleanliness,sanitation / cleanliness
+Branchetombée,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,maintenance / city works,sanitation / cleanliness
+Bureaud'arrondissement-Serviceàlaclientèle,OUT,OUT,out,,,,,,
+CarteAccèsMontréal,OUT,OUT,out,,,,,,
+Certificatd'occupationcommercialeouprofessionnelle,OUT,OUT,out,,,,,,
+Chaletdeparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Chienagressif,IN,IN,in,CONDITION,CONDITION,condition,quieteness / living comfort,quieteness / living comfort,quieteness / living comfort
+Collected'écran(ordinateurettéléviseur),IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Collectedebranchesd'arbre-Agriledufrêne,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Collectededéchets,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Collectederésidusverts,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Collectedesencombrants,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Collectedesmatièresrecyclables,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Contrôleanimalier,IN,OUT,in,TRANSACTION,,transaction,transaction,,transaction
+Dangerpotentiel-Arbre,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Direction-Finances,OUT,OUT,out,,,,,,
+Distributionaucomptoirdebacsoudesacsderécupération,IN,OUT,in,TRANSACTION,,transaction,transaction,,transaction
+Débrissurlavoiepublique,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,sanitation / cleanliness,traffic engineering / parking
+Dépôtillégal-Déchets,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Dérogationmineure,OUT,OUT,out,,,,,,
+Développementcommunautaire,IN,OUT,out,CONDITION,,,other,,
+Encaissementetremboursement,OUT,OUT,out,,,,,,
+Essouchement,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Excrémentsterrainprivé,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Exterminationàl'extérieur-Insectes,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Exterminationàl'extérieur-Rats,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Fermetured'uneconduited'eau-Urgence,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Fuited'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Gazonouherbeshautes-Domaineprivé,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Graffitis-Domainepublic,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Graffitishaineux,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Grandparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Grandparc-Agriledufrêne,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Géomatique,OUT,OUT,out,,,,,,
+Horticulture-Divers,IN,IN,in,CONDITION,CONDITION,condition,other,maintenance / city works,maintenance / city works
+Horticulture-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Info-travaux-Servicecentral,OUT,OUT,out,,,,,,
+Installationsculturelles-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Interventiondestationnement-Enquête,OUT,OUT,out,,,,,,
+Localisation/EntretienEntréed'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Maladieouinsectes-Arbre,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Manqued'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Marquagedelachaussée-Nouveau,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Mesured'apaisement-Circulation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Mobilierurbain,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Nid-de-poule,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Occupationdudomainepublic,IN,IN,in,CONDITION,TRANSACTION,transaction,other,transaction,transaction
+Opérationdéneigement,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Ouvertured'entréed'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Panierdeparcàvider,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Panierderueàvider,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Panneaudesignalisationentretienprioritaire,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Parc-Divers,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Parc-Propreté,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Pavage-Réparation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Personnel-Arrondissement,OUT,OUT,out,,,,,,
+Plantationd'arbre,IN,IN,in,CONDITION,TRANSACTION,condition,maintenance / city works,transaction,maintenance / city works
+Pollutiondel'airetdel'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Puisard/TH-Premièreintervention,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Punaisesdelit,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Refoulementégout/InondationPropriétéprivée,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+SRRR,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+ServicesTechniques-Varia,OUT,OUT,out,,,,,,
+Signalisation-Circulation-Études,OUT,OUT,out,,,,,,
+Signalisationécrite-Entretien,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Sportsetloisirs-Activités,IN,OUT,out,CONDITION,,,other,,
+Subvention-Habitation-Servicecentral,OUT,OUT,out,,,,,,
+Surveillanceetsécuritépublique,OUT,IN,in,,TRANSACTION,transaction,,transaction,transaction
+Taxesfoncières,OUT,OUT,out,,,,,,
+Trottoiroubordure-Réparation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Voiecyclable-Études,OUT,OUT,out,,,,,,
+Voirie-Divers,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking
+Y-Eau-Divers,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Y-Égout-Divers,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Éclairage-Études,OUT,OUT,out,,,,,,
+Éclairageexistant-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works
+Égout-Entretien,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness
+Éviction,OUT,OUT,out,,,,,,

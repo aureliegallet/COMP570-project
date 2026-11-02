@@ -71,6 +71,15 @@ def main():
             print(f"Alpha: {res.alpha:.3f}")
             print(f"95% CI: [{res.ci_low:.3f}, {res.ci_high:.3f}]")
             print(f"Standard Error: {res.standard_error:.4f}")
+
+            if task == 3:
+                topics = list(filtered_df["adjudicator_ruling_task_3"].unique())
+                for topic in topics:
+                    topic_df = filtered_df[filtered_df["adjudicator_ruling_task_3"]==topic]
+                    annotator1 = topic_df[f"annotator_1_task_3"]
+                    annotator2 = topic_df[f"annotator_2_task_3"]
+                    agreement = compute_agreement(annotator1, annotator2, len(topic_df))
+                    print(f"{topic} raw agreement rate: {agreement}%")            
             print("\n--------- \n")
     finally:
         if file_output:
