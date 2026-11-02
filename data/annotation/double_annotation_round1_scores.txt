@@ -19,11 +19,11 @@ Standard Error: 0.2833
 
 Task 3:
 Number of labels both annotators placed in scope: 70
-Raw agreement rate: 75.71428571428571%
-Cohen's Kappa: 0.63
-Alpha: 0.694
-95% CI: [0.524, 0.833]
-Standard Error: 0.0791
+Raw agreement rate: 78.57142857142857%
+Cohen's Kappa: 0.68
+Alpha: 0.683
+95% CI: [0.528, 0.814]
+Standard Error: 0.0733
 
 --------- 
 
