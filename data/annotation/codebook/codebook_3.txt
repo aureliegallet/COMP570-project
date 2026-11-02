@@ -1,5 +1,7 @@
 ===== Annotation 1: In vs Out of Scope =====
 
+TIE-BREAKING CRITERIA: If a label would not necessarily fit in either IN or OUT, default towards OUT.
+
 IN: Something a resident would recognize as a neighbourhood issue.
 Inclusion Criteria:
 - Label represents something a resident would recognize as a neighbourhood issue
