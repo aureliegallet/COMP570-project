@@ -191,5 +191,5 @@ Open coding distribution:
 - Traffic Engineering / Parking: 19
 - Sanitation / Cleanliness: 28
 - Quieteness / Living Comfort: 3
-- Transactions: 12
+- Transactions: 15
 - Other: 0
