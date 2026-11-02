@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -15,6 +16,7 @@ def main():
     parser.add_argument('-l', type=str, default='label', help="Label column name. Default: 'label'")
     parser.add_argument('-t', type=str, default='topic', help="Topic column name. Default: 'topic'")
     parser.add_argument('-n', type=int, default=10, help="Number of words to return per topic")
+    parser.add_argument('-o', type=str, help="JSON file in which to dump the output (will save in /data/annotation). Prints to terminal if None.")
     args = parser.parse_args()
     
     DATA_ANNOTATION_PATH = Path(__file__).parent.parent / "data/annotation"
@@ -43,7 +45,11 @@ def main():
     output = {}
     for i, topic in enumerate(topics):
         output[topic] = [feature_names[word_idx] for word_idx in top_n[i]]
-    print(output)
+    if args.o:
+        with open(DATA_ANNOTATION_PATH / args.o, 'w') as f:
+            json.dump(output, f)
+    else:
+        print(output)
 
 if __name__ == "__main__":
     main()
