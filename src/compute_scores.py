@@ -83,7 +83,7 @@ def main():
                     annotator1 = topic_df[f"{annotator1_prefix}_task_3"]
                     annotator2 = topic_df[f"{annotator2_prefix}_task_3"]
                     agreement = compute_agreement(annotator1, annotator2, len(topic_df))
-                    print(f"{topic} raw agreement rate: {agreement}%")            
+                    print(f"{topic} raw agreement rate: {agreement}% ({len(topic_df)} labels)")            
             print("\n--------- \n")
     finally:
         if file_output:

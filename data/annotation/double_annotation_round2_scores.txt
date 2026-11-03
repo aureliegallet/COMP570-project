@@ -24,12 +24,12 @@ Cohen's Kappa: 0.86
 Alpha: 0.858
 95% CI: [0.747, 0.943]
 Standard Error: 0.0517
-sanitation / cleanliness raw agreement rate: 91.8918918918919%
-transaction raw agreement rate: 66.66666666666666%
-traffic engineering / parking raw agreement rate: 92.3076923076923%
-maintenance / city works raw agreement rate: 88.23529411764706%
-other raw agreement rate: 100.0%
-quieteness / living comfort raw agreement rate: 100.0%
+sanitation / cleanliness raw agreement rate: 91.8918918918919% (37 labels)
+transaction raw agreement rate: 66.66666666666666% (3 labels)
+traffic engineering / parking raw agreement rate: 92.3076923076923% (13 labels)
+maintenance / city works raw agreement rate: 88.23529411764706% (17 labels)
+other raw agreement rate: 100.0% (2 labels)
+quieteness / living comfort raw agreement rate: 100.0% (1 labels)
 
 --------- 
 
