@@ -3,7 +3,7 @@ from pathlib import Path
 
 DATA_ANNOTATION_PATH = Path(__file__).parent.parent / "data/annotation"
 
-with open(DATA_ANNOTATION_PATH / "double_annotate.txt", "r") as file:
+with open(DATA_ANNOTATION_PATH / "double_annotate.txt", "r", encoding='utf-8') as file:
     labels = [line.strip() for line in file]
 df = pd.DataFrame(labels, columns=["label"])
 df[["annotator_1_task_1", 
@@ -13,13 +13,19 @@ df[["annotator_1_task_1",
     "annotator_1_task_3", 
     "annotator_2_task_3"
     ]] = [None, None, None, None, None, None]
-df.to_csv(DATA_ANNOTATION_PATH / "double_annotate.csv", index=False)
+df.to_csv(DATA_ANNOTATION_PATH / "double_annotate.csv", index=False, encoding='utf-8')
 
-with open(DATA_ANNOTATION_PATH / "open_coding.txt", "r") as file:
+with open(DATA_ANNOTATION_PATH / "open_coding.txt", "r", encoding='utf-8') as file:
     labels = [line.strip() for line in file]
 df = pd.DataFrame(labels, columns=["label"])
 df[["task_1", "task_2", "task_3"]] = [None, None, None]
-df.to_csv(DATA_ANNOTATION_PATH / "open_coding.csv", index=False)
+df.to_csv(DATA_ANNOTATION_PATH / "open_coding.csv", index=False, encoding='utf-8')
+
+with open(DATA_ANNOTATION_PATH / "rest.txt", "r", encoding='utf-8') as file:
+    labels = [line.strip() for line in file]
+df = pd.DataFrame(labels, columns=["label"])
+df[["task_1", "task_2", "task_3"]] = [None, None, None]
+df.to_csv(DATA_ANNOTATION_PATH / "rest.csv", index=False, encoding='utf-8')
 
 
 
