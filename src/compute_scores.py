@@ -28,6 +28,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', type=str, default="double_annotation_merge.csv", help="CSV file to compute scores on (must be located in /data/annotation/labelling)")
     parser.add_argument('-o', type=str, help="TXT file to save scores in (will save in /data/annotation)")
+    parser.add_argument('-a1', default="annotator_1", type=str, help="Annotator 1 prefix. default: annotator_1")
+    parser.add_argument('-a2', default="annotator_2", type=str, help="Annotator 1 prefix. default: annotator_2")
     args = parser.parse_args()
 
     DATA_ANNOTATION_PATH = Path(__file__).parent.parent / "data/annotation"
@@ -39,19 +41,21 @@ def main():
         file_output = None
 
     df = pd.read_csv(DATA_ANNOTATION_PATH / 'labelling' / args.i)
+    annotator1_prefix = args.a1
+    annotator2_prefix = args.a2
 
     try:
         for task in range(1, 4):
             print(f"Task {task}:")
             if task == 1:
-                annotator1 = df["annotator_1_task_1"]
-                annotator2 = df["annotator_2_task_1"]
+                annotator1 = df[f"{annotator1_prefix}_task_1"]
+                annotator2 = df[f"{annotator2_prefix}_task_1"]
                 agreement = compute_agreement(annotator1, annotator2, len(df))
             else:
-                filtered_df = df[(df["annotator_1_task_1"] == "IN") & (df["annotator_2_task_1"] == "IN")] # only on labels both annotators placed in scope
+                filtered_df = df[(df[f"{annotator1_prefix}_task_1"] == "IN") & (df[f"{annotator2_prefix}_task_1"] == "IN")] # only on labels both annotators placed in scope
                 print(f"Number of labels both annotators placed in scope: {len(filtered_df)}")
-                annotator1 = filtered_df[f"annotator_1_task_{task}"]
-                annotator2 = filtered_df[f"annotator_2_task_{task}"]
+                annotator1 = filtered_df[f"{annotator1_prefix}_task_{task}"]
+                annotator2 = filtered_df[f"{annotator2_prefix}_task_{task}"]
                 agreement = compute_agreement(annotator1, annotator2, len(filtered_df))
 
             print(f"Raw agreement rate: {agreement}%")
@@ -76,8 +80,8 @@ def main():
                 topics = list(filtered_df["adjudicator_ruling_task_3"].unique())
                 for topic in topics:
                     topic_df = filtered_df[filtered_df["adjudicator_ruling_task_3"]==topic]
-                    annotator1 = topic_df[f"annotator_1_task_3"]
-                    annotator2 = topic_df[f"annotator_2_task_3"]
+                    annotator1 = topic_df[f"{annotator1_prefix}_task_3"]
+                    annotator2 = topic_df[f"{annotator2_prefix}_task_3"]
                     agreement = compute_agreement(annotator1, annotator2, len(topic_df))
                     print(f"{topic} raw agreement rate: {agreement}%")            
             print("\n--------- \n")
