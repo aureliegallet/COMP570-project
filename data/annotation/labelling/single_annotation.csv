@@ -1,0 +1,99 @@
+﻿label,task_1,task_2,task_3
+*Abattaged'arbreprivé,IN,CONDITION,maintenance / city works
+*Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking
+*Bacbrun,IN,TRANSACTION,transaction
+*BacdeMO-Modificationdevolume.,IN,TRANSACTION,transaction
+"*BacdeMOEndommagé,perdu,volé",IN,TRANSACTION,transaction
+"*BacdedéchetsEndommagé,perdu,volé",IN,TRANSACTION,transaction
+*BacdedéchetsLivraison,IN,TRANSACTION,transaction
+*BacdedéchetsModificationdevolume,IN,TRANSACTION,transaction
+"*BacderecyclageEndommagé,perdu,volé",IN,TRANSACTION,transaction
+*BacderecyclageLivraison,IN,TRANSACTION,transaction
+*Bacroulantvert(1à3logements),IN,TRANSACTION,transaction
+*Couvercledepuisard-brisé,IN,CONDITION,sanitation / cleanliness
+*Feuxdecirculation,IN,CONDITION,traffic engineering / parking
+*Inspection-Déchets-Dépôtillégal,OUT,,
+*InspectionsenArrondissement,OUT,,
+*Réparationdechambredevanne,IN,CONDITION,sanitation / cleanliness
+*Réparationdepuisards-trottoir,IN,CONDITION,sanitation / cleanliness
+*Voirie-Nettoyagedudomainepublic-Panierderue,IN,CONDITION,sanitation / cleanliness
+*Voirie-TravauxAqueduc,IN,CONDITION,traffic engineering / parking
+*Z-Puisard,IN,CONDITION,sanitation / cleanliness
+*Z-Testdepressiond'eau,IN,CONDITION,sanitation / cleanliness
+*Z-Troud'homme,IN,CONDITION,sanitation / cleanliness
+Arbre-Divers,IN,CONDITION,maintenance / city works
+Arbretombé,IN,CONDITION,maintenance / city works
+Autre-CollectedeMO,IN,CONDITION,sanitation / cleanliness
+Autre-Construction,IN,CONDITION,maintenance / city works
+Autre-Occupationtemporairedudomainepublic,IN,TRANSACTION,transaction
+Autre-Urbanisme,OUT,,
+Bacroulant,IN,TRANSACTION,transaction
+Balaimécanique,OUT,,
+Borned'incendie-Entretien,IN,CONDITION,maintenance / city works
+Bruit,IN,CONDITION,quieteness / living comfort
+Bruit-Commerceetindustrie,IN,CONDITION,quieteness / living comfort
+Centredeservices311,OUT,,
+Changementd'adresse-Taxesfoncières,OUT,,
+Chausséeglissante,IN,CONDITION,traffic engineering / parking
+Clôtureethaieprivée,IN,CONDITION,maintenance / city works
+Collected'arbresdeNoël,IN,TRANSACTION,transaction
+Collectederésidusalimentaires,IN,TRANSACTION,transaction
+Collectedesmatièresorganiques,IN,TRANSACTION,transaction
+"Couleur,odeurougoûtanormaldel'eau",IN,CONDITION,sanitation / cleanliness
+Demandedepermisd'occupationtemporaire,IN,TRANSACTION,transaction
+Distributiondesacs,IN,TRANSACTION,transaction
+Distributiondespublicationsarrondissement,IN,TRANSACTION,transaction
+Dommage-Racinesd'arbres,IN,CONDITION,maintenance / city works
+Déblaiement/Chargement,IN,CONDITION,maintenance / city works
+Déchets-Nonramassés,IN,CONDITION,sanitation / cleanliness
+DépôtIllégal-Neige,IN,CONDITION,sanitation / cleanliness
+Dépôtsauvage-Terrainprivé,IN,CONDITION,sanitation / cleanliness
+Encaissement-Gescour,OUT,,
+Encaissement-Oasis,OUT,,
+Encaissement-RessourcesFinancières,OUT,,
+Encaissement-Stop+,OUT,,
+Encaissement-UrbanismeetPermis,OUT,,
+Encombrantsnonramassés,IN,CONDITION,sanitation / cleanliness
+Encombrantssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness
+Entretiend'édificesmunicipaux,IN,CONDITION,maintenance / city works
+Entréed'eauenplomb-Autredemande,IN,CONDITION,sanitation / cleanliness
+Entréed'eauenplomb-Demandedefiltre,IN,CONDITION,sanitation / cleanliness
+Environnement-Divers,IN,CONDITION,sanitation / cleanliness
+Fermetured'entréed'eau,IN,CONDITION,sanitation / cleanliness
+Feuxdecirculation-Entretien,IN,CONDITION,traffic engineering / parking
+Gazon-Réparation,IN,CONDITION,maintenance / city works
+Gazonoumauvaisesherbes-Domainepublic,IN,CONDITION,maintenance / city works
+Graffitis-Domaineprivé,IN,CONDITION,sanitation / cleanliness
+IRP-Demandeonderadio,OUT,,
+IRP-Fermeturederue,OUT,,
+IRP-Police,OUT,,
+Info-travaux-Arrondissement,OUT,,
+Info-travaux-Urgence,OUT,,
+Inspectiondelogement,OUT,,
+Installationssportivesextérieures-Entretien,IN,CONDITION,maintenance / city works
+Logement-Inspection,OUT,,
+Mairesetélusd'arrondissement,OUT,,
+Marquagedelachaussée-Existant,IN,CONDITION,traffic engineering / parking
+Mobilierdeparc,IN,CONDITION,maintenance / city works
+Nettoyagedudomainepublic,IN,CONDITION,sanitation / cleanliness
+Permis-Divers,IN,TRANSACTION,transaction
+Permisdeconstruction-rénovation,IN,TRANSACTION,transaction
+Piscine-Propreté.,IN,CONDITION,sanitation / cleanliness
+Plaintefonctionnement,OUT,,
+Prisederendez-vous,OUT,,
+Recyclage-Nonramassé,IN,CONDITION,sanitation / cleanliness
+RelevéCPTE,OUT,,
+RetourDDS,OUT,,
+Réceptiondechèquepost-daté,OUT,,
+Réparationdegazon-Contrat,OUT,,
+Signalisation-Neige,IN,CONDITION,traffic engineering / parking
+Signalisationcachéepardesvégétaux,IN,CONDITION,traffic engineering / parking
+Supportàvélo,IN,CONDITION,maintenance / city works
+Terraininsalubre-Domaineprivé,IN,CONDITION,sanitation / cleanliness
+TransportetLivraison,OUT,,
+TravauxÉlagage,IN,CONDITION,maintenance / city works
+Trottoirglissant,IN,CONDITION,traffic engineering / parking
+Urbanisme,OUT,,
+Zonage,OUT,,
+Écoquartier,OUT,,
+Élagage,IN,CONDITION,maintenance / city works
