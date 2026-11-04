@@ -6,20 +6,16 @@ RAW_PATH = DIRNAME / "data/raw"
 DATA_ANNOTATION_PATH = Path(__file__).parent.parent / "data/annotation"
 
 def main():
-    with open(DATA_ANNOTATION_PATH / "head_tail.txt", "r") as file:
-        labels = [line.strip() for line in file]
-    set_all = set(labels)
+    single_df = pd.read_csv(DATA_ANNOTATION_PATH / 'single_annotate.csv', encoding='utf-8')
+    set_single = set(single_df["label"])
 
-    with open(DATA_ANNOTATION_PATH / "double_annotate.txt", "r") as file:
-        labels = [line.strip() for line in file]
-    set_double = set(labels)
+    double_df = pd.read_csv(DATA_ANNOTATION_PATH / 'double_annotate.csv', encoding='utf-8')
+    set_double = set(double_df["label"])
 
-    with open(DATA_ANNOTATION_PATH / "open_coding.txt", "r") as file:
-        labels = [line.strip() for line in file]
-    set_open = set(labels)
+    open_df = pd.read_csv(DATA_ANNOTATION_PATH / 'open_coding.csv', encoding='utf-8')
+    set_open = set(open_df["label"])
 
-    set_annotated = set_all | set_double | set_open
-
+    set_annotated = set_single | set_double | set_open
 
     processed = []
     chunk_size = 50000
@@ -29,8 +25,8 @@ def main():
         processed.append(chunk)
 
     df = pd.concat(processed, ignore_index=True)
-
-    all_labels = set(df["ACTI_NOM"].unique())
+    df['ACTI_NOM'] = df['ACTI_NOM'].fillna('').astype(str).str.strip()
+    all_labels = set(df[df['ACTI_NOM'] != '']["ACTI_NOM"].unique())
     to_annotate = all_labels - set_annotated
     
     with open(DATA_ANNOTATION_PATH / "rest.txt", "w", encoding="utf-8") as file:
