@@ -191,7 +191,7 @@ Boundary Examples:
 None in the open coding set.
 
 Open coding distribution: 
-- Maintenance / City Works: 34
+- Maintenance / City Works: 35
 - Traffic Engineering / Parking: 19
 - Sanitation / Cleanliness: 28
 - Quieteness / Living Comfort: 3
