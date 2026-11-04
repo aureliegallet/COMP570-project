@@ -4,13 +4,21 @@ import pandas as pd
 
 LABELLING_PATH = Path(__file__).resolve().parent.parent / "data" / "annotation" / "labelling"
 OUTPUT_NAME = "all_annotated_labels.csv"
+ANON_OUTPUT_NAME = "all_annotated_labels_anon.csv"
 FILES = [
     "double_annotation_merge_r2_arbitrated.csv",
     "open_coding_second_iteration.csv",
     "single_annotation.csv",
     "rest_gpt_annotated.csv",
 ]
-
+TOPIC_MAP = {
+    'traffic engineering / parking': 'topic_1',
+    'maintenance / city works': 'topic_2',
+    'sanitation / cleanliness': 'topic_3',
+    'quieteness / living comfort': 'topic_4',
+    'transaction': 'topic_5',
+    'other': 'topic_6',
+}
 def main():
     is_first_file = True
     df_list = []
@@ -20,8 +28,14 @@ def main():
             df.rename(columns={'adjudicator_ruling_task_1': 'task_1', 'adjudicator_ruling_task_2': 'task_2', 'adjudicator_ruling_task_3': 'task_3'}, inplace=True)
             df = df[['label', 'task_1', 'task_2', 'task_3']]
             is_first_file = False
+        df['task_3'] = df['task_3'].str.lower()
+        df['task_3_anon'] = df['task_3'].map(TOPIC_MAP)
         df_list.append(df)
     output = pd.concat(df_list, ignore_index=True)
+    output_anon = output.drop(columns="task_3") 
+    output_anon.rename(columns={"task_3_anon": "task_3"})
+    output = output.drop(columns="task_3_anon")
     output.to_csv(LABELLING_PATH / OUTPUT_NAME, encoding='utf-8', index=False)
+    output_anon.to_csv(LABELLING_PATH / ANON_OUTPUT_NAME, encoding='utf-8', index=False)
 if __name__ == "__main__":
     main()

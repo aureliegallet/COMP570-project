@@ -2,14 +2,14 @@ label,task_1,task_2,task_3
 *Abattaged'arbreprivé,IN,Condition,Maintenance / City Works
 *Agir-Tarification,OUT,,
 *Apaisementdelacirculation,IN,Condition,Traffic Engineering / Parking
-*Bacbrun,IN,Transaction,Transactions
+*Bacbrun,IN,Transaction,transaction
 "*BacdeMOEndommagé,perdu,volé",IN,Condition,Sanitation / Cleanliness
 "*BacdedéchetsEndommagé,perdu,volé",IN,Condition,Sanitation / Cleanliness
-*BacdedéchetsLivraison,IN,Transaction,Transactions
+*BacdedéchetsLivraison,IN,Transaction,transaction
 "*BacderecyclageEndommagé,perdu,volé",IN,Condition,Sanitation / Cleanliness
-*BacderecyclageLivraison,IN,Transaction,Transactions
-*Bacroulantvert(1à3logements),IN,Transaction,Transactions
-*Bâtiment-Menuiserie,IN,Transaction,Transactions
+*BacderecyclageLivraison,IN,Transaction,transaction
+*Bacroulantvert(1à3logements),IN,Transaction,transaction
+*Bâtiment-Menuiserie,IN,Transaction,transaction
 *E.T.-Entréecharretière,IN,Condition,Traffic Engineering / Parking
 *E.T.-Feuxpiétons,IN,Condition,Traffic Engineering / Parking
 *E.T.-Stationnementoudébarcadèrepourcommerce,IN,Condition,Traffic Engineering / Parking
@@ -17,7 +17,7 @@ label,task_1,task_2,task_3
 *Eau-Divers-Remplacerentréedeserviceenplomb,IN,Condition,Sanitation / Cleanliness
 *Erreur,OUT,,
 *Inspection-Déchets-Dépôtillégal,IN,Condition,Sanitation / Cleanliness
-*InspectionsenArrondissement,IN,Transaction,Transactions
+*InspectionsenArrondissement,IN,Transaction,transaction
 *Permis-Bruit-Résidence,OUT,,
 *Sensderue,IN,Condition,Traffic Engineering / Parking
 *Véhiculesnonétatfonctionnement,OUT,,
@@ -35,7 +35,7 @@ Arbretombé,IN,Condition,Maintenance / City Works
 Archivesetrèglementsd'arrondissement,OUT,,
 Asphaltetravaux,IN,Condition,Traffic Engineering / Parking
 Autre-Construction,IN,Condition,Maintenance / City Works
-Bacroulant,IN,Transaction,Transactions
+Bacroulant,IN,Transaction,transaction
 Balaimécanique,IN,Condition,Sanitation / Cleanliness
 Borned'incendie-Entretien,IN,Condition,Sanitation / Cleanliness
 Bornesderechargepubliques,IN,Condition,Maintenance / City Works
@@ -46,11 +46,11 @@ Changementd'adresse-Taxeseauetdéchets,OUT,,
 Changementd'adresse-Taxesfoncières,OUT,,
 Chausséeglissante,IN,Condition,Sanitation / Cleanliness
 Clôtureethaieprivée,IN,Condition,Maintenance / City Works
-Collected'arbresdeNoël,IN,Transaction,Transactions
-Collectederésidusalimentaires,IN,Transaction,Transactions
-Collectedesmatièresorganiques,IN,Transaction,Transactions
+Collected'arbresdeNoël,IN,Transaction,transaction
+Collectederésidusalimentaires,IN,Transaction,transaction
+Collectedesmatièresorganiques,IN,Transaction,transaction
 Communications-Arrondissement,OUT,,
-Compost,IN,Transaction,Transactions
+Compost,IN,Transaction,transaction
 Conseild'arrondissement,OUT,,
 Courmunicipale,OUT,,
 Demandedepermisd'occupationtemporaire,OUT,,
@@ -67,9 +67,9 @@ Encaissement-Stop+,OUT,,
 Encaissement-UrbanismeetPermis,OUT,,
 Encombrantsnonramassés,IN,Condition,Sanitation / Cleanliness
 Entreposagenonautorisé-Terrainprivé,IN,Condition,Maintenance / City Works
-Entretiend'édificesmunicipaux,IN,Transaction,Transactions
-Entréed'eauenplomb-Autredemande,IN,Transaction,Transactions
-Entréed'eauenplomb-Demandedefiltre,IN,Transaction,Transactions
+Entretiend'édificesmunicipaux,IN,Transaction,transaction
+Entréed'eauenplomb-Autredemande,IN,Transaction,transaction
+Entréed'eauenplomb-Demandedefiltre,IN,Transaction,transaction
 Environnement-Divers,IN,Condition,Sanitation / Cleanliness
 Exterminationàl'intérieur-immeubleville,IN,Condition,Sanitation / Cleanliness
 Fermetured'entréed'eau,IN,Condition,Sanitation / Cleanliness
@@ -131,7 +131,7 @@ Trottoirglissant,IN,Condition,Sanitation / Cleanliness
 Unenaissance/unarbre,IN,Condition,Maintenance / City Works
 Urbanisme,OUT,,
 Vandalismeouaccident-Arbre,IN,Condition,Maintenance / City Works
-Vente-débarras,IN,Transaction,Transactions
+Vente-débarras,IN,Transaction,transaction
 Voiecyclable-Marquageetsignalisationécrite,IN,Condition,Traffic Engineering / Parking
 Zonage,OUT,,
 Éclairageplanification-Servicecentral,OUT,,
