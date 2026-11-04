@@ -1,811 +1,811 @@
-label,task_1,task_2,task_3
-*Analysedel'eaupotable,out,,
-*Autre-Compteurd'eau-Résidentiel,in,condition,sanitation / cleanliness
-*Bacroulant-Livraison,in,transaction,transaction
-*Bâtiment-Plomberie,in,condition,sanitation / cleanliness
-*CAFÉ-TERRASSE(DOMAINEPUBLIC),in,transaction,transaction
-*E.T.-Arrêtinterdit,in,condition,traffic engineering / parking
-*Jardins-Renouvellement,in,condition,maintenance / city works
-*Nettoyagedepuisards-rues,in,condition,sanitation / cleanliness
-*Signalisation-Études-Personneshandicapées,out,,
-"*Vermine,insectesnuisibles",in,condition,sanitation / cleanliness
-*Zonedelivraison,in,condition,traffic engineering / parking
-*Élagageexécution,in,condition,maintenance / city works
-Abattaged'arbre,in,condition,maintenance / city works
-Abritemporaire,in,condition,other
-Acquisitionderuelle,out,,
-Afficheautoportante-Domainepublic,in,condition,other
-Aménagementdeparc,in,condition,maintenance / city works
-Animalmort,in,condition,sanitation / cleanliness
-Animauxsauvages-Nuisance,in,condition,sanitation / cleanliness
-Appropriationcitoyenne,in,condition,other
-Arbre-Abattaged'arbreprivé,in,condition,maintenance / city works
-Bacmontréalais(67litres),in,transaction,transaction
-Bornefontaine-Obstruction,in,condition,sanitation / cleanliness
-Branchetombée,in,condition,sanitation / cleanliness
-Bureaud'arrondissement-Serviceàlaclientèle,out,,
-CarteAccèsMontréal,out,,
-Certificatd'occupationcommercialeouprofessionnelle,out,,
-Chaletdeparc,in,condition,maintenance / city works
-Chienagressif,in,condition,quieteness / living comfort
-Collected'écran(ordinateurettéléviseur),in,condition,sanitation / cleanliness
-Collectedebranchesd'arbre-Agriledufrêne,in,condition,sanitation / cleanliness
-Collectededéchets,in,condition,sanitation / cleanliness
-Collectederésidusverts,in,condition,sanitation / cleanliness
-Collectedesencombrants,in,condition,sanitation / cleanliness
-Collectedesmatièresrecyclables,in,condition,sanitation / cleanliness
-Contrôleanimalier,in,transaction,transaction
-Dangerpotentiel-Arbre,in,condition,maintenance / city works
-Direction-Finances,out,,
-Distributionaucomptoirdebacsoudesacsderécupération,in,transaction,transaction
-Débrissurlavoiepublique,in,condition,traffic engineering / parking
-Dépôtillégal-Déchets,in,condition,sanitation / cleanliness
-Dérogationmineure,out,,
-Développementcommunautaire,out,,
-Encaissementetremboursement,out,,
-Essouchement,in,condition,maintenance / city works
-Excrémentsterrainprivé,in,condition,sanitation / cleanliness
-Exterminationàl'extérieur-Insectes,in,condition,sanitation / cleanliness
-Exterminationàl'extérieur-Rats,in,condition,sanitation / cleanliness
-Fermetured'uneconduited'eau-Urgence,in,condition,sanitation / cleanliness
-Fuited'eau,in,condition,sanitation / cleanliness
-Gazonouherbeshautes-Domaineprivé,in,condition,maintenance / city works
-Graffitis-Domainepublic,in,condition,sanitation / cleanliness
-Graffitishaineux,in,condition,sanitation / cleanliness
-Grandparc,in,condition,maintenance / city works
-Grandparc-Agriledufrêne,in,condition,sanitation / cleanliness
-Géomatique,out,,
-Horticulture-Divers,in,condition,maintenance / city works
-Horticulture-Entretien,in,condition,maintenance / city works
-Info-travaux-Servicecentral,out,,
-Installationsculturelles-Entretien,in,condition,maintenance / city works
-Interventiondestationnement-Enquête,out,,
-Localisation/EntretienEntréed'eau,in,condition,sanitation / cleanliness
-Maladieouinsectes-Arbre,in,condition,sanitation / cleanliness
-Manqued'eau,in,condition,sanitation / cleanliness
-Marquagedelachaussée-Nouveau,in,condition,traffic engineering / parking
-Mesured'apaisement-Circulation,in,condition,traffic engineering / parking
-Mobilierurbain,in,condition,maintenance / city works
-Nid-de-poule,in,condition,traffic engineering / parking
-Occupationdudomainepublic,in,transaction,transaction
-Opérationdéneigement,in,condition,traffic engineering / parking
-Ouvertured'entréed'eau,in,condition,sanitation / cleanliness
-Panierdeparcàvider,in,condition,sanitation / cleanliness
-Panierderueàvider,in,condition,sanitation / cleanliness
-Panneaudesignalisationentretienprioritaire,in,condition,traffic engineering / parking
-Parc-Divers,in,condition,maintenance / city works
-Parc-Propreté,in,condition,sanitation / cleanliness
-Pavage-Réparation,in,condition,traffic engineering / parking
-Personnel-Arrondissement,out,,
-Plantationd'arbre,in,condition,maintenance / city works
-Pollutiondel'airetdel'eau,in,condition,sanitation / cleanliness
-Puisard/TH-Premièreintervention,in,condition,sanitation / cleanliness
-Punaisesdelit,in,condition,sanitation / cleanliness
-Refoulementégout/InondationPropriétéprivée,in,condition,sanitation / cleanliness
-SRRR,in,condition,traffic engineering / parking
-ServicesTechniques-Varia,out,,
-Signalisation-Circulation-Études,out,,
-Signalisationécrite-Entretien,in,condition,traffic engineering / parking
-Sportsetloisirs-Activités,out,,
-Subvention-Habitation-Servicecentral,out,,
-Surveillanceetsécuritépublique,in,transaction,transaction
-Taxesfoncières,out,,
-Trottoiroubordure-Réparation,in,condition,traffic engineering / parking
-Voiecyclable-Études,out,,
-Voirie-Divers,in,condition,traffic engineering / parking
-Y-Eau-Divers,in,condition,sanitation / cleanliness
-Y-Égout-Divers,in,condition,sanitation / cleanliness
-Éclairage-Études,out,,
-Éclairageexistant-Entretien,in,condition,maintenance / city works
-Égout-Entretien,in,condition,sanitation / cleanliness
-Éviction,out,,
-*Abattaged'arbreprivé,IN,Condition,maintenance / city works
-*Agir-Tarification,OUT,,
-*Apaisementdelacirculation,IN,Condition,traffic engineering / parking
-*Bacbrun,IN,Transaction,transaction
-"*BacdeMOEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness
-"*BacdedéchetsEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness
-*BacdedéchetsLivraison,IN,Transaction,transaction
-"*BacderecyclageEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness
-*BacderecyclageLivraison,IN,Transaction,transaction
-*Bacroulantvert(1à3logements),IN,Transaction,transaction
-*Bâtiment-Menuiserie,IN,Transaction,transaction
-*E.T.-Entréecharretière,IN,Condition,traffic engineering / parking
-*E.T.-Feuxpiétons,IN,Condition,traffic engineering / parking
-*E.T.-Stationnementoudébarcadèrepourcommerce,IN,Condition,traffic engineering / parking
-*Eau-Bornefontaine-Réparation,IN,Condition,sanitation / cleanliness
-*Eau-Divers-Remplacerentréedeserviceenplomb,IN,Condition,sanitation / cleanliness
-*Erreur,OUT,,
-*Inspection-Déchets-Dépôtillégal,IN,Condition,sanitation / cleanliness
-*InspectionsenArrondissement,IN,Transaction,transaction
-*Permis-Bruit-Résidence,OUT,,
-*Sensderue,IN,Condition,traffic engineering / parking
-*Véhiculesnonétatfonctionnement,OUT,,
-*Z-Inspectiond'égoutprivé,IN,Condition,sanitation / cleanliness
-*Z-Puisard,IN,Condition,sanitation / cleanliness
-*Z-Testdepressiond'eau,IN,Condition,sanitation / cleanliness
-*Z-Troud'homme,IN,Condition,sanitation / cleanliness
-*Égout-Réparation-Entretien,IN,Condition,sanitation / cleanliness
-800-Bruits,IN,Condition,quieteness / living comfort
-Accèsàl'information,OUT,,
-Affichage-Illégal,IN,Condition,maintenance / city works
-Arbre-Divers,IN,Condition,maintenance / city works
-Arbresruelles,IN,Condition,maintenance / city works
-Arbretombé,IN,Condition,maintenance / city works
-Archivesetrèglementsd'arrondissement,OUT,,
-Asphaltetravaux,IN,Condition,traffic engineering / parking
-Autre-Construction,IN,Condition,maintenance / city works
-Bacroulant,IN,Transaction,transaction
-Balaimécanique,IN,Condition,sanitation / cleanliness
-Borned'incendie-Entretien,IN,Condition,sanitation / cleanliness
-Bornesderechargepubliques,IN,Condition,maintenance / city works
-Boîtedeserviceàniveler,IN,Condition,maintenance / city works
-Bruit,IN,Condition,quieteness / living comfort
-Centredeservices311,OUT,,
-Changementd'adresse-Taxeseauetdéchets,OUT,,
-Changementd'adresse-Taxesfoncières,OUT,,
-Chausséeglissante,IN,Condition,sanitation / cleanliness
-Clôtureethaieprivée,IN,Condition,maintenance / city works
-Collected'arbresdeNoël,IN,Transaction,transaction
-Collectederésidusalimentaires,IN,Transaction,transaction
-Collectedesmatièresorganiques,IN,Transaction,transaction
-Communications-Arrondissement,OUT,,
-Compost,IN,Transaction,transaction
-Conseild'arrondissement,OUT,,
-Courmunicipale,OUT,,
-Demandedepermisd'occupationtemporaire,OUT,,
-Distributiondecirculaire,OUT,,
-Distributiondesacs,OUT,,
-Distributiondevégétaux,OUT,,
-Dommage-Racinesd'arbres,IN,Condition,maintenance / city works
-Dosd'âne-ruelle-2,IN,Condition,traffic engineering / parking
-Dosd'âneRUELLE,IN,Condition,traffic engineering / parking
-Déchets-Nonramassés,IN,Condition,sanitation / cleanliness
-DépôtIllégal-Neige,IN,Condition,maintenance / city works
-Encaissement-Oasis,OUT,,
-Encaissement-Stop+,OUT,,
-Encaissement-UrbanismeetPermis,OUT,,
-Encombrantsnonramassés,IN,Condition,sanitation / cleanliness
-Entreposagenonautorisé-Terrainprivé,IN,Condition,maintenance / city works
-Entretiend'édificesmunicipaux,IN,Transaction,transaction
-Entréed'eauenplomb-Autredemande,IN,Transaction,transaction
-Entréed'eauenplomb-Demandedefiltre,IN,Transaction,transaction
-Environnement-Divers,IN,Condition,sanitation / cleanliness
-Exterminationàl'intérieur-immeubleville,IN,Condition,sanitation / cleanliness
-Fermetured'entréed'eau,IN,Condition,sanitation / cleanliness
-Feuxdecirculation-Entretien,IN,Condition,traffic engineering / parking
-Finances-Divers,OUT,,
-Fuiteboîte-maison,IN,Condition,sanitation / cleanliness
-Fuiteservice,IN,Condition,sanitation / cleanliness
-Gazon-Réparation,IN,Condition,maintenance / city works
-Gazonoumauvaisesherbes-Domainepublic,IN,Condition,maintenance / city works
-Graffitis-Domaineprivé,IN,Condition,maintenance / city works
-Greffe-Arrondissement,OUT,,
-Habitation-Divers-Servicecentral,OUT,,
-IRP-Demandeonderadio,OUT,,
-IRP-Fermeturederue,IN,Condition,traffic engineering / parking
-IRP-Mesured'urgence,IN,Condition,traffic engineering / parking
-IRP-Police,OUT,,
-IRP-Posted'essence,IN,Condition,traffic engineering / parking
-IRP-VillesnonreliéesauGDC,OUT,,
-"Immeublesmunicipaux-Abeilles,guêpes,bourdonsàl'intérieur",IN,Condition,sanitation / cleanliness
-"Immeublesmunicipaux-Ventilation,climatisation",IN,Condition,maintenance / city works
-Info-travaux-Arrondissement,OUT,,
-Installationssportivesextérieures-Entretien,IN,Condition,maintenance / city works
-Installationssportivesintérieures-Entretien,IN,Condition,maintenance / city works
-Internet-Portailcentral,OUT,,
-Logement-Inspection,IN,Condition,maintenance / city works
-Logementsocialetcommunautaire,IN,Condition,maintenance / city works
-Mairesetélusd'arrondissement,OUT,,
-Marquagedelachaussée-Existant,IN,Condition,traffic engineering / parking
-Mesuresd'apaisement,IN,Condition,traffic engineering / parking
-Mobilierdeparc,IN,Condition,maintenance / city works
-Nettoyagedudomainepublic,IN,Condition,sanitation / cleanliness
-Numéromunicipal,OUT,,
-Parc-Mobilier-Entretien,IN,Condition,maintenance / city works
-Parcomètre,IN,Condition,traffic engineering / parking
-Permis-Divers,OUT,,
-Permis-Neige-Domainepublic,OUT,,
-Permisdeconstruction-rénovation,OUT,,
-Pesticide,IN,Condition,sanitation / cleanliness
-Piscineouspaprivés,IN,Condition,maintenance / city works
-Planificationdestravaux-Étudesimmeublesmunicipaux,OUT,,
-Pontettunnel,IN,Condition,traffic engineering / parking
-Poêleetfoyeraubois,IN,Condition,maintenance / city works
-Prisederendez-vous,OUT,,
-Rapportd'accident,IN,Condition,traffic engineering / parking
-Recyclage-Nonramassé,IN,Condition,sanitation / cleanliness
-RelevéCPTE,OUT,,
-RetourDDS,IN,Condition,sanitation / cleanliness
-Réceptiondechèquepost-daté,OUT,,
-Signalisation-Neige,IN,Condition,maintenance / city works
-Signalisationcachéepardesvégétaux,IN,Condition,maintenance / city works
-Stationnementoudébarcadèrepourpersonneàmobilitéréduite,IN,Condition,traffic engineering / parking
-Supportàvélo,IN,Condition,maintenance / city works
-Taxed'eau,OUT,,
-Terraininsalubre-Domaineprivé,IN,Condition,sanitation / cleanliness
-Thermopompeetclimatiseur,IN,Condition,maintenance / city works
-TransportetLivraison,OUT,,
-TravauxÉlagage,IN,Condition,maintenance / city works
-Trottoirglissant,IN,Condition,sanitation / cleanliness
-Unenaissance/unarbre,IN,Condition,maintenance / city works
-Urbanisme,OUT,,
-Vandalismeouaccident-Arbre,IN,Condition,maintenance / city works
-Vente-débarras,IN,Transaction,transaction
-Voiecyclable-Marquageetsignalisationécrite,IN,Condition,traffic engineering / parking
-Zonage,OUT,,
-Éclairageplanification-Servicecentral,OUT,,
-Écocentre,IN,Condition,maintenance / city works
-Écoquartier,IN,Condition,maintenance / city works
-Élagage,IN,Condition,maintenance / city works
-Événementlocal,IN,Condition,quieteness / living comfort
-*Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking
-*BacdeMO-Modificationdevolume.,IN,TRANSACTION,transaction
-*BacdedéchetsModificationdevolume;IN;TRANSACTION;transaction,,,
-*Couvercledepuisard-brisé,IN,CONDITION,sanitation / cleanliness
-*Feuxdecirculation,IN,CONDITION,traffic engineering / parking
-*Réparationdechambredevanne,IN,CONDITION,sanitation / cleanliness
-*Réparationdepuisards-trottoir,IN,CONDITION,sanitation / cleanliness
-*Voirie-Nettoyagedudomainepublic-Panierderue,IN,CONDITION,sanitation / cleanliness
-*Voirie-TravauxAqueduc,IN,CONDITION,traffic engineering / parking
-Autre-CollectedeMO,IN,CONDITION,sanitation / cleanliness
-Autre-Occupationtemporairedudomainepublic,IN,TRANSACTION,transaction
-Autre-Urbanisme,OUT,,
-Bruit-Commerceetindustrie;IN;CONDITION;quieteness / living comfort,,,
-"Couleur,odeurougoûtanormaldel'eau",IN,CONDITION,sanitation / cleanliness
-Distributiondespublicationsarrondissement,IN,TRANSACTION,transaction
-Déblaiement/Chargement,IN,CONDITION,maintenance / city works
-Dépôtsauvage-Terrainprivé,IN,CONDITION,sanitation / cleanliness
-Encaissement-Gescour,OUT,,
-Encaissement-RessourcesFinancières,OUT,,
-Encombrantssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness
-Info-travaux-Urgence,OUT,,
-Inspectiondelogement,OUT,,
-Piscine-Propreté.,IN,CONDITION,sanitation / cleanliness
-Plaintefonctionnement,OUT,,
-Réparationdegazon-Contrat,OUT,,
-*Abattage/Essouchementexécution,IN,CONDITION,other
-*Abattaged'arbre-terrainpublic,IN,CONDITION,maintenance / city works
-*Aquatique,IN,CONDITION,other
-*Arbre-Maladie-Pucerons,IN,CONDITION,maintenance / city works
-*Arbre-branchesàramasser,IN,CONDITION,maintenance / city works
-*Arbreprivédangereux,IN,CONDITION,maintenance / city works
-*Arbresderuelle,IN,CONDITION,maintenance / city works
-"*Arbustes,vivaces",IN,CONDITION,other
-"*BacdeMO-Endommagé,perdu,volé.",IN,CONDITION,sanitation / cleanliness
-*BacdeMO-Livraison.,IN,TRANSACTION,transaction
-*BacdeMOLivraison,IN,TRANSACTION,transaction
-*BacdeMOModificationdevolume,IN,CONDITION,sanitation / cleanliness
-"*Bacdedéchets-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness
-*Bacdedéchets-Livraison,IN,TRANSACTION,transaction
-*Bacdedéchets-Modificationauvolume,IN,CONDITION,sanitation / cleanliness
-"*Bacderecyclage-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness
-*Bacderecyclage-Livraison,IN,TRANSACTION,transaction
-*Bacderecyclage-Modificationdevolume,IN,CONDITION,sanitation / cleanliness
-*BacderecyclageModificationdevolume,IN,CONDITION,sanitation / cleanliness
-"*Bacroulant-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness
-*Bacroulant-Nonramassé,IN,CONDITION,sanitation / cleanliness
-*Bacroulantendommagé,IN,CONDITION,sanitation / cleanliness
-*Bacroulantvolé,IN,CONDITION,sanitation / cleanliness
-"*Bacsàfleurs,corbeilles,litsdeplantation",IN,CONDITION,sanitation / cleanliness
-*Banc-Ajout/Retrait,IN,TRANSACTION,transaction
-"*Bancs,poubellesetc",IN,CONDITION,sanitation / cleanliness
-*Bibliothèque,IN,CONDITION,other
-*BibliothèqueBENNY,IN,CONDITION,other
-*BibliothèqueCDN,IN,CONDITION,other
-*BibliothèqueNDG,IN,CONDITION,other
-*Borneélectrique,IN,CONDITION,other
-*Boîtedeserviceàmettreenordre,IN,CONDITION,other
-*Boîtedeserviceàvérifier,IN,CONDITION,other
-*Brancheaccrochée,IN,CONDITION,maintenance / city works
-*Branchementd'égout-Domaineprivé,IN,CONDITION,sanitation / cleanliness
-*Branchementd'égout-Domainepublic,IN,CONDITION,sanitation / cleanliness
-*Brisdanschalet,IN,CONDITION,maintenance / city works
-*Bâtiment-Piscine,IN,CONDITION,maintenance / city works
-*Circulation-Intersectiondangereuse,IN,CONDITION,traffic engineering / parking
-*Compteurbruyant,IN,CONDITION,quieteness / living comfort
-*Compteurcoule,IN,CONDITION,other
-*Compteurd'eauICI(Industries-Commerces-Institutions),IN,CONDITION,sanitation / cleanliness
-*Conteneursàordures,IN,CONDITION,sanitation / cleanliness
-*Contrôledustationnementvoiepublique,IN,CONDITION,traffic engineering / parking
-*Couvercledepuisardabsentoudéplacé,IN,CONDITION,sanitation / cleanliness
-*Couvercledepuisardbruyant,IN,CONDITION,quieteness / living comfort
-*Demanded'informations,IN,TRANSACTION,transaction
-*Demanded'unnouveaucompteur,IN,TRANSACTION,transaction
-*Demandedepropriété,IN,TRANSACTION,transaction
-*Demandederenseignement-signalisationpermanente,IN,TRANSACTION,transaction
-*Dosd'âne-Rue,IN,CONDITION,traffic engineering / parking
-*Dosd'âne-Ruelle,IN,CONDITION,traffic engineering / parking
-*Débarcadère-Garderie,IN,CONDITION,traffic engineering / parking
-*Débarcadère-Handicapé,IN,CONDITION,traffic engineering / parking
-*Débarcadère-École,IN,CONDITION,traffic engineering / parking
-"*Débarcadèreécole,garderie,institution",IN,CONDITION,traffic engineering / parking
-*Déchets,IN,CONDITION,sanitation / cleanliness
-"*Déchets-Bacendommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness
-*Déchets-Demandedebac,IN,TRANSACTION,transaction
-*Déchets-Dépôtillégalaprèsinspection-Voirie,IN,CONDITION,sanitation / cleanliness
-*Déchets-Nonramassés,IN,CONDITION,sanitation / cleanliness
-*Déchetshorsdesheures,IN,CONDITION,sanitation / cleanliness
-*Déchetsmaldisposés,IN,CONDITION,sanitation / cleanliness
-*Défensedejeterdesdéchets,IN,CONDITION,sanitation / cleanliness
-*Dépôtillégal-Ramassage,IN,CONDITION,other
-*E.T.-Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking
-*E.T.-Camionnage,IN,CONDITION,traffic engineering / parking
-*E.T.-Feuxdecirculation,IN,CONDITION,traffic engineering / parking
-*E.T.-Limitesdevitesse,IN,CONDITION,traffic engineering / parking
-*E.T.-Marquage,IN,CONDITION,traffic engineering / parking
-*E.T.-Mesuresdemodérationdelacirculation,IN,CONDITION,traffic engineering / parking
-*E.T.-Pavage-Réparation,IN,CONDITION,sanitation / cleanliness
-*E.T.-Ruespiétonnes,IN,CONDITION,traffic engineering / parking
-*E.T.-Sensderue,IN,CONDITION,traffic engineering / parking
-*E.T.-Stationnementoudébarcadèrepourpersonnesàmobilitéréduite,IN,CONDITION,traffic engineering / parking
-*E.T.-Tempsdelatraverse,IN,CONDITION,other
-*E.T.-Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking
-*Eau-Mettreboîtedeserviceenordre,IN,CONDITION,sanitation / cleanliness
-*Eau-Projetspécial,IN,CONDITION,sanitation / cleanliness
-*Entrave-Pistecyclable,IN,CONDITION,traffic engineering / parking
-*Entravesanspermis,IN,TRANSACTION,transaction
-*Entretiend'édificesmunicipaux-Plomberie,IN,CONDITION,maintenance / city works
-*Entretiendesbranchementsd'égoutsoudrains,IN,CONDITION,sanitation / cleanliness
-"*Environnement-Recyclage-Bac240lt-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness
-*Environnement-Recyclage-Bac240lt-Livraison,IN,TRANSACTION,transaction
-*Environnement-Recyclage-Bac240lt-Nonramassé,IN,CONDITION,sanitation / cleanliness
-"*Environnement-Recyclage-Bac360lt-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness
-*Environnement-Recyclage-Bac360lt-Livraison,IN,TRANSACTION,transaction
-*Extermination-Guêpes,IN,CONDITION,sanitation / cleanliness
-*Exterminationrats,IN,CONDITION,sanitation / cleanliness
-*Exterminationàl'extérieur-Fourmis,IN,CONDITION,sanitation / cleanliness
-*Exterminationàl'extérieur-Guêpes,IN,CONDITION,sanitation / cleanliness
-*Exterminationàl'extérieur-Niddeguêpes,IN,CONDITION,sanitation / cleanliness
-*Favorable-Implantation,OUT,,
-*Favorable-Modification,OUT,,
-*Fermeturederuelle,IN,CONDITION,other
-*Feuxpiétons,IN,CONDITION,other
-"*Fontaineàboire,jeud'eau,fontainedécorative",IN,CONDITION,sanitation / cleanliness
-*Gazon-Réparation,IN,CONDITION,sanitation / cleanliness
-*GazonEndommagé-Opérationdéneigement,IN,CONDITION,sanitation / cleanliness
-*GazonEndommagé-TravauxparlaVille,IN,CONDITION,maintenance / city works
-*Herbeàpoux,IN,CONDITION,maintenance / city works
-*Horticulture-Varia-Pesticide-Vérificationinfestation,IN,CONDITION,sanitation / cleanliness
-*Informationsurconstatd'infraction,IN,TRANSACTION,transaction
-*Inspectiondesaliments,OUT,,
-*Jardinscommunautaires-Divers,IN,CONDITION,maintenance / city works
-*Jeud'enfant,IN,CONDITION,other
-*Limitesdevitesse,IN,CONDITION,traffic engineering / parking
-*LogementMontréal-Nord,IN,CONDITION,other
-*Marquage,IN,CONDITION,traffic engineering / parking
-*Mesured'apaisement,IN,CONDITION,other
-*Mobilierurbain-Installation,IN,CONDITION,maintenance / city works
-*Modificationsecteurexistant,IN,CONDITION,other
-*NeplusutiliserBacroulantnoir(déchets),IN,CONDITION,sanitation / cleanliness
-*Nettoyagedepuisards-ruelles,IN,CONDITION,sanitation / cleanliness
-*Nettoyageparc,IN,CONDITION,sanitation / cleanliness
-*Nuisancechantier-Poussière,IN,CONDITION,other
-*Panierderue-Ajout/Retrait,IN,TRANSACTION,transaction
-*Panierderue-Réparation/Entretien,IN,CONDITION,sanitation / cleanliness
-*Parc-Aired'exercicecanin,IN,CONDITION,maintenance / city works
-*Parc-Aménagement-Ajoutd'équipement,IN,CONDITION,maintenance / city works
-*Parc-Aménagement-Conception,IN,CONDITION,maintenance / city works
-*Parc-Aménagement-Réalisation,IN,CONDITION,maintenance / city works
-*Parc-Aménagement-Étudespréliminaires,OUT,,
-*Parc-Entretien-Clôture,IN,CONDITION,maintenance / city works
-*Parc-Gazon-Terrainvacant,IN,CONDITION,maintenance / city works
-*Parc-Jeuxd'eau,IN,CONDITION,sanitation / cleanliness
-*Parc-Mobilier-Buvette-Fontainedécorative,IN,CONDITION,sanitation / cleanliness
-*Parc-Mobilier-Jeux-Vandalisme,IN,CONDITION,maintenance / city works
-*Parc-Propreté-Entretienairedejeux,IN,CONDITION,sanitation / cleanliness
-*Parc-Propreté-Entretiencarrédesable,IN,CONDITION,sanitation / cleanliness
-*Parc-Terrains-sportifs-Soccer,IN,CONDITION,maintenance / city works
-*Partenaires,OUT,,
-*Permis-Bruit-Circulationdescamions,IN,TRANSACTION,transaction
-*Permis-Bruit-Commerce,IN,TRANSACTION,transaction
-*Permis-Bruit-Travaux,IN,TRANSACTION,transaction
-*Permis-Construction-Nuisances,IN,TRANSACTION,transaction
-*Permis-Logement-Accumulationbalcon,OUT,,
-*Permis-Logement-Accumulationodeurs,OUT,,
-*Permis-Logement-Défectuositéextérieure,IN,TRANSACTION,transaction
-*Permis-Logement-Défectuositéintérieure,IN,TRANSACTION,transaction
-*Permis-Logement-Moisissures,IN,TRANSACTION,transaction
-*Permis-Logement-Nuisancesanimales,IN,TRANSACTION,transaction
-*Permis-Logement-Vermines-rongeurs,IN,TRANSACTION,transaction
-*Piétonnisation-Masson,IN,CONDITION,traffic engineering / parking
-*Plantationexécution,IN,CONDITION,other
-*Plateauxsportifs-entretien,IN,CONDITION,sanitation / cleanliness
-*Poubelles,IN,CONDITION,sanitation / cleanliness
-*Pressionbasse,IN,CONDITION,other
-*Puisard-Réparation-Entretien,IN,CONDITION,sanitation / cleanliness
-*Regardd'égoûtdéplacé,IN,CONDITION,other
-*Réclamation,IN,TRANSACTION,transaction
-*Réparationdepuisards-rue,IN,CONDITION,sanitation / cleanliness
-*SRRR-Ajoutouretraitd'espaces,IN,TRANSACTION,transaction
-*SRRR-Autre,IN,CONDITION,other
-*SRRR-Modificationsecteurexistant,IN,CONDITION,other
-*SRRR-Nouveausecteur,IN,CONDITION,sanitation / cleanliness
-*Seringues,IN,CONDITION,sanitation / cleanliness
-*Servicesadministratifs-Sud-Ouest,OUT,,
-*Signalisationmanquanteouendommagée,IN,CONDITION,traffic engineering / parking
-*Sportsetloisirs-Activités-Activitésdanslesparcs,IN,TRANSACTION,transaction
-*Sportsetloisirs-Centrecommunautaire,IN,CONDITION,other
-*Sportsetloisirs-Terrainsextérieurs,IN,CONDITION,other
-*Sportsetloisirs-aquatique,IN,CONDITION,other
-*Stationnement,IN,CONDITION,traffic engineering / parking
-*Stationnement-Études,IN,CONDITION,traffic engineering / parking
-*Stationnementcourtedurée,IN,CONDITION,traffic engineering / parking
-*Stationnementoudébarcadèrepourhandicapés,IN,CONDITION,traffic engineering / parking
-*Supportàvélo-Ajout/Retrait,IN,TRANSACTION,transaction
-*Tennis,IN,CONDITION,other
-*Terrainsextérieurs,IN,CONDITION,other
-*Testd'écoulementd'eau,IN,CONDITION,sanitation / cleanliness
-*Tontedegazon,IN,CONDITION,maintenance / city works
-*Visionvélo,IN,CONDITION,other
-*Visionvélo(Acceptabilité),IN,CONDITION,other
-*Visionvélo(Utilisation),IN,CONDITION,other
-*Vitesse,IN,CONDITION,traffic engineering / parking
-*Vitesseexcessive,IN,CONDITION,traffic engineering / parking
-*Voirie-Collecteappareilavecgazréfrigérant,IN,CONDITION,sanitation / cleanliness
-*Voirie-Divers-GestionRetourDDS,IN,CONDITION,other
-*Voirie-Mobilierurbain-Clôtureenbois,IN,CONDITION,maintenance / city works
-*Voirie-Mobilierurbain-Entretienetdéplacement,IN,CONDITION,maintenance / city works
-*Voirie-Pavage-Entretien,IN,CONDITION,maintenance / city works
-*Voirie-Trottoir-Réalisation,IN,CONDITION,traffic engineering / parking
-*WOONERF,IN,CONDITION,other
-"*Z-Borne-fontaine-Installation,retraitoudéplacement",IN,TRANSACTION,transaction
-*Z-Compteurd'eaurésidentiel,IN,CONDITION,sanitation / cleanliness
-*Z-Demandederenseignement-signalisationtemporaire,IN,TRANSACTION,transaction
-*Z-Signalisationécrite-nouveau,IN,CONDITION,traffic engineering / parking
-*Zonelivraison,IN,TRANSACTION,transaction
-*collectedesrésidusalimentaires-Bacendommagés,IN,CONDITION,sanitation / cleanliness
-*collectedesrésidusalimentaires-Bacnonramassés,IN,CONDITION,sanitation / cleanliness
-*collectedesrésidusalimentaires-Demandedebac,IN,TRANSACTION,transaction
-*tontedegazon,IN,CONDITION,maintenance / city works
-*ÉLU-DirectionAUP,OUT,,
-*ÉLU-DirectionTP,OUT,,
-*ÉLU-Directiond'arrondissement,OUT,,
-*Éclairagedeparc,IN,CONDITION,maintenance / city works
-*Éclairageterr.sportif,IN,CONDITION,maintenance / city works
-*Égout-Divers-Tuyaudeserviced'égout-Raccordementcroisé,IN,CONDITION,sanitation / cleanliness
-*Égout-Nettoyage-Contrat,IN,CONDITION,sanitation / cleanliness
-*Équipementterr.sportifs,IN,CONDITION,other
-*Événementpublic,IN,CONDITION,other
-100-Demanded'interventionetAssistance,IN,TRANSACTION,transaction
-1100-Autres,IN,CONDITION,other
-400-Incivilitésetinfractions,IN,CONDITION,other
-510-Routier/Circulation,IN,CONDITION,traffic engineering / parking
-520-Stationnement,IN,CONDITION,traffic engineering / parking
-600-Signalisation,IN,CONDITION,traffic engineering / parking
-AEC(Parccanin),IN,CONDITION,maintenance / city works
-Abattaged'arbreprivé,IN,CONDITION,maintenance / city works
-Abattaged'arbrepublic,IN,CONDITION,maintenance / city works
-Abribus-Réparation,IN,CONDITION,sanitation / cleanliness
-Acquisitiondeterrain,OUT,,
-Adhésion,IN,TRANSACTION,transaction
-Affichagepolitique,IN,CONDITION,other
-Affichagesauvage,IN,CONDITION,other
-Afficheautoportante-Domaineprivé,IN,CONDITION,sanitation / cleanliness
-Affichefixéesurarbresouarbustes,IN,CONDITION,maintenance / city works
-Affichepropreté,IN,CONDITION,sanitation / cleanliness
-Agriledufrêne-Divers,IN,CONDITION,other
-Aideaurelogement,IN,TRANSACTION,transaction
-Airbnb,IN,CONDITION,other
-Amuseurspublics,IN,CONDITION,other
-Anciennescarrières,IN,CONDITION,other
-Animauxperdus/trouvés,IN,CONDITION,other
-Antennesatellite,IN,CONDITION,other
-Appeld'offreetsoumissiond'arrondissement,OUT,,
-Arbre-Suivideplantation,IN,CONDITION,maintenance / city works
-Articledejeuxsurdomainepublic,IN,CONDITION,other
-ArénaMaurice-Richard,IN,CONDITION,other
-Asphalte-Coupesd'aqueducetautres,IN,CONDITION,maintenance / city works
-Assermentation,IN,TRANSACTION,transaction
-"Autoabandonnée,roulotte,remorque,palette",IN,CONDITION,other
-Autorisationd'affichagesurpropriétéprivée,IN,TRANSACTION,transaction
-Autre-Bureaud'arrondissement-Serviceàlaclientèle,IN,CONDITION,sanitation / cleanliness
-Autre-Carted'Accèsarrondissement,IN,TRANSACTION,transaction
-Autre-Clôtureethaie,IN,CONDITION,maintenance / city works
-Autre-Collectededéchets,IN,CONDITION,sanitation / cleanliness
-Autre-Collectedesencombrants,IN,CONDITION,sanitation / cleanliness
-Autre-Communications,IN,CONDITION,other
-Autre-Démolition,IN,CONDITION,other
-Autre-Dérogation,IN,CONDITION,other
-Autre-Horticulture-Distributiondevégétaux,IN,TRANSACTION,transaction
-Autre-Marquagedelachaussée,IN,CONDITION,traffic engineering / parking
-Autre-Permis-Divers,IN,TRANSACTION,transaction
-Autre-Pesticide,IN,CONDITION,sanitation / cleanliness
-Autre-Résidusverts,IN,CONDITION,sanitation / cleanliness
-Autre-Salubrité,IN,CONDITION,sanitation / cleanliness
-Autre-Stationnementmunicipal,IN,CONDITION,traffic engineering / parking
-Autre-Taxes,OUT,,
-Autre-Zonage,IN,CONDITION,other
-Avis-Alertesauxcitoyens,IN,CONDITION,other
-AvisOccupant/Consommation,OUT,,
-Avisd'infraction-Neige,IN,CONDITION,sanitation / cleanliness
-Avisdecourtoisie-Neige,IN,TRANSACTION,transaction
-Bac-Divers,IN,CONDITION,sanitation / cleanliness
-BacdeMOsortientempsprohibé,IN,CONDITION,sanitation / cleanliness
-Balcon,IN,CONDITION,maintenance / city works
-Balconmalpropre,IN,CONDITION,sanitation / cleanliness
-Banc,IN,CONDITION,other
-Barilderécupérationdel'eaudepluie,IN,CONDITION,sanitation / cleanliness
-Bicycletteabandonnée,IN,CONDITION,other
-Billetdedépôtàneige,IN,TRANSACTION,transaction
-Bixi,IN,CONDITION,other
-Boitedeserviceàmettreenordre,IN,CONDITION,other
-Borne-fontaine-Moinsde8semaines,IN,CONDITION,maintenance / city works
-Borne-fontaine-Plusde8semaines,IN,CONDITION,maintenance / city works
-Borne-fontaine-Projetsspéciaux,IN,CONDITION,maintenance / city works
-Boîtedeservice,IN,CONDITION,other
-BranchementégoutBrisé/Déformé,IN,CONDITION,sanitation / cleanliness
-Bruit-Autre,IN,CONDITION,quieteness / living comfort
-Bruit-Thermopompeetclimatiseur,IN,CONDITION,quieteness / living comfort
-Bruit-desCarrières-Ombudsman,IN,CONDITION,quieteness / living comfort
-Bruitsurchantierdeconstruction,IN,CONDITION,quieteness / living comfort
-Budgetd'arrondissement,OUT,,
-Bâtimentvacantouàbarricader,IN,CONDITION,maintenance / city works
-CAFÉ-TERRASSE(PERMIS),IN,TRANSACTION,transaction
-CCU,OUT,,
-CVP-Raccordementaqueduc/égout,IN,CONDITION,sanitation / cleanliness
-Café-terrasse,IN,CONDITION,other
-Campdejour,IN,TRANSACTION,transaction
-CarteInfo-Neige,IN,TRANSACTION,transaction
-Carted'Accèsarrondissement,IN,TRANSACTION,transaction
-Centresdetraitementdesmatièresorganiques,IN,CONDITION,other
-Certificatdevieetrésidence,IN,TRANSACTION,transaction
-Changementd'adresse-Taxeslocatives,OUT,,
-Chatsanspermis,IN,TRANSACTION,transaction
-Chiensanspermis,IN,TRANSACTION,transaction
-Ciment,IN,CONDITION,maintenance / city works
-Climatiseur,IN,CONDITION,other
-Clôtureprivée,IN,CONDITION,maintenance / city works
-Clôturepublique,IN,CONDITION,maintenance / city works
-Codedelangue,IN,CONDITION,other
-Communicationscorporatives,OUT,,
-ComplexeenvironnementaldeSaint-Michel,IN,CONDITION,other
-ComplexesportifClaude-Robillard,IN,CONDITION,other
-CompteurICIVérificationdelecture,IN,CONDITION,other
-Concourshorticole,IN,CONDITION,other
-Constatd'infraction-Neige,IN,CONDITION,sanitation / cleanliness
-Constructionruelle,IN,CONDITION,maintenance / city works
-Constructionréseaulocal,IN,CONDITION,sanitation / cleanliness
-Correspondanceadresséeauxélusouàladirection,OUT,,
-Couped'arbreprivésanspermis,IN,TRANSACTION,transaction
-Cruedeseaux-Nettoyage-Collectes,IN,CONDITION,sanitation / cleanliness
-Créationd'unSIMU,IN,CONDITION,other
-Culture-Activités,IN,TRANSACTION,transaction
-Demanded'unenouvellesignalisation,IN,TRANSACTION,transaction
-Direction-Affairespénalesetcriminelles,OUT,,
-Direction-Évaluation,OUT,,
-DirectionCultureSportsLoisirsDév.Soc.,IN,CONDITION,other
-DirectionDéveloppementduterritoire,IN,CONDITION,other
-"DirectionPerformance,GreffeetServicesadm.",IN,CONDITION,other
-DirectionTravauxPublics,IN,CONDITION,maintenance / city works
-Directiond'arrondissement,IN,CONDITION,other
-Distributiondesacpourmatelas,IN,TRANSACTION,transaction
-Documentexigéparlaville,IN,CONDITION,other
-Dosd'âne,IN,CONDITION,traffic engineering / parking
-Dosd'âne-2,IN,CONDITION,traffic engineering / parking
-Dosd'ânes-ruelle,IN,CONDITION,traffic engineering / parking
-Drapeau,IN,CONDITION,sanitation / cleanliness
-Droitsacquis,IN,CONDITION,other
-Débarcadère-Personneàmobilitéréduite,IN,CONDITION,traffic engineering / parking
-Débrissurchantieretrues,IN,CONDITION,sanitation / cleanliness
-Déchets-Avisdecourtoisie,IN,TRANSACTION,transaction
-Déchets-Illégal-Conteneurs-VM,IN,CONDITION,sanitation / cleanliness
-Déchets-Illégal-Recyclage-VM,IN,CONDITION,sanitation / cleanliness
-"Déchets-Objetvol.àramasser-Réfrigérateur,climatiseurs-Voirie",IN,CONDITION,sanitation / cleanliness
-Déchetssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness
-Défonçagedelachaussée,IN,CONDITION,other
-Déneigeurprivé-Enseigne,IN,CONDITION,sanitation / cleanliness
-Déneigeurprivé-Permis,IN,TRANSACTION,transaction
-Déneigeurprivé-Poteau,IN,CONDITION,sanitation / cleanliness
-Dépôtillégal-Ramassage,IN,CONDITION,other
-Dépôtsauvage-Domainepublic,IN,CONDITION,other
-Développementculturel-Central,IN,CONDITION,other
-Développementsocial,IN,CONDITION,other
-Eau-Divers,IN,CONDITION,sanitation / cleanliness
-Encaissement-Alarmenon-fondée,OUT,,
-Encaissement-CentredesLoisirs,OUT,,
-Encaissement-Occupationdudomainepublic,OUT,,
-Encaissement-Revenusliésauxévictions,OUT,,
-Encombrants-Avisdecourtoisie,IN,TRANSACTION,transaction
-Enseignecommerciale,IN,CONDITION,other
-Enseignesamovibles,IN,CONDITION,other
-Enseignetemporaire-Domaineprivé,IN,CONDITION,other
-Entretien-Dosd'ânederuelle,IN,CONDITION,traffic engineering / parking
-Entretiendespatinoires,IN,CONDITION,maintenance / city works
-Entretiengénéral,IN,CONDITION,maintenance / city works
-Entréecharretière,IN,CONDITION,traffic engineering / parking
-Entréecharretière-circulation,IN,CONDITION,traffic engineering / parking
-Environnement-abrid'auto,IN,CONDITION,other
-Environnement-animaux,IN,CONDITION,other
-Environnement-arrosage,IN,CONDITION,other
-Environnement-autres,IN,CONDITION,other
-Environnement-bruit,IN,CONDITION,quieteness / living comfort
-Environnement-débrisvoiepublique,IN,CONDITION,sanitation / cleanliness
-Environnement-herbelongue,IN,CONDITION,maintenance / city works
-Environnement-neige,IN,CONDITION,sanitation / cleanliness
-Environnement-stationnement,IN,CONDITION,traffic engineering / parking
-Espacepourlavie,IN,CONDITION,other
-Evénement,IN,CONDITION,other
-Excèsdevitesse-SurveillanceSPVM,IN,CONDITION,traffic engineering / parking
-Feuillesmortesdanslarue.,IN,CONDITION,sanitation / cleanliness
-Feuxdecirculation-Nouvelleinstallation,IN,CONDITION,traffic engineering / parking
-Feuxdecirculation-Programmation,IN,CONDITION,traffic engineering / parking
-GMR-Nouvelleimplantation,IN,CONDITION,other
-GelEntréed'eau,IN,CONDITION,sanitation / cleanliness
-Graffitis-Domaineprivé-Inspection,IN,CONDITION,sanitation / cleanliness
-Graffitissurbâtimentpublic,IN,CONDITION,sanitation / cleanliness
-Graffitissursignalisation,IN,CONDITION,traffic engineering / parking
-Greffe-CA-Registredesquestions,OUT,,
-Grillesdezonage-Distribution,IN,TRANSACTION,transaction
-Haienonréglementaire,IN,CONDITION,other
-Haieprivée,IN,CONDITION,other
-Herbeàpoux,IN,CONDITION,maintenance / city works
-IRP-Ascenseur,IN,CONDITION,other
-IRP-Espaceclos,IN,CONDITION,other
-IRP-Périmètredesécurité,IN,CONDITION,other
-IRP-Stationdepompage,IN,CONDITION,other
-IRP-Utilitépublique,IN,CONDITION,other
-Immeuble-Malpropretégénérale,IN,CONDITION,sanitation / cleanliness
-Immeuble-Réparation,IN,CONDITION,sanitation / cleanliness
-Immeuble-Serrureported'entrée,IN,CONDITION,maintenance / city works
-Immeuble-Ventilation,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Alarme,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Chauffageàairchaud,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Chauffageélectrique,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Clôture,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Entretiengénéral,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Entretienménager,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Entretienélectrique,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Maçonnerie,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Menuiserie,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Mobilierréparationetfabrication,IN,CONDITION,sanitation / cleanliness
-Immeublesmunicipaux-Peinture,IN,CONDITION,maintenance / city works
-Immeublesmunicipaux-Plomberie,IN,CONDITION,maintenance / city works
-"Immeublesmunicipaux-Téléphonie,réseauetcaméra",IN,CONDITION,sanitation / cleanliness
-Immeublesmunicipaux-Éclairage,IN,CONDITION,maintenance / city works
-Ingénierie-Pavage,OUT,,
-"Ingénierie-Trottoir,bordure",OUT,,
-"Ingénierie-Égout,puisard",OUT,,
-Inscription,IN,TRANSACTION,transaction
-Inspectiondesaliments,OUT,,
-Inspectionvignette,IN,TRANSACTION,transaction
-Jardinderue,IN,CONDITION,maintenance / city works
-Listed'attente-Stationnementsmunicipaux,IN,CONDITION,traffic engineering / parking
-Logement-Chauffage,IN,CONDITION,maintenance / city works
-Logement-Insalubrité,IN,CONDITION,sanitation / cleanliness
-Logement-Réparation,IN,CONDITION,sanitation / cleanliness
-Logement-Ventilation,IN,CONDITION,maintenance / city works
-Logement-Vermineourongeurs,IN,CONDITION,sanitation / cleanliness
-Logementensous-sol,IN,CONDITION,other
-Loisirs-EntretienLéger,IN,CONDITION,maintenance / city works
-MO-Avisdecourtoisie,IN,TRANSACTION,transaction
-MO-Nonramassées,IN,CONDITION,other
-Maisonsfleuries,IN,CONDITION,other
-Marches-Courses-Calèches-Tournages-SU,IN,CONDITION,other
-Marquage-Contratpourlacirculation,IN,CONDITION,traffic engineering / parking
-Menuiserieparc,IN,CONDITION,maintenance / city works
-Mesuresd'urgence-Gestionenarrondissement,IN,CONDITION,other
-Mobilierurbain-Installation,IN,CONDITION,maintenance / city works
-Mobilitéélectriquelibre-service,IN,CONDITION,other
-Modulesdejeux,IN,CONDITION,maintenance / city works
-Neige-Remorquage,IN,CONDITION,sanitation / cleanliness
-Niddeguêpes,IN,CONDITION,sanitation / cleanliness
-Nuisanceanimauxdomestiques,IN,CONDITION,other
-Occupationbâtiment,OUT,,
-Occupationnon-autorisée,OUT,,
-Occupationpériodiquedudomainepublic,OUT,,
-Opérationcadastrale,IN,CONDITION,sanitation / cleanliness
-Oriflamme,IN,CONDITION,other
-PIIA,OUT,,
-PRR-Travaux,IN,CONDITION,maintenance / city works
-Panierderue-Installation,IN,CONDITION,other
-Parc-Chalet-Conciergerieetventilation,IN,CONDITION,maintenance / city works
-Parc-Chalet-Electricité,IN,CONDITION,maintenance / city works
-Parc-Chalet-Entretienetréparation,IN,CONDITION,sanitation / cleanliness
-Parc-Mobilier-Installation,IN,CONDITION,maintenance / city works
-Parcdemandeinternedivers,IN,TRANSACTION,transaction
-Parcmobilier-Ajout-VM,IN,CONDITION,maintenance / city works
-Pavéuni,IN,CONDITION,maintenance / city works
-Pavéuni-Réparation,IN,CONDITION,sanitation / cleanliness
-Permis-Conversionencopropriétédivise,IN,TRANSACTION,transaction
-Permis-Logement-Insalubrité(logementoubâtiment),IN,TRANSACTION,transaction
-Permis-Pesticide,IN,TRANSACTION,transaction
-PermisCSRM,IN,TRANSACTION,transaction
-Permisanimalier,IN,TRANSACTION,transaction
-Permisconteneuràdéchets,IN,TRANSACTION,transaction
-Permisdedémolition,IN,TRANSACTION,transaction
-Piscine-Électricité,IN,CONDITION,maintenance / city works
-Plaintecontreunagentdestationnement,IN,CONDITION,traffic engineering / parking
-Plaintepatrouilleurcaninetfournisseurserviceanimalier,IN,CONDITION,sanitation / cleanliness
-Planificationdestravaux-Étudesparcs,OUT,,
-Planificationdestravaux-Étudesruesettrottoirs,OUT,,
-Plomberie-Bâtiments,IN,CONDITION,maintenance / city works
-Plomberie-Chalet,IN,CONDITION,maintenance / city works
-Plomberie-Pataugeoire,IN,CONDITION,maintenance / city works
-Plomberie-Piscine,IN,CONDITION,maintenance / city works
-Plomberie.,IN,CONDITION,maintenance / city works
-Poubelle,IN,CONDITION,sanitation / cleanliness
-Programmationdesfeux,IN,CONDITION,other
-Programmedechatserrants,IN,CONDITION,other
-Propreté-DemandeCSLDS,IN,TRANSACTION,transaction
-Pucerondutilleul,IN,CONDITION,other
-Puisard/TH-CouvercleStructure,IN,CONDITION,sanitation / cleanliness
-REM-Occupationtemporaire,OUT,,
-Ralentiinutile-Terrainprivéautrequechantier.,IN,CONDITION,quieteness / living comfort
-Recettesdiverses,OUT,,
-Recherched'encaissement,OUT,,
-Recyclage-Autre,IN,CONDITION,sanitation / cleanliness
-Recyclage-Avisdecourtoisie,IN,TRANSACTION,transaction
-Recyclageduverre,IN,CONDITION,sanitation / cleanliness
-Recyclagesortientempsprohibé,IN,CONDITION,sanitation / cleanliness
-Renouvellement,IN,TRANSACTION,transaction
-Renseignements-Pesticide,IN,TRANSACTION,transaction
-Retourdechèquepermisanimalier,IN,TRANSACTION,transaction
-Retraitdechèque,IN,TRANSACTION,transaction
-Retraitourécupérationdevélo,IN,TRANSACTION,transaction
-Ruelleverte,IN,CONDITION,other
-Réceptiond'unplaidoyer,IN,CONDITION,other
-Réfrigérateuroucongélateur,IN,CONDITION,sanitation / cleanliness
-Résidusdomestiquesdangereux,IN,CONDITION,sanitation / cleanliness
-Résidusverts-Avisdecourtoisie,IN,TRANSACTION,transaction
-Résidusverts-Nonramassé.,IN,CONDITION,sanitation / cleanliness
-Signalisation-Lignederue,IN,CONDITION,traffic engineering / parking
-SignalisationendommagéeVm,IN,CONDITION,traffic engineering / parking
-SignalisationmanquanteVM,IN,CONDITION,traffic engineering / parking
-Signalisationnonautorisée-Analyse,IN,CONDITION,traffic engineering / parking
-Solarium,IN,CONDITION,maintenance / city works
-SoutienCarteInfo-Neige,IN,TRANSACTION,transaction
-SoutienSitewebInfo-Remorquage,IN,TRANSACTION,transaction
-Soutienauxopérations-Réseausecondaire,IN,TRANSACTION,transaction
-Stationnement,IN,CONDITION,traffic engineering / parking
-Stationnement-Études,IN,CONDITION,traffic engineering / parking
-Stationnementmunicipal,IN,CONDITION,traffic engineering / parking
-Stationnementpourpersonneshandicapées,IN,CONDITION,traffic engineering / parking
-"Statues,sculpturesetplaques-Entretien",IN,CONDITION,maintenance / city works
-Subventionlocale-Arrondissement,IN,TRANSACTION,transaction
-Supportàvélos,IN,CONDITION,other
-Surveillancedestravaux-Chantierparcs,OUT,,
-Surveillancedestravaux-Chantierruesettrottoirs,OUT,,
-Surveillancedestravaux-Problèmesàlasuitedetravaux,OUT,,
-Surveillanceparticulière-SPVM/AMD,IN,CONDITION,other
-Sécuritéincendie-Inspection-Prévention,IN,CONDITION,other
-Sécuritéincendie-Pompier-Camion-Caserne,IN,CONDITION,other
-Sécuritéincendie-Thèmesadministratifs,IN,CONDITION,sanitation / cleanliness
-Taxeslocatives,OUT,,
-Technique-Pavéuni-Réparation,IN,CONDITION,sanitation / cleanliness
-Technique-Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking
-Terrainsportif-DemandeCSLDS,IN,TRANSACTION,transaction
-Tigedeprotection(2018),IN,CONDITION,other
-Tolérancedestationnement,IN,CONDITION,traffic engineering / parking
-Toponymie,IN,CONDITION,other
-Transporthorsnormes,IN,CONDITION,traffic engineering / parking
-Travaux(info)-Panneauxdivers,IN,CONDITION,sanitation / cleanliness
-TravauxAbattage,IN,CONDITION,maintenance / city works
-TravauxPublics-RDD,IN,CONDITION,maintenance / city works
-Travauxpublics-Plaintedetoutgenre,IN,CONDITION,maintenance / city works
-Travauxsanspermis,IN,TRANSACTION,transaction
-Trottoiroubordure-RéparationRMT,IN,CONDITION,traffic engineering / parking
-Utilisationillégaledel'eau,IN,CONDITION,sanitation / cleanliness
-Utilitépublique-Excavation,IN,CONDITION,other
-Ventedebacsàcompostage,IN,TRANSACTION,transaction
-Ventedemangeoireàoiseaux,IN,TRANSACTION,transaction
-Vignette-Stationnementsmunicipaux,IN,TRANSACTION,transaction
-Voiecyclable-Planification-Servicecentral,IN,CONDITION,traffic engineering / parking
-Voirie-Banc,IN,CONDITION,other
-Voirie-Divers-Transport,IN,CONDITION,traffic engineering / parking
-Voirie-Poubelle,IN,CONDITION,sanitation / cleanliness
-Voirie-Vibrations,IN,CONDITION,quieteness / living comfort
-Z-Nouveausecteur,IN,CONDITION,sanitation / cleanliness
-bacbrundistribution,IN,TRANSACTION,transaction
-feux-mod.délaisetautreschangements,IN,CONDITION,other
-permisdeconstructionettransformation,IN,TRANSACTION,transaction
-Éclairage-DemandeCSLDS,IN,TRANSACTION,transaction
-Éclairage-Extérieur-Parc,IN,CONDITION,maintenance / city works
-Éclairagenuisible.,IN,CONDITION,maintenance / city works
-Égout-Cruedeseaux,IN,CONDITION,sanitation / cleanliness
-Électionetréférendum,OUT,,
-Électricité-Édifices-Municipaux,IN,CONDITION,maintenance / city works
-Épandageinterdit-Pesticide,IN,CONDITION,sanitation / cleanliness
-Événementmétropolitain,OUT,,
-Événementsprivés-SU,IN,CONDITION,other
-Événementspublics-Loisirs,IN,CONDITION,other
+,label,task_1,task_2,task_3,label_spaced
+0,*Analysedel'eaupotable,out,,,*Analyse de l'eau potable
+1,*Autre-Compteurd'eau-Résidentiel,in,condition,sanitation / cleanliness,*Autre - Compteur d'eau - Résidentiel
+2,*Bacroulant-Livraison,in,transaction,transaction,*Bac roulant - Livraison
+3,*Bâtiment-Plomberie,in,condition,sanitation / cleanliness,*Bâtiment - Plomberie
+4,*CAFÉ-TERRASSE(DOMAINEPUBLIC),in,transaction,transaction,*CAFÉ-TERRASSE (DOMAINE PUBLIC)
+5,*E.T.-Arrêtinterdit,in,condition,traffic engineering / parking,*E. T. - Arrêt interdit
+6,*Jardins-Renouvellement,in,condition,maintenance / city works,*Jardins - Renouvellement
+7,*Nettoyagedepuisards-rues,in,condition,sanitation / cleanliness,*Nettoyage de puisards - rues
+8,*Signalisation-Études-Personneshandicapées,out,,,*Signalisation - Études - Personnes handicapées
+9,"*Vermine,insectesnuisibles",in,condition,sanitation / cleanliness,"*Vermine, insectes nuisibles"
+10,*Zonedelivraison,in,condition,traffic engineering / parking,*Zone de livraison
+11,*Élagageexécution,in,condition,maintenance / city works,*Élagage exécution
+12,Abattaged'arbre,in,condition,maintenance / city works,Abattage d'arbre
+13,Abritemporaire,in,condition,other,Abri temporaire
+14,Acquisitionderuelle,out,,,Acquisition de ruelle
+15,Afficheautoportante-Domainepublic,in,condition,other,Affiche autoportante - Domaine public
+16,Aménagementdeparc,in,condition,maintenance / city works,Aménagement de parc
+17,Animalmort,in,condition,sanitation / cleanliness,Animal mort
+18,Animauxsauvages-Nuisance,in,condition,sanitation / cleanliness,Animaux sauvages - Nuisance
+19,Appropriationcitoyenne,in,condition,other,Appropriation citoyenne
+20,Arbre-Abattaged'arbreprivé,in,condition,maintenance / city works,Arbre - Abattage d'arbre privé
+21,Bacmontréalais(67litres),in,transaction,transaction,Bac montréalais (67 litres)
+22,Bornefontaine-Obstruction,in,condition,sanitation / cleanliness,Borne fontaine - Obstruction
+23,Branchetombée,in,condition,sanitation / cleanliness,Branche tombée
+24,Bureaud'arrondissement-Serviceàlaclientèle,out,,,Bureau d'arrondissement - Service à la clientèle
+25,CarteAccèsMontréal,out,,,Carte Accès Montréal
+26,Certificatd'occupationcommercialeouprofessionnelle,out,,,Certificat d'occupation commerciale ou professionnelle
+27,Chaletdeparc,in,condition,maintenance / city works,Chalet de parc
+28,Chienagressif,in,condition,quieteness / living comfort,Chien agressif
+29,Collected'écran(ordinateurettéléviseur),in,condition,sanitation / cleanliness,Collecte d'écran (ordinateur et téléviseur)
+30,Collectedebranchesd'arbre-Agriledufrêne,in,condition,sanitation / cleanliness,Collecte de branches d'arbre - Agrile du frêne
+31,Collectededéchets,in,condition,sanitation / cleanliness,Collecte de déchets
+32,Collectederésidusverts,in,condition,sanitation / cleanliness,Collecte de résidus verts
+33,Collectedesencombrants,in,condition,sanitation / cleanliness,Collecte des encombrants
+34,Collectedesmatièresrecyclables,in,condition,sanitation / cleanliness,Collecte des matières recyclables
+35,Contrôleanimalier,in,transaction,transaction,Contrôle animalier
+36,Dangerpotentiel-Arbre,in,condition,maintenance / city works,Danger potentiel - Arbre
+37,Direction-Finances,out,,,Direction - Finances
+38,Distributionaucomptoirdebacsoudesacsderécupération,in,transaction,transaction,Distribution au comptoir de bacs ou de sacs de récupération
+39,Débrissurlavoiepublique,in,condition,traffic engineering / parking,Débris sur la voie publique
+40,Dépôtillégal-Déchets,in,condition,sanitation / cleanliness,Dépôt illégal - Déchets
+41,Dérogationmineure,out,,,Dérogation mineure
+42,Développementcommunautaire,out,,,Développement communautaire
+43,Encaissementetremboursement,out,,,Encaissement et remboursement
+44,Essouchement,in,condition,maintenance / city works,Essouchement
+45,Excrémentsterrainprivé,in,condition,sanitation / cleanliness,Excréments terrain privé
+46,Exterminationàl'extérieur-Insectes,in,condition,sanitation / cleanliness,Extermination à l'extérieur - Insectes
+47,Exterminationàl'extérieur-Rats,in,condition,sanitation / cleanliness,Extermination à l'extérieur - Rats
+48,Fermetured'uneconduited'eau-Urgence,in,condition,sanitation / cleanliness,Fermeture d'une conduite d'eau - Urgence
+49,Fuited'eau,in,condition,sanitation / cleanliness,Fuite d'eau
+50,Gazonouherbeshautes-Domaineprivé,in,condition,maintenance / city works,Gazon ou herbes hautes - Domaine privé
+51,Graffitis-Domainepublic,in,condition,sanitation / cleanliness,Graffitis - Domaine public
+52,Graffitishaineux,in,condition,sanitation / cleanliness,Graffitis haineux
+53,Grandparc,in,condition,maintenance / city works,Grand parc
+54,Grandparc-Agriledufrêne,in,condition,sanitation / cleanliness,Grand parc - Agrile du frêne
+55,Géomatique,out,,,Géomatique
+56,Horticulture-Divers,in,condition,maintenance / city works,Horticulture - Divers
+57,Horticulture-Entretien,in,condition,maintenance / city works,Horticulture - Entretien
+58,Info-travaux-Servicecentral,out,,,Info-travaux - Service central
+59,Installationsculturelles-Entretien,in,condition,maintenance / city works,Installations culturelles - Entretien
+60,Interventiondestationnement-Enquête,out,,,Intervention de stationnement - Enquête
+61,Localisation/EntretienEntréed'eau,in,condition,sanitation / cleanliness,Localisation / Entretien Entrée d'eau
+62,Maladieouinsectes-Arbre,in,condition,sanitation / cleanliness,Maladie ou insectes - Arbre
+63,Manqued'eau,in,condition,sanitation / cleanliness,Manque d'eau
+64,Marquagedelachaussée-Nouveau,in,condition,traffic engineering / parking,Marquage de la chaussée - Nouveau
+65,Mesured'apaisement-Circulation,in,condition,traffic engineering / parking,Mesure d'apaisement - Circulation
+66,Mobilierurbain,in,condition,maintenance / city works,Mobilier urbain
+67,Nid-de-poule,in,condition,traffic engineering / parking,Nid-de-poule
+68,Occupationdudomainepublic,in,transaction,transaction,Occupation du domaine public
+69,Opérationdéneigement,in,condition,traffic engineering / parking,Opération déneigement
+70,Ouvertured'entréed'eau,in,condition,sanitation / cleanliness,Ouverture d'entrée d'eau
+71,Panierdeparcàvider,in,condition,sanitation / cleanliness,Panier de parc à vider
+72,Panierderueàvider,in,condition,sanitation / cleanliness,Panier de rue à vider
+73,Panneaudesignalisationentretienprioritaire,in,condition,traffic engineering / parking,Panneau de signalisation entretien prioritaire
+74,Parc-Divers,in,condition,maintenance / city works,Parc - Divers
+75,Parc-Propreté,in,condition,sanitation / cleanliness,Parc - Propreté
+76,Pavage-Réparation,in,condition,traffic engineering / parking,Pavage - Réparation
+77,Personnel-Arrondissement,out,,,Personnel - Arrondissement
+78,Plantationd'arbre,in,condition,maintenance / city works,Plantation d'arbre
+79,Pollutiondel'airetdel'eau,in,condition,sanitation / cleanliness,Pollution de l'air et de l'eau
+80,Puisard/TH-Premièreintervention,in,condition,sanitation / cleanliness,Puisard/TH-Première intervention
+81,Punaisesdelit,in,condition,sanitation / cleanliness,Punaises de lit
+82,Refoulementégout/InondationPropriétéprivée,in,condition,sanitation / cleanliness,Refoulement égout / Inondation Propriété privée
+83,SRRR,in,condition,traffic engineering / parking,SRRR
+84,ServicesTechniques-Varia,out,,,Services Techniques - Varia
+85,Signalisation-Circulation-Études,out,,,Signalisation - Circulation - Études
+86,Signalisationécrite-Entretien,in,condition,traffic engineering / parking,Signalisation écrite -  Entretien
+87,Sportsetloisirs-Activités,out,,,Sports et loisirs - Activités
+88,Subvention-Habitation-Servicecentral,out,,,Subvention - Habitation - Service central
+89,Surveillanceetsécuritépublique,in,transaction,transaction,Surveillance et sécurité publique
+90,Taxesfoncières,out,,,Taxes foncières
+91,Trottoiroubordure-Réparation,in,condition,traffic engineering / parking,Trottoir ou bordure - Réparation
+92,Voiecyclable-Études,out,,,Voie cyclable - Études
+93,Voirie-Divers,in,condition,traffic engineering / parking,Voirie - Divers
+94,Y-Eau-Divers,in,condition,sanitation / cleanliness,Y-Eau - Divers
+95,Y-Égout-Divers,in,condition,sanitation / cleanliness,Y-Égout - Divers
+96,Éclairage-Études,out,,,Éclairage - Études
+97,Éclairageexistant-Entretien,in,condition,maintenance / city works,Éclairage existant - Entretien
+98,Égout-Entretien,in,condition,sanitation / cleanliness,Égout - Entretien
+99,Éviction,out,,,Éviction
+100,*Abattaged'arbreprivé,IN,Condition,maintenance / city works,*Abattage d'arbre privé
+101,*Agir-Tarification,OUT,,,*Agir - Tarification
+102,*Apaisementdelacirculation,IN,Condition,traffic engineering / parking,*Apaisement de la circulation
+103,*Bacbrun,IN,Transaction,transaction,*Bac brun
+104,"*BacdeMOEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness,"*Bac de MO Endommagé, perdu, volé"
+105,"*BacdedéchetsEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness,"*Bac de déchets Endommagé, perdu, volé"
+106,*BacdedéchetsLivraison,IN,Transaction,transaction,*Bac de déchets Livraison
+107,"*BacderecyclageEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness,"*Bac de recyclage Endommagé, perdu, volé"
+108,*BacderecyclageLivraison,IN,Transaction,transaction,*Bac de recyclage Livraison
+109,*Bacroulantvert(1à3logements),IN,Transaction,transaction,*Bac roulant vert (1 à 3 logements)
+110,*Bâtiment-Menuiserie,IN,Transaction,transaction,*Bâtiment - Menuiserie
+111,*E.T.-Entréecharretière,IN,Condition,traffic engineering / parking,*E. T. - Entrée charretière
+112,*E.T.-Feuxpiétons,IN,Condition,traffic engineering / parking,*E. T. - Feux piétons
+113,*E.T.-Stationnementoudébarcadèrepourcommerce,IN,Condition,traffic engineering / parking,*E. T. - Stationnement ou débarcadère pour commerce
+114,*Eau-Bornefontaine-Réparation,IN,Condition,sanitation / cleanliness,*Eau - Borne fontaine - Réparation
+115,*Eau-Divers-Remplacerentréedeserviceenplomb,IN,Condition,sanitation / cleanliness,*Eau - Divers - Remplacer entrée de service en plomb
+116,*Erreur,OUT,,,*Erreur
+117,*Inspection-Déchets-Dépôtillégal,IN,Condition,sanitation / cleanliness,*Inspection - Déchets - Dépôt illégal
+118,*InspectionsenArrondissement,IN,Transaction,transaction,*Inspections en Arrondissement
+119,*Permis-Bruit-Résidence,OUT,,,*Permis - Bruit - Résidence
+120,*Sensderue,IN,Condition,traffic engineering / parking,*Sens de rue
+121,*Véhiculesnonétatfonctionnement,OUT,,,*Véhicules non état fonctionnement
+122,*Z-Inspectiond'égoutprivé,IN,Condition,sanitation / cleanliness,*Z-Inspection d'égout privé
+123,*Z-Puisard,IN,Condition,sanitation / cleanliness,*Z-Puisard
+124,*Z-Testdepressiond'eau,IN,Condition,sanitation / cleanliness,*Z-Test de pression d'eau
+125,*Z-Troud'homme,IN,Condition,sanitation / cleanliness,*Z-Trou d'homme
+126,*Égout-Réparation-Entretien,IN,Condition,sanitation / cleanliness,*Égout - Réparation - Entretien
+127,800-Bruits,IN,Condition,quieteness / living comfort,800 - Bruits
+128,Accèsàl'information,OUT,,,Accès à l'information
+129,Affichage-Illégal,IN,Condition,maintenance / city works,Affichage - Illégal
+130,Arbre-Divers,IN,Condition,maintenance / city works,Arbre - Divers
+131,Arbresruelles,IN,Condition,maintenance / city works,Arbres ruelles
+132,Arbretombé,IN,Condition,maintenance / city works,Arbre tombé
+133,Archivesetrèglementsd'arrondissement,OUT,,,Archives et règlements d'arrondissement
+134,Asphaltetravaux,IN,Condition,traffic engineering / parking,Asphalte travaux
+135,Autre-Construction,IN,Condition,maintenance / city works,Autre - Construction
+136,Bacroulant,IN,Transaction,transaction,Bac roulant
+137,Balaimécanique,IN,Condition,sanitation / cleanliness,Balai mécanique
+138,Borned'incendie-Entretien,IN,Condition,sanitation / cleanliness,Borne d'incendie - Entretien
+139,Bornesderechargepubliques,IN,Condition,maintenance / city works,Bornes de recharge publiques
+140,Boîtedeserviceàniveler,IN,Condition,maintenance / city works,Boîte de service à niveler
+141,Bruit,IN,Condition,quieteness / living comfort,Bruit
+142,Centredeservices311,OUT,,,Centre de services 311
+143,Changementd'adresse-Taxeseauetdéchets,OUT,,,Changement d'adresse - Taxes eau et déchets
+144,Changementd'adresse-Taxesfoncières,OUT,,,Changement d'adresse - Taxes foncières
+145,Chausséeglissante,IN,Condition,sanitation / cleanliness,Chaussée glissante
+146,Clôtureethaieprivée,IN,Condition,maintenance / city works,Clôture et haie privée
+147,Collected'arbresdeNoël,IN,Transaction,transaction,Collecte d'arbres de Noël
+148,Collectederésidusalimentaires,IN,Transaction,transaction,Collecte de résidus alimentaires
+149,Collectedesmatièresorganiques,IN,Transaction,transaction,Collecte des matières organiques
+150,Communications-Arrondissement,OUT,,,Communications - Arrondissement
+151,Compost,IN,Transaction,transaction,Compost
+152,Conseild'arrondissement,OUT,,,Conseil d'arrondissement
+153,Courmunicipale,OUT,,,Cour municipale
+154,Demandedepermisd'occupationtemporaire,OUT,,,Demande de permis d'occupation temporaire
+155,Distributiondecirculaire,OUT,,,Distribution de circulaire
+156,Distributiondesacs,OUT,,,Distribution de sacs
+157,Distributiondevégétaux,OUT,,,Distribution de végétaux
+158,Dommage-Racinesd'arbres,IN,Condition,maintenance / city works,Dommage - Racines d'arbres
+159,Dosd'âne-ruelle-2,IN,Condition,traffic engineering / parking,Dos d'âne - ruelle - 2
+160,Dosd'âneRUELLE,IN,Condition,traffic engineering / parking,Dos d'âne RUELLE
+161,Déchets-Nonramassés,IN,Condition,sanitation / cleanliness,Déchets - Non ramassés
+162,DépôtIllégal-Neige,IN,Condition,maintenance / city works,Dépôt Illégal - Neige
+163,Encaissement-Oasis,OUT,,,Encaissement - Oasis
+164,Encaissement-Stop+,OUT,,,Encaissement - Stop +
+165,Encaissement-UrbanismeetPermis,OUT,,,Encaissement - Urbanisme et Permis
+166,Encombrantsnonramassés,IN,Condition,sanitation / cleanliness,Encombrants non ramassés
+167,Entreposagenonautorisé-Terrainprivé,IN,Condition,maintenance / city works,Entreposage non autorisé -Terrain privé
+168,Entretiend'édificesmunicipaux,IN,Transaction,transaction,Entretien d'édifices municipaux
+169,Entréed'eauenplomb-Autredemande,IN,Transaction,transaction,Entrée d'eau en plomb-Autre demande
+170,Entréed'eauenplomb-Demandedefiltre,IN,Transaction,transaction,Entrée d'eau en plomb-Demande de filtre
+171,Environnement-Divers,IN,Condition,sanitation / cleanliness,Environnement - Divers
+172,Exterminationàl'intérieur-immeubleville,IN,Condition,sanitation / cleanliness,Extermination à l'intérieur - immeuble ville
+173,Fermetured'entréed'eau,IN,Condition,sanitation / cleanliness,Fermeture d'entrée d'eau
+174,Feuxdecirculation-Entretien,IN,Condition,traffic engineering / parking,Feux de circulation - Entretien
+175,Finances-Divers,OUT,,,Finances - Divers
+176,Fuiteboîte-maison,IN,Condition,sanitation / cleanliness,Fuite boîte-maison
+177,Fuiteservice,IN,Condition,sanitation / cleanliness,Fuite service
+178,Gazon-Réparation,IN,Condition,maintenance / city works,Gazon - Réparation
+179,Gazonoumauvaisesherbes-Domainepublic,IN,Condition,maintenance / city works,Gazon ou mauvaises herbes - Domaine public
+180,Graffitis-Domaineprivé,IN,Condition,maintenance / city works,Graffitis - Domaine privé
+181,Greffe-Arrondissement,OUT,,,Greffe - Arrondissement
+182,Habitation-Divers-Servicecentral,OUT,,,Habitation - Divers - Service central
+183,IRP-Demandeonderadio,OUT,,,IRP - Demande onde radio
+184,IRP-Fermeturederue,IN,Condition,traffic engineering / parking,IRP - Fermeture de rue
+185,IRP-Mesured'urgence,IN,Condition,traffic engineering / parking,IRP - Mesure d'urgence
+186,IRP-Police,OUT,,,IRP - Police
+187,IRP-Posted'essence,IN,Condition,traffic engineering / parking,IRP - Poste d'essence
+188,IRP-VillesnonreliéesauGDC,OUT,,,IRP - Villes non reliées au GDC
+189,"Immeublesmunicipaux-Abeilles,guêpes,bourdonsàl'intérieur",IN,Condition,sanitation / cleanliness,"Immeubles municipaux - Abeilles, guêpes, bourdons à l'intérieur"
+190,"Immeublesmunicipaux-Ventilation,climatisation",IN,Condition,maintenance / city works,"Immeubles municipaux - Ventilation, climatisation"
+191,Info-travaux-Arrondissement,OUT,,,Info-travaux - Arrondissement
+192,Installationssportivesextérieures-Entretien,IN,Condition,maintenance / city works,Installations sportives extérieures - Entretien
+193,Installationssportivesintérieures-Entretien,IN,Condition,maintenance / city works,Installations sportives intérieures - Entretien
+194,Internet-Portailcentral,OUT,,,Internet - Portail central
+195,Logement-Inspection,IN,Condition,maintenance / city works,Logement - Inspection
+196,Logementsocialetcommunautaire,IN,Condition,maintenance / city works,Logement social et communautaire
+197,Mairesetélusd'arrondissement,OUT,,,Maires et élus d'arrondissement
+198,Marquagedelachaussée-Existant,IN,Condition,traffic engineering / parking,Marquage de la chaussée - Existant
+199,Mesuresd'apaisement,IN,Condition,traffic engineering / parking,Mesures d'apaisement
+200,Mobilierdeparc,IN,Condition,maintenance / city works,Mobilier de parc
+201,Nettoyagedudomainepublic,IN,Condition,sanitation / cleanliness,Nettoyage du domaine public
+202,Numéromunicipal,OUT,,,Numéro municipal
+203,Parc-Mobilier-Entretien,IN,Condition,maintenance / city works,Parc - Mobilier - Entretien
+204,Parcomètre,IN,Condition,traffic engineering / parking,Parcomètre
+205,Permis-Divers,OUT,,,Permis - Divers
+206,Permis-Neige-Domainepublic,OUT,,,Permis - Neige - Domaine public
+207,Permisdeconstruction-rénovation,OUT,,,Permis de construction - rénovation
+208,Pesticide,IN,Condition,sanitation / cleanliness,Pesticide
+209,Piscineouspaprivés,IN,Condition,maintenance / city works,Piscine ou spa privés
+210,Planificationdestravaux-Étudesimmeublesmunicipaux,OUT,,,Planification des travaux - Études immeubles municipaux
+211,Pontettunnel,IN,Condition,traffic engineering / parking,Pont et tunnel
+212,Poêleetfoyeraubois,IN,Condition,maintenance / city works,Poêle et foyer au bois
+213,Prisederendez-vous,OUT,,,Prise de rendez-vous
+214,Rapportd'accident,IN,Condition,traffic engineering / parking,Rapport d'accident
+215,Recyclage-Nonramassé,IN,Condition,sanitation / cleanliness,Recyclage - Non ramassé
+216,RelevéCPTE,OUT,,,Relevé CPTE
+217,RetourDDS,IN,Condition,sanitation / cleanliness,Retour DDS
+218,Réceptiondechèquepost-daté,OUT,,,Réception de chèque post-daté
+219,Signalisation-Neige,IN,Condition,maintenance / city works,Signalisation - Neige
+220,Signalisationcachéepardesvégétaux,IN,Condition,maintenance / city works,Signalisation cachée par des végétaux
+221,Stationnementoudébarcadèrepourpersonneàmobilitéréduite,IN,Condition,traffic engineering / parking,Stationnement ou débarcadère pour personne à mobilité réduite
+222,Supportàvélo,IN,Condition,maintenance / city works,Support à vélo
+223,Taxed'eau,OUT,,,Taxe d'eau
+224,Terraininsalubre-Domaineprivé,IN,Condition,sanitation / cleanliness,Terrain insalubre - Domaine privé
+225,Thermopompeetclimatiseur,IN,Condition,maintenance / city works,Thermopompe et climatiseur
+226,TransportetLivraison,OUT,,,Transport et Livraison
+227,TravauxÉlagage,IN,Condition,maintenance / city works,Travaux Élagage
+228,Trottoirglissant,IN,Condition,sanitation / cleanliness,Trottoir glissant
+229,Unenaissance/unarbre,IN,Condition,maintenance / city works,Une naissance / un arbre
+230,Urbanisme,OUT,,,Urbanisme
+231,Vandalismeouaccident-Arbre,IN,Condition,maintenance / city works,Vandalisme ou accident - Arbre
+232,Vente-débarras,IN,Transaction,transaction,Vente-débarras
+233,Voiecyclable-Marquageetsignalisationécrite,IN,Condition,traffic engineering / parking,Voie cyclable - Marquage et signalisation écrite
+234,Zonage,OUT,,,Zonage
+235,Éclairageplanification-Servicecentral,OUT,,,Éclairage planification - Service central
+236,Écocentre,IN,Condition,maintenance / city works,Écocentre
+237,Écoquartier,IN,Condition,maintenance / city works,Écoquartier
+238,Élagage,IN,Condition,maintenance / city works,Élagage
+239,Événementlocal,IN,Condition,quieteness / living comfort,Événement local
+240,*Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking,*Arrêt obligatoire (Stop)
+241,*BacdeMO-Modificationdevolume.,IN,TRANSACTION,transaction,*Bac de MO - Modification de volume.
+242,*BacdedéchetsModificationdevolume;IN;TRANSACTION;transaction,,,,
+243,*Couvercledepuisard-brisé,IN,CONDITION,sanitation / cleanliness,*Couvercle de puisard - brisé
+244,*Feuxdecirculation,IN,CONDITION,traffic engineering / parking,*Feux de circulation
+245,*Réparationdechambredevanne,IN,CONDITION,sanitation / cleanliness,*Réparation de chambre de vanne
+246,*Réparationdepuisards-trottoir,IN,CONDITION,sanitation / cleanliness,*Réparation de puisards - trottoir
+247,*Voirie-Nettoyagedudomainepublic-Panierderue,IN,CONDITION,sanitation / cleanliness,*Voirie - Nettoyage du domaine public - Panier de rue
+248,*Voirie-TravauxAqueduc,IN,CONDITION,traffic engineering / parking,*Voirie - Travaux Aqueduc
+249,Autre-CollectedeMO,IN,CONDITION,sanitation / cleanliness,Autre - Collecte de MO
+250,Autre-Occupationtemporairedudomainepublic,IN,TRANSACTION,transaction,Autre - Occupation temporaire du domaine public
+251,Autre-Urbanisme,OUT,,,Autre - Urbanisme
+252,Bruit-Commerceetindustrie;IN;CONDITION;quieteness / living comfort,,,,
+253,"Couleur,odeurougoûtanormaldel'eau",IN,CONDITION,sanitation / cleanliness,"Couleur, odeur ou goût anormal de l'eau"
+254,Distributiondespublicationsarrondissement,IN,TRANSACTION,transaction,Distribution des publications arrondissement
+255,Déblaiement/Chargement,IN,CONDITION,maintenance / city works,Déblaiement/Chargement
+256,Dépôtsauvage-Terrainprivé,IN,CONDITION,sanitation / cleanliness,Dépôt sauvage - Terrain privé
+257,Encaissement-Gescour,OUT,,,Encaissement - Gescour
+258,Encaissement-RessourcesFinancières,OUT,,,Encaissement - Ressources Financières
+259,Encombrantssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness,Encombrants sortis en temps prohibé
+260,Info-travaux-Urgence,OUT,,,Info-travaux - Urgence
+261,Inspectiondelogement,OUT,,,Inspection de logement
+262,Piscine-Propreté.,IN,CONDITION,sanitation / cleanliness,Piscine - Propreté.
+263,Plaintefonctionnement,OUT,,,Plainte fonctionnement
+264,Réparationdegazon-Contrat,OUT,,,Réparation de gazon - Contrat
+265,*Abattage/Essouchementexécution,IN,CONDITION,other,*Abattage/Essouchement exécution
+266,*Abattaged'arbre-terrainpublic,IN,CONDITION,maintenance / city works,*Abattage d'arbre - terrain public
+267,*Aquatique,IN,CONDITION,other,*Aquatique
+268,*Arbre-Maladie-Pucerons,IN,CONDITION,maintenance / city works,*Arbre - Maladie - Pucerons
+269,*Arbre-branchesàramasser,IN,CONDITION,maintenance / city works,*Arbre - branches à ramasser
+270,*Arbreprivédangereux,IN,CONDITION,maintenance / city works,*Arbre privé dangereux
+271,*Arbresderuelle,IN,CONDITION,maintenance / city works,*Arbres de ruelle
+272,"*Arbustes,vivaces",IN,CONDITION,other,"*Arbustes, vivaces"
+273,"*BacdeMO-Endommagé,perdu,volé.",IN,CONDITION,sanitation / cleanliness,"*Bac de MO - Endommagé, perdu, volé."
+274,*BacdeMO-Livraison.,IN,TRANSACTION,transaction,*Bac de MO - Livraison.
+275,*BacdeMOLivraison,IN,TRANSACTION,transaction,*Bac de MO Livraison
+276,*BacdeMOModificationdevolume,IN,CONDITION,sanitation / cleanliness,*Bac de MO Modification de volume
+277,"*Bacdedéchets-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,"*Bac de déchets - Endommagé, perdu, volé"
+278,*Bacdedéchets-Livraison,IN,TRANSACTION,transaction,*Bac de déchets - Livraison
+279,*Bacdedéchets-Modificationauvolume,IN,CONDITION,sanitation / cleanliness,*Bac de déchets - Modification au volume
+280,"*Bacderecyclage-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,"*Bac de recyclage - Endommagé, perdu, volé"
+281,*Bacderecyclage-Livraison,IN,TRANSACTION,transaction,*Bac de recyclage - Livraison
+282,*Bacderecyclage-Modificationdevolume,IN,CONDITION,sanitation / cleanliness,*Bac de recyclage - Modification de volume
+283,*BacderecyclageModificationdevolume,IN,CONDITION,sanitation / cleanliness,*Bac de recyclage  Modification de volume
+284,"*Bacroulant-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,"*Bac roulant - Endommagé, perdu, volé"
+285,*Bacroulant-Nonramassé,IN,CONDITION,sanitation / cleanliness,*Bac roulant - Non ramassé
+286,*Bacroulantendommagé,IN,CONDITION,sanitation / cleanliness,*Bac roulant endommagé
+287,*Bacroulantvolé,IN,CONDITION,sanitation / cleanliness,*Bac roulant volé
+288,"*Bacsàfleurs,corbeilles,litsdeplantation",IN,CONDITION,sanitation / cleanliness,"*Bacs à fleurs, corbeilles, lits de plantation"
+289,*Banc-Ajout/Retrait,IN,TRANSACTION,transaction,*Banc-Ajout/Retrait
+290,"*Bancs,poubellesetc",IN,CONDITION,sanitation / cleanliness,"*Bancs, poubelles etc"
+291,*Bibliothèque,IN,CONDITION,other,*Bibliothèque
+292,*BibliothèqueBENNY,IN,CONDITION,other,*Bibliothèque BENNY
+293,*BibliothèqueCDN,IN,CONDITION,other,*Bibliothèque CDN
+294,*BibliothèqueNDG,IN,CONDITION,other,*Bibliothèque NDG
+295,*Borneélectrique,IN,CONDITION,other,*Borne électrique
+296,*Boîtedeserviceàmettreenordre,IN,CONDITION,other,*Boîte de service à mettre en ordre
+297,*Boîtedeserviceàvérifier,IN,CONDITION,other,*Boîte de service à vérifier
+298,*Brancheaccrochée,IN,CONDITION,maintenance / city works,*Branche accrochée
+299,*Branchementd'égout-Domaineprivé,IN,CONDITION,sanitation / cleanliness,*Branchement d'égout - Domaine privé
+300,*Branchementd'égout-Domainepublic,IN,CONDITION,sanitation / cleanliness,*Branchement d'égout - Domaine public
+301,*Brisdanschalet,IN,CONDITION,maintenance / city works,*Bris dans chalet
+302,*Bâtiment-Piscine,IN,CONDITION,maintenance / city works,*Bâtiment - Piscine
+303,*Circulation-Intersectiondangereuse,IN,CONDITION,traffic engineering / parking,*Circulation-Intersection dangereuse
+304,*Compteurbruyant,IN,CONDITION,quieteness / living comfort,*Compteur bruyant
+305,*Compteurcoule,IN,CONDITION,other,*Compteur coule
+306,*Compteurd'eauICI(Industries-Commerces-Institutions),IN,CONDITION,sanitation / cleanliness,*Compteur d'eau ICI (Industries - Commerces - Institutions)
+307,*Conteneursàordures,IN,CONDITION,sanitation / cleanliness,*Conteneurs à ordures
+308,*Contrôledustationnementvoiepublique,IN,CONDITION,traffic engineering / parking,*Contrôle du stationnement voie publique
+309,*Couvercledepuisardabsentoudéplacé,IN,CONDITION,sanitation / cleanliness,*Couvercle de puisard absent ou déplacé
+310,*Couvercledepuisardbruyant,IN,CONDITION,quieteness / living comfort,*Couvercle de puisard bruyant
+311,*Demanded'informations,IN,TRANSACTION,transaction,*Demande d'informations
+312,*Demanded'unnouveaucompteur,IN,TRANSACTION,transaction,*Demande d'un nouveau compteur
+313,*Demandedepropriété,IN,TRANSACTION,transaction,*Demande de propriété
+314,*Demandederenseignement-signalisationpermanente,IN,TRANSACTION,transaction,*Demande de renseignement - signalisation permanente
+315,*Dosd'âne-Rue,IN,CONDITION,traffic engineering / parking,*Dos d'âne - Rue
+316,*Dosd'âne-Ruelle,IN,CONDITION,traffic engineering / parking,*Dos d'âne - Ruelle
+317,*Débarcadère-Garderie,IN,CONDITION,traffic engineering / parking,*Débarcadère - Garderie
+318,*Débarcadère-Handicapé,IN,CONDITION,traffic engineering / parking,*Débarcadère - Handicapé
+319,*Débarcadère-École,IN,CONDITION,traffic engineering / parking,*Débarcadère - École
+320,"*Débarcadèreécole,garderie,institution",IN,CONDITION,traffic engineering / parking,"*Débarcadère école, garderie, institution"
+321,*Déchets,IN,CONDITION,sanitation / cleanliness,*Déchets
+322,"*Déchets-Bacendommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,"*Déchets - Bac endommagé, perdu, volé"
+323,*Déchets-Demandedebac,IN,TRANSACTION,transaction,*Déchets - Demande de bac
+324,*Déchets-Dépôtillégalaprèsinspection-Voirie,IN,CONDITION,sanitation / cleanliness,*Déchets - Dépôt illégal après inspection - Voirie
+325,*Déchets-Nonramassés,IN,CONDITION,sanitation / cleanliness,*Déchets - Non ramassés
+326,*Déchetshorsdesheures,IN,CONDITION,sanitation / cleanliness,*Déchets hors des heures
+327,*Déchetsmaldisposés,IN,CONDITION,sanitation / cleanliness,*Déchets mal disposés
+328,*Défensedejeterdesdéchets,IN,CONDITION,sanitation / cleanliness,*Défense de jeter des déchets
+329,*Dépôtillégal-Ramassage,IN,CONDITION,other,*Dépôt illégal - Ramassage
+330,*E.T.-Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking,*E. T. - Arrêt obligatoire (Stop)
+331,*E.T.-Camionnage,IN,CONDITION,traffic engineering / parking,*E. T. - Camionnage
+332,*E.T.-Feuxdecirculation,IN,CONDITION,traffic engineering / parking,*E. T. - Feux de circulation
+333,*E.T.-Limitesdevitesse,IN,CONDITION,traffic engineering / parking,*E. T. - Limites de vitesse
+334,*E.T.-Marquage,IN,CONDITION,traffic engineering / parking,*E. T. - Marquage
+335,*E.T.-Mesuresdemodérationdelacirculation,IN,CONDITION,traffic engineering / parking,*E. T. - Mesures de modération de la circulation
+336,*E.T.-Pavage-Réparation,IN,CONDITION,sanitation / cleanliness,*E. T. - Pavage - Réparation
+337,*E.T.-Ruespiétonnes,IN,CONDITION,traffic engineering / parking,*E. T. - Rues piétonnes
+338,*E.T.-Sensderue,IN,CONDITION,traffic engineering / parking,*E. T. - Sens de rue
+339,*E.T.-Stationnementoudébarcadèrepourpersonnesàmobilitéréduite,IN,CONDITION,traffic engineering / parking,*E. T. - Stationnement ou débarcadère pour personnes à mobilité réduite
+340,*E.T.-Tempsdelatraverse,IN,CONDITION,other,*E. T. - Temps de la traverse
+341,*E.T.-Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking,*E. T. - Trottoir ou bordure - Réparation
+342,*Eau-Mettreboîtedeserviceenordre,IN,CONDITION,sanitation / cleanliness,*Eau - Mettre boîte de service en ordre
+343,*Eau-Projetspécial,IN,CONDITION,sanitation / cleanliness,*Eau - Projet spécial
+344,*Entrave-Pistecyclable,IN,CONDITION,traffic engineering / parking,*Entrave - Piste cyclable
+345,*Entravesanspermis,IN,TRANSACTION,transaction,*Entrave sans permis
+346,*Entretiend'édificesmunicipaux-Plomberie,IN,CONDITION,maintenance / city works,*Entretien d'édifices municipaux - Plomberie
+347,*Entretiendesbranchementsd'égoutsoudrains,IN,CONDITION,sanitation / cleanliness,*Entretien des branchements d'égouts ou drains
+348,"*Environnement-Recyclage-Bac240lt-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,"*Environnement - Recyclage - Bac 240 lt - Endommagé, perdu, volé"
+349,*Environnement-Recyclage-Bac240lt-Livraison,IN,TRANSACTION,transaction,*Environnement - Recyclage - Bac 240 lt - Livraison
+350,*Environnement-Recyclage-Bac240lt-Nonramassé,IN,CONDITION,sanitation / cleanliness,*Environnement - Recyclage - Bac 240 lt - Non ramassé
+351,"*Environnement-Recyclage-Bac360lt-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,"*Environnement - Recyclage - Bac 360 lt - Endommagé, perdu, volé"
+352,*Environnement-Recyclage-Bac360lt-Livraison,IN,TRANSACTION,transaction,*Environnement - Recyclage - Bac 360 lt - Livraison
+353,*Extermination-Guêpes,IN,CONDITION,sanitation / cleanliness,*Extermination - Guêpes
+354,*Exterminationrats,IN,CONDITION,sanitation / cleanliness,*Extermination rats
+355,*Exterminationàl'extérieur-Fourmis,IN,CONDITION,sanitation / cleanliness,*Extermination à l'extérieur - Fourmis
+356,*Exterminationàl'extérieur-Guêpes,IN,CONDITION,sanitation / cleanliness,*Extermination à l'extérieur - Guêpes
+357,*Exterminationàl'extérieur-Niddeguêpes,IN,CONDITION,sanitation / cleanliness,*Extermination à l'extérieur - Nid de guêpes
+358,*Favorable-Implantation,OUT,,,*Favorable - Implantation
+359,*Favorable-Modification,OUT,,,*Favorable - Modification
+360,*Fermeturederuelle,IN,CONDITION,other,*Fermeture de ruelle
+361,*Feuxpiétons,IN,CONDITION,other,*Feux piétons
+362,"*Fontaineàboire,jeud'eau,fontainedécorative",IN,CONDITION,sanitation / cleanliness,"*Fontaine à boire,jeu d'eau,fontaine décorative"
+363,*Gazon-Réparation,IN,CONDITION,sanitation / cleanliness,*Gazon - Réparation
+364,*GazonEndommagé-Opérationdéneigement,IN,CONDITION,sanitation / cleanliness,*Gazon Endommagé-Opération déneigement
+365,*GazonEndommagé-TravauxparlaVille,IN,CONDITION,maintenance / city works,*Gazon Endommagé-Travaux par la Ville
+366,*Herbeàpoux,IN,CONDITION,maintenance / city works,*Herbe à poux
+367,*Horticulture-Varia-Pesticide-Vérificationinfestation,IN,CONDITION,sanitation / cleanliness,*Horticulture - Varia - Pesticide - Vérification infestation
+368,*Informationsurconstatd'infraction,IN,TRANSACTION,transaction,*Information sur constat d'infraction
+369,*Inspectiondesaliments,OUT,,,*Inspection des aliments
+370,*Jardinscommunautaires-Divers,IN,CONDITION,maintenance / city works,*Jardins communautaires - Divers
+371,*Jeud'enfant,IN,CONDITION,other,*Jeu d'enfant
+372,*Limitesdevitesse,IN,CONDITION,traffic engineering / parking,*Limites de vitesse
+373,*LogementMontréal-Nord,IN,CONDITION,other,*Logement Montréal-Nord
+374,*Marquage,IN,CONDITION,traffic engineering / parking,*Marquage
+375,*Mesured'apaisement,IN,CONDITION,other,*Mesure d'apaisement
+376,*Mobilierurbain-Installation,IN,CONDITION,maintenance / city works,*Mobilier urbain - Installation
+377,*Modificationsecteurexistant,IN,CONDITION,other,*Modification secteur existant
+378,*NeplusutiliserBacroulantnoir(déchets),IN,CONDITION,sanitation / cleanliness,*Ne plus utiliser Bac roulant noir (déchets)
+379,*Nettoyagedepuisards-ruelles,IN,CONDITION,sanitation / cleanliness,*Nettoyage de puisards - ruelles
+380,*Nettoyageparc,IN,CONDITION,sanitation / cleanliness,*Nettoyage parc
+381,*Nuisancechantier-Poussière,IN,CONDITION,other,*Nuisance chantier - Poussière
+382,*Panierderue-Ajout/Retrait,IN,TRANSACTION,transaction,*Panier de rue-Ajout/Retrait
+383,*Panierderue-Réparation/Entretien,IN,CONDITION,sanitation / cleanliness,*Panier de rue-Réparation/Entretien
+384,*Parc-Aired'exercicecanin,IN,CONDITION,maintenance / city works,*Parc - Aire d'exercice canin
+385,*Parc-Aménagement-Ajoutd'équipement,IN,CONDITION,maintenance / city works,*Parc - Aménagement - Ajout d'équipement
+386,*Parc-Aménagement-Conception,IN,CONDITION,maintenance / city works,*Parc - Aménagement - Conception
+387,*Parc-Aménagement-Réalisation,IN,CONDITION,maintenance / city works,*Parc - Aménagement - Réalisation
+388,*Parc-Aménagement-Étudespréliminaires,OUT,,,*Parc - Aménagement - Études préliminaires
+389,*Parc-Entretien-Clôture,IN,CONDITION,maintenance / city works,*Parc - Entretien - Clôture
+390,*Parc-Gazon-Terrainvacant,IN,CONDITION,maintenance / city works,*Parc - Gazon - Terrain vacant
+391,*Parc-Jeuxd'eau,IN,CONDITION,sanitation / cleanliness,*Parc - Jeux d'eau
+392,*Parc-Mobilier-Buvette-Fontainedécorative,IN,CONDITION,sanitation / cleanliness,*Parc - Mobilier - Buvette - Fontaine décorative
+393,*Parc-Mobilier-Jeux-Vandalisme,IN,CONDITION,maintenance / city works,*Parc - Mobilier - Jeux - Vandalisme
+394,*Parc-Propreté-Entretienairedejeux,IN,CONDITION,sanitation / cleanliness,*Parc - Propreté - Entretien aire de jeux
+395,*Parc-Propreté-Entretiencarrédesable,IN,CONDITION,sanitation / cleanliness,*Parc - Propreté - Entretien carré de sable
+396,*Parc-Terrains-sportifs-Soccer,IN,CONDITION,maintenance / city works,*Parc - Terrains - sportifs - Soccer
+397,*Partenaires,OUT,,,*Partenaires
+398,*Permis-Bruit-Circulationdescamions,IN,TRANSACTION,transaction,*Permis - Bruit - Circulation des camions
+399,*Permis-Bruit-Commerce,IN,TRANSACTION,transaction,*Permis - Bruit - Commerce
+400,*Permis-Bruit-Travaux,IN,TRANSACTION,transaction,*Permis - Bruit - Travaux
+401,*Permis-Construction-Nuisances,IN,TRANSACTION,transaction,*Permis - Construction - Nuisances
+402,*Permis-Logement-Accumulationbalcon,OUT,,,*Permis - Logement - Accumulation balcon
+403,*Permis-Logement-Accumulationodeurs,OUT,,,*Permis - Logement - Accumulation odeurs
+404,*Permis-Logement-Défectuositéextérieure,IN,TRANSACTION,transaction,*Permis - Logement - Défectuosité extérieure
+405,*Permis-Logement-Défectuositéintérieure,IN,TRANSACTION,transaction,*Permis - Logement - Défectuosité intérieure
+406,*Permis-Logement-Moisissures,IN,TRANSACTION,transaction,*Permis - Logement - Moisissures
+407,*Permis-Logement-Nuisancesanimales,IN,TRANSACTION,transaction,*Permis - Logement - Nuisances animales
+408,*Permis-Logement-Vermines-rongeurs,IN,TRANSACTION,transaction,*Permis - Logement - Vermines -rongeurs
+409,*Piétonnisation-Masson,IN,CONDITION,traffic engineering / parking,*Piétonnisation - Masson
+410,*Plantationexécution,IN,CONDITION,other,*Plantation exécution
+411,*Plateauxsportifs-entretien,IN,CONDITION,sanitation / cleanliness,*Plateaux sportifs - entretien
+412,*Poubelles,IN,CONDITION,sanitation / cleanliness,*Poubelles
+413,*Pressionbasse,IN,CONDITION,other,*Pression basse
+414,*Puisard-Réparation-Entretien,IN,CONDITION,sanitation / cleanliness,*Puisard -Réparation - Entretien
+415,*Regardd'égoûtdéplacé,IN,CONDITION,other,*Regard d'égoût déplacé
+416,*Réclamation,IN,TRANSACTION,transaction,*Réclamation
+417,*Réparationdepuisards-rue,IN,CONDITION,sanitation / cleanliness,*Réparation de puisards - rue
+418,*SRRR-Ajoutouretraitd'espaces,IN,TRANSACTION,transaction,*SRRR - Ajout ou retrait d'espaces
+419,*SRRR-Autre,IN,CONDITION,other,*SRRR - Autre
+420,*SRRR-Modificationsecteurexistant,IN,CONDITION,other,*SRRR - Modification secteur existant
+421,*SRRR-Nouveausecteur,IN,CONDITION,sanitation / cleanliness,*SRRR - Nouveau secteur
+422,*Seringues,IN,CONDITION,sanitation / cleanliness,*Seringues
+423,*Servicesadministratifs-Sud-Ouest,OUT,,,*Services administratifs-Sud-Ouest
+424,*Signalisationmanquanteouendommagée,IN,CONDITION,traffic engineering / parking,*Signalisation manquante ou endommagée
+425,*Sportsetloisirs-Activités-Activitésdanslesparcs,IN,TRANSACTION,transaction,*Sports et loisirs - Activités - Activités dans les parcs
+426,*Sportsetloisirs-Centrecommunautaire,IN,CONDITION,other,*Sports et loisirs - Centre communautaire
+427,*Sportsetloisirs-Terrainsextérieurs,IN,CONDITION,other,*Sports et loisirs - Terrains extérieurs
+428,*Sportsetloisirs-aquatique,IN,CONDITION,other,*Sports et loisirs - aquatique
+429,*Stationnement,IN,CONDITION,traffic engineering / parking,*Stationnement
+430,*Stationnement-Études,IN,CONDITION,traffic engineering / parking,*Stationnement-Études
+431,*Stationnementcourtedurée,IN,CONDITION,traffic engineering / parking,*Stationnement courte durée
+432,*Stationnementoudébarcadèrepourhandicapés,IN,CONDITION,traffic engineering / parking,*Stationnement ou débarcadère pour handicapés
+433,*Supportàvélo-Ajout/Retrait,IN,TRANSACTION,transaction,*Support à vélo-Ajout/Retrait
+434,*Tennis,IN,CONDITION,other,*Tennis
+435,*Terrainsextérieurs,IN,CONDITION,other,*Terrains extérieurs
+436,*Testd'écoulementd'eau,IN,CONDITION,sanitation / cleanliness,*Test d'écoulement d'eau
+437,*Tontedegazon,IN,CONDITION,maintenance / city works,*Tonte de gazon
+438,*Visionvélo,IN,CONDITION,other,*Vision vélo
+439,*Visionvélo(Acceptabilité),IN,CONDITION,other,*Vision vélo (Acceptabilité)
+440,*Visionvélo(Utilisation),IN,CONDITION,other,*Vision vélo (Utilisation)
+441,*Vitesse,IN,CONDITION,traffic engineering / parking,*Vitesse
+442,*Vitesseexcessive,IN,CONDITION,traffic engineering / parking,*Vitesse excessive
+443,*Voirie-Collecteappareilavecgazréfrigérant,IN,CONDITION,sanitation / cleanliness,*Voirie - Collecte appareil avec gaz réfrigérant
+444,*Voirie-Divers-GestionRetourDDS,IN,CONDITION,other,*Voirie - Divers - Gestion Retour DDS
+445,*Voirie-Mobilierurbain-Clôtureenbois,IN,CONDITION,maintenance / city works,*Voirie - Mobilier urbain - Clôture en bois
+446,*Voirie-Mobilierurbain-Entretienetdéplacement,IN,CONDITION,maintenance / city works,*Voirie - Mobilier urbain - Entretien et déplacement
+447,*Voirie-Pavage-Entretien,IN,CONDITION,maintenance / city works,*Voirie - Pavage - Entretien
+448,*Voirie-Trottoir-Réalisation,IN,CONDITION,traffic engineering / parking,*Voirie - Trottoir - Réalisation
+449,*WOONERF,IN,CONDITION,other,*WOONERF
+450,"*Z-Borne-fontaine-Installation,retraitoudéplacement",IN,TRANSACTION,transaction,"*Z-Borne-fontaine - Installation, retrait ou déplacement"
+451,*Z-Compteurd'eaurésidentiel,IN,CONDITION,sanitation / cleanliness,*Z-Compteur d'eau résidentiel
+452,*Z-Demandederenseignement-signalisationtemporaire,IN,TRANSACTION,transaction,*Z-Demande de renseignement - signalisation temporaire
+453,*Z-Signalisationécrite-nouveau,IN,CONDITION,traffic engineering / parking,*Z-Signalisation écrite - nouveau
+454,*Zonelivraison,IN,TRANSACTION,transaction,*Zone livraison
+455,*collectedesrésidusalimentaires-Bacendommagés,IN,CONDITION,sanitation / cleanliness,*collecte des résidus alimentaires - Bac endommagés
+456,*collectedesrésidusalimentaires-Bacnonramassés,IN,CONDITION,sanitation / cleanliness,*collecte des résidus alimentaires - Bac non ramassés
+457,*collectedesrésidusalimentaires-Demandedebac,IN,TRANSACTION,transaction,*collecte des résidus alimentaires - Demande de bac
+458,*tontedegazon,IN,CONDITION,maintenance / city works,*tonte de gazon
+459,*ÉLU-DirectionAUP,OUT,,,*ÉLU - Direction AUP
+460,*ÉLU-DirectionTP,OUT,,,*ÉLU - Direction TP
+461,*ÉLU-Directiond'arrondissement,OUT,,,*ÉLU - Direction d'arrondissement
+462,*Éclairagedeparc,IN,CONDITION,maintenance / city works,*Éclairage de parc
+463,*Éclairageterr.sportif,IN,CONDITION,maintenance / city works,*Éclairage  terr.sportif
+464,*Égout-Divers-Tuyaudeserviced'égout-Raccordementcroisé,IN,CONDITION,sanitation / cleanliness,*Égout - Divers - Tuyau de service d'égout - Raccordement croisé
+465,*Égout-Nettoyage-Contrat,IN,CONDITION,sanitation / cleanliness,*Égout - Nettoyage - Contrat
+466,*Équipementterr.sportifs,IN,CONDITION,other,*Équipement terr. sportifs
+467,*Événementpublic,IN,CONDITION,other,*Événement public
+468,100-Demanded'interventionetAssistance,IN,TRANSACTION,transaction,100 - Demande d'intervention et Assistance
+469,1100-Autres,IN,CONDITION,other,1100 - Autres
+470,400-Incivilitésetinfractions,IN,CONDITION,other,400 - Incivilités et infractions
+471,510-Routier/Circulation,IN,CONDITION,traffic engineering / parking,510 - Routier / Circulation
+472,520-Stationnement,IN,CONDITION,traffic engineering / parking,520 - Stationnement
+473,600-Signalisation,IN,CONDITION,traffic engineering / parking,600 - Signalisation
+474,AEC(Parccanin),IN,CONDITION,maintenance / city works,AEC (Parc canin)
+475,Abattaged'arbreprivé,IN,CONDITION,maintenance / city works,Abattage d'arbre privé
+476,Abattaged'arbrepublic,IN,CONDITION,maintenance / city works,Abattage d'arbre public
+477,Abribus-Réparation,IN,CONDITION,sanitation / cleanliness,Abribus - Réparation
+478,Acquisitiondeterrain,OUT,,,Acquisition de terrain
+479,Adhésion,IN,TRANSACTION,transaction,Adhésion
+480,Affichagepolitique,IN,CONDITION,other,Affichage politique
+481,Affichagesauvage,IN,CONDITION,other,Affichage sauvage
+482,Afficheautoportante-Domaineprivé,IN,CONDITION,sanitation / cleanliness,Affiche autoportante - Domaine privé
+483,Affichefixéesurarbresouarbustes,IN,CONDITION,maintenance / city works,Affiche fixée sur arbres ou arbustes
+484,Affichepropreté,IN,CONDITION,sanitation / cleanliness,Affiche propreté
+485,Agriledufrêne-Divers,IN,CONDITION,other,Agrile du frêne - Divers
+486,Aideaurelogement,IN,TRANSACTION,transaction,Aide au relogement
+487,Airbnb,IN,CONDITION,other,Airbnb
+488,Amuseurspublics,IN,CONDITION,other,Amuseurs publics
+489,Anciennescarrières,IN,CONDITION,other,Anciennes carrières
+490,Animauxperdus/trouvés,IN,CONDITION,other,Animaux perdus/trouvés
+491,Antennesatellite,IN,CONDITION,other,Antenne satellite
+492,Appeld'offreetsoumissiond'arrondissement,OUT,,,Appel d'offre et soumission d'arrondissement
+493,Arbre-Suivideplantation,IN,CONDITION,maintenance / city works,Arbre - Suivi de plantation
+494,Articledejeuxsurdomainepublic,IN,CONDITION,other,Article de jeux sur domaine public
+495,ArénaMaurice-Richard,IN,CONDITION,other,Aréna Maurice-Richard
+496,Asphalte-Coupesd'aqueducetautres,IN,CONDITION,maintenance / city works,Asphalte - Coupes d'aqueduc et autres
+497,Assermentation,IN,TRANSACTION,transaction,Assermentation
+498,"Autoabandonnée,roulotte,remorque,palette",IN,CONDITION,other,"Auto abandonnée, roulotte, remorque, palette"
+499,Autorisationd'affichagesurpropriétéprivée,IN,TRANSACTION,transaction,Autorisation d'affichage sur propriété privée
+500,Autre-Bureaud'arrondissement-Serviceàlaclientèle,IN,CONDITION,sanitation / cleanliness,Autre - Bureau d'arrondissement - Service à la clientèle
+501,Autre-Carted'Accèsarrondissement,IN,TRANSACTION,transaction,Autre - Carte d'Accès arrondissement
+502,Autre-Clôtureethaie,IN,CONDITION,maintenance / city works,Autre - Clôture et haie
+503,Autre-Collectededéchets,IN,CONDITION,sanitation / cleanliness,Autre - Collecte de déchets
+504,Autre-Collectedesencombrants,IN,CONDITION,sanitation / cleanliness,Autre - Collecte des encombrants
+505,Autre-Communications,IN,CONDITION,other,Autre - Communications
+506,Autre-Démolition,IN,CONDITION,other,Autre - Démolition
+507,Autre-Dérogation,IN,CONDITION,other,Autre - Dérogation
+508,Autre-Horticulture-Distributiondevégétaux,IN,TRANSACTION,transaction,Autre - Horticulture - Distribution de végétaux
+509,Autre-Marquagedelachaussée,IN,CONDITION,traffic engineering / parking,Autre - Marquage de la chaussée
+510,Autre-Permis-Divers,IN,TRANSACTION,transaction,Autre - Permis - Divers
+511,Autre-Pesticide,IN,CONDITION,sanitation / cleanliness,Autre - Pesticide
+512,Autre-Résidusverts,IN,CONDITION,sanitation / cleanliness,Autre - Résidus verts
+513,Autre-Salubrité,IN,CONDITION,sanitation / cleanliness,Autre - Salubrité
+514,Autre-Stationnementmunicipal,IN,CONDITION,traffic engineering / parking,Autre - Stationnement municipal
+515,Autre-Taxes,OUT,,,Autre - Taxes
+516,Autre-Zonage,IN,CONDITION,other,Autre - Zonage
+517,Avis-Alertesauxcitoyens,IN,CONDITION,other,Avis-Alertes aux citoyens
+518,AvisOccupant/Consommation,OUT,,,Avis Occupant / Consommation
+519,Avisd'infraction-Neige,IN,CONDITION,sanitation / cleanliness,Avis d'infraction - Neige
+520,Avisdecourtoisie-Neige,IN,TRANSACTION,transaction,Avis de courtoisie - Neige
+521,Bac-Divers,IN,CONDITION,sanitation / cleanliness,Bac - Divers
+522,BacdeMOsortientempsprohibé,IN,CONDITION,sanitation / cleanliness,Bac de MO sorti en temps prohibé
+523,Balcon,IN,CONDITION,maintenance / city works,Balcon
+524,Balconmalpropre,IN,CONDITION,sanitation / cleanliness,Balcon malpropre
+525,Banc,IN,CONDITION,other,Banc
+526,Barilderécupérationdel'eaudepluie,IN,CONDITION,sanitation / cleanliness,Baril de récupération de l'eau de pluie
+527,Bicycletteabandonnée,IN,CONDITION,other,Bicyclette abandonnée
+528,Billetdedépôtàneige,IN,TRANSACTION,transaction,Billet de dépôt à neige
+529,Bixi,IN,CONDITION,other,Bixi
+530,Boitedeserviceàmettreenordre,IN,CONDITION,other,Boite de service à mettre en ordre
+531,Borne-fontaine-Moinsde8semaines,IN,CONDITION,maintenance / city works,Borne-fontaine - Moins de 8 semaines
+532,Borne-fontaine-Plusde8semaines,IN,CONDITION,maintenance / city works,Borne-fontaine - Plus de 8 semaines
+533,Borne-fontaine-Projetsspéciaux,IN,CONDITION,maintenance / city works,Borne-fontaine - Projets spéciaux
+534,Boîtedeservice,IN,CONDITION,other,Boîte de service
+535,BranchementégoutBrisé/Déformé,IN,CONDITION,sanitation / cleanliness,Branchement égout Brisé/Déformé
+536,Bruit-Autre,IN,CONDITION,quieteness / living comfort,Bruit - Autre
+537,Bruit-Thermopompeetclimatiseur,IN,CONDITION,quieteness / living comfort,Bruit - Thermopompe et climatiseur
+538,Bruit-desCarrières-Ombudsman,IN,CONDITION,quieteness / living comfort,Bruit - des Carrières - Ombudsman
+539,Bruitsurchantierdeconstruction,IN,CONDITION,quieteness / living comfort,Bruit sur chantier de construction
+540,Budgetd'arrondissement,OUT,,,Budget d'arrondissement
+541,Bâtimentvacantouàbarricader,IN,CONDITION,maintenance / city works,Bâtiment vacant ou à barricader
+542,CAFÉ-TERRASSE(PERMIS),IN,TRANSACTION,transaction,CAFÉ-TERRASSE (PERMIS)
+543,CCU,OUT,,,CCU
+544,CVP-Raccordementaqueduc/égout,IN,CONDITION,sanitation / cleanliness,CVP - Raccordement aqueduc/égout
+545,Café-terrasse,IN,CONDITION,other,Café-terrasse
+546,Campdejour,IN,TRANSACTION,transaction,Camp de jour
+547,CarteInfo-Neige,IN,TRANSACTION,transaction,Carte Info-Neige
+548,Carted'Accèsarrondissement,IN,TRANSACTION,transaction,Carte d'Accès arrondissement
+549,Centresdetraitementdesmatièresorganiques,IN,CONDITION,other,Centres de traitement des matières organiques
+550,Certificatdevieetrésidence,IN,TRANSACTION,transaction,Certificat de vie et résidence
+551,Changementd'adresse-Taxeslocatives,OUT,,,Changement d'adresse - Taxes locatives
+552,Chatsanspermis,IN,TRANSACTION,transaction,Chat sans permis
+553,Chiensanspermis,IN,TRANSACTION,transaction,Chien sans permis
+554,Ciment,IN,CONDITION,maintenance / city works,Ciment
+555,Climatiseur,IN,CONDITION,other,Climatiseur
+556,Clôtureprivée,IN,CONDITION,maintenance / city works,Clôture privée
+557,Clôturepublique,IN,CONDITION,maintenance / city works,Clôture publique
+558,Codedelangue,IN,CONDITION,other,Code de langue
+559,Communicationscorporatives,OUT,,,Communications corporatives
+560,ComplexeenvironnementaldeSaint-Michel,IN,CONDITION,other,Complexe environnemental de Saint-Michel
+561,ComplexesportifClaude-Robillard,IN,CONDITION,other,Complexe sportif Claude-Robillard
+562,CompteurICIVérificationdelecture,IN,CONDITION,other,Compteur ICI Vérification de lecture
+563,Concourshorticole,IN,CONDITION,other,Concours horticole
+564,Constatd'infraction-Neige,IN,CONDITION,sanitation / cleanliness,Constat d'infraction - Neige
+565,Constructionruelle,IN,CONDITION,maintenance / city works,Construction ruelle
+566,Constructionréseaulocal,IN,CONDITION,sanitation / cleanliness,Construction réseau local
+567,Correspondanceadresséeauxélusouàladirection,OUT,,,Correspondance adressée aux élus ou à la direction
+568,Couped'arbreprivésanspermis,IN,TRANSACTION,transaction,Coupe d'arbre privé sans permis
+569,Cruedeseaux-Nettoyage-Collectes,IN,CONDITION,sanitation / cleanliness,Crue des eaux - Nettoyage - Collectes
+570,Créationd'unSIMU,IN,CONDITION,other,Création d'un SIMU
+571,Culture-Activités,IN,TRANSACTION,transaction,Culture - Activités
+572,Demanded'unenouvellesignalisation,IN,TRANSACTION,transaction,Demande d'une nouvelle signalisation
+573,Direction-Affairespénalesetcriminelles,OUT,,,Direction - Affaires pénales et criminelles
+574,Direction-Évaluation,OUT,,,Direction - Évaluation
+575,DirectionCultureSportsLoisirsDév.Soc.,IN,CONDITION,other,Direction Culture Sports Loisirs Dév. Soc.
+576,DirectionDéveloppementduterritoire,IN,CONDITION,other,Direction Développement du territoire
+577,"DirectionPerformance,GreffeetServicesadm.",IN,CONDITION,other,"Direction Performance, Greffe et Services adm."
+578,DirectionTravauxPublics,IN,CONDITION,maintenance / city works,Direction Travaux Publics
+579,Directiond'arrondissement,IN,CONDITION,other,Direction d'arrondissement
+580,Distributiondesacpourmatelas,IN,TRANSACTION,transaction,Distribution de sac pour matelas
+581,Documentexigéparlaville,IN,CONDITION,other,Document exigé par la ville
+582,Dosd'âne,IN,CONDITION,traffic engineering / parking,Dos d'âne
+583,Dosd'âne-2,IN,CONDITION,traffic engineering / parking,Dos d'âne - 2
+584,Dosd'ânes-ruelle,IN,CONDITION,traffic engineering / parking,Dos d'ânes - ruelle
+585,Drapeau,IN,CONDITION,sanitation / cleanliness,Drapeau
+586,Droitsacquis,IN,CONDITION,other,Droits acquis
+587,Débarcadère-Personneàmobilitéréduite,IN,CONDITION,traffic engineering / parking,Débarcadère - Personne à mobilité réduite
+588,Débrissurchantieretrues,IN,CONDITION,sanitation / cleanliness,Débris sur chantier et rues
+589,Déchets-Avisdecourtoisie,IN,TRANSACTION,transaction,Déchets - Avis de courtoisie
+590,Déchets-Illégal-Conteneurs-VM,IN,CONDITION,sanitation / cleanliness,Déchets - Illégal - Conteneurs - VM
+591,Déchets-Illégal-Recyclage-VM,IN,CONDITION,sanitation / cleanliness,Déchets - Illégal - Recyclage - VM
+592,"Déchets-Objetvol.àramasser-Réfrigérateur,climatiseurs-Voirie",IN,CONDITION,sanitation / cleanliness,"Déchets - Objet vol. à ramasser - Réfrigérateur, climatiseurs - Voirie"
+593,Déchetssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness,Déchets sortis en temps prohibé
+594,Défonçagedelachaussée,IN,CONDITION,other,Défonçage de la chaussée
+595,Déneigeurprivé-Enseigne,IN,CONDITION,sanitation / cleanliness,Déneigeur privé - Enseigne
+596,Déneigeurprivé-Permis,IN,TRANSACTION,transaction,Déneigeur privé - Permis
+597,Déneigeurprivé-Poteau,IN,CONDITION,sanitation / cleanliness,Déneigeur privé - Poteau
+598,Dépôtillégal-Ramassage,IN,CONDITION,other,Dépôt illégal-Ramassage
+599,Dépôtsauvage-Domainepublic,IN,CONDITION,other,Dépôt sauvage - Domaine public
+600,Développementculturel-Central,IN,CONDITION,other,Développement culturel - Central
+601,Développementsocial,IN,CONDITION,other,Développement social
+602,Eau-Divers,IN,CONDITION,sanitation / cleanliness,Eau - Divers
+603,Encaissement-Alarmenon-fondée,OUT,,,Encaissement - Alarme non-fondée
+604,Encaissement-CentredesLoisirs,OUT,,,Encaissement - Centre des Loisirs
+605,Encaissement-Occupationdudomainepublic,OUT,,,Encaissement - Occupation du domaine public
+606,Encaissement-Revenusliésauxévictions,OUT,,,Encaissement - Revenus liés aux évictions
+607,Encombrants-Avisdecourtoisie,IN,TRANSACTION,transaction,Encombrants - Avis de courtoisie
+608,Enseignecommerciale,IN,CONDITION,other,Enseigne commerciale
+609,Enseignesamovibles,IN,CONDITION,other,Enseignes amovibles
+610,Enseignetemporaire-Domaineprivé,IN,CONDITION,other,Enseigne temporaire - Domaine privé
+611,Entretien-Dosd'ânederuelle,IN,CONDITION,traffic engineering / parking,Entretien - Dos d'âne de ruelle
+612,Entretiendespatinoires,IN,CONDITION,maintenance / city works,Entretien des patinoires
+613,Entretiengénéral,IN,CONDITION,maintenance / city works,Entretien général
+614,Entréecharretière,IN,CONDITION,traffic engineering / parking,Entrée charretière
+615,Entréecharretière-circulation,IN,CONDITION,traffic engineering / parking,Entrée charretière - circulation
+616,Environnement-abrid'auto,IN,CONDITION,other,Environnement - abri d'auto
+617,Environnement-animaux,IN,CONDITION,other,Environnement - animaux
+618,Environnement-arrosage,IN,CONDITION,other,Environnement - arrosage
+619,Environnement-autres,IN,CONDITION,other,Environnement - autres
+620,Environnement-bruit,IN,CONDITION,quieteness / living comfort,Environnement - bruit
+621,Environnement-débrisvoiepublique,IN,CONDITION,sanitation / cleanliness,Environnement - débris voie publique
+622,Environnement-herbelongue,IN,CONDITION,maintenance / city works,Environnement - herbe longue
+623,Environnement-neige,IN,CONDITION,sanitation / cleanliness,Environnement - neige
+624,Environnement-stationnement,IN,CONDITION,traffic engineering / parking,Environnement - stationnement
+625,Espacepourlavie,IN,CONDITION,other,Espace pour la vie
+626,Evénement,IN,CONDITION,other,Evénement
+627,Excèsdevitesse-SurveillanceSPVM,IN,CONDITION,traffic engineering / parking,Excès de vitesse - Surveillance SPVM
+628,Feuillesmortesdanslarue.,IN,CONDITION,sanitation / cleanliness,Feuilles mortes dans la rue.
+629,Feuxdecirculation-Nouvelleinstallation,IN,CONDITION,traffic engineering / parking,Feux de circulation - Nouvelle installation
+630,Feuxdecirculation-Programmation,IN,CONDITION,traffic engineering / parking,Feux de circulation - Programmation
+631,GMR-Nouvelleimplantation,IN,CONDITION,other,GMR -  Nouvelle implantation
+632,GelEntréed'eau,IN,CONDITION,sanitation / cleanliness,Gel Entrée d'eau
+633,Graffitis-Domaineprivé-Inspection,IN,CONDITION,sanitation / cleanliness,Graffitis - Domaine privé - Inspection
+634,Graffitissurbâtimentpublic,IN,CONDITION,sanitation / cleanliness,Graffitis sur bâtiment public
+635,Graffitissursignalisation,IN,CONDITION,traffic engineering / parking,Graffitis sur signalisation
+636,Greffe-CA-Registredesquestions,OUT,,,Greffe - CA - Registre des questions
+637,Grillesdezonage-Distribution,IN,TRANSACTION,transaction,Grilles de zonage - Distribution
+638,Haienonréglementaire,IN,CONDITION,other,Haie non réglementaire
+639,Haieprivée,IN,CONDITION,other,Haie privée
+640,Herbeàpoux,IN,CONDITION,maintenance / city works,Herbe à poux
+641,IRP-Ascenseur,IN,CONDITION,other,IRP - Ascenseur
+642,IRP-Espaceclos,IN,CONDITION,other,IRP - Espace clos
+643,IRP-Périmètredesécurité,IN,CONDITION,other,IRP - Périmètre de sécurité
+644,IRP-Stationdepompage,IN,CONDITION,other,IRP - Station de pompage
+645,IRP-Utilitépublique,IN,CONDITION,other,IRP - Utilité publique
+646,Immeuble-Malpropretégénérale,IN,CONDITION,sanitation / cleanliness,Immeuble - Malpropreté générale
+647,Immeuble-Réparation,IN,CONDITION,sanitation / cleanliness,Immeuble - Réparation
+648,Immeuble-Serrureported'entrée,IN,CONDITION,maintenance / city works,Immeuble - Serrure porte d'entrée
+649,Immeuble-Ventilation,IN,CONDITION,maintenance / city works,Immeuble - Ventilation
+650,Immeublesmunicipaux-Alarme,IN,CONDITION,maintenance / city works,Immeubles municipaux - Alarme
+651,Immeublesmunicipaux-Chauffageàairchaud,IN,CONDITION,maintenance / city works,Immeubles municipaux - Chauffage à air chaud
+652,Immeublesmunicipaux-Chauffageélectrique,IN,CONDITION,maintenance / city works,Immeubles municipaux - Chauffage électrique
+653,Immeublesmunicipaux-Clôture,IN,CONDITION,maintenance / city works,Immeubles municipaux - Clôture
+654,Immeublesmunicipaux-Entretiengénéral,IN,CONDITION,maintenance / city works,Immeubles municipaux - Entretien général
+655,Immeublesmunicipaux-Entretienménager,IN,CONDITION,maintenance / city works,Immeubles municipaux - Entretien ménager
+656,Immeublesmunicipaux-Entretienélectrique,IN,CONDITION,maintenance / city works,Immeubles municipaux - Entretien électrique
+657,Immeublesmunicipaux-Maçonnerie,IN,CONDITION,maintenance / city works,Immeubles municipaux - Maçonnerie
+658,Immeublesmunicipaux-Menuiserie,IN,CONDITION,maintenance / city works,Immeubles municipaux - Menuiserie
+659,Immeublesmunicipaux-Mobilierréparationetfabrication,IN,CONDITION,sanitation / cleanliness,Immeubles municipaux - Mobilier réparation et fabrication
+660,Immeublesmunicipaux-Peinture,IN,CONDITION,maintenance / city works,Immeubles municipaux - Peinture
+661,Immeublesmunicipaux-Plomberie,IN,CONDITION,maintenance / city works,Immeubles municipaux - Plomberie
+662,"Immeublesmunicipaux-Téléphonie,réseauetcaméra",IN,CONDITION,sanitation / cleanliness,"Immeubles municipaux - Téléphonie, réseau et caméra"
+663,Immeublesmunicipaux-Éclairage,IN,CONDITION,maintenance / city works,Immeubles municipaux - Éclairage
+664,Ingénierie-Pavage,OUT,,,Ingénierie - Pavage
+665,"Ingénierie-Trottoir,bordure",OUT,,,"Ingénierie - Trottoir, bordure"
+666,"Ingénierie-Égout,puisard",OUT,,,"Ingénierie - Égout, puisard"
+667,Inscription,IN,TRANSACTION,transaction,Inscription
+668,Inspectiondesaliments,OUT,,,Inspection des aliments
+669,Inspectionvignette,IN,TRANSACTION,transaction,Inspection vignette
+670,Jardinderue,IN,CONDITION,maintenance / city works,Jardin de rue
+671,Listed'attente-Stationnementsmunicipaux,IN,CONDITION,traffic engineering / parking,Liste d'attente - Stationnements municipaux
+672,Logement-Chauffage,IN,CONDITION,maintenance / city works,Logement - Chauffage
+673,Logement-Insalubrité,IN,CONDITION,sanitation / cleanliness,Logement - Insalubrité
+674,Logement-Réparation,IN,CONDITION,sanitation / cleanliness,Logement - Réparation
+675,Logement-Ventilation,IN,CONDITION,maintenance / city works,Logement - Ventilation
+676,Logement-Vermineourongeurs,IN,CONDITION,sanitation / cleanliness,Logement - Vermine ou rongeurs
+677,Logementensous-sol,IN,CONDITION,other,Logement en sous-sol
+678,Loisirs-EntretienLéger,IN,CONDITION,maintenance / city works,Loisirs - Entretien Léger
+679,MO-Avisdecourtoisie,IN,TRANSACTION,transaction,MO - Avis de courtoisie
+680,MO-Nonramassées,IN,CONDITION,other,MO - Non ramassées
+681,Maisonsfleuries,IN,CONDITION,other,Maisons fleuries
+682,Marches-Courses-Calèches-Tournages-SU,IN,CONDITION,other,Marches - Courses - Calèches - Tournages - SU
+683,Marquage-Contratpourlacirculation,IN,CONDITION,traffic engineering / parking,Marquage - Contrat pour la circulation
+684,Menuiserieparc,IN,CONDITION,maintenance / city works,Menuiserie parc
+685,Mesuresd'urgence-Gestionenarrondissement,IN,CONDITION,other,Mesures d'urgence - Gestion en arrondissement
+686,Mobilierurbain-Installation,IN,CONDITION,maintenance / city works,Mobilier urbain - Installation
+687,Mobilitéélectriquelibre-service,IN,CONDITION,other,Mobilité électrique libre-service
+688,Modulesdejeux,IN,CONDITION,maintenance / city works,Modules de jeux
+689,Neige-Remorquage,IN,CONDITION,sanitation / cleanliness,Neige - Remorquage
+690,Niddeguêpes,IN,CONDITION,sanitation / cleanliness,Nid de guêpes
+691,Nuisanceanimauxdomestiques,IN,CONDITION,other,Nuisance animaux domestiques
+692,Occupationbâtiment,OUT,,,Occupation bâtiment
+693,Occupationnon-autorisée,OUT,,,Occupation non-autorisée
+694,Occupationpériodiquedudomainepublic,OUT,,,Occupation périodique du domaine public
+695,Opérationcadastrale,IN,CONDITION,sanitation / cleanliness,Opération cadastrale
+696,Oriflamme,IN,CONDITION,other,Oriflamme
+697,PIIA,OUT,,,PIIA
+698,PRR-Travaux,IN,CONDITION,maintenance / city works,PRR-Travaux
+699,Panierderue-Installation,IN,CONDITION,other,Panier de rue - Installation
+700,Parc-Chalet-Conciergerieetventilation,IN,CONDITION,maintenance / city works,Parc - Chalet - Conciergerie et ventilation
+701,Parc-Chalet-Electricité,IN,CONDITION,maintenance / city works,Parc - Chalet - Electricité
+702,Parc-Chalet-Entretienetréparation,IN,CONDITION,sanitation / cleanliness,Parc - Chalet - Entretien et réparation
+703,Parc-Mobilier-Installation,IN,CONDITION,maintenance / city works,Parc - Mobilier - Installation
+704,Parcdemandeinternedivers,IN,TRANSACTION,transaction,Parc demande interne divers
+705,Parcmobilier-Ajout-VM,IN,CONDITION,maintenance / city works,Parc mobilier - Ajout - VM
+706,Pavéuni,IN,CONDITION,maintenance / city works,Pavé uni
+707,Pavéuni-Réparation,IN,CONDITION,sanitation / cleanliness,Pavé uni - Réparation
+708,Permis-Conversionencopropriétédivise,IN,TRANSACTION,transaction,Permis - Conversion en copropriété divise
+709,Permis-Logement-Insalubrité(logementoubâtiment),IN,TRANSACTION,transaction,Permis - Logement - Insalubrité (logement ou bâtiment)
+710,Permis-Pesticide,IN,TRANSACTION,transaction,Permis - Pesticide
+711,PermisCSRM,IN,TRANSACTION,transaction,Permis CSRM
+712,Permisanimalier,IN,TRANSACTION,transaction,Permis animalier
+713,Permisconteneuràdéchets,IN,TRANSACTION,transaction,Permis conteneur à déchets
+714,Permisdedémolition,IN,TRANSACTION,transaction,Permis de démolition
+715,Piscine-Électricité,IN,CONDITION,maintenance / city works,Piscine - Électricité
+716,Plaintecontreunagentdestationnement,IN,CONDITION,traffic engineering / parking,Plainte contre un agent de stationnement
+717,Plaintepatrouilleurcaninetfournisseurserviceanimalier,IN,CONDITION,sanitation / cleanliness,Plainte patrouilleur canin et fournisseur service animalier
+718,Planificationdestravaux-Étudesparcs,OUT,,,Planification des travaux - Études parcs
+719,Planificationdestravaux-Étudesruesettrottoirs,OUT,,,Planification des travaux - Études rues et trottoirs
+720,Plomberie-Bâtiments,IN,CONDITION,maintenance / city works,Plomberie - Bâtiments
+721,Plomberie-Chalet,IN,CONDITION,maintenance / city works,Plomberie - Chalet
+722,Plomberie-Pataugeoire,IN,CONDITION,maintenance / city works,Plomberie - Pataugeoire
+723,Plomberie-Piscine,IN,CONDITION,maintenance / city works,Plomberie - Piscine
+724,Plomberie.,IN,CONDITION,maintenance / city works,Plomberie.
+725,Poubelle,IN,CONDITION,sanitation / cleanliness,Poubelle
+726,Programmationdesfeux,IN,CONDITION,other,Programmation des feux
+727,Programmedechatserrants,IN,CONDITION,other,Programme de chats errants
+728,Propreté-DemandeCSLDS,IN,TRANSACTION,transaction,Propreté - Demande CSLDS
+729,Pucerondutilleul,IN,CONDITION,other,Puceron du tilleul
+730,Puisard/TH-CouvercleStructure,IN,CONDITION,sanitation / cleanliness,Puisard/TH-Couvercle Structure
+731,REM-Occupationtemporaire,OUT,,,REM - Occupation temporaire
+732,Ralentiinutile-Terrainprivéautrequechantier.,IN,CONDITION,quieteness / living comfort,Ralenti inutile - Terrain privé autre que chantier.
+733,Recettesdiverses,OUT,,,Recettes diverses
+734,Recherched'encaissement,OUT,,,Recherche d'encaissement
+735,Recyclage-Autre,IN,CONDITION,sanitation / cleanliness,Recyclage - Autre
+736,Recyclage-Avisdecourtoisie,IN,TRANSACTION,transaction,Recyclage - Avis de courtoisie
+737,Recyclageduverre,IN,CONDITION,sanitation / cleanliness,Recyclage du verre
+738,Recyclagesortientempsprohibé,IN,CONDITION,sanitation / cleanliness,Recyclage sorti en temps prohibé
+739,Renouvellement,IN,TRANSACTION,transaction,Renouvellement
+740,Renseignements-Pesticide,IN,TRANSACTION,transaction,Renseignements - Pesticide
+741,Retourdechèquepermisanimalier,IN,TRANSACTION,transaction,Retour de chèque permis animalier
+742,Retraitdechèque,IN,TRANSACTION,transaction,Retrait de chèque
+743,Retraitourécupérationdevélo,IN,TRANSACTION,transaction,Retrait ou récupération de vélo
+744,Ruelleverte,IN,CONDITION,other,Ruelle verte
+745,Réceptiond'unplaidoyer,IN,CONDITION,other,Réception d'un plaidoyer
+746,Réfrigérateuroucongélateur,IN,CONDITION,sanitation / cleanliness,Réfrigérateur ou congélateur
+747,Résidusdomestiquesdangereux,IN,CONDITION,sanitation / cleanliness,Résidus domestiques dangereux
+748,Résidusverts-Avisdecourtoisie,IN,TRANSACTION,transaction,Résidus verts - Avis de courtoisie
+749,Résidusverts-Nonramassé.,IN,CONDITION,sanitation / cleanliness,Résidus verts - Non ramassé.
+750,Signalisation-Lignederue,IN,CONDITION,traffic engineering / parking,Signalisation - Ligne de rue
+751,SignalisationendommagéeVm,IN,CONDITION,traffic engineering / parking,Signalisation endommagée Vm
+752,SignalisationmanquanteVM,IN,CONDITION,traffic engineering / parking,Signalisation manquante VM
+753,Signalisationnonautorisée-Analyse,IN,CONDITION,traffic engineering / parking,Signalisation non autorisée - Analyse
+754,Solarium,IN,CONDITION,maintenance / city works,Solarium
+755,SoutienCarteInfo-Neige,IN,TRANSACTION,transaction,Soutien Carte Info-Neige
+756,SoutienSitewebInfo-Remorquage,IN,TRANSACTION,transaction,Soutien Site web Info-Remorquage
+757,Soutienauxopérations-Réseausecondaire,IN,TRANSACTION,transaction,Soutien aux opérations - Réseau secondaire
+758,Stationnement,IN,CONDITION,traffic engineering / parking,Stationnement
+759,Stationnement-Études,IN,CONDITION,traffic engineering / parking,Stationnement - Études
+760,Stationnementmunicipal,IN,CONDITION,traffic engineering / parking,Stationnement municipal
+761,Stationnementpourpersonneshandicapées,IN,CONDITION,traffic engineering / parking,Stationnement pour personnes handicapées
+762,"Statues,sculpturesetplaques-Entretien",IN,CONDITION,maintenance / city works,"Statues, sculptures et plaques - Entretien"
+763,Subventionlocale-Arrondissement,IN,TRANSACTION,transaction,Subvention locale - Arrondissement
+764,Supportàvélos,IN,CONDITION,other,Support à vélos
+765,Surveillancedestravaux-Chantierparcs,OUT,,,Surveillance des travaux - Chantier parcs
+766,Surveillancedestravaux-Chantierruesettrottoirs,OUT,,,Surveillance des travaux - Chantier rues et trottoirs
+767,Surveillancedestravaux-Problèmesàlasuitedetravaux,OUT,,,Surveillance des travaux - Problèmes à la suite de travaux
+768,Surveillanceparticulière-SPVM/AMD,IN,CONDITION,other,Surveillance particulière - SPVM / AMD
+769,Sécuritéincendie-Inspection-Prévention,IN,CONDITION,other,Sécurité incendie - Inspection - Prévention
+770,Sécuritéincendie-Pompier-Camion-Caserne,IN,CONDITION,other,Sécurité incendie - Pompier - Camion - Caserne
+771,Sécuritéincendie-Thèmesadministratifs,IN,CONDITION,sanitation / cleanliness,Sécurité incendie - Thèmes administratifs
+772,Taxeslocatives,OUT,,,Taxes locatives
+773,Technique-Pavéuni-Réparation,IN,CONDITION,sanitation / cleanliness,Technique - Pavé uni - Réparation
+774,Technique-Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking,Technique - Trottoir ou bordure - Réparation
+775,Terrainsportif-DemandeCSLDS,IN,TRANSACTION,transaction,Terrain sportif - Demande CSLDS
+776,Tigedeprotection(2018),IN,CONDITION,other,Tige de protection (2018)
+777,Tolérancedestationnement,IN,CONDITION,traffic engineering / parking,Tolérance de stationnement
+778,Toponymie,IN,CONDITION,other,Toponymie
+779,Transporthorsnormes,IN,CONDITION,traffic engineering / parking,Transport hors normes
+780,Travaux(info)-Panneauxdivers,IN,CONDITION,sanitation / cleanliness,Travaux (info) - Panneaux divers
+781,TravauxAbattage,IN,CONDITION,maintenance / city works,Travaux Abattage
+782,TravauxPublics-RDD,IN,CONDITION,maintenance / city works,Travaux Publics - RDD
+783,Travauxpublics-Plaintedetoutgenre,IN,CONDITION,maintenance / city works,Travaux publics - Plainte de tout genre
+784,Travauxsanspermis,IN,TRANSACTION,transaction,Travaux sans permis
+785,Trottoiroubordure-RéparationRMT,IN,CONDITION,traffic engineering / parking,Trottoir ou bordure - Réparation  RMT
+786,Utilisationillégaledel'eau,IN,CONDITION,sanitation / cleanliness,Utilisation illégale de l'eau
+787,Utilitépublique-Excavation,IN,CONDITION,other,Utilité publique - Excavation
+788,Ventedebacsàcompostage,IN,TRANSACTION,transaction,Vente de bacs à compostage
+789,Ventedemangeoireàoiseaux,IN,TRANSACTION,transaction,Vente de mangeoire à oiseaux
+790,Vignette-Stationnementsmunicipaux,IN,TRANSACTION,transaction,Vignette - Stationnements municipaux
+791,Voiecyclable-Planification-Servicecentral,IN,CONDITION,traffic engineering / parking,Voie cyclable - Planification - Service central
+792,Voirie-Banc,IN,CONDITION,other,Voirie - Banc
+793,Voirie-Divers-Transport,IN,CONDITION,traffic engineering / parking,Voirie - Divers - Transport
+794,Voirie-Poubelle,IN,CONDITION,sanitation / cleanliness,Voirie - Poubelle
+795,Voirie-Vibrations,IN,CONDITION,quieteness / living comfort,Voirie - Vibrations
+796,Z-Nouveausecteur,IN,CONDITION,sanitation / cleanliness,Z-Nouveau secteur
+797,bacbrundistribution,IN,TRANSACTION,transaction,bac brun distribution
+798,feux-mod.délaisetautreschangements,IN,CONDITION,other,feux-mod. délais et autres changements
+799,permisdeconstructionettransformation,IN,TRANSACTION,transaction,permis de construction et transformation
+800,Éclairage-DemandeCSLDS,IN,TRANSACTION,transaction,Éclairage - Demande CSLDS
+801,Éclairage-Extérieur-Parc,IN,CONDITION,maintenance / city works,Éclairage - Extérieur - Parc
+802,Éclairagenuisible.,IN,CONDITION,maintenance / city works,Éclairage nuisible.
+803,Égout-Cruedeseaux,IN,CONDITION,sanitation / cleanliness,Égout - Crue des eaux
+804,Électionetréférendum,OUT,,,Élection et référendum
+805,Électricité-Édifices-Municipaux,IN,CONDITION,maintenance / city works,Électricité - Édifices - Municipaux
+806,Épandageinterdit-Pesticide,IN,CONDITION,sanitation / cleanliness,Épandage interdit - Pesticide
+807,Événementmétropolitain,OUT,,,Événement métropolitain
+808,Événementsprivés-SU,IN,CONDITION,other,Événements privés - SU
+809,Événementspublics-Loisirs,IN,CONDITION,other,Événements publics - Loisirs
