@@ -1,0 +1,1701 @@
+Dataframe length: 333667
+Number of unique labels: 809
+
+--------- 
+
+Number of unique labels per borough:
+                          ARRONDISSEMENT_GEO  unique_labels  \
+10                             Saint-Laurent            383   
+1              Mercier-Hochelaga-Maisonneuve            244   
+18                               LeSud-Ouest            236   
+0        Côte-des-Neiges-Notre-Dame-de-Grâce            230   
+3                   Rosemont-LaPetite-Patrie            226   
+2                      Ahuntsic-Cartierville            226   
+5                                     Verdun            220   
+15                               Ville-Marie            218   
+7                       LePlateau-Mont-Royal            202   
+6   Rivière-des-Prairies-Pointe-aux-Trembles            197   
+11      Villeray-Saint-Michel-Parc-Extension            196   
+17                                   Lachine            194   
+14                             Montréal-Nord            193   
+8                        Pierrefonds-Roxboro            183   
+4                                    LaSalle            170   
+9                                      Anjou            169   
+16                             Saint-Léonard            166   
+12             L'Île-Bizard-Sainte-Geneviève            145   
+13                                 Outremont            141   
+
+    unique_label_percentage  
+10                 0.473424  
+1                  0.301607  
+18                 0.291718  
+0                  0.284302  
+3                  0.279357  
+2                  0.279357  
+5                  0.271941  
+15                 0.269468  
+7                  0.249691  
+6                  0.243511  
+11                 0.242274  
+17                 0.239802  
+14                 0.238566  
+8                  0.226205  
+4                  0.210136  
+9                  0.208900  
+16                 0.205192  
+12                 0.179234  
+13                 0.174289  
+
+--------- 
+
+Look at the first label that represents 95 percent or more of the requests in the dataset:
+                   ACTI_NOM  occurences  percentage   cum_pct
+147  *Analysedel'eaupotable         202    0.000605  0.950163
+
+--------- 
+
+Head length: 148
+Tail length: 50
+Total annotation length: 198
+
+--------- 
+
+                                              ACTI_NOM  occurences  \
+0                                           Bacroulant       17433   
+1                                 Dépôtillégal-Déchets       16223   
+2                                    Collectededéchets       13153   
+3                          Éclairageexistant-Entretien       10891   
+4                       Collectedesmatièresrecyclables        9473   
+5                             Nettoyagedudomainepublic        8638   
+6                     Signalisation-Circulation-Études        7550   
+7                        Collectederésidusalimentaires        7390   
+8                          Feuxdecirculation-Entretien        7311   
+9                               Fermetured'entréed'eau        6823   
+10                                             Élagage        6705   
+11                                Opérationdéneigement        6623   
+12                                  Prisederendez-vous        5819   
+13                              Encombrantsnonramassés        5374   
+14                  Changementd'adresse-Taxesfoncières        5163   
+15                                       Voirie-Divers        4717   
+16                                        Nid-de-poule        4429   
+17                              Collectederésidusverts        4339   
+18                           Occupationdudomainepublic        4121   
+19                       Signalisationécrite-Entretien        4106   
+20                                       Branchetombée        3974   
+21                                       Permis-Divers        3922   
+22                                         Parc-Divers        3665   
+23                                        Y-Eau-Divers        3622   
+24                               Dangerpotentiel-Arbre        3561   
+25                                  Encaissement-Stop+        3434   
+26                                          Animalmort        3416   
+27                              Ouvertured'entréed'eau        3269   
+28                              Collectedesencombrants        3266   
+29                                 Logement-Inspection        3245   
+30                                      Balaimécanique        3141   
+31                         Info-travaux-Arrondissement        3101   
+32                         Info-travaux-Servicecentral        2944   
+33                                       Parc-Propreté        2904   
+34                                          Fuited'eau        2874   
+35                                           RetourDDS        2857   
+36                       Terraininsalubre-Domaineprivé        2797   
+37                             Débrissurlavoiepublique        2763   
+38                     Puisard/TH-Premièreintervention        2629   
+39          Panneaudesignalisationentretienprioritaire        2610   
+40                                      Taxesfoncières        2555   
+41                             Maladieouinsectes-Arbre        2470   
+42                                      Mobilierurbain        2442   
+43                                   Plantationd'arbre        2407   
+44                                  Distributiondesacs        2299   
+45                                   Pavage-Réparation        2280   
+46                                               Bruit        2237   
+47                                        Arbre-Divers        2191   
+48                     Permisdeconstruction-rénovation        2175   
+49                                          *Z-Puisard        2097   
+50                                   Contrôleanimalier        2077   
+51                                  Encaissement-Oasis        2016   
+52                           Sportsetloisirs-Activités        1960   
+53                 Fermetured'uneconduited'eau-Urgence        1900   
+54                                 Signalisation-Neige        1891   
+55                                  IRP-Fermeturederue        1840   
+56                            ServicesTechniques-Varia        1791   
+57                                                SRRR        1683   
+58                        Trottoiroubordure-Réparation        1673   
+59                                      Mobilierdeparc        1671   
+60                     Entréed'eauenplomb-Autredemande        1629   
+61                       Entretiend'édificesmunicipaux        1542   
+62                                    Trottoirglissant        1422   
+63                                     Abattaged'arbre        1398   
+64                                         Manqued'eau        1319   
+65          Bureaud'arrondissement-Serviceàlaclientèle        1254   
+66                 *BacderecyclageEndommagé,perdu,volé        1249   
+67                                      Y-Égout-Divers        1247   
+68                       Collectedesmatièresorganiques        1234   
+69                           Borned'incendie-Entretien        1228   
+70                                 Horticulture-Divers        1188   
+71         Installationssportivesextérieures-Entretien        1185   
+72                                   Chausséeglissante        1147   
+73                             Graffitis-Domainepublic        1086   
+74                                  DépôtIllégal-Neige        1050   
+75                   Localisation/EntretienEntréed'eau         941   
+76                  Entréed'eauenplomb-Demandedefiltre         916   
+77                   *BacdedéchetsEndommagé,perdu,volé         907   
+78                              Graffitis-Domaineprivé         906   
+79                      Encaissement-UrbanismeetPermis         892   
+80                      Exterminationàl'extérieur-Rats         866   
+81                                          IRP-Police         860   
+82                       *Bacroulantvert(1à3logements)         841   
+83                                Environnement-Divers         819   
+84                            Bacmontréalais(67litres)         771   
+85                                        Essouchement         765   
+86                              Horticulture-Entretien         765   
+87                                      *Z-Troud'homme         762   
+88                              *Z-Testdepressiond'eau         751   
+89                             Grandparc-Agriledufrêne         733   
+90                                   Panierderueàvider         723   
+91                            Animauxsauvages-Nuisance         719   
+92                                    Gazon-Réparation         719   
+93                  Exterminationàl'extérieur-Insectes         667   
+94                                IRP-Demandeonderadio         655   
+95                                          Arbretombé         654   
+96                    *Inspection-Déchets-Dépôtillégal         644   
+97                Gazonoumauvaisesherbes-Domainepublic         634   
+98             Collected'écran(ordinateurettéléviseur)         613   
+99                       Marquagedelachaussée-Existant         606   
+100                   Gazonouherbeshautes-Domaineprivé         601   
+101                                  Aménagementdeparc         586   
+102                             Collected'arbresdeNoël         571   
+103                                           Éviction         565   
+104                                 Panierdeparcàvider         553   
+105                  Signalisationcachéepardesvégétaux         542   
+106               Subvention-Habitation-Servicecentral         541   
+107                                     TravauxÉlagage         524   
+108                                       Supportàvélo         522   
+109                                           *Bacbrun         476   
+110  Distributionaucomptoirdebacsoudesacsderécupéra...         472   
+111            Collectedebranchesd'arbre-Agriledufrêne         456   
+112                                Déchets-Nonramassés         429   
+113                                          Grandparc         406   
+114                        Encaissementetremboursement         400   
+115  Certificatd'occupationcommercialeouprofessionn...         362   
+116                               TransportetLivraison         359   
+117                                     Abritemporaire         357   
+118                       *BacdeMOEndommagé,perdu,volé         340   
+119                         Réceptiondechèquepost-daté         329   
+120                                         RelevéCPTE         327   
+121                       Mairesetélusd'arrondissement         326   
+122                            Dommage-Racinesd'arbres         326   
+123                                Clôtureethaieprivée         312   
+124                                  *Élagageexécution         312   
+125                Interventiondestationnement-Enquête         311   
+126                               Recyclage-Nonramassé         306   
+127                                   Éclairage-Études         298   
+128                                             Zonage         291   
+129                              *Abattaged'arbreprivé         291   
+130                                      Chienagressif         284   
+131                                 CarteAccèsMontréal         278   
+132                             *BacdedéchetsLivraison         273   
+133                                 Autre-Construction         261   
+134                                        Écoquartier         253   
+135                                       Chaletdeparc         252   
+136                           *BacderecyclageLivraison         250   
+137                                          Urbanisme         249   
+138                       Marquagedelachaussée-Nouveau         247   
+139                       *InspectionsenArrondissement         246   
+140                           Personnel-Arrondissement         223   
+141                                      Punaisesdelit         220   
+142                                Voiecyclable-Études         219   
+143                                   Graffitishaineux         219   
+144         Refoulementégout/InondationPropriétéprivée         215   
+145              Demandedepermisd'occupationtemporaire         210   
+146                                Centredeservices311         209   
+147                             *Analysedel'eaupotable         202   
+148                      Communications-Arrondissement         193   
+149                *BacderecyclageModificationdevolume         190   
+150                         Utilisationillégaledel'eau         187   
+151                         Permis-Neige-Domainepublic         185   
+152                                 Piscineouspaprivés         183   
+153                          AvisOccupant/Consommation         183   
+154                        Ingénierie-Trottoir,bordure         183   
+155                            IRP-Périmètredesécurité         183   
+156                                   Recettesdiverses         181   
+157                    Électricité-Édifices-Municipaux         181   
+158                          *Nettoyagedepuisards-rues         178   
+159                                       Autre-Zonage         176   
+160                                Autre-Permis-Divers         174   
+161                         Certificatdevieetrésidence         172   
+162                                     Taxeslocatives         170   
+163         Voiecyclable-Marquageetsignalisationécrite         162   
+164                Entreposagenonautorisé-Terrainprivé         161   
+165                                     Menuiserieparc         161   
+166        Installationssportivesintérieures-Entretien         160   
+167                                  Entréecharretière         160   
+168                  Demanded'unenouvellesignalisation         156   
+169                                     IRP-Espaceclos         151   
+170                                     Courmunicipale         150   
+171                                  Culture-Activités         150   
+172                             Réceptiond'unplaidoyer         146   
+173                             Stationnementmunicipal         143   
+174                                    Recyclage-Autre         142   
+175                                     Événementlocal         142   
+176                         Dépôtsauvage-Domainepublic         141   
+177                       Autre-Stationnementmunicipal         141   
+178                                 *Entravesanspermis         138   
+179                     Surveillanceetsécuritépublique         135   
+180             *NeplusutiliserBacroulantnoir(déchets)         135   
+181                       *BacdeMOModificationdevolume         131   
+182             Sécuritéincendie-Inspection-Prévention         130   
+183                                    TravauxAbattage         129   
+184                                IRP-Utilitépublique         129   
+185                                    MO-Nonramassées         129   
+186                                    Permisanimalier         128   
+187                                    CarteInfo-Neige         123   
+188                               *Déchets-Nonramassés         116   
+189               *Bacderecyclage-Endommagé,perdu,volé         116   
+190                               Agriledufrêne-Divers         115   
+191             Feuxdecirculation-Nouvelleinstallation         109   
+192                                Mesuresd'apaisement         109   
+193                                     Vente-débarras         107   
+194                          Bornesderechargepubliques         105   
+195                            Autre-Collectededéchets         105   
+196                                           Adhésion         105   
+197  Déchets-Objetvol.àramasser-Réfrigérateur,clima...         104   
+198                         Vandalismeouaccident-Arbre         102   
+199                                Développementsocial         101   
+200                                          Écocentre          99   
+201              Changementd'adresse-Taxeseauetdéchets          97   
+202                  *BacdedéchetsModificationdevolume          96   
+203                          Pollutiondel'airetdel'eau          93   
+204                 *Bacdedéchets-Endommagé,perdu,volé          93   
+205                                  *BacdeMOLivraison          92   
+206                                 Pavéuni-Réparation          91   
+207                        Bâtimentvacantouàbarricader          88   
+208                                          Taxed'eau          86   
+209                                    Asphaltetravaux          84   
+210       *collectedesrésidusalimentaires-Demandedebac          84   
+211          Voiecyclable-Planification-Servicecentral          83   
+212                *Signalisationmanquanteouendommagée          83   
+213                          Directiond'arrondissement          82   
+214          *Stationnementoudébarcadèrepourhandicapés          82   
+215                         *Couvercledepuisardbruyant          82   
+216                  Vignette-Stationnementsmunicipaux          82   
+217                                   Neige-Remorquage          81   
+218               Débarcadère-Personneàmobilitéréduite          81   
+219                                      *Dosd'âne-Rue          78   
+220                               Encaissement-Gescour          77   
+221                          *Z-Inspectiond'égoutprivé          76   
+222                                Enseignecommerciale          75   
+223                                  *Vitesseexcessive          73   
+224                          Dépôtsauvage-Terrainprivé          71   
+225                                     *Compteurcoule          67   
+226                 Installationsculturelles-Entretien          66   
+227                                         Parcomètre          65   
+228                                 Poêleetfoyeraubois          65   
+229                             Déblaiement/Chargement          63   
+230                         Réfrigérateuroucongélateur          63   
+231                                     Boîtedeservice          63   
+232  *Compteurd'eauICI(Industries-Commerces-Institu...          63   
+233                     Borne-fontaine-Projetsspéciaux          62   
+234                           Distributiondecirculaire          61   
+235      *collectedesrésidusalimentaires-Bacendommagés          57   
+236                                Logement-Réparation          56   
+237                               Direction-Évaluation          55   
+238                                 Autre-CollectedeMO          54   
+239           *E.T.-Mesuresdemodérationdelacirculation          54   
+240                                    Numéromunicipal          54   
+241   Autre-Bureaud'arrondissement-Serviceàlaclientèle          53   
+242                                  Affichage-Illégal          53   
+243                                  Ingénierie-Pavage          53   
+244                 Changementd'adresse-Taxeslocatives          52   
+245        *Environnement-Recyclage-Bac240lt-Livraison          52   
+246                                  Travauxsanspermis          52   
+247                            Internet-Portailcentral          51   
+248                                           Poubelle          49   
+249                                 Permisdedémolition          48   
+250                       Recyclagesortientempsprohibé          48   
+251                                Accèsàl'information          47   
+252                                        PRR-Travaux          47   
+253                                           Dosd'âne          47   
+254                        *Z-Compteurd'eaurésidentiel          47   
+255                    *Abattage/Essouchementexécution          47   
+256               Immeublesmunicipaux-Entretiengénéral          46   
+257                              Plaintefonctionnement          46   
+258                              Défonçagedelachaussée          45   
+259                             Ventedebacsàcompostage          45   
+260                                        Niddeguêpes          45   
+261                                     Renouvellement          44   
+262  Surveillancedestravaux-Problèmesàlasuitedetravaux          44   
+263                      *Jardinscommunautaires-Divers          42   
+264                         Logement-Vermineourongeurs          42   
+265                             Avisd'infraction-Neige          42   
+266                    ComplexesportifClaude-Robillard          41   
+267                        Déchetssortisentempsprohibé          41   
+268                          Réparationdegazon-Contrat          40   
+269                        Retraitourécupérationdevélo          40   
+270     Surveillancedestravaux-Chantierruesettrottoirs          40   
+271  *E.T.-Stationnementoudébarcadèrepourpersonnesà...          39   
+272                *Circulation-Intersectiondangereuse          38   
+273                                   Dosd'ânes-ruelle          38   
+274      Planificationdestravaux-Étudesruesettrottoirs          38   
+275                      Immeublesmunicipaux-Éclairage          38   
+276                                    Retraitdechèque          38   
+277                           *Visionvélo(Utilisation)          37   
+278                               *Bacroulantendommagé          37   
+279                     Immeublesmunicipaux-Menuiserie          37   
+280                                         Haieprivée          37   
+281                 Encaissement-RessourcesFinancières          37   
+282                         *Apaisementdelacirculation          36   
+283                         Développementcommunautaire          36   
+284                                        Bruit-Autre          36   
+285                           Panierderue-Installation          36   
+286                              Abattaged'arbrepublic          35   
+287                                         Dosd'âne-2          34   
+288                                    *Bacroulantvolé          34   
+289                         Nuisanceanimauxdomestiques          34   
+290                                   Aideaurelogement          34   
+291                         Communicationscorporatives          33   
+292                           Résidusverts-Nonramassé.          33   
+293                               Unenaissance/unarbre          33   
+294                                       *Réclamation          32   
+295                            Débrissurchantieretrues          31   
+296                                    Affichepropreté          31   
+297                  *Branchementd'égout-Domainepublic          30   
+298                            Occupationnon-autorisée          30   
+299                                 Logement-Chauffage          30   
+300         *Voirie-Collecteappareilavecgazréfrigérant          30   
+301                            Voirie-Divers-Transport          30   
+302                               Programmationdesfeux          29   
+303                                    Autre-Urbanisme          29   
+304                            Documentexigéparlaville          29   
+305                              Greffe-Arrondissement          28   
+306                                      Supportàvélos          28   
+307                                         Plomberie.          28   
+308  *Environnement-Recyclage-Bac240lt-Endommagé,pe...          28   
+309                           *Voirie-Pavage-Entretien          28   
+310                                        *Visionvélo          27   
+311                                       Pontettunnel          27   
+312                             *Testd'écoulementd'eau          27   
+313                            *Arrêtobligatoire(Stop)          27   
+314                            Constructionréseaulocal          27   
+315                                   Créationd'unSIMU          26   
+316                                *Mesured'apaisement          26   
+317                      Immeublesmunicipaux-Plomberie          26   
+318                                          Pesticide          26   
+319                                  Plomberie-Piscine          26   
+320                                         Campdejour          25   
+321                                            Compost          25   
+322                          *Couvercledepuisard-brisé          25   
+323                               IRP-Stationdepompage          25   
+324                                Plomberie-Bâtiments          25   
+325                           Tolérancedestationnement          25   
+326                     *BacdeMO-Endommagé,perdu,volé.          25   
+327                       *E.T.-Arrêtobligatoire(Stop)          24   
+328              Éclairageplanification-Servicecentral          24   
+329                   Habitation-Divers-Servicecentral          24   
+330              Soutienauxopérations-Réseausecondaire          24   
+331            Listed'attente-Stationnementsmunicipaux          23   
+332                                           *Vitesse          23   
+333                                               Banc          23   
+334                     Bruitsurchantierdeconstruction          23   
+335                          *Bacderecyclage-Livraison          23   
+336                        Couped'arbreprivésanspermis          22   
+337  Plaintepatrouilleurcaninetfournisseurservicean...          21   
+338                                    Espacepourlavie          21   
+339                                     *Zonelivraison          21   
+340                              Inspectiondesaliments          21   
+341              100-Demanded'interventionetAssistance          21   
+342                               Logement-Insalubrité          21   
+343                    Feuxdecirculation-Programmation          21   
+344             *Exterminationàl'extérieur-Niddeguêpes          21   
+345               *GazonEndommagé-Opérationdéneigement          20   
+346                       Autre-Collectedesencombrants          20   
+347                                             Balcon          20   
+348                    Borne-fontaine-Moinsde8semaines          20   
+349                             Distributiondevégétaux          19   
+350                         *Visionvélo(Acceptabilité)          19   
+351                Planificationdestravaux-Étudesparcs          19   
+352                       Encombrants-Avisdecourtoisie          19   
+353            Immeublesmunicipaux-Entretienélectrique          19   
+354                   *Branchementd'égout-Domaineprivé          19   
+355                           Ventedemangeoireàoiseaux          19   
+356                           Déchets-Avisdecourtoisie          19   
+357                    Encombrantssortisentempsprohibé          19   
+358                              Déneigeurprivé-Poteau          18   
+359                              *Déchets-Demandedebac          18   
+360          *Entretiendesbranchementsd'égoutsoudrains          18   
+361                        Immeublesmunicipaux-Clôture          18   
+362                      Encaissement-CentredesLoisirs          18   
+363                            *Favorable-Implantation          18   
+364                             Dépôtillégal-Ramassage          18   
+365                                    Finances-Divers          17   
+366                                 IRP-Posted'essence          17   
+367                           SignalisationmanquanteVM          17   
+368                                      Clôtureprivée          17   
+369          Autre-Occupationtemporairedudomainepublic          17   
+370                            *Bacdedéchets-Livraison          17   
+371           Autoabandonnée,roulotte,remorque,palette          16   
+372                                         PermisCSRM          16   
+373  Stationnementoudébarcadèrepourpersonneàmobilit...          16   
+374                                          Toponymie          16   
+375                  Couleur,odeurougoûtanormaldel'eau          16   
+376                 *Couvercledepuisardabsentoudéplacé          16   
+377                          IRP-VillesnonreliéesauGDC          16   
+378               *Bacderecyclage-Modificationdevolume          16   
+379                       *Mobilierurbain-Installation          15   
+380                            Conseild'arrondissement          15   
+381                                Billetdedépôtàneige          15   
+382                               *Bâtiment-Menuiserie          15   
+383                                     GelEntréed'eau          15   
+384                           Feuillesmortesdanslarue.          15   
+385                                     Assermentation          14   
+386                       Bruit-desCarrières-Ombudsman          14   
+387                          *Réparationdepuisards-rue          14   
+388                      *SRRR-Ajoutouretraitd'espaces          14   
+389              Stationnementpourpersonneshandicapées          14   
+390                  Marquage-Contratpourlacirculation          14   
+391                                   *Dosd'âne-Ruelle          14   
+392                                  Dosd'âne-ruelle-2          14   
+393                               *SRRR-Nouveausecteur          14   
+394                           Éclairage-Extérieur-Parc          14   
+395                          Bruit-Commerceetindustrie          13   
+396                             *LogementMontréal-Nord          13   
+397                              CAFÉ-TERRASSE(PERMIS)          13   
+398                     Mesured'apaisement-Circulation          13   
+399                           Thermopompeetclimatiseur          13   
+400                  Surveillanceparticulière-SPVM/AMD          13   
+401                     *Z-Signalisationécrite-nouveau          13   
+402          *Parc-Mobilier-Buvette-Fontainedécorative          13   
+403                                      Café-terrasse          13   
+404                       *Modificationsecteurexistant          13   
+405                             *E.T.-Limitesdevitesse          12   
+406                                Événementsprivés-SU          12   
+407                    Trottoiroubordure-RéparationRMT          12   
+408                           *Arbre-branchesàramasser          12   
+409                     Borne-fontaine-Plusde8semaines          12   
+410                  *SRRR-Modificationsecteurexistant          12   
+411                           Parcdemandeinternedivers          12   
+412                        *Demanded'unnouveaucompteur          12   
+413                                 Logementensous-sol          12   
+414                                Immeuble-Réparation          12   
+415                                         *Aquatique          12   
+416                            Avis-Alertesauxcitoyens          11   
+417              Statues,sculpturesetplaques-Entretien          11   
+418               Immeublesmunicipaux-Entretienménager          11   
+419                              *Bacroulant-Livraison          11   
+420        *Environnement-Recyclage-Bac360lt-Livraison          11   
+421                                  520-Stationnement          11   
+422                                 Inspectionvignette          11   
+423                   *Autre-Compteurd'eau-Résidentiel          11   
+424                                      Modulesdejeux          11   
+425                                    Autre-Salubrité          11   
+426                                 *Feuxdecirculation          11   
+427                             Événementmétropolitain          10   
+428            Exterminationàl'intérieur-immeubleville          10   
+429                   Asphalte-Coupesd'aqueducetautres          10   
+430                                          Evénement          10   
+431                                 Éclairagenuisible.          10   
+432                         *Panierderue-Ajout/Retrait          10   
+433                            *Arbre-Maladie-Pucerons          10   
+434  *Environnement-Recyclage-Bac360lt-Endommagé,pe...          10   
+435                  Parc-Chalet-Entretienetréparation          10   
+436                                  Égout-Cruedeseaux          10   
+437           *Bacsàfleurs,corbeilles,litsdeplantation           9   
+438                 *E.T.-Trottoiroubordure-Réparation           9   
+439  *Z-Borne-fontaine-Installation,retraitoudéplac...           9   
+440                       Immeuble-Malpropretégénérale           9   
+441                                    Balconmalpropre           9   
+442                           REM-Occupationtemporaire           9   
+443                            *Dépôtillégal-Ramassage           9   
+444                         BacdeMOsortientempsprohibé           9   
+445       *E.T.-Stationnementoudébarcadèrepourcommerce           8   
+446                   *Déchets-Bacendommagé,perdu,volé           8   
+447                                       *Jeud'enfant           8   
+448                              *Stationnement-Études           8   
+449                                *Bancs,poubellesetc           8   
+450                     *Abattaged'arbre-terrainpublic           8   
+451                           Ingénierie-Égout,puisard           8   
+452              ComplexeenvironnementaldeSaint-Michel           8   
+453                                         Géomatique           8   
+454                       *Nettoyagedepuisards-ruelles           8   
+455                    Excèsdevitesse-SurveillanceSPVM           8   
+456                              *Débarcadère-Garderie           8   
+457                                         Herbeàpoux           8   
+458                            *Parc-Entretien-Clôture           8   
+459                             Loisirs-EntretienLéger           8   
+460         *Signalisation-Études-Personneshandicapées           8   
+461                  *Exterminationàl'extérieur-Guêpes           8   
+462                        Résidusdomestiquesdangereux           8   
+463                                 *Eau-Projetspécial           8   
+464                                            *Tennis           7   
+465            Sécuritéincendie-Pompier-Camion-Caserne           7   
+466                                   *Borneélectrique           7   
+467                            *Jardins-Renouvellement           7   
+468                               Inspectiondelogement           7   
+469  Immeublesmunicipaux-Mobilierréparationetfabric...           7   
+470                            *E.T.-Feuxdecirculation           7   
+471                             Avisdecourtoisie-Neige           7   
+472             *Débarcadèreécole,garderie,institution           7   
+473                       400-Incivilitésetinfractions           7   
+474                 *Parc-Propreté-Entretienairedejeux           7   
+475                      Développementculturel-Central           7   
+476                         Arbre-Abattaged'arbreprivé           7   
+477                                *BacdeMO-Livraison.           7   
+478                                      Arbresruelles           6   
+479                  *GazonEndommagé-TravauxparlaVille           6   
+480                      *CAFÉ-TERRASSE(DOMAINEPUBLIC)           6   
+481                  Travauxpublics-Plaintedetoutgenre           6   
+482           Mesuresd'urgence-Gestionenarrondissement           6   
+483           Appeld'offreetsoumissiond'arrondissement           6   
+484                                   *Éclairagedeparc           6   
+485                         Utilitépublique-Excavation           6   
+486                                     Dosd'âneRUELLE           6   
+487                     *Parc-Mobilier-Jeux-Vandalisme           6   
+488            Immeublesmunicipaux-Chauffageélectrique           6   
+489                             Entretiendespatinoires           6   
+490                 DirectionDéveloppementduterritoire           6   
+491                                    Chiensanspermis           6   
+492                         Entretien-Dosd'ânederuelle           6   
+493                                       *Feuxpiétons           6   
+494                      Articledejeuxsurdomainepublic           6   
+495                                 Autre-Résidusverts           6   
+496                      Logementsocialetcommunautaire           6   
+497    *Demandederenseignement-signalisationpermanente           6   
+498        *Fontaineàboire,jeud'eau,fontainedécorative           6   
+499                                    *E.T.-Sensderue           6   
+500                                        1100-Autres           6   
+501                       Immeublesmunicipaux-Peinture           5   
+502                                   *Zonedelivraison           5   
+503                             Boîtedeserviceàniveler           5   
+504                                  Piscine-Propreté.           5   
+505                                            Pavéuni           5   
+506                   Autre-Carted'Accèsarrondissement           5   
+507                                 Occupationbâtiment           5   
+508                         Recyclage-Avisdecourtoisie           5   
+509                             *Éclairageterr.sportif           5   
+510      Immeublesmunicipaux-Ventilation,climatisation           5   
+511                                   *Compteurbruyant           5   
+512                                 Constructionruelle           5   
+513                                   *E.T.-Camionnage           5   
+514                                 *Débarcadère-École           5   
+515                     Bruit-Thermopompeetclimatiseur           5   
+516                                     *Stationnement           5   
+517                                          *Marquage           5   
+518             Technique-Trottoiroubordure-Réparation           5   
+519                           GMR-Nouvelleimplantation           5   
+520                                       Droitsacquis           5   
+521                               Abattaged'arbreprivé           5   
+522                    *Voirie-Divers-GestionRetourDDS           5   
+523                    Subventionlocale-Arrondissement           4   
+524                               Électionetréférendum           4   
+525                                   Z-Nouveausecteur           4   
+526                                Piscine-Électricité           4   
+527                                    Clôturepublique           4   
+528                                     *Pressionbasse           4   
+529                         Carted'Accèsarrondissement           4   
+530                                      *Bibliothèque           4   
+531                                     *Nettoyageparc           4   
+532                            *E.T.-Pavage-Réparation           4   
+533                                   Autre-Dérogation           4   
+534                   *Bacroulant-Endommagé,perdu,volé           4   
+535                                          Oriflamme           4   
+536                                  *Bâtiment-Piscine           4   
+537                                    Autre-Pesticide           4   
+538                                        Inscription           4   
+539                   *Eau-Mettreboîtedeserviceenordre           4   
+540                                   Plomberie-Chalet           4   
+541                               Acquisitiondeterrain           4   
+542                         Autre-Marquagedelachaussée           4   
+543                                *Terrainsextérieurs           4   
+544                            *Permis-Bruit-Résidence           4   
+545                      Encaissement-Alarmenon-fondée           4   
+546                             Budgetd'arrondissement           4   
+547                                             Airbnb           4   
+548                               Environnement-autres           4   
+549                    Enseignetemporaire-Domaineprivé           4   
+550                          SignalisationendommagéeVm           4   
+551                                Transporthorsnormes           4   
+552                          *Défensedejeterdesdéchets           4   
+553                  *Panierderue-Réparation/Entretien           4   
+554                                      Stationnement           3   
+555                              *Permis-Bruit-Travaux           3   
+556                                 *Agir-Tarification           3   
+557                Plaintecontreunagentdestationnement           3   
+558                    Mobilitéélectriquelibre-service           3   
+559                                        Climatiseur           3   
+560                      Puisard/TH-CouvercleStructure           3   
+561                           *Boîtedeserviceàvérifier           3   
+562                                 *Fermeturederuelle           3   
+563                                               PIIA           3   
+564                       *Permis-Logement-Moisissures           3   
+565             Encaissement-Occupationdudomainepublic           3   
+566              Marches-Courses-Calèches-Tournages-SU           3   
+567                          *Stationnementcourtedurée           3   
+568                        *Supportàvélo-Ajout/Retrait           3   
+569                                   Autre-Démolition           3   
+570                                     AEC(Parccanin)           3   
+571                                Autre-Clôtureethaie           3   
+572                                    Égout-Entretien           3   
+573  *Z-Demandederenseignement-signalisationtemporaire           3   
+574                               *Arbreprivédangereux           3   
+575                        *Égout-Réparation-Entretien           3   
+576                *Permis-Logement-Accumulationodeurs           3   
+577                      Entréecharretière-circulation           3   
+578                 *Bacdedéchets-Modificationauvolume           3   
+579                      Résidusverts-Avisdecourtoisie           3   
+580                                        Ruelleverte           3   
+581                              Parcmobilier-Ajout-VM           3   
+582                                         *Sensderue           3   
+583                                  *Brancheaccrochée           3   
+584                         Immeublesmunicipaux-Alarme           3   
+585                              Plomberie-Pataugeoire           3   
+586                             *Bacroulant-Nonramassé           3   
+587                                  *Limitesdevitesse           3   
+588                                        *SRRR-Autre           3   
+589                                   *Événementpublic           3   
+590                                   Permis-Pesticide           3   
+591                       Distributiondesacpourmatelas           3   
+592                             *Piétonnisation-Masson           3   
+593           *Entretiend'édificesmunicipaux-Plomberie           3   
+594                               Autre-Communications           3   
+595                            Programmedechatserrants           3   
+596                    Affichefixéesurarbresouarbustes           3   
+597               Surveillancedestravaux-Chantierparcs           3   
+598                                     *E.T.-Marquage           3   
+599                            Recherched'encaissement           3   
+600                         *Sportsetloisirs-aquatique           3   
+601                                 Anciennescarrières           3   
+602                       *Parc-Aménagement-Conception           3   
+603                     *Permis-Construction-Nuisances           3   
+604      Immeublesmunicipaux-Téléphonie,réseauetcaméra           3   
+605          Autre-Horticulture-Distributiondevégétaux           3   
+606                                Environnement-bruit           3   
+607               Encaissement-Revenusliésauxévictions           3   
+608                      Retourdechèquepermisanimalier           3   
+609                Occupationpériodiquedudomainepublic           2   
+610                        Mobilierurbain-Installation           2   
+611                                    Maisonsfleuries           2   
+612                             *Voirie-TravauxAqueduc           2   
+613                                  *E.T.-Feuxpiétons           2   
+614                                 Enseignesamovibles           2   
+615                                *E.T.-Arrêtinterdit           2   
+616                                 *Exterminationrats           2   
+617                     *Réparationdepuisards-trottoir           2   
+618                              *Déchetshorsdesheures           2   
+619       *Environnement-Recyclage-Bac240lt-Nonramassé           2   
+620              *Parc-Aménagement-Étudespréliminaires           2   
+621            *Permis-Logement-Défectuositéintérieure           2   
+622                     Immeublesmunicipaux-Maçonnerie           2   
+623                                        Autre-Taxes           2   
+624                           Renseignements-Pesticide           2   
+625                                  Voirie-Vibrations           2   
+626                                   Entretiengénéral           2   
+627  Immeublesmunicipaux-Abeilles,guêpes,bourdonsàl...           2   
+628                             *Permis-Bruit-Commerce           2   
+629                                *Banc-Ajout/Retrait           2   
+630               Permis-Conversionencopropriétédivise           2   
+631                                  Dérogationmineure           2   
+632                      *Puisard-Réparation-Entretien           2   
+633                *Permis-Bruit-Circulationdescamions           2   
+634       *Voirie-Nettoyagedudomainepublic-Panierderue           2   
+635                *Permis-Logement-Accumulationbalcon           2   
+636                                         Eau-Divers           2   
+637                            Arbre-Suivideplantation           2   
+638                                   Pucerondutilleul           2   
+639                             *Demanded'informations           2   
+640              Parc-Chalet-Conciergerieetventilation           2   
+641                      CVP-Raccordementaqueduc/égout           2   
+642                                        *Herbeàpoux           2   
+643            *Permis-Logement-Défectuositéextérieure           2   
+644               permisdeconstructionettransformation           2   
+645      *Voirie-Mobilierurbain-Entretienetdéplacement           2   
+646                      *Parc-Aménagement-Réalisation           2   
+647                            *E.T.-Entréecharretière           2   
+648                                 Direction-Finances           2   
+649                            *Favorable-Modification           2   
+650                            510-Routier/Circulation           2   
+651                  Afficheautoportante-Domainepublic           2   
+652                                    *Brisdanschalet           2   
+653                     Greffe-CA-Registredesquestions           2   
+654                             SoutienCarteInfo-Neige           2   
+655                               Logement-Ventilation           2   
+656                       Déchets-Illégal-Recyclage-VM           2   
+657                               Info-travaux-Urgence           2   
+658                                         *Seringues           2   
+659                                         800-Bruits           2   
+660                              Animauxperdus/trouvés           2   
+661               Archivesetrèglementsd'arrondissement           2   
+662                                  Concourshorticole           2   
+663             Direction-Affairespénalesetcriminelles           2   
+664                                 TravauxPublics-RDD           2   
+665                             Tigedeprotection(2018)           2   
+666                   Afficheautoportante-Domaineprivé           2   
+667                           Signalisation-Lignederue           1   
+668                            DirectionTravauxPublics           1   
+669                       Travaux(info)-Panneauxdivers           1   
+670                                Environnement-neige           1   
+671              Sécuritéincendie-Thèmesadministratifs           1   
+672                                      *Tontedegazon           1   
+673                         Graffitissurbâtimentpublic           1   
+674                *Parc-Aménagement-Ajoutd'équipement           1   
+675               *Parc-Propreté-Entretiencarrédesable           1   
+676                               Haienonréglementaire           1   
+677                                           Solarium           1   
+678                        *Nuisancechantier-Poussière           1   
+679                                        Jardinderue           1   
+680                          Événementspublics-Loisirs           1   
+681                 *Permis-Logement-Nuisancesanimales           1   
+682                  *Servicesadministratifs-Sud-Ouest           1   
+683                                *Conteneursàordures           1   
+684                         Parc-Mobilier-Installation           1   
+685                       *Voirie-Trottoir-Réalisation           1   
+686                            Permisconteneuràdéchets           1   
+687                    *Véhiculesnonétatfonctionnement           1   
+688                                     Chatsanspermis           1   
+689                                 *BibliothèqueBENNY           1   
+690                       Technique-Pavéuni-Réparation           1   
+691                                *Bâtiment-Plomberie           1   
+692                         *Vermine,insectesnuisibles           1   
+693                        *Réparationdechambredevanne           1   
+694                                      *tontedegazon           1   
+695                            Parc-Chalet-Electricité           1   
+696                         Épandageinterdit-Pesticide           1   
+697                        Terrainsportif-DemandeCSLDS           1   
+698                 *Exterminationàl'extérieur-Fourmis           1   
+699                    Cruedeseaux-Nettoyage-Collectes           1   
+700                          *Parc-Gazon-Terrainvacant           1   
+701                            Parc-Mobilier-Entretien           1   
+702                 feux-mod.délaisetautreschangements           1   
+703                     *ÉLU-Directiond'arrondissement           1   
+704                          Constatd'infraction-Neige           1   
+705                                            Drapeau           1   
+706                                MO-Avisdecourtoisie           1   
+707                                    *Parc-Jeuxd'eau           1   
+708                          *Parc-Aired'exercicecanin           1   
+709                                           *Déchets           1   
+710                             Éclairage-DemandeCSLDS           1   
+711                  Barilderécupérationdel'eaudepluie           1   
+712                              *Regardd'égoûtdéplacé           1   
+713                                   *BibliothèqueNDG           1   
+714                *Sportsetloisirs-Terrainsextérieurs           1   
+715                                  600-Signalisation           1   
+716  *Horticulture-Varia-Pesticide-Vérificationinfe...           1   
+717               *Voirie-Mobilierurbain-Clôtureenbois           1   
+718                                bacbrundistribution           1   
+719                        *Plateauxsportifs-entretien           1   
+720  Planificationdestravaux-Étudesimmeublesmunicipaux           1   
+721                          Environnement-herbelongue           1   
+722    Permis-Logement-Insalubrité(logementoubâtiment)           1   
+723                                    Amuseurspublics           1   
+724                           *Égout-Nettoyage-Contrat           1   
+725                                 Affichagepolitique           1   
+726                                   Recyclageduverre           1   
+727                              Déneigeurprivé-Permis           1   
+728                             Appropriationcitoyenne           1   
+729                                IRP-Mesured'urgence           1   
+730                              Propreté-DemandeCSLDS           1   
+731                                               Bixi           1   
+732                   Environnement-débrisvoiepublique           1   
+733                                *Demandedepropriété           1   
+734                                    Voirie-Poubelle           1   
+735                               Immeuble-Ventilation           1   
+736                                *Déchetsmaldisposés           1   
+737                             *Entrave-Pistecyclable           1   
+738                                        Voirie-Banc           1   
+739                                         *Poubelles           1   
+740                                   *BibliothèqueCDN           1   
+741                  Graffitis-Domaineprivé-Inspection           1   
+742                                             Ciment           1   
+743              DirectionCultureSportsLoisirsDév.Soc.           1   
+744                             Environnement-arrosage           1   
+745                       Grillesdezonage-Distribution           1   
+746                     *BacdeMO-Modificationdevolume.           1   
+747                  Signalisationnonautorisée-Analyse           1   
+748             Immeublesmunicipaux-Chauffageàairchaud           1   
+749                      *Eau-Bornefontaine-Réparation           1   
+750                                         Bac-Divers           1   
+751     *collectedesrésidusalimentaires-Bacnonramassés           1   
+752                                      IRP-Ascenseur           1   
+753                                Opérationcadastrale           1   
+754                               *Plantationexécution           1   
+755        *Déchets-Dépôtillégalaprèsinspection-Voirie           1   
+756                                    *Arbresderuelle           1   
+757                                       *Partenaires           1   
+758                                           *WOONERF           1   
+759                              *Extermination-Guêpes           1   
+760                               Bicycletteabandonnée           1   
+761                 *Permis-Logement-Vermines-rongeurs           1   
+762                       Boitedeserviceàmettreenordre           1   
+763                      Immeuble-Serrureported'entrée           1   
+764                                   Affichagesauvage           1   
+765          Autorisationd'affichagesurpropriétéprivée           1   
+766                                 Abribus-Réparation           1   
+767                      *Boîtedeserviceàmettreenordre           1   
+768                               Stationnement-Études           1   
+769                      Déchets-Illégal-Conteneurs-VM           1   
+770           Centresdetraitementdesmatièresorganiques           1   
+771               *Sportsetloisirs-Centrecommunautaire           1   
+772          Distributiondespublicationsarrondissement           1   
+773   *Sportsetloisirs-Activités-Activitésdanslesparcs           1   
+774                                  Fuiteboîte-maison           1   
+775                             *Débarcadère-Handicapé           1   
+776                      BranchementégoutBrisé/Déformé           1   
+777                            Déneigeurprivé-Enseigne           1   
+778                          Bornefontaine-Obstruction           1   
+779                             *Inspectiondesaliments           1   
+780                 *Informationsurconstatd'infraction           1   
+781                   CompteurICIVérificationdelecture           1   
+782                               ArénaMaurice-Richard           1   
+783                                       Codedelangue           1   
+784               *Contrôledustationnementvoiepublique           1   
+785                                  *Gazon-Réparation           1   
+786  *Égout-Divers-Tuyaudeserviced'égout-Raccordeme...           1   
+787       Ralentiinutile-Terrainprivéautrequechantier.           1   
+788                                  *Arbustes,vivaces           1   
+789                                  *ÉLU-DirectionAUP           1   
+790                          Graffitissursignalisation           1   
+791        *Eau-Divers-Remplacerentréedeserviceenplomb           1   
+792                                  Rapportd'accident           1   
+793        Correspondanceadresséeauxélusouàladirection           1   
+794                     *Parc-Terrains-sportifs-Soccer           1   
+795                                            *Erreur           1   
+796                             Excrémentsterrainprivé           1   
+797                                   *ÉLU-DirectionTP           1   
+798                                                CCU           1   
+799                              Environnement-animaux           1   
+800                           *Équipementterr.sportifs           1   
+801                                       Fuiteservice           1   
+802          DirectionPerformance,GreffeetServicesadm.           1   
+803                                   Antennesatellite           1   
+804                                Acquisitionderuelle           1   
+805                            *E.T.-Tempsdelatraverse           1   
+806                           Environnement-abrid'auto           1   
+807                                *E.T.-Ruespiétonnes           1   
+808                        Environnement-stationnement           1   
+
+     percentage   cum_pct  represented_boroughs  
+0      0.052247  0.052247                    18  
+1      0.048620  0.100867                    19  
+2      0.039420  0.140287                    19  
+3      0.032640  0.172927                    19  
+4      0.028391  0.201317                    19  
+5      0.025888  0.227206                    19  
+6      0.022627  0.249833                    19  
+7      0.022148  0.271981                    16  
+8      0.021911  0.293892                    19  
+9      0.020449  0.314340                    19  
+10     0.020095  0.334435                    19  
+11     0.019849  0.354284                    19  
+12     0.017440  0.371724                    18  
+13     0.016106  0.387830                    19  
+14     0.015474  0.403303                    19  
+15     0.014137  0.417440                    19  
+16     0.013274  0.430714                    19  
+17     0.013004  0.443718                    19  
+18     0.012351  0.456068                    19  
+19     0.012306  0.468374                    19  
+20     0.011910  0.480284                    19  
+21     0.011754  0.492038                    19  
+22     0.010984  0.503022                    19  
+23     0.010855  0.513878                    19  
+24     0.010672  0.524550                    19  
+25     0.010292  0.534842                     1  
+26     0.010238  0.545079                    19  
+27     0.009797  0.554877                    19  
+28     0.009788  0.564665                    19  
+29     0.009725  0.574390                    19  
+30     0.009414  0.583804                    19  
+31     0.009294  0.593097                    19  
+32     0.008823  0.601920                    19  
+33     0.008703  0.610624                    19  
+34     0.008613  0.619237                    19  
+35     0.008562  0.627800                    19  
+36     0.008383  0.636182                    19  
+37     0.008281  0.644463                    19  
+38     0.007879  0.652342                    19  
+39     0.007822  0.660164                    19  
+40     0.007657  0.667822                    19  
+41     0.007403  0.675224                    19  
+42     0.007319  0.682543                    19  
+43     0.007214  0.689757                    19  
+44     0.006890  0.696647                     2  
+45     0.006833  0.703480                    19  
+46     0.006704  0.710184                    19  
+47     0.006566  0.716751                    19  
+48     0.006518  0.723269                    19  
+49     0.006285  0.729554                    19  
+50     0.006225  0.735778                    19  
+51     0.006042  0.741820                     1  
+52     0.005874  0.747695                    19  
+53     0.005694  0.753389                    19  
+54     0.005667  0.759056                    19  
+55     0.005514  0.764571                    16  
+56     0.005368  0.769938                    17  
+57     0.005044  0.774982                    18  
+58     0.005014  0.779996                    19  
+59     0.005008  0.785004                    19  
+60     0.004882  0.789886                    19  
+61     0.004621  0.794508                    17  
+62     0.004262  0.798769                    19  
+63     0.004190  0.802959                    19  
+64     0.003953  0.806912                    19  
+65     0.003758  0.810671                    19  
+66     0.003743  0.814414                     1  
+67     0.003737  0.818151                    19  
+68     0.003698  0.821849                     9  
+69     0.003680  0.825530                    19  
+70     0.003560  0.829090                    19  
+71     0.003551  0.832642                    18  
+72     0.003438  0.836079                    19  
+73     0.003255  0.839334                    19  
+74     0.003147  0.842481                    17  
+75     0.002820  0.845301                    19  
+76     0.002745  0.848046                    16  
+77     0.002718  0.850764                     1  
+78     0.002715  0.853480                    16  
+79     0.002673  0.856153                     1  
+80     0.002595  0.858748                    19  
+81     0.002577  0.861326                    17  
+82     0.002520  0.863846                     1  
+83     0.002455  0.866301                    18  
+84     0.002311  0.868612                    11  
+85     0.002293  0.870904                    19  
+86     0.002293  0.873197                    19  
+87     0.002284  0.875481                    19  
+88     0.002251  0.877731                    19  
+89     0.002197  0.879928                    19  
+90     0.002167  0.882095                    19  
+91     0.002155  0.884250                    19  
+92     0.002155  0.886405                    19  
+93     0.001999  0.888404                    19  
+94     0.001963  0.890367                    17  
+95     0.001960  0.892327                    19  
+96     0.001930  0.894257                     1  
+97     0.001900  0.896157                    19  
+98     0.001837  0.897994                    14  
+99     0.001816  0.899810                    19  
+100    0.001801  0.901611                    18  
+101    0.001756  0.903368                    19  
+102    0.001711  0.905079                    19  
+103    0.001693  0.906772                    13  
+104    0.001657  0.908430                    19  
+105    0.001624  0.910054                    18  
+106    0.001621  0.911675                    19  
+107    0.001570  0.913246                     1  
+108    0.001564  0.914810                     3  
+109    0.001427  0.916237                     1  
+110    0.001415  0.917651                     9  
+111    0.001367  0.919018                    12  
+112    0.001286  0.920304                     1  
+113    0.001217  0.921521                    17  
+114    0.001199  0.922719                    19  
+115    0.001085  0.923804                    18  
+116    0.001076  0.924880                     1  
+117    0.001070  0.925950                    19  
+118    0.001019  0.926969                     1  
+119    0.000986  0.927955                     1  
+120    0.000980  0.928935                     1  
+121    0.000977  0.929912                    16  
+122    0.000977  0.930889                    19  
+123    0.000935  0.931824                    19  
+124    0.000935  0.932759                     1  
+125    0.000932  0.933691                    18  
+126    0.000917  0.934608                     1  
+127    0.000893  0.935502                    19  
+128    0.000872  0.936374                    17  
+129    0.000872  0.937246                     2  
+130    0.000851  0.938097                    18  
+131    0.000833  0.938930                    19  
+132    0.000818  0.939748                     1  
+133    0.000782  0.940531                     1  
+134    0.000758  0.941289                    10  
+135    0.000755  0.942044                    19  
+136    0.000749  0.942793                     1  
+137    0.000746  0.943540                    18  
+138    0.000740  0.944280                    17  
+139    0.000737  0.945017                     2  
+140    0.000668  0.945685                    16  
+141    0.000659  0.946345                    17  
+142    0.000656  0.947001                    16  
+143    0.000656  0.947657                    14  
+144    0.000644  0.948302                    19  
+145    0.000629  0.948931                     1  
+146    0.000626  0.949557                    18  
+147    0.000605  0.950163                    19  
+148    0.000578  0.950741                    19  
+149    0.000569  0.951311                     1  
+150    0.000560  0.951871                    17  
+151    0.000554  0.952426                     8  
+152    0.000548  0.952974                    19  
+153    0.000548  0.953523                    17  
+154    0.000548  0.954071                     1  
+155    0.000548  0.954619                    16  
+156    0.000542  0.955162                    18  
+157    0.000542  0.955704                     1  
+158    0.000533  0.956238                     2  
+159    0.000527  0.956765                     1  
+160    0.000521  0.957287                     1  
+161    0.000515  0.957802                     1  
+162    0.000509  0.958312                    12  
+163    0.000486  0.958797                    16  
+164    0.000483  0.959280                    18  
+165    0.000483  0.959762                     1  
+166    0.000480  0.960242                    17  
+167    0.000480  0.960721                    16  
+168    0.000468  0.961189                     1  
+169    0.000453  0.961641                     7  
+170    0.000450  0.962091                    18  
+171    0.000450  0.962540                    18  
+172    0.000438  0.962978                     1  
+173    0.000429  0.963407                    18  
+174    0.000426  0.963832                     1  
+175    0.000426  0.964258                    13  
+176    0.000423  0.964680                     2  
+177    0.000423  0.965103                     1  
+178    0.000414  0.965517                     1  
+179    0.000405  0.965921                    10  
+180    0.000405  0.966326                     1  
+181    0.000393  0.966718                     1  
+182    0.000390  0.967108                    16  
+183    0.000387  0.967495                     1  
+184    0.000387  0.967881                    17  
+185    0.000387  0.968268                     1  
+186    0.000384  0.968651                     9  
+187    0.000369  0.969020                    13  
+188    0.000348  0.969368                     1  
+189    0.000348  0.969715                     1  
+190    0.000345  0.970060                    11  
+191    0.000327  0.970387                    15  
+192    0.000327  0.970713                     1  
+193    0.000321  0.971034                    14  
+194    0.000315  0.971349                    18  
+195    0.000315  0.971663                     1  
+196    0.000315  0.971978                     1  
+197    0.000312  0.972290                     1  
+198    0.000306  0.972595                    17  
+199    0.000303  0.972898                    11  
+200    0.000297  0.973195                    13  
+201    0.000291  0.973486                    13  
+202    0.000288  0.973773                     1  
+203    0.000279  0.974052                    18  
+204    0.000279  0.974331                     1  
+205    0.000276  0.974606                     1  
+206    0.000273  0.974879                    18  
+207    0.000264  0.975143                    14  
+208    0.000258  0.975401                     9  
+209    0.000252  0.975652                     1  
+210    0.000252  0.975904                     1  
+211    0.000249  0.976153                    14  
+212    0.000249  0.976402                     1  
+213    0.000246  0.976647                    15  
+214    0.000246  0.976893                     1  
+215    0.000246  0.977139                     1  
+216    0.000246  0.977385                     1  
+217    0.000243  0.977627                    14  
+218    0.000243  0.977870                     1  
+219    0.000234  0.978104                     1  
+220    0.000231  0.978335                     1  
+221    0.000228  0.978562                    11  
+222    0.000225  0.978787                    13  
+223    0.000219  0.979006                     1  
+224    0.000213  0.979219                     1  
+225    0.000201  0.979420                     1  
+226    0.000198  0.979617                    14  
+227    0.000195  0.979812                    11  
+228    0.000195  0.980007                    18  
+229    0.000189  0.980196                     1  
+230    0.000189  0.980385                     1  
+231    0.000189  0.980573                     1  
+232    0.000189  0.980762                    14  
+233    0.000186  0.980948                     1  
+234    0.000183  0.981131                    15  
+235    0.000171  0.981302                     1  
+236    0.000168  0.981470                     1  
+237    0.000165  0.981634                    16  
+238    0.000162  0.981796                     1  
+239    0.000162  0.981958                     1  
+240    0.000162  0.982120                    14  
+241    0.000159  0.982279                     1  
+242    0.000159  0.982438                    14  
+243    0.000159  0.982596                     1  
+244    0.000156  0.982752                    10  
+245    0.000156  0.982908                     1  
+246    0.000156  0.983064                     1  
+247    0.000153  0.983217                    16  
+248    0.000147  0.983364                     1  
+249    0.000144  0.983508                    13  
+250    0.000144  0.983651                     1  
+251    0.000141  0.983792                    14  
+252    0.000141  0.983933                     1  
+253    0.000141  0.984074                     1  
+254    0.000141  0.984215                     8  
+255    0.000141  0.984356                     1  
+256    0.000138  0.984494                     1  
+257    0.000138  0.984631                     1  
+258    0.000135  0.984766                     1  
+259    0.000135  0.984901                     1  
+260    0.000135  0.985036                     1  
+261    0.000132  0.985168                     1  
+262    0.000132  0.985300                     1  
+263    0.000126  0.985426                     1  
+264    0.000126  0.985551                     1  
+265    0.000126  0.985677                     1  
+266    0.000123  0.985800                     2  
+267    0.000123  0.985923                     1  
+268    0.000120  0.986043                     1  
+269    0.000120  0.986163                     1  
+270    0.000120  0.986283                     1  
+271    0.000117  0.986400                     1  
+272    0.000114  0.986513                     1  
+273    0.000114  0.986627                     2  
+274    0.000114  0.986741                     1  
+275    0.000114  0.986855                     1  
+276    0.000114  0.986969                    14  
+277    0.000111  0.987080                     1  
+278    0.000111  0.987191                     1  
+279    0.000111  0.987302                     1  
+280    0.000111  0.987413                     1  
+281    0.000111  0.987523                     1  
+282    0.000108  0.987631                     1  
+283    0.000108  0.987739                     2  
+284    0.000108  0.987847                     1  
+285    0.000108  0.987955                     1  
+286    0.000105  0.988060                     1  
+287    0.000102  0.988162                     1  
+288    0.000102  0.988264                     1  
+289    0.000102  0.988366                     1  
+290    0.000102  0.988468                    15  
+291    0.000099  0.988566                    11  
+292    0.000099  0.988665                     1  
+293    0.000099  0.988764                     1  
+294    0.000096  0.988860                     1  
+295    0.000093  0.988953                     1  
+296    0.000093  0.989046                     1  
+297    0.000090  0.989136                     1  
+298    0.000090  0.989226                     1  
+299    0.000090  0.989316                     1  
+300    0.000090  0.989406                     1  
+301    0.000090  0.989496                     1  
+302    0.000087  0.989582                     2  
+303    0.000087  0.989669                     1  
+304    0.000087  0.989756                     1  
+305    0.000084  0.989840                    12  
+306    0.000084  0.989924                     1  
+307    0.000084  0.990008                     1  
+308    0.000084  0.990092                     1  
+309    0.000084  0.990176                     1  
+310    0.000081  0.990257                     2  
+311    0.000081  0.990338                    12  
+312    0.000081  0.990419                     1  
+313    0.000081  0.990500                     1  
+314    0.000081  0.990580                     1  
+315    0.000078  0.990658                     1  
+316    0.000078  0.990736                     1  
+317    0.000078  0.990814                     1  
+318    0.000078  0.990892                    10  
+319    0.000078  0.990970                     1  
+320    0.000075  0.991045                    12  
+321    0.000075  0.991120                     9  
+322    0.000075  0.991195                     1  
+323    0.000075  0.991270                     8  
+324    0.000075  0.991345                     1  
+325    0.000075  0.991420                     1  
+326    0.000075  0.991495                     1  
+327    0.000072  0.991566                     1  
+328    0.000072  0.991638                    11  
+329    0.000072  0.991710                    12  
+330    0.000072  0.991782                    10  
+331    0.000069  0.991851                     1  
+332    0.000069  0.991920                     2  
+333    0.000069  0.991989                     1  
+334    0.000069  0.992058                     1  
+335    0.000069  0.992127                     1  
+336    0.000066  0.992193                     1  
+337    0.000063  0.992256                    10  
+338    0.000063  0.992319                     3  
+339    0.000063  0.992382                     1  
+340    0.000063  0.992445                     9  
+341    0.000063  0.992507                     1  
+342    0.000063  0.992570                     1  
+343    0.000063  0.992633                     2  
+344    0.000063  0.992696                     1  
+345    0.000060  0.992756                     1  
+346    0.000060  0.992816                     1  
+347    0.000060  0.992876                     1  
+348    0.000060  0.992936                     1  
+349    0.000057  0.992993                     8  
+350    0.000057  0.993050                     1  
+351    0.000057  0.993107                     1  
+352    0.000057  0.993164                     1  
+353    0.000057  0.993221                     1  
+354    0.000057  0.993278                     1  
+355    0.000057  0.993335                     1  
+356    0.000057  0.993392                     1  
+357    0.000057  0.993449                     1  
+358    0.000054  0.993503                     1  
+359    0.000054  0.993556                     1  
+360    0.000054  0.993610                     1  
+361    0.000054  0.993664                     1  
+362    0.000054  0.993718                     1  
+363    0.000054  0.993772                     1  
+364    0.000054  0.993826                     1  
+365    0.000051  0.993877                     8  
+366    0.000051  0.993928                     9  
+367    0.000051  0.993979                     1  
+368    0.000051  0.994030                     1  
+369    0.000051  0.994081                     1  
+370    0.000051  0.994132                     1  
+371    0.000048  0.994180                     1  
+372    0.000048  0.994228                     1  
+373    0.000048  0.994276                     1  
+374    0.000048  0.994324                     9  
+375    0.000048  0.994372                     1  
+376    0.000048  0.994420                     1  
+377    0.000048  0.994468                     5  
+378    0.000048  0.994515                     1  
+379    0.000045  0.994560                     1  
+380    0.000045  0.994605                    11  
+381    0.000045  0.994650                     1  
+382    0.000045  0.994695                     1  
+383    0.000045  0.994740                     9  
+384    0.000045  0.994785                     2  
+385    0.000042  0.994827                     5  
+386    0.000042  0.994869                     1  
+387    0.000042  0.994911                     1  
+388    0.000042  0.994953                     1  
+389    0.000042  0.994995                     1  
+390    0.000042  0.995037                     1  
+391    0.000042  0.995079                     1  
+392    0.000042  0.995121                     2  
+393    0.000042  0.995163                     2  
+394    0.000042  0.995205                     1  
+395    0.000039  0.995244                     1  
+396    0.000039  0.995283                     1  
+397    0.000039  0.995322                     1  
+398    0.000039  0.995361                     6  
+399    0.000039  0.995400                     1  
+400    0.000039  0.995439                     1  
+401    0.000039  0.995478                     1  
+402    0.000039  0.995516                     1  
+403    0.000039  0.995555                     1  
+404    0.000039  0.995594                     1  
+405    0.000036  0.995630                     1  
+406    0.000036  0.995666                     1  
+407    0.000036  0.995702                     2  
+408    0.000036  0.995738                     1  
+409    0.000036  0.995774                     1  
+410    0.000036  0.995810                     2  
+411    0.000036  0.995846                     1  
+412    0.000036  0.995882                     1  
+413    0.000036  0.995918                     1  
+414    0.000036  0.995954                     1  
+415    0.000036  0.995990                     1  
+416    0.000033  0.996023                     6  
+417    0.000033  0.996056                     3  
+418    0.000033  0.996089                     1  
+419    0.000033  0.996122                     1  
+420    0.000033  0.996155                     1  
+421    0.000033  0.996188                     1  
+422    0.000033  0.996221                     1  
+423    0.000033  0.996254                     1  
+424    0.000033  0.996287                     1  
+425    0.000033  0.996320                     1  
+426    0.000033  0.996353                     1  
+427    0.000030  0.996383                     5  
+428    0.000030  0.996413                     7  
+429    0.000030  0.996443                     1  
+430    0.000030  0.996473                     1  
+431    0.000030  0.996503                     1  
+432    0.000030  0.996532                     1  
+433    0.000030  0.996562                     1  
+434    0.000030  0.996592                     1  
+435    0.000030  0.996622                     1  
+436    0.000030  0.996652                     4  
+437    0.000027  0.996679                     1  
+438    0.000027  0.996706                     1  
+439    0.000027  0.996733                     5  
+440    0.000027  0.996760                     1  
+441    0.000027  0.996787                     1  
+442    0.000027  0.996814                     1  
+443    0.000027  0.996841                     1  
+444    0.000027  0.996868                     1  
+445    0.000024  0.996892                     1  
+446    0.000024  0.996916                     1  
+447    0.000024  0.996940                     1  
+448    0.000024  0.996964                     1  
+449    0.000024  0.996988                     1  
+450    0.000024  0.997012                     1  
+451    0.000024  0.997036                     1  
+452    0.000024  0.997060                     8  
+453    0.000024  0.997084                     8  
+454    0.000024  0.997108                     1  
+455    0.000024  0.997132                     1  
+456    0.000024  0.997156                     2  
+457    0.000024  0.997180                     1  
+458    0.000024  0.997204                     1  
+459    0.000024  0.997228                     1  
+460    0.000024  0.997252                     1  
+461    0.000024  0.997276                     1  
+462    0.000024  0.997300                     5  
+463    0.000024  0.997324                     6  
+464    0.000021  0.997345                     1  
+465    0.000021  0.997366                     6  
+466    0.000021  0.997387                     1  
+467    0.000021  0.997408                     1  
+468    0.000021  0.997429                     1  
+469    0.000021  0.997450                     1  
+470    0.000021  0.997471                     1  
+471    0.000021  0.997492                     1  
+472    0.000021  0.997512                     1  
+473    0.000021  0.997533                     1  
+474    0.000021  0.997554                     1  
+475    0.000021  0.997575                     3  
+476    0.000021  0.997596                     1  
+477    0.000021  0.997617                     1  
+478    0.000018  0.997635                     1  
+479    0.000018  0.997653                     1  
+480    0.000018  0.997671                     1  
+481    0.000018  0.997689                     1  
+482    0.000018  0.997707                     5  
+483    0.000018  0.997725                     3  
+484    0.000018  0.997743                     1  
+485    0.000018  0.997761                     5  
+486    0.000018  0.997779                     1  
+487    0.000018  0.997797                     1  
+488    0.000018  0.997815                     1  
+489    0.000018  0.997833                     1  
+490    0.000018  0.997851                     1  
+491    0.000018  0.997869                     1  
+492    0.000018  0.997887                     2  
+493    0.000018  0.997905                     2  
+494    0.000018  0.997923                     1  
+495    0.000018  0.997941                     1  
+496    0.000018  0.997959                     3  
+497    0.000018  0.997977                     1  
+498    0.000018  0.997995                     1  
+499    0.000018  0.998013                     1  
+500    0.000018  0.998031                     1  
+501    0.000015  0.998046                     1  
+502    0.000015  0.998061                     1  
+503    0.000015  0.998076                     1  
+504    0.000015  0.998091                     1  
+505    0.000015  0.998106                     1  
+506    0.000015  0.998121                     1  
+507    0.000015  0.998136                     1  
+508    0.000015  0.998151                     1  
+509    0.000015  0.998166                     1  
+510    0.000015  0.998181                     1  
+511    0.000015  0.998196                     1  
+512    0.000015  0.998211                     1  
+513    0.000015  0.998226                     1  
+514    0.000015  0.998241                     1  
+515    0.000015  0.998256                     1  
+516    0.000015  0.998271                     1  
+517    0.000015  0.998286                     1  
+518    0.000015  0.998301                     1  
+519    0.000015  0.998316                     1  
+520    0.000015  0.998331                     1  
+521    0.000015  0.998346                     1  
+522    0.000015  0.998361                     1  
+523    0.000012  0.998373                     3  
+524    0.000012  0.998385                     2  
+525    0.000012  0.998397                     1  
+526    0.000012  0.998409                     1  
+527    0.000012  0.998421                     1  
+528    0.000012  0.998433                     1  
+529    0.000012  0.998445                     3  
+530    0.000012  0.998457                     1  
+531    0.000012  0.998469                     1  
+532    0.000012  0.998481                     1  
+533    0.000012  0.998493                     1  
+534    0.000012  0.998504                     1  
+535    0.000012  0.998516                     1  
+536    0.000012  0.998528                     1  
+537    0.000012  0.998540                     1  
+538    0.000012  0.998552                     1  
+539    0.000012  0.998564                     1  
+540    0.000012  0.998576                     1  
+541    0.000012  0.998588                     3  
+542    0.000012  0.998600                     1  
+543    0.000012  0.998612                     1  
+544    0.000012  0.998624                     1  
+545    0.000012  0.998636                     1  
+546    0.000012  0.998648                     1  
+547    0.000012  0.998660                     1  
+548    0.000012  0.998672                     1  
+549    0.000012  0.998684                     1  
+550    0.000012  0.998696                     1  
+551    0.000012  0.998708                     1  
+552    0.000012  0.998720                     1  
+553    0.000012  0.998732                     1  
+554    0.000009  0.998741                     1  
+555    0.000009  0.998750                     1  
+556    0.000009  0.998759                     1  
+557    0.000009  0.998768                     2  
+558    0.000009  0.998777                     2  
+559    0.000009  0.998786                     1  
+560    0.000009  0.998795                     2  
+561    0.000009  0.998804                     1  
+562    0.000009  0.998813                     1  
+563    0.000009  0.998822                     1  
+564    0.000009  0.998831                     1  
+565    0.000009  0.998840                     1  
+566    0.000009  0.998849                     1  
+567    0.000009  0.998858                     1  
+568    0.000009  0.998867                     1  
+569    0.000009  0.998876                     1  
+570    0.000009  0.998885                     1  
+571    0.000009  0.998894                     1  
+572    0.000009  0.998903                     1  
+573    0.000009  0.998912                     2  
+574    0.000009  0.998921                     1  
+575    0.000009  0.998930                     1  
+576    0.000009  0.998939                     1  
+577    0.000009  0.998948                     1  
+578    0.000009  0.998957                     1  
+579    0.000009  0.998966                     1  
+580    0.000009  0.998975                     1  
+581    0.000009  0.998984                     1  
+582    0.000009  0.998993                     1  
+583    0.000009  0.999002                     1  
+584    0.000009  0.999011                     1  
+585    0.000009  0.999020                     1  
+586    0.000009  0.999029                     1  
+587    0.000009  0.999038                     1  
+588    0.000009  0.999047                     1  
+589    0.000009  0.999056                     1  
+590    0.000009  0.999065                     1  
+591    0.000009  0.999074                     1  
+592    0.000009  0.999083                     1  
+593    0.000009  0.999092                     2  
+594    0.000009  0.999101                     1  
+595    0.000009  0.999110                     1  
+596    0.000009  0.999119                     1  
+597    0.000009  0.999128                     1  
+598    0.000009  0.999137                     1  
+599    0.000009  0.999146                     3  
+600    0.000009  0.999155                     1  
+601    0.000009  0.999164                     2  
+602    0.000009  0.999173                     1  
+603    0.000009  0.999182                     1  
+604    0.000009  0.999191                     1  
+605    0.000009  0.999200                     1  
+606    0.000009  0.999209                     1  
+607    0.000009  0.999218                     1  
+608    0.000009  0.999227                     1  
+609    0.000006  0.999233                     1  
+610    0.000006  0.999239                     1  
+611    0.000006  0.999245                     1  
+612    0.000006  0.999251                     1  
+613    0.000006  0.999257                     1  
+614    0.000006  0.999263                     1  
+615    0.000006  0.999269                     1  
+616    0.000006  0.999275                     1  
+617    0.000006  0.999281                     1  
+618    0.000006  0.999287                     1  
+619    0.000006  0.999293                     1  
+620    0.000006  0.999299                     1  
+621    0.000006  0.999305                     1  
+622    0.000006  0.999311                     1  
+623    0.000006  0.999317                     1  
+624    0.000006  0.999323                     1  
+625    0.000006  0.999329                     1  
+626    0.000006  0.999335                     1  
+627    0.000006  0.999341                     1  
+628    0.000006  0.999347                     1  
+629    0.000006  0.999353                     1  
+630    0.000006  0.999359                     2  
+631    0.000006  0.999365                     2  
+632    0.000006  0.999371                     1  
+633    0.000006  0.999377                     1  
+634    0.000006  0.999383                     1  
+635    0.000006  0.999389                     1  
+636    0.000006  0.999395                     2  
+637    0.000006  0.999401                     1  
+638    0.000006  0.999407                     1  
+639    0.000006  0.999413                     1  
+640    0.000006  0.999419                     1  
+641    0.000006  0.999425                     1  
+642    0.000006  0.999431                     1  
+643    0.000006  0.999437                     1  
+644    0.000006  0.999443                     1  
+645    0.000006  0.999449                     1  
+646    0.000006  0.999455                     1  
+647    0.000006  0.999461                     1  
+648    0.000006  0.999467                     1  
+649    0.000006  0.999473                     1  
+650    0.000006  0.999479                     1  
+651    0.000006  0.999485                     1  
+652    0.000006  0.999491                     1  
+653    0.000006  0.999497                     2  
+654    0.000006  0.999502                     2  
+655    0.000006  0.999508                     1  
+656    0.000006  0.999514                     1  
+657    0.000006  0.999520                     1  
+658    0.000006  0.999526                     1  
+659    0.000006  0.999532                     1  
+660    0.000006  0.999538                     1  
+661    0.000006  0.999544                     2  
+662    0.000006  0.999550                     2  
+663    0.000006  0.999556                     1  
+664    0.000006  0.999562                     1  
+665    0.000006  0.999568                     1  
+666    0.000006  0.999574                     1  
+667    0.000003  0.999577                     1  
+668    0.000003  0.999580                     1  
+669    0.000003  0.999583                     1  
+670    0.000003  0.999586                     1  
+671    0.000003  0.999589                     1  
+672    0.000003  0.999592                     1  
+673    0.000003  0.999595                     1  
+674    0.000003  0.999598                     1  
+675    0.000003  0.999601                     1  
+676    0.000003  0.999604                     1  
+677    0.000003  0.999607                     1  
+678    0.000003  0.999610                     1  
+679    0.000003  0.999613                     1  
+680    0.000003  0.999616                     1  
+681    0.000003  0.999619                     1  
+682    0.000003  0.999622                     1  
+683    0.000003  0.999625                     1  
+684    0.000003  0.999628                     1  
+685    0.000003  0.999631                     1  
+686    0.000003  0.999634                     1  
+687    0.000003  0.999637                     1  
+688    0.000003  0.999640                     1  
+689    0.000003  0.999643                     1  
+690    0.000003  0.999646                     1  
+691    0.000003  0.999649                     1  
+692    0.000003  0.999652                     1  
+693    0.000003  0.999655                     1  
+694    0.000003  0.999658                     1  
+695    0.000003  0.999661                     1  
+696    0.000003  0.999664                     1  
+697    0.000003  0.999667                     1  
+698    0.000003  0.999670                     1  
+699    0.000003  0.999673                     1  
+700    0.000003  0.999676                     1  
+701    0.000003  0.999679                     1  
+702    0.000003  0.999682                     1  
+703    0.000003  0.999685                     1  
+704    0.000003  0.999688                     1  
+705    0.000003  0.999691                     1  
+706    0.000003  0.999694                     1  
+707    0.000003  0.999697                     1  
+708    0.000003  0.999700                     1  
+709    0.000003  0.999703                     1  
+710    0.000003  0.999706                     1  
+711    0.000003  0.999709                     1  
+712    0.000003  0.999712                     1  
+713    0.000003  0.999715                     1  
+714    0.000003  0.999718                     1  
+715    0.000003  0.999721                     1  
+716    0.000003  0.999724                     1  
+717    0.000003  0.999727                     1  
+718    0.000003  0.999730                     1  
+719    0.000003  0.999733                     1  
+720    0.000003  0.999736                     1  
+721    0.000003  0.999739                     1  
+722    0.000003  0.999742                     1  
+723    0.000003  0.999745                     1  
+724    0.000003  0.999748                     1  
+725    0.000003  0.999751                     1  
+726    0.000003  0.999754                     1  
+727    0.000003  0.999757                     1  
+728    0.000003  0.999760                     1  
+729    0.000003  0.999763                     1  
+730    0.000003  0.999766                     1  
+731    0.000003  0.999769                     1  
+732    0.000003  0.999772                     1  
+733    0.000003  0.999775                     1  
+734    0.000003  0.999778                     1  
+735    0.000003  0.999781                     1  
+736    0.000003  0.999784                     1  
+737    0.000003  0.999787                     1  
+738    0.000003  0.999790                     1  
+739    0.000003  0.999793                     1  
+740    0.000003  0.999796                     1  
+741    0.000003  0.999799                     1  
+742    0.000003  0.999802                     1  
+743    0.000003  0.999805                     1  
+744    0.000003  0.999808                     1  
+745    0.000003  0.999811                     1  
+746    0.000003  0.999814                     1  
+747    0.000003  0.999817                     1  
+748    0.000003  0.999820                     1  
+749    0.000003  0.999823                     1  
+750    0.000003  0.999826                     1  
+751    0.000003  0.999829                     1  
+752    0.000003  0.999832                     1  
+753    0.000003  0.999835                     1  
+754    0.000003  0.999838                     1  
+755    0.000003  0.999841                     1  
+756    0.000003  0.999844                     1  
+757    0.000003  0.999847                     1  
+758    0.000003  0.999850                     1  
+759    0.000003  0.999853                     1  
+760    0.000003  0.999856                     1  
+761    0.000003  0.999859                     1  
+762    0.000003  0.999862                     1  
+763    0.000003  0.999865                     1  
+764    0.000003  0.999868                     1  
+765    0.000003  0.999871                     1  
+766    0.000003  0.999874                     1  
+767    0.000003  0.999877                     1  
+768    0.000003  0.999880                     1  
+769    0.000003  0.999883                     1  
+770    0.000003  0.999886                     1  
+771    0.000003  0.999889                     1  
+772    0.000003  0.999892                     1  
+773    0.000003  0.999895                     1  
+774    0.000003  0.999898                     1  
+775    0.000003  0.999901                     1  
+776    0.000003  0.999904                     1  
+777    0.000003  0.999907                     1  
+778    0.000003  0.999910                     1  
+779    0.000003  0.999913                     1  
+780    0.000003  0.999916                     1  
+781    0.000003  0.999919                     1  
+782    0.000003  0.999922                     1  
+783    0.000003  0.999925                     1  
+784    0.000003  0.999928                     1  
+785    0.000003  0.999931                     1  
+786    0.000003  0.999934                     1  
+787    0.000003  0.999937                     1  
+788    0.000003  0.999940                     1  
+789    0.000003  0.999943                     1  
+790    0.000003  0.999946                     1  
+791    0.000003  0.999949                     1  
+792    0.000003  0.999952                     1  
+793    0.000003  0.999955                     1  
+794    0.000003  0.999958                     1  
+795    0.000003  0.999961                     1  
+796    0.000003  0.999964                     1  
+797    0.000003  0.999967                     1  
+798    0.000003  0.999970                     1  
+799    0.000003  0.999973                     1  
+800    0.000003  0.999976                     1  
+801    0.000003  0.999979                     1  
+802    0.000003  0.999982                     1  
+803    0.000003  0.999985                     1  
+804    0.000003  0.999988                     1  
+805    0.000003  0.999991                     1  
+806    0.000003  0.999994                     1  
+807    0.000003  0.999997                     1  
+808    0.000003  1.000000                     1  
+Number of labels that only one or two boroughs use: 588.
+Percentage of total requests that sits in labels that only one or two boroughs use: 8.20%.
+
+--------- 
+
+Double annotation set:
+Tail set length: 25/25 needed.
+Head set length: 67/75 needed.
+Head set length adjusted: 75/75 needed.
+Double annotation length: 100
+
+--------- 
+
+Open coding set:
+Head set length: 73
+Tail set length: 59
+Tail set length adjusted: 67
+Open coding length: 140

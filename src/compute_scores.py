@@ -26,7 +26,7 @@ def compute_kappa(annotator1, annotator2):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', type=str, default="double_annotation_merge.csv", help="CSV file to compute scores on (must be located in /data/annotation/labelling)")
+    parser.add_argument('-i', type=str, default="double_annotation_merge_adjudicated.csv", help="CSV file to compute scores on (must be located in /data/annotation/labelling)")
     parser.add_argument('-o', type=str, help="TXT file to save scores in (will save in /data/annotation)")
     parser.add_argument('-a1', default="annotator_1", type=str, help="Annotator 1 prefix. default: annotator_1")
     parser.add_argument('-a2', default="annotator_2", type=str, help="Annotator 1 prefix. default: annotator_2")
@@ -69,7 +69,7 @@ def main():
                 reliability_data=krippen_data,
                 level_of_measurement="nominal",
                 confidence_level=0.95,
-                n_resamples=2000,
+                n_resamples=10000,
                 random_state=42
             ) 
             print(f"Alpha: {res.alpha:.3f}")

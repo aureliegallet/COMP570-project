@@ -56,8 +56,11 @@ def main():
     labels_per_borough["unique_labels"] = labels_per_borough["ARRONDISSEMENT_GEO"].map(
         lambda borough: len(df[df["ARRONDISSEMENT_GEO"]==borough]["ACTI_NOM"].unique()) # For each borough, count unique labels
     )
+    labels_per_borough["unique_label_percentage"] = labels_per_borough["unique_labels"] / df["ACTI_NOM"].nunique()
     print("Number of unique labels per borough:")
-    print(labels_per_borough.sort_values(by="unique_labels", ascending=False))
+
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+        print(labels_per_borough.sort_values(by="unique_labels", ascending=False))
 
     print("\n--------- \n")
 
@@ -92,6 +95,10 @@ def main():
     labels["represented_boroughs"] = labels["ACTI_NOM"].map(
         lambda name: len(df[df["ACTI_NOM"]==name]["ARRONDISSEMENT_GEO"].unique()) # For each name, count unique boroughs that have it
     )
+
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+        print(labels)
+    print(f"Number of labels that only one or two boroughs use: {len(labels[labels["represented_boroughs"].astype(int)<3])}.")
     print(f"Percentage of total requests that sits in labels that only one or two boroughs use: {labels[labels["represented_boroughs"].astype(int)<3]["percentage"].sum()*100:.2f}%.")
     print("\n--------- \n")
 

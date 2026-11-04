@@ -2,8 +2,8 @@ Task 1:
 Raw agreement rate: 89.0%
 Cohen's Kappa: 0.71
 Alpha: 0.704
-95% CI: [0.536, 0.855]
-Standard Error: 0.0827
+95% CI: [0.525, 0.857]
+Standard Error: 0.0849
 
 --------- 
 
@@ -13,7 +13,7 @@ Raw agreement rate: 97.14285714285714%
 Cohen's Kappa: 0.65
 Alpha: 0.654
 95% CI: [-0.015, 1.000]
-Standard Error: 0.2833
+Standard Error: 0.2891
 
 --------- 
 
@@ -22,8 +22,14 @@ Number of labels both annotators placed in scope: 70
 Raw agreement rate: 78.57142857142857%
 Cohen's Kappa: 0.68
 Alpha: 0.683
-95% CI: [0.528, 0.814]
-Standard Error: 0.0733
+95% CI: [0.531, 0.814]
+Standard Error: 0.0726
+transaction raw agreement rate: 50.0% (4 labels)
+sanitation / cleanliness raw agreement rate: 80.0% (35 labels)
+traffic engineering / parking raw agreement rate: 84.61538461538461% (13 labels)
+maintenance / city works raw agreement rate: 86.66666666666667% (15 labels)
+other raw agreement rate: 0.0% (2 labels)
+quieteness / living comfort raw agreement rate: 100.0% (1 labels)
 
 --------- 
 
