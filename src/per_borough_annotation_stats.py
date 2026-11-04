@@ -105,6 +105,7 @@ def main():
     percentage_table = table.div(table.sum(axis=1), axis=0) * 100
     print(percentage_table)
 
+    # Condition only
     df_condition = df[df["task_2"].str.lower() == "condition"] # Condition | condition | CONDITION
     table_condition = df_condition[df_condition["ARRONDISSEMENT_GEO"].isin(BOROUGHS)].pivot_table( # Compute again for condition only
         index="ARRONDISSEMENT_GEO", 
@@ -121,14 +122,25 @@ def main():
         solution = index
         obj_value = list(row.to_dict().values())
         solutions.append(Solution(solution=solution, obj_value=obj_value))
-
     objective_values_array = np.vstack([s.obj_value for s in solutions])
-    mask = paretoset(objective_values_array, sense=["min", "min",  "min",  "min",  "max"])
+    mask = paretoset(objective_values_array, sense=["min", "min",  "min",  "min",  "min"])
+    efficient_solutions = [solution for (solution, m) in zip(solutions, mask) if m]
+    print(len(efficient_solutions))
+    print([solution.solution for solution in efficient_solutions])
+
+    # Computed without other
+    solutions = []
+    for index, row in table_condition.iterrows():
+        solution = index
+        obj_value = list(row.to_dict().values())
+        obj_value.pop(1) # Remove other, which appears in the 2nd column
+        solutions.append(Solution(solution=solution, obj_value=obj_value))
+    objective_values_array = np.vstack([s.obj_value for s in solutions])
+    mask = paretoset(objective_values_array, sense=["min",  "min",  "min",  "min"])
     efficient_solutions = [solution for (solution, m) in zip(solutions, mask) if m]
 
     print(len(efficient_solutions))
     print([solution.solution for solution in efficient_solutions])
-
     
 
 
