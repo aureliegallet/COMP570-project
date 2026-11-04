@@ -1,6 +1,7 @@
 from pathlib import Path
 import pandas as pd
 from paretoset import paretoset
+from scipy.spatial.distance import cdist
 from collections import namedtuple
 import numpy as np
 
@@ -128,6 +129,12 @@ def main():
     print(len(efficient_solutions))
     print([solution.solution for solution in efficient_solutions])
 
+    frontier_values_array = objective_values_array[mask]
+    distances_to_all_frontier = cdist(objective_values_array, frontier_values_array, metric='euclidean') # euclidean distance to each point of the frontier
+    distances_to_frontier = np.min(distances_to_all_frontier, axis=1) # take minimum: gives euclidean distance to closest Pareto Frontier point
+    for i, dist in enumerate(distances_to_frontier):
+        print(f"{solutions[i].solution} is {dist:.2f} units from the closest frontier point.")
+
     # Computed without other
     solutions = []
     for index, row in table_condition.iterrows():
@@ -141,6 +148,12 @@ def main():
 
     print(len(efficient_solutions))
     print([solution.solution for solution in efficient_solutions])
+
+    frontier_values_array = objective_values_array[mask]
+    distances_to_all_frontier = cdist(objective_values_array, frontier_values_array, metric='euclidean') # euclidean distance to each point of the frontier
+    distances_to_frontier = np.min(distances_to_all_frontier, axis=1) # take minimum: gives euclidean distance to closest Pareto Frontier point
+    for i, dist in enumerate(distances_to_frontier):
+        print(f"{solutions[i].solution} is {dist:.2f} units from the closest frontier point.")
     
 
 
