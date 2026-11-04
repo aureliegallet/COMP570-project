@@ -25,7 +25,7 @@ def main():
     label_col = args.l
     topic_col = args.t
 
-    df = pd.read_csv(input_file, dtype=str, usecols=[label_col, topic_col])
+    df = pd.read_csv(input_file, dtype=str, usecols=[label_col, topic_col], encoding='utf-8')
 
     topics = df[topic_col].unique()
     documents = []
@@ -46,8 +46,8 @@ def main():
     for i, topic in enumerate(topics):
         output[topic] = [feature_names[word_idx] for word_idx in top_n[i]]
     if args.o:
-        with open(DATA_ANNOTATION_PATH / args.o, 'w') as f:
-            json.dump(output, f)
+        with open(DATA_ANNOTATION_PATH / args.o, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=4, ensure_ascii=False)
     else:
         print(output)
 
