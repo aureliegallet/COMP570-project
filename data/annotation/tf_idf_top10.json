@@ -1,0 +1,86 @@
+{
+    "NaN": [
+        "100",
+        "1100",
+        "2018",
+        "240",
+        "360",
+        "400",
+        "510",
+        "520",
+        "600",
+        "67"
+    ],
+    "sanitation / cleanliness": [
+        "de",
+        "eau",
+        "bac",
+        "déchets",
+        "égout",
+        "réparation",
+        "volé",
+        "perdu",
+        "recyclage",
+        "collecte"
+    ],
+    "transaction": [
+        "permis",
+        "de",
+        "demande",
+        "bac",
+        "livraison",
+        "retrait",
+        "courtoisie",
+        "distribution",
+        "sans",
+        "logement"
+    ],
+    "traffic engineering / parking": [
+        "stationnement",
+        "de",
+        "circulation",
+        "débarcadère",
+        "dos",
+        "signalisation",
+        "marquage",
+        "âne",
+        "ou",
+        "vitesse"
+    ],
+    "maintenance / city works": [
+        "parc",
+        "arbre",
+        "immeubles",
+        "entretien",
+        "municipaux",
+        "mobilier",
+        "de",
+        "clôture",
+        "plomberie",
+        "gazon"
+    ],
+    "other": [
+        "de",
+        "irp",
+        "bibliothèque",
+        "loisirs",
+        "direction",
+        "sports",
+        "service",
+        "vision",
+        "développement",
+        "et"
+    ],
+    "quieteness / living comfort": [
+        "bruit",
+        "bruyant",
+        "chantier",
+        "agressif",
+        "inutile",
+        "vibrations",
+        "ralenti",
+        "que",
+        "bruits",
+        "ombudsman"
+    ]
+}

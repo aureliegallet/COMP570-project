@@ -1,0 +1,26 @@
+﻿label,task_1,task_2,task_3
+*Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking
+*BacdeMO-Modificationdevolume.,IN,TRANSACTION,transaction
+*BacdedéchetsModificationdevolume;IN;TRANSACTION;transaction
+*Couvercledepuisard-brisé,IN,CONDITION,sanitation / cleanliness
+*Feuxdecirculation,IN,CONDITION,traffic engineering / parking
+*Réparationdechambredevanne,IN,CONDITION,sanitation / cleanliness
+*Réparationdepuisards-trottoir,IN,CONDITION,sanitation / cleanliness
+*Voirie-Nettoyagedudomainepublic-Panierderue,IN,CONDITION,sanitation / cleanliness
+*Voirie-TravauxAqueduc,IN,CONDITION,traffic engineering / parking
+Autre-CollectedeMO,IN,CONDITION,sanitation / cleanliness
+Autre-Occupationtemporairedudomainepublic,IN,TRANSACTION,transaction
+Autre-Urbanisme,OUT,,
+Bruit-Commerceetindustrie;IN;CONDITION;quieteness / living comfort
+"Couleur,odeurougoûtanormaldel'eau",IN,CONDITION,sanitation / cleanliness
+Distributiondespublicationsarrondissement,IN,TRANSACTION,transaction
+Déblaiement/Chargement,IN,CONDITION,maintenance / city works
+Dépôtsauvage-Terrainprivé,IN,CONDITION,sanitation / cleanliness
+Encaissement-Gescour,OUT,,
+Encaissement-RessourcesFinancières,OUT,,
+Encombrantssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness
+Info-travaux-Urgence,OUT,,
+Inspectiondelogement,OUT,,
+Piscine-Propreté.,IN,CONDITION,sanitation / cleanliness
+Plaintefonctionnement,OUT,,
+Réparationdegazon-Contrat,OUT,,

@@ -1,0 +1,811 @@
+label,annotator_1_task_1,annotator_2_task_1,adjudicator_ruling_task_1,annotator_1_task_2,annotator_2_task_2,adjudicator_ruling_task_2,annotator_1_task_3,annotator_2_task_3,adjudicator_ruling_task_3,annotator,from_double_annotation,set,task_1,task_2,task_3_anon
+*Analysedel'eaupotable,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Autre-Compteurd'eau-Résidentiel,IN,IN,in,TRANSACTION,CONDITION,condition,transaction,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Bacroulant-Livraison,IN,IN,in,TRANSACTION,TRANSACTION,transaction,transaction,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Bâtiment-Plomberie,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*CAFÉ-TERRASSE(DOMAINEPUBLIC),OUT,IN,in,,TRANSACTION,transaction,,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*E.T.-Arrêtinterdit,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Jardins-Renouvellement,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Nettoyagedepuisards-rues,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Signalisation-Études-Personneshandicapées,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+"*Vermine,insectesnuisibles",IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Zonedelivraison,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Élagageexécution,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Abattaged'arbre,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Abritemporaire,IN,IN,in,CONDITION,CONDITION,condition,other,other,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Acquisitionderuelle,IN,OUT,out,TRANSACTION,,,transaction,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Afficheautoportante-Domainepublic,IN,IN,in,CONDITION,CONDITION,condition,other,other,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Aménagementdeparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Animalmort,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Animauxsauvages-Nuisance,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Appropriationcitoyenne,IN,OUT,in,CONDITION,,condition,other,,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Arbre-Abattaged'arbreprivé,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Bacmontréalais(67litres),IN,IN,in,TRANSACTION,TRANSACTION,transaction,transaction,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Bornefontaine-Obstruction,IN,IN,in,CONDITION,CONDITION,condition,other,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Branchetombée,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,maintenance / city works,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Bureaud'arrondissement-Serviceàlaclientèle,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+CarteAccèsMontréal,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Certificatd'occupationcommercialeouprofessionnelle,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Chaletdeparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Chienagressif,IN,IN,in,CONDITION,CONDITION,condition,quieteness / living comfort,quieteness / living comfort,quieteness / living comfort,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collected'écran(ordinateurettéléviseur),IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectedebranchesd'arbre-Agriledufrêne,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectededéchets,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectederésidusverts,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectedesencombrants,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectedesmatièresrecyclables,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Contrôleanimalier,IN,OUT,in,TRANSACTION,,transaction,transaction,,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Dangerpotentiel-Arbre,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Direction-Finances,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Distributionaucomptoirdebacsoudesacsderécupération,IN,OUT,in,TRANSACTION,,transaction,transaction,,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Débrissurlavoiepublique,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,sanitation / cleanliness,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Dépôtillégal-Déchets,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Dérogationmineure,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Développementcommunautaire,IN,OUT,out,CONDITION,,,other,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Encaissementetremboursement,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Essouchement,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Excrémentsterrainprivé,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Exterminationàl'extérieur-Insectes,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Exterminationàl'extérieur-Rats,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Fermetured'uneconduited'eau-Urgence,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Fuited'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Gazonouherbeshautes-Domaineprivé,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Graffitis-Domainepublic,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Graffitishaineux,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Grandparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Grandparc-Agriledufrêne,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Géomatique,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Horticulture-Divers,IN,IN,in,CONDITION,CONDITION,condition,other,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Horticulture-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Info-travaux-Servicecentral,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Installationsculturelles-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Interventiondestationnement-Enquête,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Localisation/EntretienEntréed'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Maladieouinsectes-Arbre,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Manqued'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Marquagedelachaussée-Nouveau,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Mesured'apaisement-Circulation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Mobilierurbain,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Nid-de-poule,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Occupationdudomainepublic,IN,IN,in,CONDITION,TRANSACTION,transaction,other,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Opérationdéneigement,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Ouvertured'entréed'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Panierdeparcàvider,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Panierderueàvider,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Panneaudesignalisationentretienprioritaire,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Parc-Divers,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Parc-Propreté,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Pavage-Réparation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Personnel-Arrondissement,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Plantationd'arbre,IN,IN,in,CONDITION,TRANSACTION,condition,maintenance / city works,transaction,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Pollutiondel'airetdel'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Puisard/TH-Premièreintervention,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Punaisesdelit,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Refoulementégout/InondationPropriétéprivée,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+SRRR,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+ServicesTechniques-Varia,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Signalisation-Circulation-Études,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Signalisationécrite-Entretien,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Sportsetloisirs-Activités,IN,OUT,out,CONDITION,,,other,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Subvention-Habitation-Servicecentral,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Surveillanceetsécuritépublique,OUT,IN,in,,TRANSACTION,transaction,,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Taxesfoncières,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Trottoiroubordure-Réparation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Voiecyclable-Études,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Voirie-Divers,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Y-Eau-Divers,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Y-Égout-Divers,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Éclairage-Études,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Éclairageexistant-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Égout-Entretien,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Éviction,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Abattaged'arbreprivé,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+*Agir-Tarification,,,,,,,,,,Harry,False,open,OUT,,
+*Apaisementdelacirculation,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+*Bacbrun,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+"*BacdeMOEndommagé,perdu,volé",,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+"*BacdedéchetsEndommagé,perdu,volé",,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*BacdedéchetsLivraison,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+"*BacderecyclageEndommagé,perdu,volé",,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*BacderecyclageLivraison,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+*Bacroulantvert(1à3logements),,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+*Bâtiment-Menuiserie,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+*E.T.-Entréecharretière,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+*E.T.-Feuxpiétons,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+*E.T.-Stationnementoudébarcadèrepourcommerce,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+*Eau-Bornefontaine-Réparation,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*Eau-Divers-Remplacerentréedeserviceenplomb,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*Erreur,,,,,,,,,,Harry,False,open,OUT,,
+*Inspection-Déchets-Dépôtillégal,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*InspectionsenArrondissement,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+*Permis-Bruit-Résidence,,,,,,,,,,Harry,False,open,OUT,,
+*Sensderue,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+*Véhiculesnonétatfonctionnement,,,,,,,,,,Harry,False,open,OUT,,
+*Z-Inspectiond'égoutprivé,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*Z-Puisard,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*Z-Testdepressiond'eau,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*Z-Troud'homme,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+*Égout-Réparation-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+800-Bruits,,,,,,,,,,Harry,False,open,IN,Condition,topic_4
+Accèsàl'information,,,,,,,,,,Harry,False,open,OUT,,
+Affichage-Illégal,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Arbre-Divers,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Arbresruelles,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Arbretombé,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Archivesetrèglementsd'arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Asphaltetravaux,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Autre-Construction,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Bacroulant,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Balaimécanique,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Borned'incendie-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Bornesderechargepubliques,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Boîtedeserviceàniveler,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Bruit,,,,,,,,,,Harry,False,open,IN,Condition,topic_4
+Centredeservices311,,,,,,,,,,Harry,False,open,OUT,,
+Changementd'adresse-Taxeseauetdéchets,,,,,,,,,,Harry,False,open,OUT,,
+Changementd'adresse-Taxesfoncières,,,,,,,,,,Harry,False,open,OUT,,
+Chausséeglissante,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Clôtureethaieprivée,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Collected'arbresdeNoël,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Collectederésidusalimentaires,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Collectedesmatièresorganiques,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Communications-Arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Compost,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Conseild'arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Courmunicipale,,,,,,,,,,Harry,False,open,OUT,,
+Demandedepermisd'occupationtemporaire,,,,,,,,,,Harry,False,open,OUT,,
+Distributiondecirculaire,,,,,,,,,,Harry,False,open,OUT,,
+Distributiondesacs,,,,,,,,,,Harry,False,open,OUT,,
+Distributiondevégétaux,,,,,,,,,,Harry,False,open,OUT,,
+Dommage-Racinesd'arbres,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Dosd'âne-ruelle-2,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Dosd'âneRUELLE,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Déchets-Nonramassés,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+DépôtIllégal-Neige,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Encaissement-Oasis,,,,,,,,,,Harry,False,open,OUT,,
+Encaissement-Stop+,,,,,,,,,,Harry,False,open,OUT,,
+Encaissement-UrbanismeetPermis,,,,,,,,,,Harry,False,open,OUT,,
+Encombrantsnonramassés,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Entreposagenonautorisé-Terrainprivé,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Entretiend'édificesmunicipaux,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Entréed'eauenplomb-Autredemande,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Entréed'eauenplomb-Demandedefiltre,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Environnement-Divers,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Exterminationàl'intérieur-immeubleville,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Fermetured'entréed'eau,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Feuxdecirculation-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Finances-Divers,,,,,,,,,,Harry,False,open,OUT,,
+Fuiteboîte-maison,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Fuiteservice,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Gazon-Réparation,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Gazonoumauvaisesherbes-Domainepublic,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Graffitis-Domaineprivé,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Greffe-Arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Habitation-Divers-Servicecentral,,,,,,,,,,Harry,False,open,OUT,,
+IRP-Demandeonderadio,,,,,,,,,,Harry,False,open,OUT,,
+IRP-Fermeturederue,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+IRP-Mesured'urgence,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+IRP-Police,,,,,,,,,,Harry,False,open,OUT,,
+IRP-Posted'essence,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+IRP-VillesnonreliéesauGDC,,,,,,,,,,Harry,False,open,OUT,,
+"Immeublesmunicipaux-Abeilles,guêpes,bourdonsàl'intérieur",,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+"Immeublesmunicipaux-Ventilation,climatisation",,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Info-travaux-Arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Installationssportivesextérieures-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Installationssportivesintérieures-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Internet-Portailcentral,,,,,,,,,,Harry,False,open,OUT,,
+Logement-Inspection,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Logementsocialetcommunautaire,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Mairesetélusd'arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Marquagedelachaussée-Existant,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Mesuresd'apaisement,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Mobilierdeparc,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Nettoyagedudomainepublic,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Numéromunicipal,,,,,,,,,,Harry,False,open,OUT,,
+Parc-Mobilier-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Parcomètre,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Permis-Divers,,,,,,,,,,Harry,False,open,OUT,,
+Permis-Neige-Domainepublic,,,,,,,,,,Harry,False,open,OUT,,
+Permisdeconstruction-rénovation,,,,,,,,,,Harry,False,open,OUT,,
+Pesticide,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Piscineouspaprivés,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Planificationdestravaux-Étudesimmeublesmunicipaux,,,,,,,,,,Harry,False,open,OUT,,
+Pontettunnel,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Poêleetfoyeraubois,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Prisederendez-vous,,,,,,,,,,Harry,False,open,OUT,,
+Rapportd'accident,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Recyclage-Nonramassé,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+RelevéCPTE,,,,,,,,,,Harry,False,open,OUT,,
+RetourDDS,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Réceptiondechèquepost-daté,,,,,,,,,,Harry,False,open,OUT,,
+Signalisation-Neige,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Signalisationcachéepardesvégétaux,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Stationnementoudébarcadèrepourpersonneàmobilitéréduite,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Supportàvélo,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Taxed'eau,,,,,,,,,,Harry,False,open,OUT,,
+Terraininsalubre-Domaineprivé,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Thermopompeetclimatiseur,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+TransportetLivraison,,,,,,,,,,Harry,False,open,OUT,,
+TravauxÉlagage,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Trottoirglissant,,,,,,,,,,Harry,False,open,IN,Condition,topic_3
+Unenaissance/unarbre,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Urbanisme,,,,,,,,,,Harry,False,open,OUT,,
+Vandalismeouaccident-Arbre,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Vente-débarras,,,,,,,,,,Harry,False,open,IN,Transaction,topic_5
+Voiecyclable-Marquageetsignalisationécrite,,,,,,,,,,Harry,False,open,IN,Condition,topic_1
+Zonage,,,,,,,,,,Harry,False,open,OUT,,
+Éclairageplanification-Servicecentral,,,,,,,,,,Harry,False,open,OUT,,
+Écocentre,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Écoquartier,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Élagage,,,,,,,,,,Harry,False,open,IN,Condition,topic_2
+Événementlocal,,,,,,,,,,Harry,False,open,IN,Condition,topic_4
+*Arrêtobligatoire(Stop),,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_1
+*BacdeMO-Modificationdevolume.,,,,,,,,,,Andrew,False,single,IN,TRANSACTION,topic_5
+*BacdedéchetsModificationdevolume;IN;TRANSACTION;transaction,,,,,,,,,,Andrew,False,single,,,
+*Couvercledepuisard-brisé,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+*Feuxdecirculation,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_1
+*Réparationdechambredevanne,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+*Réparationdepuisards-trottoir,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+*Voirie-Nettoyagedudomainepublic-Panierderue,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+*Voirie-TravauxAqueduc,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_1
+Autre-CollectedeMO,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+Autre-Occupationtemporairedudomainepublic,,,,,,,,,,Andrew,False,single,IN,TRANSACTION,topic_5
+Autre-Urbanisme,,,,,,,,,,Andrew,False,single,OUT,,
+Bruit-Commerceetindustrie;IN;CONDITION;quieteness / living comfort,,,,,,,,,,Andrew,False,single,,,
+"Couleur,odeurougoûtanormaldel'eau",,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+Distributiondespublicationsarrondissement,,,,,,,,,,Andrew,False,single,IN,TRANSACTION,topic_5
+Déblaiement/Chargement,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_2
+Dépôtsauvage-Terrainprivé,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+Encaissement-Gescour,,,,,,,,,,Andrew,False,single,OUT,,
+Encaissement-RessourcesFinancières,,,,,,,,,,Andrew,False,single,OUT,,
+Encombrantssortisentempsprohibé,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+Info-travaux-Urgence,,,,,,,,,,Andrew,False,single,OUT,,
+Inspectiondelogement,,,,,,,,,,Andrew,False,single,OUT,,
+Piscine-Propreté.,,,,,,,,,,Andrew,False,single,IN,CONDITION,topic_3
+Plaintefonctionnement,,,,,,,,,,Andrew,False,single,OUT,,
+Réparationdegazon-Contrat,,,,,,,,,,Andrew,False,single,OUT,,
+*Abattage/Essouchementexécution,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Abattaged'arbre-terrainpublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Aquatique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Arbre-Maladie-Pucerons,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Arbre-branchesàramasser,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Arbreprivédangereux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Arbresderuelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+"*Arbustes,vivaces",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+"*BacdeMO-Endommagé,perdu,volé.",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*BacdeMO-Livraison.,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*BacdeMOLivraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*BacdeMOModificationdevolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Bacdedéchets-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Bacdedéchets-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Bacdedéchets-Modificationauvolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Bacderecyclage-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Bacderecyclage-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Bacderecyclage-Modificationdevolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*BacderecyclageModificationdevolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Bacroulant-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Bacroulant-Nonramassé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Bacroulantendommagé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Bacroulantvolé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Bacsàfleurs,corbeilles,litsdeplantation",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Banc-Ajout/Retrait,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+"*Bancs,poubellesetc",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Bibliothèque,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*BibliothèqueBENNY,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*BibliothèqueCDN,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*BibliothèqueNDG,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Borneélectrique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Boîtedeserviceàmettreenordre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Boîtedeserviceàvérifier,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Brancheaccrochée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Branchementd'égout-Domaineprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Branchementd'égout-Domainepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Brisdanschalet,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Bâtiment-Piscine,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Circulation-Intersectiondangereuse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Compteurbruyant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+*Compteurcoule,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Compteurd'eauICI(Industries-Commerces-Institutions),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Conteneursàordures,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Contrôledustationnementvoiepublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Couvercledepuisardabsentoudéplacé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Couvercledepuisardbruyant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+*Demanded'informations,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Demanded'unnouveaucompteur,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Demandedepropriété,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Demandederenseignement-signalisationpermanente,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Dosd'âne-Rue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Dosd'âne-Ruelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Débarcadère-Garderie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Débarcadère-Handicapé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Débarcadère-École,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+"*Débarcadèreécole,garderie,institution",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Déchets,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Déchets-Bacendommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Déchets-Demandedebac,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Déchets-Dépôtillégalaprèsinspection-Voirie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Déchets-Nonramassés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Déchetshorsdesheures,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Déchetsmaldisposés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Défensedejeterdesdéchets,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Dépôtillégal-Ramassage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*E.T.-Arrêtobligatoire(Stop),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Camionnage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Feuxdecirculation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Limitesdevitesse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Marquage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Mesuresdemodérationdelacirculation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Pavage-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*E.T.-Ruespiétonnes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Sensderue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Stationnementoudébarcadèrepourpersonnesàmobilitéréduite,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*E.T.-Tempsdelatraverse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*E.T.-Trottoiroubordure-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Eau-Mettreboîtedeserviceenordre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Eau-Projetspécial,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Entrave-Pistecyclable,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Entravesanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Entretiend'édificesmunicipaux-Plomberie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Entretiendesbranchementsd'égoutsoudrains,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Environnement-Recyclage-Bac240lt-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Environnement-Recyclage-Bac240lt-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Environnement-Recyclage-Bac240lt-Nonramassé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"*Environnement-Recyclage-Bac360lt-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Environnement-Recyclage-Bac360lt-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Extermination-Guêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Exterminationrats,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Exterminationàl'extérieur-Fourmis,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Exterminationàl'extérieur-Guêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Exterminationàl'extérieur-Niddeguêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Favorable-Implantation,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Favorable-Modification,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Fermeturederuelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Feuxpiétons,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+"*Fontaineàboire,jeud'eau,fontainedécorative",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Gazon-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*GazonEndommagé-Opérationdéneigement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*GazonEndommagé-TravauxparlaVille,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Herbeàpoux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Horticulture-Varia-Pesticide-Vérificationinfestation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Informationsurconstatd'infraction,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Inspectiondesaliments,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Jardinscommunautaires-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Jeud'enfant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Limitesdevitesse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*LogementMontréal-Nord,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Marquage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Mesured'apaisement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Mobilierurbain-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Modificationsecteurexistant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*NeplusutiliserBacroulantnoir(déchets),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Nettoyagedepuisards-ruelles,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Nettoyageparc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Nuisancechantier-Poussière,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Panierderue-Ajout/Retrait,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Panierderue-Réparation/Entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Parc-Aired'exercicecanin,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Aménagement-Ajoutd'équipement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Aménagement-Conception,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Aménagement-Réalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Aménagement-Étudespréliminaires,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Parc-Entretien-Clôture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Gazon-Terrainvacant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Jeuxd'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Parc-Mobilier-Buvette-Fontainedécorative,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Parc-Mobilier-Jeux-Vandalisme,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Parc-Propreté-Entretienairedejeux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Parc-Propreté-Entretiencarrédesable,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Parc-Terrains-sportifs-Soccer,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Partenaires,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Permis-Bruit-Circulationdescamions,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Bruit-Commerce,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Bruit-Travaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Construction-Nuisances,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Logement-Accumulationbalcon,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Permis-Logement-Accumulationodeurs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Permis-Logement-Défectuositéextérieure,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Logement-Défectuositéintérieure,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Logement-Moisissures,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Logement-Nuisancesanimales,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Permis-Logement-Vermines-rongeurs,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Piétonnisation-Masson,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Plantationexécution,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Plateauxsportifs-entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Poubelles,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Pressionbasse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Puisard-Réparation-Entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Regardd'égoûtdéplacé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Réclamation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Réparationdepuisards-rue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*SRRR-Ajoutouretraitd'espaces,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*SRRR-Autre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*SRRR-Modificationsecteurexistant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*SRRR-Nouveausecteur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Seringues,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Servicesadministratifs-Sud-Ouest,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Signalisationmanquanteouendommagée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Sportsetloisirs-Activités-Activitésdanslesparcs,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Sportsetloisirs-Centrecommunautaire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Sportsetloisirs-Terrainsextérieurs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Sportsetloisirs-aquatique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Stationnement-Études,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Stationnementcourtedurée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Stationnementoudébarcadèrepourhandicapés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Supportàvélo-Ajout/Retrait,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Tennis,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Terrainsextérieurs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Testd'écoulementd'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Tontedegazon,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Visionvélo,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Visionvélo(Acceptabilité),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Visionvélo(Utilisation),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Vitesse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Vitesseexcessive,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Voirie-Collecteappareilavecgazréfrigérant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Voirie-Divers-GestionRetourDDS,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Voirie-Mobilierurbain-Clôtureenbois,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Voirie-Mobilierurbain-Entretienetdéplacement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Voirie-Pavage-Entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Voirie-Trottoir-Réalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*WOONERF,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+"*Z-Borne-fontaine-Installation,retraitoudéplacement",,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Z-Compteurd'eaurésidentiel,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Z-Demandederenseignement-signalisationtemporaire,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*Z-Signalisationécrite-nouveau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+*Zonelivraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*collectedesrésidusalimentaires-Bacendommagés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*collectedesrésidusalimentaires-Bacnonramassés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*collectedesrésidusalimentaires-Demandedebac,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+*tontedegazon,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*ÉLU-DirectionAUP,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*ÉLU-DirectionTP,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*ÉLU-Directiond'arrondissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Éclairagedeparc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Éclairageterr.sportif,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+*Égout-Divers-Tuyaudeserviced'égout-Raccordementcroisé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Égout-Nettoyage-Contrat,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+*Équipementterr.sportifs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+*Événementpublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+100-Demanded'interventionetAssistance,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+1100-Autres,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+400-Incivilitésetinfractions,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+510-Routier/Circulation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+520-Stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+600-Signalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+AEC(Parccanin),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Abattaged'arbreprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Abattaged'arbrepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Abribus-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Acquisitiondeterrain,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Adhésion,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Affichagepolitique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Affichagesauvage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Afficheautoportante-Domaineprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Affichefixéesurarbresouarbustes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Affichepropreté,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Agriledufrêne-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Aideaurelogement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Airbnb,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Amuseurspublics,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Anciennescarrières,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Animauxperdus/trouvés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Antennesatellite,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Appeld'offreetsoumissiond'arrondissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Arbre-Suivideplantation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Articledejeuxsurdomainepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+ArénaMaurice-Richard,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Asphalte-Coupesd'aqueducetautres,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Assermentation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+"Autoabandonnée,roulotte,remorque,palette",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Autorisationd'affichagesurpropriétéprivée,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Autre-Bureaud'arrondissement-Serviceàlaclientèle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Autre-Carted'Accèsarrondissement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Autre-Clôtureethaie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Autre-Collectededéchets,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Autre-Collectedesencombrants,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Autre-Communications,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Autre-Démolition,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Autre-Dérogation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Autre-Horticulture-Distributiondevégétaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Autre-Marquagedelachaussée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Autre-Permis-Divers,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Autre-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Autre-Résidusverts,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Autre-Salubrité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Autre-Stationnementmunicipal,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Autre-Taxes,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Autre-Zonage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Avis-Alertesauxcitoyens,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+AvisOccupant/Consommation,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Avisd'infraction-Neige,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Avisdecourtoisie-Neige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Bac-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+BacdeMOsortientempsprohibé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Balcon,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Balconmalpropre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Banc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Barilderécupérationdel'eaudepluie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Bicycletteabandonnée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Billetdedépôtàneige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Bixi,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Boitedeserviceàmettreenordre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Borne-fontaine-Moinsde8semaines,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Borne-fontaine-Plusde8semaines,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Borne-fontaine-Projetsspéciaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Boîtedeservice,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+BranchementégoutBrisé/Déformé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Bruit-Autre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Bruit-Thermopompeetclimatiseur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Bruit-desCarrières-Ombudsman,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Bruitsurchantierdeconstruction,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Budgetd'arrondissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Bâtimentvacantouàbarricader,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+CAFÉ-TERRASSE(PERMIS),,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+CCU,,,,,,,,,,ChatGPT,False,rest,OUT,,
+CVP-Raccordementaqueduc/égout,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Café-terrasse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Campdejour,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+CarteInfo-Neige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Carted'Accèsarrondissement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Centresdetraitementdesmatièresorganiques,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Certificatdevieetrésidence,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Changementd'adresse-Taxeslocatives,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Chatsanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Chiensanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Ciment,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Climatiseur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Clôtureprivée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Clôturepublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Codedelangue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Communicationscorporatives,,,,,,,,,,ChatGPT,False,rest,OUT,,
+ComplexeenvironnementaldeSaint-Michel,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+ComplexesportifClaude-Robillard,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+CompteurICIVérificationdelecture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Concourshorticole,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Constatd'infraction-Neige,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Constructionruelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Constructionréseaulocal,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Correspondanceadresséeauxélusouàladirection,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Couped'arbreprivésanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Cruedeseaux-Nettoyage-Collectes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Créationd'unSIMU,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Culture-Activités,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Demanded'unenouvellesignalisation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Direction-Affairespénalesetcriminelles,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Direction-Évaluation,,,,,,,,,,ChatGPT,False,rest,OUT,,
+DirectionCultureSportsLoisirsDév.Soc.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+DirectionDéveloppementduterritoire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+"DirectionPerformance,GreffeetServicesadm.",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+DirectionTravauxPublics,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Directiond'arrondissement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Distributiondesacpourmatelas,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Documentexigéparlaville,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Dosd'âne,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Dosd'âne-2,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Dosd'ânes-ruelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Drapeau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Droitsacquis,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Débarcadère-Personneàmobilitéréduite,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Débrissurchantieretrues,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Déchets-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Déchets-Illégal-Conteneurs-VM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Déchets-Illégal-Recyclage-VM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+"Déchets-Objetvol.àramasser-Réfrigérateur,climatiseurs-Voirie",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Déchetssortisentempsprohibé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Défonçagedelachaussée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Déneigeurprivé-Enseigne,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Déneigeurprivé-Permis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Déneigeurprivé-Poteau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Dépôtillégal-Ramassage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Dépôtsauvage-Domainepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Développementculturel-Central,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Développementsocial,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Eau-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Encaissement-Alarmenon-fondée,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encaissement-CentredesLoisirs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encaissement-Occupationdudomainepublic,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encaissement-Revenusliésauxévictions,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encombrants-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Enseignecommerciale,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Enseignesamovibles,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Enseignetemporaire-Domaineprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Entretien-Dosd'ânederuelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Entretiendespatinoires,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Entretiengénéral,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Entréecharretière,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Entréecharretière-circulation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Environnement-abrid'auto,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Environnement-animaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Environnement-arrosage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Environnement-autres,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Environnement-bruit,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Environnement-débrisvoiepublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Environnement-herbelongue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Environnement-neige,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Environnement-stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Espacepourlavie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Evénement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Excèsdevitesse-SurveillanceSPVM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Feuillesmortesdanslarue.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Feuxdecirculation-Nouvelleinstallation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Feuxdecirculation-Programmation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+GMR-Nouvelleimplantation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+GelEntréed'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Graffitis-Domaineprivé-Inspection,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Graffitissurbâtimentpublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Graffitissursignalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Greffe-CA-Registredesquestions,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Grillesdezonage-Distribution,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Haienonréglementaire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Haieprivée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Herbeàpoux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+IRP-Ascenseur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+IRP-Espaceclos,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+IRP-Périmètredesécurité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+IRP-Stationdepompage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+IRP-Utilitépublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Immeuble-Malpropretégénérale,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Immeuble-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Immeuble-Serrureported'entrée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeuble-Ventilation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Alarme,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Chauffageàairchaud,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Chauffageélectrique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Clôture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Entretiengénéral,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Entretienménager,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Entretienélectrique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Maçonnerie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Menuiserie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Mobilierréparationetfabrication,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Immeublesmunicipaux-Peinture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Immeublesmunicipaux-Plomberie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+"Immeublesmunicipaux-Téléphonie,réseauetcaméra",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Immeublesmunicipaux-Éclairage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Ingénierie-Pavage,,,,,,,,,,ChatGPT,False,rest,OUT,,
+"Ingénierie-Trottoir,bordure",,,,,,,,,,ChatGPT,False,rest,OUT,,
+"Ingénierie-Égout,puisard",,,,,,,,,,ChatGPT,False,rest,OUT,,
+Inscription,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Inspectiondesaliments,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Inspectionvignette,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Jardinderue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Listed'attente-Stationnementsmunicipaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Logement-Chauffage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Logement-Insalubrité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Logement-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Logement-Ventilation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Logement-Vermineourongeurs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Logementensous-sol,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Loisirs-EntretienLéger,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+MO-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+MO-Nonramassées,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Maisonsfleuries,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Marches-Courses-Calèches-Tournages-SU,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Marquage-Contratpourlacirculation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Menuiserieparc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Mesuresd'urgence-Gestionenarrondissement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Mobilierurbain-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Mobilitéélectriquelibre-service,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Modulesdejeux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Neige-Remorquage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Niddeguêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Nuisanceanimauxdomestiques,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Occupationbâtiment,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Occupationnon-autorisée,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Occupationpériodiquedudomainepublic,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Opérationcadastrale,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Oriflamme,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+PIIA,,,,,,,,,,ChatGPT,False,rest,OUT,,
+PRR-Travaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Panierderue-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Parc-Chalet-Conciergerieetventilation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Parc-Chalet-Electricité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Parc-Chalet-Entretienetréparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Parc-Mobilier-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Parcdemandeinternedivers,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Parcmobilier-Ajout-VM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Pavéuni,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Pavéuni-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Permis-Conversionencopropriétédivise,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Permis-Logement-Insalubrité(logementoubâtiment),,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Permis-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+PermisCSRM,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Permisanimalier,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Permisconteneuràdéchets,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Permisdedémolition,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Piscine-Électricité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Plaintecontreunagentdestationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Plaintepatrouilleurcaninetfournisseurserviceanimalier,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Planificationdestravaux-Étudesparcs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Planificationdestravaux-Étudesruesettrottoirs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Plomberie-Bâtiments,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Plomberie-Chalet,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Plomberie-Pataugeoire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Plomberie-Piscine,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Plomberie.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Poubelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Programmationdesfeux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Programmedechatserrants,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Propreté-DemandeCSLDS,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Pucerondutilleul,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Puisard/TH-CouvercleStructure,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+REM-Occupationtemporaire,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Ralentiinutile-Terrainprivéautrequechantier.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Recettesdiverses,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Recherched'encaissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Recyclage-Autre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Recyclage-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Recyclageduverre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Recyclagesortientempsprohibé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Renouvellement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Renseignements-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Retourdechèquepermisanimalier,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Retraitdechèque,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Retraitourécupérationdevélo,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Ruelleverte,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Réceptiond'unplaidoyer,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Réfrigérateuroucongélateur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Résidusdomestiquesdangereux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Résidusverts-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Résidusverts-Nonramassé.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Signalisation-Lignederue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+SignalisationendommagéeVm,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+SignalisationmanquanteVM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Signalisationnonautorisée-Analyse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Solarium,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+SoutienCarteInfo-Neige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+SoutienSitewebInfo-Remorquage,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Soutienauxopérations-Réseausecondaire,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Stationnement-Études,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Stationnementmunicipal,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Stationnementpourpersonneshandicapées,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+"Statues,sculpturesetplaques-Entretien",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Subventionlocale-Arrondissement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Supportàvélos,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Surveillancedestravaux-Chantierparcs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Surveillancedestravaux-Chantierruesettrottoirs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Surveillancedestravaux-Problèmesàlasuitedetravaux,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Surveillanceparticulière-SPVM/AMD,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Sécuritéincendie-Inspection-Prévention,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Sécuritéincendie-Pompier-Camion-Caserne,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Sécuritéincendie-Thèmesadministratifs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Taxeslocatives,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Technique-Pavéuni-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Technique-Trottoiroubordure-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Terrainsportif-DemandeCSLDS,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Tigedeprotection(2018),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Tolérancedestationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Toponymie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Transporthorsnormes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Travaux(info)-Panneauxdivers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+TravauxAbattage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+TravauxPublics-RDD,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Travauxpublics-Plaintedetoutgenre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Travauxsanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Trottoiroubordure-RéparationRMT,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Utilisationillégaledel'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Utilitépublique-Excavation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Ventedebacsàcompostage,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Ventedemangeoireàoiseaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Vignette-Stationnementsmunicipaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Voiecyclable-Planification-Servicecentral,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Voirie-Banc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Voirie-Divers-Transport,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_1
+Voirie-Poubelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Voirie-Vibrations,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_4
+Z-Nouveausecteur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+bacbrundistribution,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+feux-mod.délaisetautreschangements,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+permisdeconstructionettransformation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Éclairage-DemandeCSLDS,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,topic_5
+Éclairage-Extérieur-Parc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Éclairagenuisible.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Égout-Cruedeseaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Électionetréférendum,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Électricité-Édifices-Municipaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_2
+Épandageinterdit-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_3
+Événementmétropolitain,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Événementsprivés-SU,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6
+Événementspublics-Loisirs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,topic_6

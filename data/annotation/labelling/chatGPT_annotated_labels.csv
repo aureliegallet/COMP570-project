@@ -1,0 +1,101 @@
+label,chatgpt_task_1,chatgpt_task_2,chatgpt_task_3
+*Analysedel'eaupotable,OUT,,
+*Autre-Compteurd'eau-Résidentiel,OUT,,
+*Bacroulant-Livraison,IN,TRANSACTION,transaction
+*Bâtiment-Plomberie,IN,CONDITION,maintenance / city works
+*CAFÉ-TERRASSE(DOMAINEPUBLIC),IN,TRANSACTION,transaction
+*E.T.-Arrêtinterdit,IN,CONDITION,traffic engineering / parking
+*Jardins-Renouvellement,IN,TRANSACTION,transaction
+*Nettoyagedepuisards-rues,IN,CONDITION,sanitation / cleanliness
+*Signalisation-Études-Personneshandicapées,OUT,,
+"*Vermine,insectesnuisibles",IN,CONDITION,sanitation / cleanliness
+*Zonedelivraison,IN,CONDITION,traffic engineering / parking
+*Élagageexécution,IN,CONDITION,maintenance / city works
+Abattaged'arbre,IN,CONDITION,maintenance / city works
+Abritemporaire,IN,TRANSACTION,transaction
+Acquisitionderuelle,OUT,,
+Afficheautoportante-Domainepublic,IN,CONDITION,other
+Aménagementdeparc,IN,CONDITION,maintenance / city works
+Animalmort,IN,CONDITION,sanitation / cleanliness
+Animauxsauvages-Nuisance,IN,CONDITION,sanitation / cleanliness
+Appropriationcitoyenne,OUT,,
+Arbre-Abattaged'arbreprivé,IN,CONDITION,maintenance / city works
+Bacmontréalais(67litres),IN,TRANSACTION,transaction
+Bornefontaine-Obstruction,IN,CONDITION,sanitation / cleanliness
+Branchetombée,IN,CONDITION,maintenance / city works
+Bureaud'arrondissement-Serviceàlaclientèle,OUT,,
+CarteAccèsMontréal,IN,TRANSACTION,transaction
+Certificatd'occupationcommercialeouprofessionnelle,IN,TRANSACTION,transaction
+Chaletdeparc,IN,CONDITION,maintenance / city works
+Chienagressif,IN,CONDITION,sanitation / cleanliness
+Collected'écran(ordinateurettéléviseur),IN,TRANSACTION,transaction
+Collectedebranchesd'arbre-Agriledufrêne,IN,TRANSACTION,transaction
+Collectededéchets,IN,CONDITION,sanitation / cleanliness
+Collectederésidusverts,IN,CONDITION,sanitation / cleanliness
+Collectedesencombrants,IN,CONDITION,sanitation / cleanliness
+Collectedesmatièresrecyclables,IN,CONDITION,sanitation / cleanliness
+Contrôleanimalier,IN,TRANSACTION,transaction
+Dangerpotentiel-Arbre,IN,CONDITION,maintenance / city works
+Direction-Finances,OUT,,
+Distributionaucomptoirdebacsoudesacsderécupération,IN,TRANSACTION,transaction
+Débrissurlavoiepublique,IN,CONDITION,sanitation / cleanliness
+Dépôtillégal-Déchets,IN,CONDITION,sanitation / cleanliness
+Dérogationmineure,IN,TRANSACTION,transaction
+Développementcommunautaire,OUT,,
+Encaissementetremboursement,OUT,,
+Essouchement,IN,CONDITION,maintenance / city works
+Excrémentsterrainprivé,IN,CONDITION,sanitation / cleanliness
+Exterminationàl'extérieur-Insectes,IN,CONDITION,sanitation / cleanliness
+Exterminationàl'extérieur-Rats,IN,CONDITION,sanitation / cleanliness
+Fermetured'uneconduited'eau-Urgence,IN,TRANSACTION,transaction
+Fuited'eau,IN,CONDITION,sanitation / cleanliness
+Gazonouherbeshautes-Domaineprivé,IN,CONDITION,maintenance / city works
+Graffitis-Domainepublic,IN,CONDITION,sanitation / cleanliness
+Graffitishaineux,IN,CONDITION,sanitation / cleanliness
+Grandparc,IN,CONDITION,maintenance / city works
+Grandparc-Agriledufrêne,IN,CONDITION,maintenance / city works
+Géomatique,OUT,,
+Horticulture-Divers,IN,CONDITION,maintenance / city works
+Horticulture-Entretien,IN,CONDITION,maintenance / city works
+Info-travaux-Servicecentral,OUT,,
+Installationsculturelles-Entretien,IN,CONDITION,maintenance / city works
+Interventiondestationnement-Enquête,OUT,,
+Localisation/EntretienEntréed'eau,IN,CONDITION,maintenance / city works
+Maladieouinsectes-Arbre,IN,CONDITION,maintenance / city works
+Manqued'eau,IN,CONDITION,sanitation / cleanliness
+Marquagedelachaussée-Nouveau,IN,CONDITION,traffic engineering / parking
+Mesured'apaisement-Circulation,IN,CONDITION,traffic engineering / parking
+Mobilierurbain,IN,CONDITION,maintenance / city works
+Nid-de-poule,IN,CONDITION,maintenance / city works
+Occupationdudomainepublic,IN,TRANSACTION,transaction
+Opérationdéneigement,IN,CONDITION,maintenance / city works
+Ouvertured'entréed'eau,IN,TRANSACTION,transaction
+Panierdeparcàvider,IN,CONDITION,sanitation / cleanliness
+Panierderueàvider,IN,CONDITION,sanitation / cleanliness
+Panneaudesignalisationentretienprioritaire,IN,CONDITION,traffic engineering / parking
+Parc-Divers,IN,CONDITION,maintenance / city works
+Parc-Propreté,IN,CONDITION,sanitation / cleanliness
+Pavage-Réparation,IN,CONDITION,maintenance / city works
+Personnel-Arrondissement,OUT,,
+Plantationd'arbre,IN,CONDITION,maintenance / city works
+Pollutiondel'airetdel'eau,IN,CONDITION,sanitation / cleanliness
+Puisard/TH-Premièreintervention,IN,CONDITION,sanitation / cleanliness
+Punaisesdelit,IN,CONDITION,sanitation / cleanliness
+Refoulementégout/InondationPropriétéprivée,IN,CONDITION,sanitation / cleanliness
+SRRR,IN,CONDITION,traffic engineering / parking
+ServicesTechniques-Varia,OUT,,
+Signalisation-Circulation-Études,OUT,,
+Signalisationécrite-Entretien,IN,CONDITION,traffic engineering / parking
+Sportsetloisirs-Activités,IN,TRANSACTION,transaction
+Subvention-Habitation-Servicecentral,OUT,,
+Surveillanceetsécuritépublique,OUT,,
+Taxesfoncières,OUT,,
+Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking
+Voiecyclable-Études,OUT,,
+Voirie-Divers,IN,CONDITION,maintenance / city works
+Y-Eau-Divers,IN,CONDITION,sanitation / cleanliness
+Y-Égout-Divers,IN,CONDITION,sanitation / cleanliness
+Éclairage-Études,OUT,,
+Éclairageexistant-Entretien,IN,CONDITION,maintenance / city works
+Égout-Entretien,IN,CONDITION,sanitation / cleanliness
+Éviction,IN,TRANSACTION,transaction

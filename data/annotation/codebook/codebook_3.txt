@@ -1,0 +1,199 @@
+===== Annotation 1: In vs Out of Scope =====
+
+TIE-BREAKING CRITERIA: If a label would not necessarily fit in either IN or OUT, default towards OUT.
+
+IN: Something a resident would recognize as a neighbourhood issue.
+Inclusion Criteria:
+- Label represents something a resident would recognize as a neighbourhood issue
+Exclusion Criteria:
+- Label covers tax accounts or other forms of government money collection
+- Label covers supplier registries
+- Label covers internal departmental work
+- Label covers correspondence with other levels of government
+- Label covers research and study work
+- For single object/location labels consider the label in the context of 311 and why it is an entry, if you can't conceive of a way it can be pejorative, it is not IN.
+Examples: 
+- "Gazon-Réparation" This label describes a neighbourhood issue: it tracks a request for some lawn in the area to be repaired. It is therefore annotated as IN as per the criteria.
+- "Chaussée glissante" This label describes a neighbourhood issue: it tracks complaints about slippery roads/pavements. It is therefore annotated as IN as per the criteria.
+
+OUT: Something a resident would not recognize as a neighbourhood issue.
+Inclusion Criteria:
+- Label covers tax accounts or other forms of government money collection
+- Label covers supplier registries
+- Label covers internal departmental work
+- Label covers correspondence with other levels of government
+- Label covers research and study work
+- For single object/location labels consider the label in the context of 311 and why it is an entry, if you can't conceive of a way it can be pejorative, it is OUT.
+Exclusion Criteria:
+- Label represents something a resident would recognize as a neighbourhood issue
+Examples: 
+- "Taxe d'eau" This label describes money collection by the city in the form of a tax. It is therefore annotated as OUT as per the criteria.
+- "IRP-Mesured'urgence" This label contains IRP which stands for "Intervention Rapide et Prioritaire". This is an internal department team and tracks their work. It is therefore annotated as OUT as per the criteria.
+
+Edge case: "Transportation and delivery" This label is not very clear as to what exactly it represents. However, it appears to fit into two of the OUT criteria: it is either a supplier related request or related to internal work (transport or delivery of goods handled by the city). It is therefore annotated as OUT as per the criteria.
+
+40/140 of the open coding set was excluded in this step.
+
+===== Annotation 2: Condition of Neighbourhood vs Transaction within City =====
+
+RULE: Only annotate the labels that are IN for annotation 1.
+
+Condition (IN): Condition of the neighbourhood.
+Inclusion Criteria:
+- Describes something that is true of a place. (For example, complaints about noise or garbage pick up relate to the place where the noise can be heard or from where the garbage should have been picked up.)
+Exclusion Criteria:
+- Describes an errand a resident is running
+- Tells you about municipal workload rather than about the street anyone lives on.
+Examples:
+- "Immeubles municipaux - Abeilles, guêpes, bourdons à l'intérieur" This label indicates something true of the neighbourhood: there are bees in its municipal buildings. It is therefore annotated as Condition as per the criteria.
+- "Bruit" This label represents noise complaints by residents. These describe something true of the neighbourhood: how noisy it is. It is therefore annotated as Condition as per the criteria.
+
+Transaction (OUT): Transaction with the city.
+Inclusion Criteria:
+- Describes an errand a resident is running
+- Tells you about municipal workload rather than about the street anyone lives on.
+Exclusion Criteria:
+- Describes something that is true of a place. (For example, complaints about noise or garbage pick up relate to the place where the noise can be heard or from where the garbage should have been picked up.)
+Examples:
+- "*Borough inspections" This label indicates routine work (inspections) to be carried out by municipal workers. It informs us of the municipal workload. It is therefore annotated as Transaction as per the criteria.
+- "*Bac de déchets Livraison" This label describes delivery of a bin. This is indicative of a resident errand (bin order) and the municipal workload attached to it (delivery). It is therefore annotated as Transaction as per the criteria.
+
+Edge case:  "Travaux Élagage" This label indicates work to be done regarding tree pruning. However, it also describes the state of the neighbourhood: trees need pruning. As a tie-breaker, we annotate this as Condition.
+
+15/100 of the IN set from annotation 1 was excluded in this step.
+85 open-coding labels remain to be classified into categories after this step.
+
+
+===== Annotation 3: Topics =====
+
+RULE: Only annotate the labels that are IN for annotation 1.
+
+GENERAL NOTE / TIE-BREAKING CRITERIA: If a label seems to match two topics, think of the impact of the request on the neighbourhood and what it aims to improve.
+Follow these steps in order:
+- If the request was annotated as Transaction in Annotation 2, pick Transactions
+- If the request has to do with noise level complaints, pick Quieteness / Living Comfort
+- If the request has to do with improving traffic or parking, pick Traffic Engineering / Parking
+- If the request has to do with the cleanliness or water management of a neighbourhood, pick Sanitation / Cleanliness
+- If the request has to do with maintenance or repair on property, pick Maintenance / City Works
+- If it fits none of these categories, pick the category Other
+
+1. Maintenance / City Works
+
+One sentence definition: 
+Label is related to work that needs to be done to repair or maintain the city or citizen's infrastructure and greenery.
+
+Inclusion Rules:
+- Label explicitely mentions repair, construction, works or maintenance.
+- Label consists of an action verb for public or private property that indicates that the city needs to maintain or repair it.
+- Label mentions something that is broken and would need repair by the city.
+- Label mentions public property or a tree from which it is indicated or it could be infered that it is in need of city works intervention.
+Exclusion Rules:
+- Label that has nothing to do with city works, repair, maintenance, or any type of public or private property that the city could intervene on.
+
+Examples:
+- Gazon-Réparation --> This is about repairing public or private property
+- Entretien d'édifices municipaux --> This is about maintaining public property
+
+Boundary Examples:
+- Mobilier de parc --> We can infer that although this does not mention a specific request about the parc furniture, it is likely a request for the upkeep of said furniture.
+- Asphalte travaux --> While working on asphalt will impact the traffic, the main purpose of this request is primarily for city works and therefore falls under this Maintenance / City Works category.
+- Vandalisme ou accident - Arbre --> While this could also be put in Sanitation / Cleanliness, we chose to put trees under the Maintenance / City Works category according to the inclusion rules.
+
+
+2. Traffic Engineering / Parking
+
+One sentence definition: 
+Label related to improving the circulation of people or vehicles on roads or pavements or the storage of vehicles or other modes of transportation in parkings.
+
+Inclusion Rules:
+- Label mentions roads, pavements, cars, or other mode of transportation in the context of improving its circulation.
+- Label mentions traffic signs or lights.
+- Label mentions parking for various modes of transportation such as cars or bicycles.
+Exclusion Rules:
+- Label has nothing to do with improving traffic flow, axes of circulation, or parkings.
+
+Examples:
+- *Sens de rue --> Street direction directly affects traffic 
+- Stationnement ou débarcadère pour personne à mobilité réduite --> Mentions parking
+- Dos d'âne RUELLE --> A speed bump helps regulate traffic flow
+
+Boundary Examples:
+- *E.T.-Entrée charretière --> Although this is not about a road or a car, the label likely indicates a request related to improving the circulation of the cart.
+- Trottoir glissant --> Although this could be thought of as a maintenance problem, the label is primarily about a pavement that doesn't require extensive work to be made less slippery. This label is mostly about how the slippery pavement can impede circulation.
+
+
+3. Sanitation / Cleanliness
+
+One sentence definition:
+Label related to maintaining a clean and sanitary neighbourhood.
+
+Inclusion Rules:
+- Label mentions trash or unwanted animals
+- Label mentions sewer or any water systems
+- Label is a request for cleaning of an area or property
+Exclusion Rules:
+- Label has nothing to do with overall city cleanliness and sanitation.
+
+Examples:
+- Déchets-Non ramassés --> Mentions trash that needs to be picked up
+- Affichage-Illégal --> Implies that a surface has been dirtied by an illegal poster or sign.
+
+Boundary Examples:
+- *Z-Puisard --> Although the link with cleanliness is not direct, the maintenance of a drain/catch pit is key to maintain proper sanitation standards in a city.
+
+
+4. Quieteness / Living Comfort
+
+One sentence definition: 
+Label relates to noise and/or noise complaints.
+
+Inclusion Rules:
+- Label mentions noise
+- Label directly addresses the quietness or peacefulness of an area
+Exclusion Rules:
+- Label does not mention noise or peaceful living conditions
+
+Examples:
+- Bruit --> Label directly mentions the word noise
+- 800-Bruits --> Label directly mentions the word noise
+
+Boundary Examples:
+None found
+
+5. Transactions
+
+One sentence definition:
+Label is a transaction within the city.
+
+Inclusion Rules:
+- Label was annotated as a Transaction in Annotation 2
+Exclusion Rules:
+- Label was not annotated as a Transaction in Annotation 2
+
+Examples:
+- Christmas Tree Collection
+- Recycling bin delivery
+
+6. Other
+
+One sentence definition: 
+Any label that does not match the above topics.
+
+Inclusion Rules:
+- Matches no other category
+Exclusion Rules:
+- Matches another category
+
+Examples:
+None in the open coding set.
+
+Boundary Examples:
+None in the open coding set.
+
+Open coding distribution: 
+- Maintenance / City Works: 35
+- Traffic Engineering / Parking: 19
+- Sanitation / Cleanliness: 28
+- Quieteness / Living Comfort: 3
+- Transactions: 15
+- Other: 0
