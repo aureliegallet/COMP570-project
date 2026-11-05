@@ -99,7 +99,8 @@ def main():
     pop_dict = get_pop_dict()
     pop_series = pd.Series(pop_dict)
     norm_table = table.div(pop_series, axis=0)
-    print(norm_table)
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+        print(norm_table)
     export_table = norm_table
     export_table.index.name = "Borough"
     export_table.to_csv(DATA_PATH / 'topics_dataset.csv') 

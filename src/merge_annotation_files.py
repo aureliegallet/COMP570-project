@@ -20,17 +20,29 @@ TOPIC_MAP = {
     'other': 'topic_6',
 }
 def main():
-    is_first_file = True
+    i=0
     df_list = []
     for file in FILES:
         df = pd.read_csv(LABELLING_PATH / file, encoding='utf-8')
-        if is_first_file:
+        if i==0:
             df.rename(columns={'adjudicator_ruling_task_1': 'task_1', 'adjudicator_ruling_task_2': 'task_2', 'adjudicator_ruling_task_3': 'task_3'}, inplace=True)
             df = df[['label', 'task_1', 'task_2', 'task_3']]
-            is_first_file = False
+            df['annotator'] = "double annotated by Andrew and Aurélie, adjudicated by Harry"
+            df['from_double_annotation'] = True
+        elif i==1:
+            df['annotator'] = "Harry"
+            df['from_double_annotation'] = False
+        elif i==2:
+            df['annotator'] = "Andrew"
+            df['from_double_annotation'] = False
+        else:
+            df['annotator'] = "ChatGPT"
+            df['from_double_annotation'] = False
         df['task_3'] = df['task_3'].str.lower()
         df['task_3_anon'] = df['task_3'].map(TOPIC_MAP)
+        df['set'] = file.split('_')[0]
         df_list.append(df)
+        i += 1
     output = pd.concat(df_list, ignore_index=True)
     output_anon = output.drop(columns="task_3") 
     output_anon.rename(columns={"task_3_anon": "task_3"})
