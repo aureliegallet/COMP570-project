@@ -42,8 +42,20 @@ def main():
     datasets.to_csv(DATA_PATH / "final_dataset.csv", index = False)
 
     cols_to_normalize = [x for x in list(datasets.columns) if x not in ['borough', 'Most Common Complaint', 'Most Common Requests']]
+    cols_not_to_minimize = [
+            "borough",
+            "green_area (%)",
+            "budget_2000_minus_median_2br_cad",
+            "budget_3000_minus_median_2br_cad",
+            "budget_2000_minus_median_3br_cad",
+            "budget_3000_minus_median_3br_cad", 
+            'Most Common Complaint', 
+            'Most Common Requests'
+        ]
+    cols_to_minimize = [x for x in list(datasets.columns) if x not in cols_not_to_minimize]
     normalized = datasets.copy()
     normalized[cols_to_normalize] = (datasets[cols_to_normalize] - datasets[cols_to_normalize].min()) / (datasets[cols_to_normalize].max() - datasets[cols_to_normalize].min())
+    normalized[cols_to_minimize] = 1 - normalized[cols_to_minimize]
     normalized.to_csv(DATA_PATH / "project1_normalized_dataset.csv", index = False)
 
 
