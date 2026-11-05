@@ -41,6 +41,11 @@ def main():
 
     datasets.to_csv(DATA_PATH / "final_dataset.csv", index = False)
 
+    cols_to_normalize = [x for x in list(datasets.columns) if x not in ['borough', 'Most Common Complaint', 'Most Common Requests']]
+    normalized = datasets.copy()
+    normalized[cols_to_normalize] = (datasets[cols_to_normalize] - datasets[cols_to_normalize].min()) / (datasets[cols_to_normalize].max() - datasets[cols_to_normalize].min())
+    normalized.to_csv(DATA_PATH / "project1_normalized_dataset.csv", index = False)
+
 
 if __name__ == "__main__":
     main()

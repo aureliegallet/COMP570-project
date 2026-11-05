@@ -95,11 +95,14 @@ def main():
     )
 
     # Normalize number of requests by borough population
-    print("Rates per 10 000 habitants:")
+    print("Rates normalized by population:")
     pop_dict = get_pop_dict()
     pop_series = pd.Series(pop_dict)
-    norm_table = table.div(pop_series, axis=0) * 10000
+    norm_table = table.div(pop_series, axis=0)
     print(norm_table)
+    export_table = norm_table
+    export_table.index.name = "Borough"
+    export_table.to_csv(DATA_PATH / 'topics_dataset.csv') 
 
     # Distribution of topics by borough
     print("\nDistribution of topics by borough:")
@@ -114,7 +117,7 @@ def main():
         aggfunc="size", 
         fill_value=0
     )
-    table_condition = table_condition.div(pop_series, axis=0) * 10000
+    table_condition = table_condition.div(pop_series, axis=0)
 
     # https://pypi.org/project/paretoset/
     Solution = namedtuple("Solution", ["solution", "obj_value"])
@@ -133,7 +136,7 @@ def main():
     distances_to_all_frontier = cdist(objective_values_array, frontier_values_array, metric='euclidean') # euclidean distance to each point of the frontier
     distances_to_frontier = np.min(distances_to_all_frontier, axis=1) # take minimum: gives euclidean distance to closest Pareto Frontier point
     for i, dist in enumerate(distances_to_frontier):
-        print(f"{solutions[i].solution} is {dist:.2f} units from the closest frontier point.")
+        print(f"{solutions[i].solution} is {1000 * dist:.2f} milliunits from the closest frontier point.")
 
     # Computed without other
     solutions = []
@@ -153,7 +156,7 @@ def main():
     distances_to_all_frontier = cdist(objective_values_array, frontier_values_array, metric='euclidean') # euclidean distance to each point of the frontier
     distances_to_frontier = np.min(distances_to_all_frontier, axis=1) # take minimum: gives euclidean distance to closest Pareto Frontier point
     for i, dist in enumerate(distances_to_frontier):
-        print(f"{solutions[i].solution} is {dist:.2f} units from the closest frontier point.")
+        print(f"{solutions[i].solution} is {1000 * dist:.2f} milliunits from the closest frontier point.")
     
 
 
