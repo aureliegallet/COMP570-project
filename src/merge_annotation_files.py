@@ -25,21 +25,21 @@ def main():
     for file in FILES:
         df = pd.read_csv(LABELLING_PATH / file, encoding='utf-8')
         if i==0:
-            df.rename(columns={'adjudicator_ruling_task_1': 'task_1', 'adjudicator_ruling_task_2': 'task_2', 'adjudicator_ruling_task_3': 'task_3'}, inplace=True)
-            df = df[['label', 'task_1', 'task_2', 'task_3']]
             df['annotator'] = "double annotated by Andrew and Aurélie, adjudicated by Harry"
             df['from_double_annotation'] = True
-        elif i==1:
-            df['annotator'] = "Harry"
-            df['from_double_annotation'] = False
-        elif i==2:
-            df['annotator'] = "Andrew"
-            df['from_double_annotation'] = False
+            df['adjudicator_ruling_task_3'] = df['adjudicator_ruling_task_3'].str.lower()
+            df['annotator_1_task_3'] = df['annotator_1_task_3'].str.lower()
+            df['annotator_2_task_3'] = df['annotator_2_task_3'].str.lower()
         else:
-            df['annotator'] = "ChatGPT"
+            if i==1:
+                df['annotator'] = "Harry"
+            elif i==2:
+                df['annotator'] = "Andrew"
+            else:
+                df['annotator'] = "ChatGPT"
             df['from_double_annotation'] = False
-        df['task_3'] = df['task_3'].str.lower()
-        df['task_3_anon'] = df['task_3'].map(TOPIC_MAP)
+            df['task_3'] = df['task_3'].str.lower()
+            df['task_3_anon'] = df['task_3'].map(TOPIC_MAP)
         df['set'] = file.split('_')[0]
         df_list.append(df)
         i += 1

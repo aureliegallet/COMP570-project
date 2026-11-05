@@ -1,811 +1,811 @@
-label,task_1,task_2,task_3,annotator,from_double_annotation,set
-*Analysedel'eaupotable,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Autre-Compteurd'eau-Résidentiel,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Bacroulant-Livraison,in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Bâtiment-Plomberie,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*CAFÉ-TERRASSE(DOMAINEPUBLIC),in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*E.T.-Arrêtinterdit,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Jardins-Renouvellement,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Nettoyagedepuisards-rues,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Signalisation-Études-Personneshandicapées,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-"*Vermine,insectesnuisibles",in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Zonedelivraison,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Élagageexécution,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Abattaged'arbre,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Abritemporaire,in,condition,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Acquisitionderuelle,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Afficheautoportante-Domainepublic,in,condition,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Aménagementdeparc,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Animalmort,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Animauxsauvages-Nuisance,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Appropriationcitoyenne,in,condition,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Arbre-Abattaged'arbreprivé,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Bacmontréalais(67litres),in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Bornefontaine-Obstruction,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Branchetombée,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Bureaud'arrondissement-Serviceàlaclientèle,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-CarteAccèsMontréal,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Certificatd'occupationcommercialeouprofessionnelle,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Chaletdeparc,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Chienagressif,in,condition,quieteness / living comfort,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Collected'écran(ordinateurettéléviseur),in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Collectedebranchesd'arbre-Agriledufrêne,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Collectededéchets,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Collectederésidusverts,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Collectedesencombrants,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Collectedesmatièresrecyclables,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Contrôleanimalier,in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Dangerpotentiel-Arbre,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Direction-Finances,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Distributionaucomptoirdebacsoudesacsderécupération,in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Débrissurlavoiepublique,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Dépôtillégal-Déchets,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Dérogationmineure,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Développementcommunautaire,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Encaissementetremboursement,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Essouchement,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Excrémentsterrainprivé,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Exterminationàl'extérieur-Insectes,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Exterminationàl'extérieur-Rats,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Fermetured'uneconduited'eau-Urgence,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Fuited'eau,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Gazonouherbeshautes-Domaineprivé,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Graffitis-Domainepublic,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Graffitishaineux,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Grandparc,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Grandparc-Agriledufrêne,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Géomatique,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Horticulture-Divers,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Horticulture-Entretien,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Info-travaux-Servicecentral,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Installationsculturelles-Entretien,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Interventiondestationnement-Enquête,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Localisation/EntretienEntréed'eau,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Maladieouinsectes-Arbre,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Manqued'eau,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Marquagedelachaussée-Nouveau,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Mesured'apaisement-Circulation,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Mobilierurbain,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Nid-de-poule,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Occupationdudomainepublic,in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Opérationdéneigement,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Ouvertured'entréed'eau,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Panierdeparcàvider,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Panierderueàvider,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Panneaudesignalisationentretienprioritaire,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Parc-Divers,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Parc-Propreté,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Pavage-Réparation,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Personnel-Arrondissement,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Plantationd'arbre,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Pollutiondel'airetdel'eau,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Puisard/TH-Premièreintervention,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Punaisesdelit,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Refoulementégout/InondationPropriétéprivée,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-SRRR,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-ServicesTechniques-Varia,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Signalisation-Circulation-Études,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Signalisationécrite-Entretien,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Sportsetloisirs-Activités,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Subvention-Habitation-Servicecentral,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Surveillanceetsécuritépublique,in,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Taxesfoncières,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Trottoiroubordure-Réparation,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Voiecyclable-Études,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Voirie-Divers,in,condition,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Y-Eau-Divers,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Y-Égout-Divers,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Éclairage-Études,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Éclairageexistant-Entretien,in,condition,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Égout-Entretien,in,condition,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-Éviction,out,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double
-*Abattaged'arbreprivé,IN,Condition,maintenance / city works,Harry,False,open
-*Agir-Tarification,OUT,,,Harry,False,open
-*Apaisementdelacirculation,IN,Condition,traffic engineering / parking,Harry,False,open
-*Bacbrun,IN,Transaction,transaction,Harry,False,open
-"*BacdeMOEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness,Harry,False,open
-"*BacdedéchetsEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness,Harry,False,open
-*BacdedéchetsLivraison,IN,Transaction,transaction,Harry,False,open
-"*BacderecyclageEndommagé,perdu,volé",IN,Condition,sanitation / cleanliness,Harry,False,open
-*BacderecyclageLivraison,IN,Transaction,transaction,Harry,False,open
-*Bacroulantvert(1à3logements),IN,Transaction,transaction,Harry,False,open
-*Bâtiment-Menuiserie,IN,Transaction,transaction,Harry,False,open
-*E.T.-Entréecharretière,IN,Condition,traffic engineering / parking,Harry,False,open
-*E.T.-Feuxpiétons,IN,Condition,traffic engineering / parking,Harry,False,open
-*E.T.-Stationnementoudébarcadèrepourcommerce,IN,Condition,traffic engineering / parking,Harry,False,open
-*Eau-Bornefontaine-Réparation,IN,Condition,sanitation / cleanliness,Harry,False,open
-*Eau-Divers-Remplacerentréedeserviceenplomb,IN,Condition,sanitation / cleanliness,Harry,False,open
-*Erreur,OUT,,,Harry,False,open
-*Inspection-Déchets-Dépôtillégal,IN,Condition,sanitation / cleanliness,Harry,False,open
-*InspectionsenArrondissement,IN,Transaction,transaction,Harry,False,open
-*Permis-Bruit-Résidence,OUT,,,Harry,False,open
-*Sensderue,IN,Condition,traffic engineering / parking,Harry,False,open
-*Véhiculesnonétatfonctionnement,OUT,,,Harry,False,open
-*Z-Inspectiond'égoutprivé,IN,Condition,sanitation / cleanliness,Harry,False,open
-*Z-Puisard,IN,Condition,sanitation / cleanliness,Harry,False,open
-*Z-Testdepressiond'eau,IN,Condition,sanitation / cleanliness,Harry,False,open
-*Z-Troud'homme,IN,Condition,sanitation / cleanliness,Harry,False,open
-*Égout-Réparation-Entretien,IN,Condition,sanitation / cleanliness,Harry,False,open
-800-Bruits,IN,Condition,quieteness / living comfort,Harry,False,open
-Accèsàl'information,OUT,,,Harry,False,open
-Affichage-Illégal,IN,Condition,maintenance / city works,Harry,False,open
-Arbre-Divers,IN,Condition,maintenance / city works,Harry,False,open
-Arbresruelles,IN,Condition,maintenance / city works,Harry,False,open
-Arbretombé,IN,Condition,maintenance / city works,Harry,False,open
-Archivesetrèglementsd'arrondissement,OUT,,,Harry,False,open
-Asphaltetravaux,IN,Condition,traffic engineering / parking,Harry,False,open
-Autre-Construction,IN,Condition,maintenance / city works,Harry,False,open
-Bacroulant,IN,Transaction,transaction,Harry,False,open
-Balaimécanique,IN,Condition,sanitation / cleanliness,Harry,False,open
-Borned'incendie-Entretien,IN,Condition,sanitation / cleanliness,Harry,False,open
-Bornesderechargepubliques,IN,Condition,maintenance / city works,Harry,False,open
-Boîtedeserviceàniveler,IN,Condition,maintenance / city works,Harry,False,open
-Bruit,IN,Condition,quieteness / living comfort,Harry,False,open
-Centredeservices311,OUT,,,Harry,False,open
-Changementd'adresse-Taxeseauetdéchets,OUT,,,Harry,False,open
-Changementd'adresse-Taxesfoncières,OUT,,,Harry,False,open
-Chausséeglissante,IN,Condition,sanitation / cleanliness,Harry,False,open
-Clôtureethaieprivée,IN,Condition,maintenance / city works,Harry,False,open
-Collected'arbresdeNoël,IN,Transaction,transaction,Harry,False,open
-Collectederésidusalimentaires,IN,Transaction,transaction,Harry,False,open
-Collectedesmatièresorganiques,IN,Transaction,transaction,Harry,False,open
-Communications-Arrondissement,OUT,,,Harry,False,open
-Compost,IN,Transaction,transaction,Harry,False,open
-Conseild'arrondissement,OUT,,,Harry,False,open
-Courmunicipale,OUT,,,Harry,False,open
-Demandedepermisd'occupationtemporaire,OUT,,,Harry,False,open
-Distributiondecirculaire,OUT,,,Harry,False,open
-Distributiondesacs,OUT,,,Harry,False,open
-Distributiondevégétaux,OUT,,,Harry,False,open
-Dommage-Racinesd'arbres,IN,Condition,maintenance / city works,Harry,False,open
-Dosd'âne-ruelle-2,IN,Condition,traffic engineering / parking,Harry,False,open
-Dosd'âneRUELLE,IN,Condition,traffic engineering / parking,Harry,False,open
-Déchets-Nonramassés,IN,Condition,sanitation / cleanliness,Harry,False,open
-DépôtIllégal-Neige,IN,Condition,maintenance / city works,Harry,False,open
-Encaissement-Oasis,OUT,,,Harry,False,open
-Encaissement-Stop+,OUT,,,Harry,False,open
-Encaissement-UrbanismeetPermis,OUT,,,Harry,False,open
-Encombrantsnonramassés,IN,Condition,sanitation / cleanliness,Harry,False,open
-Entreposagenonautorisé-Terrainprivé,IN,Condition,maintenance / city works,Harry,False,open
-Entretiend'édificesmunicipaux,IN,Transaction,transaction,Harry,False,open
-Entréed'eauenplomb-Autredemande,IN,Transaction,transaction,Harry,False,open
-Entréed'eauenplomb-Demandedefiltre,IN,Transaction,transaction,Harry,False,open
-Environnement-Divers,IN,Condition,sanitation / cleanliness,Harry,False,open
-Exterminationàl'intérieur-immeubleville,IN,Condition,sanitation / cleanliness,Harry,False,open
-Fermetured'entréed'eau,IN,Condition,sanitation / cleanliness,Harry,False,open
-Feuxdecirculation-Entretien,IN,Condition,traffic engineering / parking,Harry,False,open
-Finances-Divers,OUT,,,Harry,False,open
-Fuiteboîte-maison,IN,Condition,sanitation / cleanliness,Harry,False,open
-Fuiteservice,IN,Condition,sanitation / cleanliness,Harry,False,open
-Gazon-Réparation,IN,Condition,maintenance / city works,Harry,False,open
-Gazonoumauvaisesherbes-Domainepublic,IN,Condition,maintenance / city works,Harry,False,open
-Graffitis-Domaineprivé,IN,Condition,maintenance / city works,Harry,False,open
-Greffe-Arrondissement,OUT,,,Harry,False,open
-Habitation-Divers-Servicecentral,OUT,,,Harry,False,open
-IRP-Demandeonderadio,OUT,,,Harry,False,open
-IRP-Fermeturederue,IN,Condition,traffic engineering / parking,Harry,False,open
-IRP-Mesured'urgence,IN,Condition,traffic engineering / parking,Harry,False,open
-IRP-Police,OUT,,,Harry,False,open
-IRP-Posted'essence,IN,Condition,traffic engineering / parking,Harry,False,open
-IRP-VillesnonreliéesauGDC,OUT,,,Harry,False,open
-"Immeublesmunicipaux-Abeilles,guêpes,bourdonsàl'intérieur",IN,Condition,sanitation / cleanliness,Harry,False,open
-"Immeublesmunicipaux-Ventilation,climatisation",IN,Condition,maintenance / city works,Harry,False,open
-Info-travaux-Arrondissement,OUT,,,Harry,False,open
-Installationssportivesextérieures-Entretien,IN,Condition,maintenance / city works,Harry,False,open
-Installationssportivesintérieures-Entretien,IN,Condition,maintenance / city works,Harry,False,open
-Internet-Portailcentral,OUT,,,Harry,False,open
-Logement-Inspection,IN,Condition,maintenance / city works,Harry,False,open
-Logementsocialetcommunautaire,IN,Condition,maintenance / city works,Harry,False,open
-Mairesetélusd'arrondissement,OUT,,,Harry,False,open
-Marquagedelachaussée-Existant,IN,Condition,traffic engineering / parking,Harry,False,open
-Mesuresd'apaisement,IN,Condition,traffic engineering / parking,Harry,False,open
-Mobilierdeparc,IN,Condition,maintenance / city works,Harry,False,open
-Nettoyagedudomainepublic,IN,Condition,sanitation / cleanliness,Harry,False,open
-Numéromunicipal,OUT,,,Harry,False,open
-Parc-Mobilier-Entretien,IN,Condition,maintenance / city works,Harry,False,open
-Parcomètre,IN,Condition,traffic engineering / parking,Harry,False,open
-Permis-Divers,OUT,,,Harry,False,open
-Permis-Neige-Domainepublic,OUT,,,Harry,False,open
-Permisdeconstruction-rénovation,OUT,,,Harry,False,open
-Pesticide,IN,Condition,sanitation / cleanliness,Harry,False,open
-Piscineouspaprivés,IN,Condition,maintenance / city works,Harry,False,open
-Planificationdestravaux-Étudesimmeublesmunicipaux,OUT,,,Harry,False,open
-Pontettunnel,IN,Condition,traffic engineering / parking,Harry,False,open
-Poêleetfoyeraubois,IN,Condition,maintenance / city works,Harry,False,open
-Prisederendez-vous,OUT,,,Harry,False,open
-Rapportd'accident,IN,Condition,traffic engineering / parking,Harry,False,open
-Recyclage-Nonramassé,IN,Condition,sanitation / cleanliness,Harry,False,open
-RelevéCPTE,OUT,,,Harry,False,open
-RetourDDS,IN,Condition,sanitation / cleanliness,Harry,False,open
-Réceptiondechèquepost-daté,OUT,,,Harry,False,open
-Signalisation-Neige,IN,Condition,maintenance / city works,Harry,False,open
-Signalisationcachéepardesvégétaux,IN,Condition,maintenance / city works,Harry,False,open
-Stationnementoudébarcadèrepourpersonneàmobilitéréduite,IN,Condition,traffic engineering / parking,Harry,False,open
-Supportàvélo,IN,Condition,maintenance / city works,Harry,False,open
-Taxed'eau,OUT,,,Harry,False,open
-Terraininsalubre-Domaineprivé,IN,Condition,sanitation / cleanliness,Harry,False,open
-Thermopompeetclimatiseur,IN,Condition,maintenance / city works,Harry,False,open
-TransportetLivraison,OUT,,,Harry,False,open
-TravauxÉlagage,IN,Condition,maintenance / city works,Harry,False,open
-Trottoirglissant,IN,Condition,sanitation / cleanliness,Harry,False,open
-Unenaissance/unarbre,IN,Condition,maintenance / city works,Harry,False,open
-Urbanisme,OUT,,,Harry,False,open
-Vandalismeouaccident-Arbre,IN,Condition,maintenance / city works,Harry,False,open
-Vente-débarras,IN,Transaction,transaction,Harry,False,open
-Voiecyclable-Marquageetsignalisationécrite,IN,Condition,traffic engineering / parking,Harry,False,open
-Zonage,OUT,,,Harry,False,open
-Éclairageplanification-Servicecentral,OUT,,,Harry,False,open
-Écocentre,IN,Condition,maintenance / city works,Harry,False,open
-Écoquartier,IN,Condition,maintenance / city works,Harry,False,open
-Élagage,IN,Condition,maintenance / city works,Harry,False,open
-Événementlocal,IN,Condition,quieteness / living comfort,Harry,False,open
-*Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking,Andrew,False,single
-*BacdeMO-Modificationdevolume.,IN,TRANSACTION,transaction,Andrew,False,single
-*BacdedéchetsModificationdevolume;IN;TRANSACTION;transaction,,,,Andrew,False,single
-*Couvercledepuisard-brisé,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-*Feuxdecirculation,IN,CONDITION,traffic engineering / parking,Andrew,False,single
-*Réparationdechambredevanne,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-*Réparationdepuisards-trottoir,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-*Voirie-Nettoyagedudomainepublic-Panierderue,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-*Voirie-TravauxAqueduc,IN,CONDITION,traffic engineering / parking,Andrew,False,single
-Autre-CollectedeMO,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-Autre-Occupationtemporairedudomainepublic,IN,TRANSACTION,transaction,Andrew,False,single
-Autre-Urbanisme,OUT,,,Andrew,False,single
-Bruit-Commerceetindustrie;IN;CONDITION;quieteness / living comfort,,,,Andrew,False,single
-"Couleur,odeurougoûtanormaldel'eau",IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-Distributiondespublicationsarrondissement,IN,TRANSACTION,transaction,Andrew,False,single
-Déblaiement/Chargement,IN,CONDITION,maintenance / city works,Andrew,False,single
-Dépôtsauvage-Terrainprivé,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-Encaissement-Gescour,OUT,,,Andrew,False,single
-Encaissement-RessourcesFinancières,OUT,,,Andrew,False,single
-Encombrantssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-Info-travaux-Urgence,OUT,,,Andrew,False,single
-Inspectiondelogement,OUT,,,Andrew,False,single
-Piscine-Propreté.,IN,CONDITION,sanitation / cleanliness,Andrew,False,single
-Plaintefonctionnement,OUT,,,Andrew,False,single
-Réparationdegazon-Contrat,OUT,,,Andrew,False,single
-*Abattage/Essouchementexécution,IN,CONDITION,other,ChatGPT,False,rest
-*Abattaged'arbre-terrainpublic,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Aquatique,IN,CONDITION,other,ChatGPT,False,rest
-*Arbre-Maladie-Pucerons,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Arbre-branchesàramasser,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Arbreprivédangereux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Arbresderuelle,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-"*Arbustes,vivaces",IN,CONDITION,other,ChatGPT,False,rest
-"*BacdeMO-Endommagé,perdu,volé.",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*BacdeMO-Livraison.,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*BacdeMOLivraison,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*BacdeMOModificationdevolume,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Bacdedéchets-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Bacdedéchets-Livraison,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Bacdedéchets-Modificationauvolume,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Bacderecyclage-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Bacderecyclage-Livraison,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Bacderecyclage-Modificationdevolume,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*BacderecyclageModificationdevolume,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Bacroulant-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Bacroulant-Nonramassé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Bacroulantendommagé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Bacroulantvolé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Bacsàfleurs,corbeilles,litsdeplantation",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Banc-Ajout/Retrait,IN,TRANSACTION,transaction,ChatGPT,False,rest
-"*Bancs,poubellesetc",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Bibliothèque,IN,CONDITION,other,ChatGPT,False,rest
-*BibliothèqueBENNY,IN,CONDITION,other,ChatGPT,False,rest
-*BibliothèqueCDN,IN,CONDITION,other,ChatGPT,False,rest
-*BibliothèqueNDG,IN,CONDITION,other,ChatGPT,False,rest
-*Borneélectrique,IN,CONDITION,other,ChatGPT,False,rest
-*Boîtedeserviceàmettreenordre,IN,CONDITION,other,ChatGPT,False,rest
-*Boîtedeserviceàvérifier,IN,CONDITION,other,ChatGPT,False,rest
-*Brancheaccrochée,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Branchementd'égout-Domaineprivé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Branchementd'égout-Domainepublic,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Brisdanschalet,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Bâtiment-Piscine,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Circulation-Intersectiondangereuse,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Compteurbruyant,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-*Compteurcoule,IN,CONDITION,other,ChatGPT,False,rest
-*Compteurd'eauICI(Industries-Commerces-Institutions),IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Conteneursàordures,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Contrôledustationnementvoiepublique,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Couvercledepuisardabsentoudéplacé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Couvercledepuisardbruyant,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-*Demanded'informations,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Demanded'unnouveaucompteur,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Demandedepropriété,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Demandederenseignement-signalisationpermanente,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Dosd'âne-Rue,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Dosd'âne-Ruelle,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Débarcadère-Garderie,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Débarcadère-Handicapé,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Débarcadère-École,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-"*Débarcadèreécole,garderie,institution",IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Déchets,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Déchets-Bacendommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Déchets-Demandedebac,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Déchets-Dépôtillégalaprèsinspection-Voirie,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Déchets-Nonramassés,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Déchetshorsdesheures,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Déchetsmaldisposés,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Défensedejeterdesdéchets,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Dépôtillégal-Ramassage,IN,CONDITION,other,ChatGPT,False,rest
-*E.T.-Arrêtobligatoire(Stop),IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Camionnage,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Feuxdecirculation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Limitesdevitesse,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Marquage,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Mesuresdemodérationdelacirculation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Pavage-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*E.T.-Ruespiétonnes,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Sensderue,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Stationnementoudébarcadèrepourpersonnesàmobilitéréduite,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*E.T.-Tempsdelatraverse,IN,CONDITION,other,ChatGPT,False,rest
-*E.T.-Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Eau-Mettreboîtedeserviceenordre,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Eau-Projetspécial,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Entrave-Pistecyclable,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Entravesanspermis,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Entretiend'édificesmunicipaux-Plomberie,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Entretiendesbranchementsd'égoutsoudrains,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Environnement-Recyclage-Bac240lt-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Environnement-Recyclage-Bac240lt-Livraison,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Environnement-Recyclage-Bac240lt-Nonramassé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"*Environnement-Recyclage-Bac360lt-Endommagé,perdu,volé",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Environnement-Recyclage-Bac360lt-Livraison,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Extermination-Guêpes,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Exterminationrats,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Exterminationàl'extérieur-Fourmis,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Exterminationàl'extérieur-Guêpes,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Exterminationàl'extérieur-Niddeguêpes,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Favorable-Implantation,OUT,,,ChatGPT,False,rest
-*Favorable-Modification,OUT,,,ChatGPT,False,rest
-*Fermeturederuelle,IN,CONDITION,other,ChatGPT,False,rest
-*Feuxpiétons,IN,CONDITION,other,ChatGPT,False,rest
-"*Fontaineàboire,jeud'eau,fontainedécorative",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Gazon-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*GazonEndommagé-Opérationdéneigement,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*GazonEndommagé-TravauxparlaVille,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Herbeàpoux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Horticulture-Varia-Pesticide-Vérificationinfestation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Informationsurconstatd'infraction,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Inspectiondesaliments,OUT,,,ChatGPT,False,rest
-*Jardinscommunautaires-Divers,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Jeud'enfant,IN,CONDITION,other,ChatGPT,False,rest
-*Limitesdevitesse,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*LogementMontréal-Nord,IN,CONDITION,other,ChatGPT,False,rest
-*Marquage,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Mesured'apaisement,IN,CONDITION,other,ChatGPT,False,rest
-*Mobilierurbain-Installation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Modificationsecteurexistant,IN,CONDITION,other,ChatGPT,False,rest
-*NeplusutiliserBacroulantnoir(déchets),IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Nettoyagedepuisards-ruelles,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Nettoyageparc,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Nuisancechantier-Poussière,IN,CONDITION,other,ChatGPT,False,rest
-*Panierderue-Ajout/Retrait,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Panierderue-Réparation/Entretien,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Parc-Aired'exercicecanin,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Aménagement-Ajoutd'équipement,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Aménagement-Conception,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Aménagement-Réalisation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Aménagement-Étudespréliminaires,OUT,,,ChatGPT,False,rest
-*Parc-Entretien-Clôture,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Gazon-Terrainvacant,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Jeuxd'eau,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Parc-Mobilier-Buvette-Fontainedécorative,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Parc-Mobilier-Jeux-Vandalisme,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Parc-Propreté-Entretienairedejeux,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Parc-Propreté-Entretiencarrédesable,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Parc-Terrains-sportifs-Soccer,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Partenaires,OUT,,,ChatGPT,False,rest
-*Permis-Bruit-Circulationdescamions,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Bruit-Commerce,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Bruit-Travaux,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Construction-Nuisances,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Logement-Accumulationbalcon,OUT,,,ChatGPT,False,rest
-*Permis-Logement-Accumulationodeurs,OUT,,,ChatGPT,False,rest
-*Permis-Logement-Défectuositéextérieure,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Logement-Défectuositéintérieure,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Logement-Moisissures,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Logement-Nuisancesanimales,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Permis-Logement-Vermines-rongeurs,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Piétonnisation-Masson,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Plantationexécution,IN,CONDITION,other,ChatGPT,False,rest
-*Plateauxsportifs-entretien,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Poubelles,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Pressionbasse,IN,CONDITION,other,ChatGPT,False,rest
-*Puisard-Réparation-Entretien,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Regardd'égoûtdéplacé,IN,CONDITION,other,ChatGPT,False,rest
-*Réclamation,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Réparationdepuisards-rue,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*SRRR-Ajoutouretraitd'espaces,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*SRRR-Autre,IN,CONDITION,other,ChatGPT,False,rest
-*SRRR-Modificationsecteurexistant,IN,CONDITION,other,ChatGPT,False,rest
-*SRRR-Nouveausecteur,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Seringues,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Servicesadministratifs-Sud-Ouest,OUT,,,ChatGPT,False,rest
-*Signalisationmanquanteouendommagée,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Sportsetloisirs-Activités-Activitésdanslesparcs,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Sportsetloisirs-Centrecommunautaire,IN,CONDITION,other,ChatGPT,False,rest
-*Sportsetloisirs-Terrainsextérieurs,IN,CONDITION,other,ChatGPT,False,rest
-*Sportsetloisirs-aquatique,IN,CONDITION,other,ChatGPT,False,rest
-*Stationnement,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Stationnement-Études,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Stationnementcourtedurée,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Stationnementoudébarcadèrepourhandicapés,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Supportàvélo-Ajout/Retrait,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Tennis,IN,CONDITION,other,ChatGPT,False,rest
-*Terrainsextérieurs,IN,CONDITION,other,ChatGPT,False,rest
-*Testd'écoulementd'eau,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Tontedegazon,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Visionvélo,IN,CONDITION,other,ChatGPT,False,rest
-*Visionvélo(Acceptabilité),IN,CONDITION,other,ChatGPT,False,rest
-*Visionvélo(Utilisation),IN,CONDITION,other,ChatGPT,False,rest
-*Vitesse,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Vitesseexcessive,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Voirie-Collecteappareilavecgazréfrigérant,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Voirie-Divers-GestionRetourDDS,IN,CONDITION,other,ChatGPT,False,rest
-*Voirie-Mobilierurbain-Clôtureenbois,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Voirie-Mobilierurbain-Entretienetdéplacement,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Voirie-Pavage-Entretien,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Voirie-Trottoir-Réalisation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*WOONERF,IN,CONDITION,other,ChatGPT,False,rest
-"*Z-Borne-fontaine-Installation,retraitoudéplacement",IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Z-Compteurd'eaurésidentiel,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Z-Demandederenseignement-signalisationtemporaire,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*Z-Signalisationécrite-nouveau,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-*Zonelivraison,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*collectedesrésidusalimentaires-Bacendommagés,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*collectedesrésidusalimentaires-Bacnonramassés,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*collectedesrésidusalimentaires-Demandedebac,IN,TRANSACTION,transaction,ChatGPT,False,rest
-*tontedegazon,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*ÉLU-DirectionAUP,OUT,,,ChatGPT,False,rest
-*ÉLU-DirectionTP,OUT,,,ChatGPT,False,rest
-*ÉLU-Directiond'arrondissement,OUT,,,ChatGPT,False,rest
-*Éclairagedeparc,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Éclairageterr.sportif,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-*Égout-Divers-Tuyaudeserviced'égout-Raccordementcroisé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Égout-Nettoyage-Contrat,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-*Équipementterr.sportifs,IN,CONDITION,other,ChatGPT,False,rest
-*Événementpublic,IN,CONDITION,other,ChatGPT,False,rest
-100-Demanded'interventionetAssistance,IN,TRANSACTION,transaction,ChatGPT,False,rest
-1100-Autres,IN,CONDITION,other,ChatGPT,False,rest
-400-Incivilitésetinfractions,IN,CONDITION,other,ChatGPT,False,rest
-510-Routier/Circulation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-520-Stationnement,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-600-Signalisation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-AEC(Parccanin),IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Abattaged'arbreprivé,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Abattaged'arbrepublic,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Abribus-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Acquisitiondeterrain,OUT,,,ChatGPT,False,rest
-Adhésion,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Affichagepolitique,IN,CONDITION,other,ChatGPT,False,rest
-Affichagesauvage,IN,CONDITION,other,ChatGPT,False,rest
-Afficheautoportante-Domaineprivé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Affichefixéesurarbresouarbustes,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Affichepropreté,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Agriledufrêne-Divers,IN,CONDITION,other,ChatGPT,False,rest
-Aideaurelogement,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Airbnb,IN,CONDITION,other,ChatGPT,False,rest
-Amuseurspublics,IN,CONDITION,other,ChatGPT,False,rest
-Anciennescarrières,IN,CONDITION,other,ChatGPT,False,rest
-Animauxperdus/trouvés,IN,CONDITION,other,ChatGPT,False,rest
-Antennesatellite,IN,CONDITION,other,ChatGPT,False,rest
-Appeld'offreetsoumissiond'arrondissement,OUT,,,ChatGPT,False,rest
-Arbre-Suivideplantation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Articledejeuxsurdomainepublic,IN,CONDITION,other,ChatGPT,False,rest
-ArénaMaurice-Richard,IN,CONDITION,other,ChatGPT,False,rest
-Asphalte-Coupesd'aqueducetautres,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Assermentation,IN,TRANSACTION,transaction,ChatGPT,False,rest
-"Autoabandonnée,roulotte,remorque,palette",IN,CONDITION,other,ChatGPT,False,rest
-Autorisationd'affichagesurpropriétéprivée,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Autre-Bureaud'arrondissement-Serviceàlaclientèle,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Autre-Carted'Accèsarrondissement,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Autre-Clôtureethaie,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Autre-Collectededéchets,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Autre-Collectedesencombrants,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Autre-Communications,IN,CONDITION,other,ChatGPT,False,rest
-Autre-Démolition,IN,CONDITION,other,ChatGPT,False,rest
-Autre-Dérogation,IN,CONDITION,other,ChatGPT,False,rest
-Autre-Horticulture-Distributiondevégétaux,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Autre-Marquagedelachaussée,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Autre-Permis-Divers,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Autre-Pesticide,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Autre-Résidusverts,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Autre-Salubrité,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Autre-Stationnementmunicipal,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Autre-Taxes,OUT,,,ChatGPT,False,rest
-Autre-Zonage,IN,CONDITION,other,ChatGPT,False,rest
-Avis-Alertesauxcitoyens,IN,CONDITION,other,ChatGPT,False,rest
-AvisOccupant/Consommation,OUT,,,ChatGPT,False,rest
-Avisd'infraction-Neige,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Avisdecourtoisie-Neige,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Bac-Divers,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-BacdeMOsortientempsprohibé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Balcon,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Balconmalpropre,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Banc,IN,CONDITION,other,ChatGPT,False,rest
-Barilderécupérationdel'eaudepluie,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Bicycletteabandonnée,IN,CONDITION,other,ChatGPT,False,rest
-Billetdedépôtàneige,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Bixi,IN,CONDITION,other,ChatGPT,False,rest
-Boitedeserviceàmettreenordre,IN,CONDITION,other,ChatGPT,False,rest
-Borne-fontaine-Moinsde8semaines,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Borne-fontaine-Plusde8semaines,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Borne-fontaine-Projetsspéciaux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Boîtedeservice,IN,CONDITION,other,ChatGPT,False,rest
-BranchementégoutBrisé/Déformé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Bruit-Autre,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Bruit-Thermopompeetclimatiseur,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Bruit-desCarrières-Ombudsman,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Bruitsurchantierdeconstruction,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Budgetd'arrondissement,OUT,,,ChatGPT,False,rest
-Bâtimentvacantouàbarricader,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-CAFÉ-TERRASSE(PERMIS),IN,TRANSACTION,transaction,ChatGPT,False,rest
-CCU,OUT,,,ChatGPT,False,rest
-CVP-Raccordementaqueduc/égout,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Café-terrasse,IN,CONDITION,other,ChatGPT,False,rest
-Campdejour,IN,TRANSACTION,transaction,ChatGPT,False,rest
-CarteInfo-Neige,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Carted'Accèsarrondissement,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Centresdetraitementdesmatièresorganiques,IN,CONDITION,other,ChatGPT,False,rest
-Certificatdevieetrésidence,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Changementd'adresse-Taxeslocatives,OUT,,,ChatGPT,False,rest
-Chatsanspermis,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Chiensanspermis,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Ciment,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Climatiseur,IN,CONDITION,other,ChatGPT,False,rest
-Clôtureprivée,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Clôturepublique,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Codedelangue,IN,CONDITION,other,ChatGPT,False,rest
-Communicationscorporatives,OUT,,,ChatGPT,False,rest
-ComplexeenvironnementaldeSaint-Michel,IN,CONDITION,other,ChatGPT,False,rest
-ComplexesportifClaude-Robillard,IN,CONDITION,other,ChatGPT,False,rest
-CompteurICIVérificationdelecture,IN,CONDITION,other,ChatGPT,False,rest
-Concourshorticole,IN,CONDITION,other,ChatGPT,False,rest
-Constatd'infraction-Neige,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Constructionruelle,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Constructionréseaulocal,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Correspondanceadresséeauxélusouàladirection,OUT,,,ChatGPT,False,rest
-Couped'arbreprivésanspermis,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Cruedeseaux-Nettoyage-Collectes,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Créationd'unSIMU,IN,CONDITION,other,ChatGPT,False,rest
-Culture-Activités,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Demanded'unenouvellesignalisation,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Direction-Affairespénalesetcriminelles,OUT,,,ChatGPT,False,rest
-Direction-Évaluation,OUT,,,ChatGPT,False,rest
-DirectionCultureSportsLoisirsDév.Soc.,IN,CONDITION,other,ChatGPT,False,rest
-DirectionDéveloppementduterritoire,IN,CONDITION,other,ChatGPT,False,rest
-"DirectionPerformance,GreffeetServicesadm.",IN,CONDITION,other,ChatGPT,False,rest
-DirectionTravauxPublics,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Directiond'arrondissement,IN,CONDITION,other,ChatGPT,False,rest
-Distributiondesacpourmatelas,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Documentexigéparlaville,IN,CONDITION,other,ChatGPT,False,rest
-Dosd'âne,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Dosd'âne-2,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Dosd'ânes-ruelle,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Drapeau,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Droitsacquis,IN,CONDITION,other,ChatGPT,False,rest
-Débarcadère-Personneàmobilitéréduite,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Débrissurchantieretrues,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Déchets-Avisdecourtoisie,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Déchets-Illégal-Conteneurs-VM,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Déchets-Illégal-Recyclage-VM,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-"Déchets-Objetvol.àramasser-Réfrigérateur,climatiseurs-Voirie",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Déchetssortisentempsprohibé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Défonçagedelachaussée,IN,CONDITION,other,ChatGPT,False,rest
-Déneigeurprivé-Enseigne,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Déneigeurprivé-Permis,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Déneigeurprivé-Poteau,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Dépôtillégal-Ramassage,IN,CONDITION,other,ChatGPT,False,rest
-Dépôtsauvage-Domainepublic,IN,CONDITION,other,ChatGPT,False,rest
-Développementculturel-Central,IN,CONDITION,other,ChatGPT,False,rest
-Développementsocial,IN,CONDITION,other,ChatGPT,False,rest
-Eau-Divers,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Encaissement-Alarmenon-fondée,OUT,,,ChatGPT,False,rest
-Encaissement-CentredesLoisirs,OUT,,,ChatGPT,False,rest
-Encaissement-Occupationdudomainepublic,OUT,,,ChatGPT,False,rest
-Encaissement-Revenusliésauxévictions,OUT,,,ChatGPT,False,rest
-Encombrants-Avisdecourtoisie,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Enseignecommerciale,IN,CONDITION,other,ChatGPT,False,rest
-Enseignesamovibles,IN,CONDITION,other,ChatGPT,False,rest
-Enseignetemporaire-Domaineprivé,IN,CONDITION,other,ChatGPT,False,rest
-Entretien-Dosd'ânederuelle,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Entretiendespatinoires,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Entretiengénéral,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Entréecharretière,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Entréecharretière-circulation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Environnement-abrid'auto,IN,CONDITION,other,ChatGPT,False,rest
-Environnement-animaux,IN,CONDITION,other,ChatGPT,False,rest
-Environnement-arrosage,IN,CONDITION,other,ChatGPT,False,rest
-Environnement-autres,IN,CONDITION,other,ChatGPT,False,rest
-Environnement-bruit,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Environnement-débrisvoiepublique,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Environnement-herbelongue,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Environnement-neige,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Environnement-stationnement,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Espacepourlavie,IN,CONDITION,other,ChatGPT,False,rest
-Evénement,IN,CONDITION,other,ChatGPT,False,rest
-Excèsdevitesse-SurveillanceSPVM,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Feuillesmortesdanslarue.,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Feuxdecirculation-Nouvelleinstallation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Feuxdecirculation-Programmation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-GMR-Nouvelleimplantation,IN,CONDITION,other,ChatGPT,False,rest
-GelEntréed'eau,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Graffitis-Domaineprivé-Inspection,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Graffitissurbâtimentpublic,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Graffitissursignalisation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Greffe-CA-Registredesquestions,OUT,,,ChatGPT,False,rest
-Grillesdezonage-Distribution,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Haienonréglementaire,IN,CONDITION,other,ChatGPT,False,rest
-Haieprivée,IN,CONDITION,other,ChatGPT,False,rest
-Herbeàpoux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-IRP-Ascenseur,IN,CONDITION,other,ChatGPT,False,rest
-IRP-Espaceclos,IN,CONDITION,other,ChatGPT,False,rest
-IRP-Périmètredesécurité,IN,CONDITION,other,ChatGPT,False,rest
-IRP-Stationdepompage,IN,CONDITION,other,ChatGPT,False,rest
-IRP-Utilitépublique,IN,CONDITION,other,ChatGPT,False,rest
-Immeuble-Malpropretégénérale,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Immeuble-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Immeuble-Serrureported'entrée,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeuble-Ventilation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Alarme,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Chauffageàairchaud,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Chauffageélectrique,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Clôture,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Entretiengénéral,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Entretienménager,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Entretienélectrique,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Maçonnerie,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Menuiserie,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Mobilierréparationetfabrication,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Immeublesmunicipaux-Peinture,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Immeublesmunicipaux-Plomberie,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-"Immeublesmunicipaux-Téléphonie,réseauetcaméra",IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Immeublesmunicipaux-Éclairage,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Ingénierie-Pavage,OUT,,,ChatGPT,False,rest
-"Ingénierie-Trottoir,bordure",OUT,,,ChatGPT,False,rest
-"Ingénierie-Égout,puisard",OUT,,,ChatGPT,False,rest
-Inscription,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Inspectiondesaliments,OUT,,,ChatGPT,False,rest
-Inspectionvignette,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Jardinderue,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Listed'attente-Stationnementsmunicipaux,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Logement-Chauffage,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Logement-Insalubrité,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Logement-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Logement-Ventilation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Logement-Vermineourongeurs,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Logementensous-sol,IN,CONDITION,other,ChatGPT,False,rest
-Loisirs-EntretienLéger,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-MO-Avisdecourtoisie,IN,TRANSACTION,transaction,ChatGPT,False,rest
-MO-Nonramassées,IN,CONDITION,other,ChatGPT,False,rest
-Maisonsfleuries,IN,CONDITION,other,ChatGPT,False,rest
-Marches-Courses-Calèches-Tournages-SU,IN,CONDITION,other,ChatGPT,False,rest
-Marquage-Contratpourlacirculation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Menuiserieparc,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Mesuresd'urgence-Gestionenarrondissement,IN,CONDITION,other,ChatGPT,False,rest
-Mobilierurbain-Installation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Mobilitéélectriquelibre-service,IN,CONDITION,other,ChatGPT,False,rest
-Modulesdejeux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Neige-Remorquage,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Niddeguêpes,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Nuisanceanimauxdomestiques,IN,CONDITION,other,ChatGPT,False,rest
-Occupationbâtiment,OUT,,,ChatGPT,False,rest
-Occupationnon-autorisée,OUT,,,ChatGPT,False,rest
-Occupationpériodiquedudomainepublic,OUT,,,ChatGPT,False,rest
-Opérationcadastrale,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Oriflamme,IN,CONDITION,other,ChatGPT,False,rest
-PIIA,OUT,,,ChatGPT,False,rest
-PRR-Travaux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Panierderue-Installation,IN,CONDITION,other,ChatGPT,False,rest
-Parc-Chalet-Conciergerieetventilation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Parc-Chalet-Electricité,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Parc-Chalet-Entretienetréparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Parc-Mobilier-Installation,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Parcdemandeinternedivers,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Parcmobilier-Ajout-VM,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Pavéuni,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Pavéuni-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Permis-Conversionencopropriétédivise,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Permis-Logement-Insalubrité(logementoubâtiment),IN,TRANSACTION,transaction,ChatGPT,False,rest
-Permis-Pesticide,IN,TRANSACTION,transaction,ChatGPT,False,rest
-PermisCSRM,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Permisanimalier,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Permisconteneuràdéchets,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Permisdedémolition,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Piscine-Électricité,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Plaintecontreunagentdestationnement,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Plaintepatrouilleurcaninetfournisseurserviceanimalier,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Planificationdestravaux-Étudesparcs,OUT,,,ChatGPT,False,rest
-Planificationdestravaux-Étudesruesettrottoirs,OUT,,,ChatGPT,False,rest
-Plomberie-Bâtiments,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Plomberie-Chalet,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Plomberie-Pataugeoire,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Plomberie-Piscine,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Plomberie.,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Poubelle,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Programmationdesfeux,IN,CONDITION,other,ChatGPT,False,rest
-Programmedechatserrants,IN,CONDITION,other,ChatGPT,False,rest
-Propreté-DemandeCSLDS,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Pucerondutilleul,IN,CONDITION,other,ChatGPT,False,rest
-Puisard/TH-CouvercleStructure,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-REM-Occupationtemporaire,OUT,,,ChatGPT,False,rest
-Ralentiinutile-Terrainprivéautrequechantier.,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Recettesdiverses,OUT,,,ChatGPT,False,rest
-Recherched'encaissement,OUT,,,ChatGPT,False,rest
-Recyclage-Autre,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Recyclage-Avisdecourtoisie,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Recyclageduverre,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Recyclagesortientempsprohibé,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Renouvellement,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Renseignements-Pesticide,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Retourdechèquepermisanimalier,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Retraitdechèque,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Retraitourécupérationdevélo,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Ruelleverte,IN,CONDITION,other,ChatGPT,False,rest
-Réceptiond'unplaidoyer,IN,CONDITION,other,ChatGPT,False,rest
-Réfrigérateuroucongélateur,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Résidusdomestiquesdangereux,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Résidusverts-Avisdecourtoisie,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Résidusverts-Nonramassé.,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Signalisation-Lignederue,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-SignalisationendommagéeVm,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-SignalisationmanquanteVM,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Signalisationnonautorisée-Analyse,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Solarium,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-SoutienCarteInfo-Neige,IN,TRANSACTION,transaction,ChatGPT,False,rest
-SoutienSitewebInfo-Remorquage,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Soutienauxopérations-Réseausecondaire,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Stationnement,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Stationnement-Études,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Stationnementmunicipal,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Stationnementpourpersonneshandicapées,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-"Statues,sculpturesetplaques-Entretien",IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Subventionlocale-Arrondissement,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Supportàvélos,IN,CONDITION,other,ChatGPT,False,rest
-Surveillancedestravaux-Chantierparcs,OUT,,,ChatGPT,False,rest
-Surveillancedestravaux-Chantierruesettrottoirs,OUT,,,ChatGPT,False,rest
-Surveillancedestravaux-Problèmesàlasuitedetravaux,OUT,,,ChatGPT,False,rest
-Surveillanceparticulière-SPVM/AMD,IN,CONDITION,other,ChatGPT,False,rest
-Sécuritéincendie-Inspection-Prévention,IN,CONDITION,other,ChatGPT,False,rest
-Sécuritéincendie-Pompier-Camion-Caserne,IN,CONDITION,other,ChatGPT,False,rest
-Sécuritéincendie-Thèmesadministratifs,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Taxeslocatives,OUT,,,ChatGPT,False,rest
-Technique-Pavéuni-Réparation,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Technique-Trottoiroubordure-Réparation,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Terrainsportif-DemandeCSLDS,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Tigedeprotection(2018),IN,CONDITION,other,ChatGPT,False,rest
-Tolérancedestationnement,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Toponymie,IN,CONDITION,other,ChatGPT,False,rest
-Transporthorsnormes,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Travaux(info)-Panneauxdivers,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-TravauxAbattage,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-TravauxPublics-RDD,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Travauxpublics-Plaintedetoutgenre,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Travauxsanspermis,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Trottoiroubordure-RéparationRMT,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Utilisationillégaledel'eau,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Utilitépublique-Excavation,IN,CONDITION,other,ChatGPT,False,rest
-Ventedebacsàcompostage,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Ventedemangeoireàoiseaux,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Vignette-Stationnementsmunicipaux,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Voiecyclable-Planification-Servicecentral,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Voirie-Banc,IN,CONDITION,other,ChatGPT,False,rest
-Voirie-Divers-Transport,IN,CONDITION,traffic engineering / parking,ChatGPT,False,rest
-Voirie-Poubelle,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Voirie-Vibrations,IN,CONDITION,quieteness / living comfort,ChatGPT,False,rest
-Z-Nouveausecteur,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-bacbrundistribution,IN,TRANSACTION,transaction,ChatGPT,False,rest
-feux-mod.délaisetautreschangements,IN,CONDITION,other,ChatGPT,False,rest
-permisdeconstructionettransformation,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Éclairage-DemandeCSLDS,IN,TRANSACTION,transaction,ChatGPT,False,rest
-Éclairage-Extérieur-Parc,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Éclairagenuisible.,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Égout-Cruedeseaux,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Électionetréférendum,OUT,,,ChatGPT,False,rest
-Électricité-Édifices-Municipaux,IN,CONDITION,maintenance / city works,ChatGPT,False,rest
-Épandageinterdit-Pesticide,IN,CONDITION,sanitation / cleanliness,ChatGPT,False,rest
-Événementmétropolitain,OUT,,,ChatGPT,False,rest
-Événementsprivés-SU,IN,CONDITION,other,ChatGPT,False,rest
-Événementspublics-Loisirs,IN,CONDITION,other,ChatGPT,False,rest
+label,annotator_1_task_1,annotator_2_task_1,adjudicator_ruling_task_1,annotator_1_task_2,annotator_2_task_2,adjudicator_ruling_task_2,annotator_1_task_3,annotator_2_task_3,adjudicator_ruling_task_3,annotator,from_double_annotation,set,task_1,task_2,task_3
+*Analysedel'eaupotable,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Autre-Compteurd'eau-Résidentiel,IN,IN,in,TRANSACTION,CONDITION,condition,transaction,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Bacroulant-Livraison,IN,IN,in,TRANSACTION,TRANSACTION,transaction,transaction,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Bâtiment-Plomberie,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*CAFÉ-TERRASSE(DOMAINEPUBLIC),OUT,IN,in,,TRANSACTION,transaction,,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*E.T.-Arrêtinterdit,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Jardins-Renouvellement,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Nettoyagedepuisards-rues,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Signalisation-Études-Personneshandicapées,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+"*Vermine,insectesnuisibles",IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Zonedelivraison,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Élagageexécution,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Abattaged'arbre,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Abritemporaire,IN,IN,in,CONDITION,CONDITION,condition,other,other,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Acquisitionderuelle,IN,OUT,out,TRANSACTION,,,transaction,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Afficheautoportante-Domainepublic,IN,IN,in,CONDITION,CONDITION,condition,other,other,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Aménagementdeparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Animalmort,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Animauxsauvages-Nuisance,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Appropriationcitoyenne,IN,OUT,in,CONDITION,,condition,other,,other,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Arbre-Abattaged'arbreprivé,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Bacmontréalais(67litres),IN,IN,in,TRANSACTION,TRANSACTION,transaction,transaction,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Bornefontaine-Obstruction,IN,IN,in,CONDITION,CONDITION,condition,other,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Branchetombée,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,maintenance / city works,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Bureaud'arrondissement-Serviceàlaclientèle,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+CarteAccèsMontréal,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Certificatd'occupationcommercialeouprofessionnelle,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Chaletdeparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Chienagressif,IN,IN,in,CONDITION,CONDITION,condition,quieteness / living comfort,quieteness / living comfort,quieteness / living comfort,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collected'écran(ordinateurettéléviseur),IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectedebranchesd'arbre-Agriledufrêne,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectededéchets,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectederésidusverts,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectedesencombrants,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Collectedesmatièresrecyclables,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Contrôleanimalier,IN,OUT,in,TRANSACTION,,transaction,transaction,,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Dangerpotentiel-Arbre,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Direction-Finances,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Distributionaucomptoirdebacsoudesacsderécupération,IN,OUT,in,TRANSACTION,,transaction,transaction,,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Débrissurlavoiepublique,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,sanitation / cleanliness,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Dépôtillégal-Déchets,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Dérogationmineure,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Développementcommunautaire,IN,OUT,out,CONDITION,,,other,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Encaissementetremboursement,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Essouchement,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Excrémentsterrainprivé,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Exterminationàl'extérieur-Insectes,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Exterminationàl'extérieur-Rats,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Fermetured'uneconduited'eau-Urgence,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Fuited'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Gazonouherbeshautes-Domaineprivé,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Graffitis-Domainepublic,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Graffitishaineux,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Grandparc,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Grandparc-Agriledufrêne,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Géomatique,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Horticulture-Divers,IN,IN,in,CONDITION,CONDITION,condition,other,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Horticulture-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Info-travaux-Servicecentral,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Installationsculturelles-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Interventiondestationnement-Enquête,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Localisation/EntretienEntréed'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Maladieouinsectes-Arbre,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Manqued'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Marquagedelachaussée-Nouveau,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Mesured'apaisement-Circulation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Mobilierurbain,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Nid-de-poule,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Occupationdudomainepublic,IN,IN,in,CONDITION,TRANSACTION,transaction,other,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Opérationdéneigement,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Ouvertured'entréed'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Panierdeparcàvider,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Panierderueàvider,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Panneaudesignalisationentretienprioritaire,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Parc-Divers,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Parc-Propreté,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Pavage-Réparation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Personnel-Arrondissement,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Plantationd'arbre,IN,IN,in,CONDITION,TRANSACTION,condition,maintenance / city works,transaction,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Pollutiondel'airetdel'eau,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Puisard/TH-Premièreintervention,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Punaisesdelit,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Refoulementégout/InondationPropriétéprivée,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+SRRR,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+ServicesTechniques-Varia,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Signalisation-Circulation-Études,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Signalisationécrite-Entretien,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Sportsetloisirs-Activités,IN,OUT,out,CONDITION,,,other,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Subvention-Habitation-Servicecentral,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Surveillanceetsécuritépublique,OUT,IN,in,,TRANSACTION,transaction,,transaction,transaction,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Taxesfoncières,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Trottoiroubordure-Réparation,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Voiecyclable-Études,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Voirie-Divers,IN,IN,in,CONDITION,CONDITION,condition,traffic engineering / parking,traffic engineering / parking,traffic engineering / parking,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Y-Eau-Divers,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Y-Égout-Divers,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Éclairage-Études,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Éclairageexistant-Entretien,IN,IN,in,CONDITION,CONDITION,condition,maintenance / city works,maintenance / city works,maintenance / city works,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Égout-Entretien,IN,IN,in,CONDITION,CONDITION,condition,sanitation / cleanliness,sanitation / cleanliness,sanitation / cleanliness,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+Éviction,OUT,OUT,out,,,,,,,"double annotated by Andrew and Aurélie, adjudicated by Harry",True,double,,,
+*Abattaged'arbreprivé,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+*Agir-Tarification,,,,,,,,,,Harry,False,open,OUT,,
+*Apaisementdelacirculation,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+*Bacbrun,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+"*BacdeMOEndommagé,perdu,volé",,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+"*BacdedéchetsEndommagé,perdu,volé",,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*BacdedéchetsLivraison,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+"*BacderecyclageEndommagé,perdu,volé",,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*BacderecyclageLivraison,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+*Bacroulantvert(1à3logements),,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+*Bâtiment-Menuiserie,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+*E.T.-Entréecharretière,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+*E.T.-Feuxpiétons,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+*E.T.-Stationnementoudébarcadèrepourcommerce,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+*Eau-Bornefontaine-Réparation,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*Eau-Divers-Remplacerentréedeserviceenplomb,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*Erreur,,,,,,,,,,Harry,False,open,OUT,,
+*Inspection-Déchets-Dépôtillégal,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*InspectionsenArrondissement,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+*Permis-Bruit-Résidence,,,,,,,,,,Harry,False,open,OUT,,
+*Sensderue,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+*Véhiculesnonétatfonctionnement,,,,,,,,,,Harry,False,open,OUT,,
+*Z-Inspectiond'égoutprivé,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*Z-Puisard,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*Z-Testdepressiond'eau,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*Z-Troud'homme,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+*Égout-Réparation-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+800-Bruits,,,,,,,,,,Harry,False,open,IN,Condition,quieteness / living comfort
+Accèsàl'information,,,,,,,,,,Harry,False,open,OUT,,
+Affichage-Illégal,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Arbre-Divers,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Arbresruelles,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Arbretombé,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Archivesetrèglementsd'arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Asphaltetravaux,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Autre-Construction,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Bacroulant,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Balaimécanique,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Borned'incendie-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Bornesderechargepubliques,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Boîtedeserviceàniveler,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Bruit,,,,,,,,,,Harry,False,open,IN,Condition,quieteness / living comfort
+Centredeservices311,,,,,,,,,,Harry,False,open,OUT,,
+Changementd'adresse-Taxeseauetdéchets,,,,,,,,,,Harry,False,open,OUT,,
+Changementd'adresse-Taxesfoncières,,,,,,,,,,Harry,False,open,OUT,,
+Chausséeglissante,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Clôtureethaieprivée,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Collected'arbresdeNoël,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Collectederésidusalimentaires,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Collectedesmatièresorganiques,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Communications-Arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Compost,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Conseild'arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Courmunicipale,,,,,,,,,,Harry,False,open,OUT,,
+Demandedepermisd'occupationtemporaire,,,,,,,,,,Harry,False,open,OUT,,
+Distributiondecirculaire,,,,,,,,,,Harry,False,open,OUT,,
+Distributiondesacs,,,,,,,,,,Harry,False,open,OUT,,
+Distributiondevégétaux,,,,,,,,,,Harry,False,open,OUT,,
+Dommage-Racinesd'arbres,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Dosd'âne-ruelle-2,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Dosd'âneRUELLE,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Déchets-Nonramassés,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+DépôtIllégal-Neige,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Encaissement-Oasis,,,,,,,,,,Harry,False,open,OUT,,
+Encaissement-Stop+,,,,,,,,,,Harry,False,open,OUT,,
+Encaissement-UrbanismeetPermis,,,,,,,,,,Harry,False,open,OUT,,
+Encombrantsnonramassés,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Entreposagenonautorisé-Terrainprivé,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Entretiend'édificesmunicipaux,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Entréed'eauenplomb-Autredemande,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Entréed'eauenplomb-Demandedefiltre,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Environnement-Divers,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Exterminationàl'intérieur-immeubleville,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Fermetured'entréed'eau,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Feuxdecirculation-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Finances-Divers,,,,,,,,,,Harry,False,open,OUT,,
+Fuiteboîte-maison,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Fuiteservice,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Gazon-Réparation,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Gazonoumauvaisesherbes-Domainepublic,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Graffitis-Domaineprivé,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Greffe-Arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Habitation-Divers-Servicecentral,,,,,,,,,,Harry,False,open,OUT,,
+IRP-Demandeonderadio,,,,,,,,,,Harry,False,open,OUT,,
+IRP-Fermeturederue,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+IRP-Mesured'urgence,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+IRP-Police,,,,,,,,,,Harry,False,open,OUT,,
+IRP-Posted'essence,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+IRP-VillesnonreliéesauGDC,,,,,,,,,,Harry,False,open,OUT,,
+"Immeublesmunicipaux-Abeilles,guêpes,bourdonsàl'intérieur",,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+"Immeublesmunicipaux-Ventilation,climatisation",,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Info-travaux-Arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Installationssportivesextérieures-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Installationssportivesintérieures-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Internet-Portailcentral,,,,,,,,,,Harry,False,open,OUT,,
+Logement-Inspection,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Logementsocialetcommunautaire,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Mairesetélusd'arrondissement,,,,,,,,,,Harry,False,open,OUT,,
+Marquagedelachaussée-Existant,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Mesuresd'apaisement,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Mobilierdeparc,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Nettoyagedudomainepublic,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Numéromunicipal,,,,,,,,,,Harry,False,open,OUT,,
+Parc-Mobilier-Entretien,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Parcomètre,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Permis-Divers,,,,,,,,,,Harry,False,open,OUT,,
+Permis-Neige-Domainepublic,,,,,,,,,,Harry,False,open,OUT,,
+Permisdeconstruction-rénovation,,,,,,,,,,Harry,False,open,OUT,,
+Pesticide,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Piscineouspaprivés,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Planificationdestravaux-Étudesimmeublesmunicipaux,,,,,,,,,,Harry,False,open,OUT,,
+Pontettunnel,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Poêleetfoyeraubois,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Prisederendez-vous,,,,,,,,,,Harry,False,open,OUT,,
+Rapportd'accident,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Recyclage-Nonramassé,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+RelevéCPTE,,,,,,,,,,Harry,False,open,OUT,,
+RetourDDS,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Réceptiondechèquepost-daté,,,,,,,,,,Harry,False,open,OUT,,
+Signalisation-Neige,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Signalisationcachéepardesvégétaux,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Stationnementoudébarcadèrepourpersonneàmobilitéréduite,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Supportàvélo,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Taxed'eau,,,,,,,,,,Harry,False,open,OUT,,
+Terraininsalubre-Domaineprivé,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Thermopompeetclimatiseur,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+TransportetLivraison,,,,,,,,,,Harry,False,open,OUT,,
+TravauxÉlagage,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Trottoirglissant,,,,,,,,,,Harry,False,open,IN,Condition,sanitation / cleanliness
+Unenaissance/unarbre,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Urbanisme,,,,,,,,,,Harry,False,open,OUT,,
+Vandalismeouaccident-Arbre,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Vente-débarras,,,,,,,,,,Harry,False,open,IN,Transaction,transaction
+Voiecyclable-Marquageetsignalisationécrite,,,,,,,,,,Harry,False,open,IN,Condition,traffic engineering / parking
+Zonage,,,,,,,,,,Harry,False,open,OUT,,
+Éclairageplanification-Servicecentral,,,,,,,,,,Harry,False,open,OUT,,
+Écocentre,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Écoquartier,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Élagage,,,,,,,,,,Harry,False,open,IN,Condition,maintenance / city works
+Événementlocal,,,,,,,,,,Harry,False,open,IN,Condition,quieteness / living comfort
+*Arrêtobligatoire(Stop),,,,,,,,,,Andrew,False,single,IN,CONDITION,traffic engineering / parking
+*BacdeMO-Modificationdevolume.,,,,,,,,,,Andrew,False,single,IN,TRANSACTION,transaction
+*BacdedéchetsModificationdevolume;IN;TRANSACTION;transaction,,,,,,,,,,Andrew,False,single,,,
+*Couvercledepuisard-brisé,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+*Feuxdecirculation,,,,,,,,,,Andrew,False,single,IN,CONDITION,traffic engineering / parking
+*Réparationdechambredevanne,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+*Réparationdepuisards-trottoir,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+*Voirie-Nettoyagedudomainepublic-Panierderue,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+*Voirie-TravauxAqueduc,,,,,,,,,,Andrew,False,single,IN,CONDITION,traffic engineering / parking
+Autre-CollectedeMO,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+Autre-Occupationtemporairedudomainepublic,,,,,,,,,,Andrew,False,single,IN,TRANSACTION,transaction
+Autre-Urbanisme,,,,,,,,,,Andrew,False,single,OUT,,
+Bruit-Commerceetindustrie;IN;CONDITION;quieteness / living comfort,,,,,,,,,,Andrew,False,single,,,
+"Couleur,odeurougoûtanormaldel'eau",,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+Distributiondespublicationsarrondissement,,,,,,,,,,Andrew,False,single,IN,TRANSACTION,transaction
+Déblaiement/Chargement,,,,,,,,,,Andrew,False,single,IN,CONDITION,maintenance / city works
+Dépôtsauvage-Terrainprivé,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+Encaissement-Gescour,,,,,,,,,,Andrew,False,single,OUT,,
+Encaissement-RessourcesFinancières,,,,,,,,,,Andrew,False,single,OUT,,
+Encombrantssortisentempsprohibé,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+Info-travaux-Urgence,,,,,,,,,,Andrew,False,single,OUT,,
+Inspectiondelogement,,,,,,,,,,Andrew,False,single,OUT,,
+Piscine-Propreté.,,,,,,,,,,Andrew,False,single,IN,CONDITION,sanitation / cleanliness
+Plaintefonctionnement,,,,,,,,,,Andrew,False,single,OUT,,
+Réparationdegazon-Contrat,,,,,,,,,,Andrew,False,single,OUT,,
+*Abattage/Essouchementexécution,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Abattaged'arbre-terrainpublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Aquatique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Arbre-Maladie-Pucerons,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Arbre-branchesàramasser,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Arbreprivédangereux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Arbresderuelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+"*Arbustes,vivaces",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+"*BacdeMO-Endommagé,perdu,volé.",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*BacdeMO-Livraison.,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*BacdeMOLivraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*BacdeMOModificationdevolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Bacdedéchets-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Bacdedéchets-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Bacdedéchets-Modificationauvolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Bacderecyclage-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Bacderecyclage-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Bacderecyclage-Modificationdevolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*BacderecyclageModificationdevolume,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Bacroulant-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Bacroulant-Nonramassé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Bacroulantendommagé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Bacroulantvolé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Bacsàfleurs,corbeilles,litsdeplantation",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Banc-Ajout/Retrait,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+"*Bancs,poubellesetc",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Bibliothèque,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*BibliothèqueBENNY,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*BibliothèqueCDN,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*BibliothèqueNDG,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Borneélectrique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Boîtedeserviceàmettreenordre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Boîtedeserviceàvérifier,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Brancheaccrochée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Branchementd'égout-Domaineprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Branchementd'égout-Domainepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Brisdanschalet,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Bâtiment-Piscine,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Circulation-Intersectiondangereuse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Compteurbruyant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+*Compteurcoule,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Compteurd'eauICI(Industries-Commerces-Institutions),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Conteneursàordures,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Contrôledustationnementvoiepublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Couvercledepuisardabsentoudéplacé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Couvercledepuisardbruyant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+*Demanded'informations,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Demanded'unnouveaucompteur,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Demandedepropriété,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Demandederenseignement-signalisationpermanente,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Dosd'âne-Rue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Dosd'âne-Ruelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Débarcadère-Garderie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Débarcadère-Handicapé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Débarcadère-École,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+"*Débarcadèreécole,garderie,institution",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Déchets,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Déchets-Bacendommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Déchets-Demandedebac,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Déchets-Dépôtillégalaprèsinspection-Voirie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Déchets-Nonramassés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Déchetshorsdesheures,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Déchetsmaldisposés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Défensedejeterdesdéchets,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Dépôtillégal-Ramassage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*E.T.-Arrêtobligatoire(Stop),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Camionnage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Feuxdecirculation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Limitesdevitesse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Marquage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Mesuresdemodérationdelacirculation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Pavage-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*E.T.-Ruespiétonnes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Sensderue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Stationnementoudébarcadèrepourpersonnesàmobilitéréduite,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*E.T.-Tempsdelatraverse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*E.T.-Trottoiroubordure-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Eau-Mettreboîtedeserviceenordre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Eau-Projetspécial,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Entrave-Pistecyclable,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Entravesanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Entretiend'édificesmunicipaux-Plomberie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Entretiendesbranchementsd'égoutsoudrains,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Environnement-Recyclage-Bac240lt-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Environnement-Recyclage-Bac240lt-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Environnement-Recyclage-Bac240lt-Nonramassé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"*Environnement-Recyclage-Bac360lt-Endommagé,perdu,volé",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Environnement-Recyclage-Bac360lt-Livraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Extermination-Guêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Exterminationrats,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Exterminationàl'extérieur-Fourmis,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Exterminationàl'extérieur-Guêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Exterminationàl'extérieur-Niddeguêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Favorable-Implantation,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Favorable-Modification,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Fermeturederuelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Feuxpiétons,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+"*Fontaineàboire,jeud'eau,fontainedécorative",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Gazon-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*GazonEndommagé-Opérationdéneigement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*GazonEndommagé-TravauxparlaVille,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Herbeàpoux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Horticulture-Varia-Pesticide-Vérificationinfestation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Informationsurconstatd'infraction,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Inspectiondesaliments,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Jardinscommunautaires-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Jeud'enfant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Limitesdevitesse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*LogementMontréal-Nord,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Marquage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Mesured'apaisement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Mobilierurbain-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Modificationsecteurexistant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*NeplusutiliserBacroulantnoir(déchets),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Nettoyagedepuisards-ruelles,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Nettoyageparc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Nuisancechantier-Poussière,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Panierderue-Ajout/Retrait,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Panierderue-Réparation/Entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Parc-Aired'exercicecanin,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Aménagement-Ajoutd'équipement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Aménagement-Conception,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Aménagement-Réalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Aménagement-Étudespréliminaires,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Parc-Entretien-Clôture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Gazon-Terrainvacant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Jeuxd'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Parc-Mobilier-Buvette-Fontainedécorative,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Parc-Mobilier-Jeux-Vandalisme,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Parc-Propreté-Entretienairedejeux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Parc-Propreté-Entretiencarrédesable,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Parc-Terrains-sportifs-Soccer,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Partenaires,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Permis-Bruit-Circulationdescamions,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Bruit-Commerce,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Bruit-Travaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Construction-Nuisances,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Logement-Accumulationbalcon,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Permis-Logement-Accumulationodeurs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Permis-Logement-Défectuositéextérieure,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Logement-Défectuositéintérieure,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Logement-Moisissures,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Logement-Nuisancesanimales,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Permis-Logement-Vermines-rongeurs,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Piétonnisation-Masson,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Plantationexécution,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Plateauxsportifs-entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Poubelles,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Pressionbasse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Puisard-Réparation-Entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Regardd'égoûtdéplacé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Réclamation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Réparationdepuisards-rue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*SRRR-Ajoutouretraitd'espaces,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*SRRR-Autre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*SRRR-Modificationsecteurexistant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*SRRR-Nouveausecteur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Seringues,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Servicesadministratifs-Sud-Ouest,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Signalisationmanquanteouendommagée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Sportsetloisirs-Activités-Activitésdanslesparcs,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Sportsetloisirs-Centrecommunautaire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Sportsetloisirs-Terrainsextérieurs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Sportsetloisirs-aquatique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Stationnement-Études,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Stationnementcourtedurée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Stationnementoudébarcadèrepourhandicapés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Supportàvélo-Ajout/Retrait,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Tennis,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Terrainsextérieurs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Testd'écoulementd'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Tontedegazon,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Visionvélo,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Visionvélo(Acceptabilité),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Visionvélo(Utilisation),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Vitesse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Vitesseexcessive,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Voirie-Collecteappareilavecgazréfrigérant,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Voirie-Divers-GestionRetourDDS,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Voirie-Mobilierurbain-Clôtureenbois,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Voirie-Mobilierurbain-Entretienetdéplacement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Voirie-Pavage-Entretien,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Voirie-Trottoir-Réalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*WOONERF,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+"*Z-Borne-fontaine-Installation,retraitoudéplacement",,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Z-Compteurd'eaurésidentiel,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Z-Demandederenseignement-signalisationtemporaire,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*Z-Signalisationécrite-nouveau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+*Zonelivraison,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*collectedesrésidusalimentaires-Bacendommagés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*collectedesrésidusalimentaires-Bacnonramassés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*collectedesrésidusalimentaires-Demandedebac,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+*tontedegazon,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*ÉLU-DirectionAUP,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*ÉLU-DirectionTP,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*ÉLU-Directiond'arrondissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+*Éclairagedeparc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Éclairageterr.sportif,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+*Égout-Divers-Tuyaudeserviced'égout-Raccordementcroisé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Égout-Nettoyage-Contrat,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+*Équipementterr.sportifs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+*Événementpublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+100-Demanded'interventionetAssistance,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+1100-Autres,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+400-Incivilitésetinfractions,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+510-Routier/Circulation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+520-Stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+600-Signalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+AEC(Parccanin),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Abattaged'arbreprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Abattaged'arbrepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Abribus-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Acquisitiondeterrain,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Adhésion,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Affichagepolitique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Affichagesauvage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Afficheautoportante-Domaineprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Affichefixéesurarbresouarbustes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Affichepropreté,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Agriledufrêne-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Aideaurelogement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Airbnb,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Amuseurspublics,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Anciennescarrières,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Animauxperdus/trouvés,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Antennesatellite,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Appeld'offreetsoumissiond'arrondissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Arbre-Suivideplantation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Articledejeuxsurdomainepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+ArénaMaurice-Richard,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Asphalte-Coupesd'aqueducetautres,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Assermentation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+"Autoabandonnée,roulotte,remorque,palette",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Autorisationd'affichagesurpropriétéprivée,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Autre-Bureaud'arrondissement-Serviceàlaclientèle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Autre-Carted'Accèsarrondissement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Autre-Clôtureethaie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Autre-Collectededéchets,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Autre-Collectedesencombrants,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Autre-Communications,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Autre-Démolition,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Autre-Dérogation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Autre-Horticulture-Distributiondevégétaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Autre-Marquagedelachaussée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Autre-Permis-Divers,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Autre-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Autre-Résidusverts,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Autre-Salubrité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Autre-Stationnementmunicipal,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Autre-Taxes,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Autre-Zonage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Avis-Alertesauxcitoyens,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+AvisOccupant/Consommation,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Avisd'infraction-Neige,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Avisdecourtoisie-Neige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Bac-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+BacdeMOsortientempsprohibé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Balcon,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Balconmalpropre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Banc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Barilderécupérationdel'eaudepluie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Bicycletteabandonnée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Billetdedépôtàneige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Bixi,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Boitedeserviceàmettreenordre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Borne-fontaine-Moinsde8semaines,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Borne-fontaine-Plusde8semaines,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Borne-fontaine-Projetsspéciaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Boîtedeservice,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+BranchementégoutBrisé/Déformé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Bruit-Autre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Bruit-Thermopompeetclimatiseur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Bruit-desCarrières-Ombudsman,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Bruitsurchantierdeconstruction,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Budgetd'arrondissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Bâtimentvacantouàbarricader,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+CAFÉ-TERRASSE(PERMIS),,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+CCU,,,,,,,,,,ChatGPT,False,rest,OUT,,
+CVP-Raccordementaqueduc/égout,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Café-terrasse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Campdejour,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+CarteInfo-Neige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Carted'Accèsarrondissement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Centresdetraitementdesmatièresorganiques,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Certificatdevieetrésidence,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Changementd'adresse-Taxeslocatives,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Chatsanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Chiensanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Ciment,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Climatiseur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Clôtureprivée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Clôturepublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Codedelangue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Communicationscorporatives,,,,,,,,,,ChatGPT,False,rest,OUT,,
+ComplexeenvironnementaldeSaint-Michel,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+ComplexesportifClaude-Robillard,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+CompteurICIVérificationdelecture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Concourshorticole,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Constatd'infraction-Neige,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Constructionruelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Constructionréseaulocal,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Correspondanceadresséeauxélusouàladirection,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Couped'arbreprivésanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Cruedeseaux-Nettoyage-Collectes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Créationd'unSIMU,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Culture-Activités,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Demanded'unenouvellesignalisation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Direction-Affairespénalesetcriminelles,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Direction-Évaluation,,,,,,,,,,ChatGPT,False,rest,OUT,,
+DirectionCultureSportsLoisirsDév.Soc.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+DirectionDéveloppementduterritoire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+"DirectionPerformance,GreffeetServicesadm.",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+DirectionTravauxPublics,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Directiond'arrondissement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Distributiondesacpourmatelas,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Documentexigéparlaville,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Dosd'âne,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Dosd'âne-2,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Dosd'ânes-ruelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Drapeau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Droitsacquis,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Débarcadère-Personneàmobilitéréduite,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Débrissurchantieretrues,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Déchets-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Déchets-Illégal-Conteneurs-VM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Déchets-Illégal-Recyclage-VM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+"Déchets-Objetvol.àramasser-Réfrigérateur,climatiseurs-Voirie",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Déchetssortisentempsprohibé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Défonçagedelachaussée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Déneigeurprivé-Enseigne,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Déneigeurprivé-Permis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Déneigeurprivé-Poteau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Dépôtillégal-Ramassage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Dépôtsauvage-Domainepublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Développementculturel-Central,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Développementsocial,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Eau-Divers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Encaissement-Alarmenon-fondée,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encaissement-CentredesLoisirs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encaissement-Occupationdudomainepublic,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encaissement-Revenusliésauxévictions,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Encombrants-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Enseignecommerciale,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Enseignesamovibles,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Enseignetemporaire-Domaineprivé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Entretien-Dosd'ânederuelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Entretiendespatinoires,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Entretiengénéral,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Entréecharretière,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Entréecharretière-circulation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Environnement-abrid'auto,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Environnement-animaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Environnement-arrosage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Environnement-autres,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Environnement-bruit,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Environnement-débrisvoiepublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Environnement-herbelongue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Environnement-neige,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Environnement-stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Espacepourlavie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Evénement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Excèsdevitesse-SurveillanceSPVM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Feuillesmortesdanslarue.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Feuxdecirculation-Nouvelleinstallation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Feuxdecirculation-Programmation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+GMR-Nouvelleimplantation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+GelEntréed'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Graffitis-Domaineprivé-Inspection,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Graffitissurbâtimentpublic,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Graffitissursignalisation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Greffe-CA-Registredesquestions,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Grillesdezonage-Distribution,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Haienonréglementaire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Haieprivée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Herbeàpoux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+IRP-Ascenseur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+IRP-Espaceclos,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+IRP-Périmètredesécurité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+IRP-Stationdepompage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+IRP-Utilitépublique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Immeuble-Malpropretégénérale,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Immeuble-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Immeuble-Serrureported'entrée,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeuble-Ventilation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Alarme,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Chauffageàairchaud,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Chauffageélectrique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Clôture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Entretiengénéral,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Entretienménager,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Entretienélectrique,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Maçonnerie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Menuiserie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Mobilierréparationetfabrication,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Immeublesmunicipaux-Peinture,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Immeublesmunicipaux-Plomberie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+"Immeublesmunicipaux-Téléphonie,réseauetcaméra",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Immeublesmunicipaux-Éclairage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Ingénierie-Pavage,,,,,,,,,,ChatGPT,False,rest,OUT,,
+"Ingénierie-Trottoir,bordure",,,,,,,,,,ChatGPT,False,rest,OUT,,
+"Ingénierie-Égout,puisard",,,,,,,,,,ChatGPT,False,rest,OUT,,
+Inscription,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Inspectiondesaliments,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Inspectionvignette,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Jardinderue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Listed'attente-Stationnementsmunicipaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Logement-Chauffage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Logement-Insalubrité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Logement-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Logement-Ventilation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Logement-Vermineourongeurs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Logementensous-sol,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Loisirs-EntretienLéger,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+MO-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+MO-Nonramassées,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Maisonsfleuries,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Marches-Courses-Calèches-Tournages-SU,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Marquage-Contratpourlacirculation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Menuiserieparc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Mesuresd'urgence-Gestionenarrondissement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Mobilierurbain-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Mobilitéélectriquelibre-service,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Modulesdejeux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Neige-Remorquage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Niddeguêpes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Nuisanceanimauxdomestiques,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Occupationbâtiment,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Occupationnon-autorisée,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Occupationpériodiquedudomainepublic,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Opérationcadastrale,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Oriflamme,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+PIIA,,,,,,,,,,ChatGPT,False,rest,OUT,,
+PRR-Travaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Panierderue-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Parc-Chalet-Conciergerieetventilation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Parc-Chalet-Electricité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Parc-Chalet-Entretienetréparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Parc-Mobilier-Installation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Parcdemandeinternedivers,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Parcmobilier-Ajout-VM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Pavéuni,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Pavéuni-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Permis-Conversionencopropriétédivise,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Permis-Logement-Insalubrité(logementoubâtiment),,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Permis-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+PermisCSRM,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Permisanimalier,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Permisconteneuràdéchets,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Permisdedémolition,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Piscine-Électricité,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Plaintecontreunagentdestationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Plaintepatrouilleurcaninetfournisseurserviceanimalier,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Planificationdestravaux-Étudesparcs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Planificationdestravaux-Étudesruesettrottoirs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Plomberie-Bâtiments,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Plomberie-Chalet,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Plomberie-Pataugeoire,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Plomberie-Piscine,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Plomberie.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Poubelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Programmationdesfeux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Programmedechatserrants,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Propreté-DemandeCSLDS,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Pucerondutilleul,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Puisard/TH-CouvercleStructure,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+REM-Occupationtemporaire,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Ralentiinutile-Terrainprivéautrequechantier.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Recettesdiverses,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Recherched'encaissement,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Recyclage-Autre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Recyclage-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Recyclageduverre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Recyclagesortientempsprohibé,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Renouvellement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Renseignements-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Retourdechèquepermisanimalier,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Retraitdechèque,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Retraitourécupérationdevélo,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Ruelleverte,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Réceptiond'unplaidoyer,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Réfrigérateuroucongélateur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Résidusdomestiquesdangereux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Résidusverts-Avisdecourtoisie,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Résidusverts-Nonramassé.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Signalisation-Lignederue,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+SignalisationendommagéeVm,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+SignalisationmanquanteVM,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Signalisationnonautorisée-Analyse,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Solarium,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+SoutienCarteInfo-Neige,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+SoutienSitewebInfo-Remorquage,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Soutienauxopérations-Réseausecondaire,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Stationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Stationnement-Études,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Stationnementmunicipal,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Stationnementpourpersonneshandicapées,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+"Statues,sculpturesetplaques-Entretien",,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Subventionlocale-Arrondissement,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Supportàvélos,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Surveillancedestravaux-Chantierparcs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Surveillancedestravaux-Chantierruesettrottoirs,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Surveillancedestravaux-Problèmesàlasuitedetravaux,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Surveillanceparticulière-SPVM/AMD,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Sécuritéincendie-Inspection-Prévention,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Sécuritéincendie-Pompier-Camion-Caserne,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Sécuritéincendie-Thèmesadministratifs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Taxeslocatives,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Technique-Pavéuni-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Technique-Trottoiroubordure-Réparation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Terrainsportif-DemandeCSLDS,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Tigedeprotection(2018),,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Tolérancedestationnement,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Toponymie,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Transporthorsnormes,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Travaux(info)-Panneauxdivers,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+TravauxAbattage,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+TravauxPublics-RDD,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Travauxpublics-Plaintedetoutgenre,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Travauxsanspermis,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Trottoiroubordure-RéparationRMT,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Utilisationillégaledel'eau,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Utilitépublique-Excavation,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Ventedebacsàcompostage,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Ventedemangeoireàoiseaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Vignette-Stationnementsmunicipaux,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Voiecyclable-Planification-Servicecentral,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Voirie-Banc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Voirie-Divers-Transport,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,traffic engineering / parking
+Voirie-Poubelle,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Voirie-Vibrations,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,quieteness / living comfort
+Z-Nouveausecteur,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+bacbrundistribution,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+feux-mod.délaisetautreschangements,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+permisdeconstructionettransformation,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Éclairage-DemandeCSLDS,,,,,,,,,,ChatGPT,False,rest,IN,TRANSACTION,transaction
+Éclairage-Extérieur-Parc,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Éclairagenuisible.,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Égout-Cruedeseaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Électionetréférendum,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Électricité-Édifices-Municipaux,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,maintenance / city works
+Épandageinterdit-Pesticide,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,sanitation / cleanliness
+Événementmétropolitain,,,,,,,,,,ChatGPT,False,rest,OUT,,
+Événementsprivés-SU,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
+Événementspublics-Loisirs,,,,,,,,,,ChatGPT,False,rest,IN,CONDITION,other
