@@ -26,7 +26,7 @@ def compute_kappa(annotator1, annotator2):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', type=str, default="double_annotation_merge.csv", help="CSV file to compute scores on (must be located in /data/annotation/labelling)")
+    parser.add_argument('-i', type=str, default="double_annotation_merge_adjudicated.csv", help="CSV file to compute scores on (must be located in /data/annotation/labelling)")
     parser.add_argument('-o', type=str, help="TXT file to save scores in (will save in /data/annotation)")
     parser.add_argument('-a1', default="annotator_1", type=str, help="Annotator 1 prefix. default: annotator_1")
     parser.add_argument('-a2', default="annotator_2", type=str, help="Annotator 1 prefix. default: annotator_2")
@@ -69,12 +69,12 @@ def main():
                 reliability_data=krippen_data,
                 level_of_measurement="nominal",
                 confidence_level=0.95,
-                n_resamples=2000,
+                n_resamples=10000,
                 random_state=42
             ) 
             print(f"Alpha: {res.alpha:.3f}")
             print(f"95% CI: [{res.ci_low:.3f}, {res.ci_high:.3f}]")
-            print(f"Standard Error: {res.standard_error:.4f}")
+            print(f"Standard Error: {res.standard_error:.4f}\n")
 
             if task == 3:
                 topics = list(filtered_df["adjudicator_ruling_task_3"].unique())
@@ -83,7 +83,29 @@ def main():
                     annotator1 = topic_df[f"{annotator1_prefix}_task_3"]
                     annotator2 = topic_df[f"{annotator2_prefix}_task_3"]
                     agreement = compute_agreement(annotator1, annotator2, len(topic_df))
-                    print(f"{topic} raw agreement rate: {agreement}% ({len(topic_df)} labels)")            
+                    print(topic)
+                    print(f"Raw agreement rate: {agreement}% ({len(topic_df)} labels)")    
+
+                    try: 
+                        kappa = compute_kappa(annotator1, annotator2)
+                        print(f"Cohen's Kappa: {kappa:.2f}")  
+                    except: 
+                        print(f"Error for Cohen's Kappa") 
+
+                    try:
+                        krippen_data = [list(annotator1), list(annotator2)]
+                        res = krippendorff.bootstrap_ci(
+                            reliability_data=krippen_data,
+                            level_of_measurement="nominal",
+                            confidence_level=0.95,
+                            n_resamples=10000,
+                            random_state=42
+                        ) 
+                        print(f"Alpha: {res.alpha:.3f}")
+                        print(f"95% CI: [{res.ci_low:.3f}, {res.ci_high:.3f}]")
+                        print(f"Standard Error: {res.standard_error:.4f}\n")     
+                    except: 
+                        print(f"Error for Krippendorff's Alpha\n")
             print("\n--------- \n")
     finally:
         if file_output:

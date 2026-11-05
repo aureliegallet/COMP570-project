@@ -2,8 +2,9 @@ Task 1:
 Raw agreement rate: 92.0%
 Cohen's Kappa: 0.77
 Alpha: 0.775
-95% CI: [0.610, 0.912]
-Standard Error: 0.0775
+95% CI: [0.607, 0.912]
+Standard Error: 0.0781
+
 
 --------- 
 
@@ -13,7 +14,8 @@ Raw agreement rate: 95.8904109589041%
 Cohen's Kappa: 0.55
 Alpha: 0.553
 95% CI: [-0.021, 1.000]
-Standard Error: 0.2669
+Standard Error: 0.2691
+
 
 --------- 
 
@@ -22,14 +24,47 @@ Number of labels both annotators placed in scope: 73
 Raw agreement rate: 90.41095890410958%
 Cohen's Kappa: 0.86
 Alpha: 0.858
-95% CI: [0.747, 0.943]
-Standard Error: 0.0517
-sanitation / cleanliness raw agreement rate: 91.8918918918919% (37 labels)
-transaction raw agreement rate: 66.66666666666666% (3 labels)
-traffic engineering / parking raw agreement rate: 92.3076923076923% (13 labels)
-maintenance / city works raw agreement rate: 88.23529411764706% (17 labels)
-other raw agreement rate: 100.0% (2 labels)
-quieteness / living comfort raw agreement rate: 100.0% (1 labels)
+95% CI: [0.750, 0.955]
+Standard Error: 0.0509
+
+sanitation / cleanliness
+Raw agreement rate: 91.8918918918919% (37 labels)
+Cohen's Kappa: -0.02
+Alpha: -0.014
+95% CI: [-0.056, 0.000]
+Standard Error: 0.0155
+
+transaction
+Raw agreement rate: 66.66666666666666% (3 labels)
+Cohen's Kappa: 0.00
+Alpha: 0.000
+95% CI: [-0.667, 0.000]
+Standard Error: 0.1742
+
+traffic engineering / parking
+Raw agreement rate: 92.3076923076923% (13 labels)
+Cohen's Kappa: 0.00
+Alpha: 0.000
+95% CI: [-0.087, 0.000]
+Standard Error: 0.0342
+
+maintenance / city works
+Raw agreement rate: 88.23529411764706% (17 labels)
+Cohen's Kappa: -0.03
+Alpha: -0.015
+95% CI: [-0.107, 0.000]
+Standard Error: 0.0302
+
+other
+Raw agreement rate: 100.0% (2 labels)
+Cohen's Kappa: nan
+Error for Krippendorff's Alpha
+
+quieteness / living comfort
+Raw agreement rate: 100.0% (1 labels)
+Cohen's Kappa: nan
+Error for Krippendorff's Alpha
+
 
 --------- 
 
